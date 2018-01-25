@@ -1,0 +1,38 @@
+javaScriptComment: '' # Comment
+javaScriptLineComment: '' # Comment
+javaScriptCommentTodo: '' # Todo
+javaScriptSpecial: '' # Special
+javaScriptStringS: '' # String
+javaScriptStringD: '' # String
+javaScriptCharacter: '' # Character
+javaScriptSpecialCharacter: '' # javaScriptSpecial
+javaScriptNumber: '' # javaScriptValue
+javaScriptConditional: '' # Conditional
+javaScriptRepeat: '' # Repeat
+javaScriptBranch: '' # Conditional
+javaScriptOperator: '' # Operator
+javaScriptType: '' # Type
+javaScriptStatement: '' # Statement
+javaScriptFunction: '' # Function
+javaScriptBraces: 'orange' # Function
+javaScriptError: '' # Error
+javaScriptParensError: '' # Error
+javaScriptNull: '' # Keyword
+javaScriptBoolean: '' # Boolean
+javaScriptRegexpString: '' # String
+javaScriptIdentifier: '' # Identifier
+javaScriptLabel: '' # Label
+javaScriptException: '' # Exception
+javaScriptMessage: '' # Keyword
+javaScriptGlobal: '' # Keyword
+javaScriptMember: '' # Keyword
+javaScriptDeprecated: '' # Exception
+javaScriptReserved: '' # Keyword
+javaScriptDebug: '' # Debug
+javaScriptConstant: '' # Label
+jsClassBraces: 'orange'
+jsBrackets: 'orange'
+jsObjectBraces: 'orange'
+jsParens: 'orange'
+jsClassProperty: 'br_yellow'
+jsObjectKey: 'blue_gray'

@@ -1,0 +1,4 @@
+BufTabLineCurrent: 'normal_gray mid_gray'
+BufTabLineActive: 'light_gray dark_gray'
+BufTabLineHidden: 'mid_gray dark_gray'
+BufTabLineFill: '- darker_gray'

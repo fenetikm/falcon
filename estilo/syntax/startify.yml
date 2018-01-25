@@ -1,0 +1,5 @@
+StartifySlash: 'mid_gray'
+StartifyPath: 'mid_gray'
+StartifyHeader: 'br_blue'
+StartifyFile: 'normal_gray'
+StartifySection: 'yellow'

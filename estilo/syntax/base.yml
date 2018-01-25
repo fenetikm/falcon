@@ -1,0 +1,83 @@
+# BASE UI
+ColorColumn: ''
+Conceal: ''
+Cursor: '- mid_gray'
+CursorIM: ''
+CursorColumn: ''
+CursorLine: '- dark_gray'
+CursorLineNr: 'light_gray dark_gray b'
+Directory: 'blue_gray'
+DiffAdd: '- off_green'
+DiffChange: '- off_yellow'
+DiffDelete: '- off_red'
+DiffText: '- off_green'
+ErrorMsg: 'red -'
+VertSplit: 'mid_gray -'
+Folded: 'mid_gray darker_gray'
+FoldColumn: ''
+SignColumn: 'blue_gray'
+IncSearch: 'black br_blue'
+LineNr: 'mid_gray'
+MatchParen: 'br_blue - b'
+ModeMsg: ''
+MoreMsg: ''
+NonText: 'dark_gray bg'
+Normal: 'normal_gray bg'
+PMenu: 'normal_gray dark_gray'
+PMenuSel: 'black yellow'
+PmenuSbar: 'normal_gray'
+PmenuThumb: 'light_gray'
+Question: 'light_gray'
+Search: 'black br_green'
+SpecialKey: 'neutral_gray'
+SpellBad: ''
+SpellLocal: ''
+SpellCap: ''
+SpellRare: ''
+StatusLine: 'normal_gray mid_gray'
+StatusLineNC: 'light_gray mid_gray'
+TabLine: 'mid_gray dark_gray'
+TabLineFill: '- darker_gray'
+TabLineSel: 'light_gray -'
+Title: 'br_green'
+Visual: 'br_yellow mid_gray'
+VisualNOS: ''
+WarningMsg: ''
+WildMenu: 'bg yellow'
+# BASE SYNTAX
+Comment: 'mid_gray - i'
+Constant: 'red - b'
+String: 'light_gray' # Constant
+Character: '@String' # Constant
+Boolean: '@Constant' # Constant
+Number: '@String' # Constant
+Float: '@String' # Constant
+Identifier: 'normal_gray - b'
+Function: 'yellow' # Identifier
+Statement: 'blue_gray'
+Conditional: '@Statement' # Statement
+Repeat: '@Statement' # Statement
+Label: '@Statement' # Statement
+Operator: '@Statement' # Statement
+Keyword: 'orange - b' # Statement
+Exception: '@Statement' # Statement
+PreProc: 'br_yellow'
+Include: '@PreProc' # PreProc
+Define: '@PreProc' # PreProc
+Macro: '@PreProc' # PreProc
+PreCondit: '@PreProc' # PreProc
+Type: 'blue_gray - b'
+StorageClass: '@Type' # Type
+Structure: '@Type' # Type
+Typedef: '@Type' # Type
+Special: 'orange'
+SpecialChar: '@Special' # Special
+Tag: '@Special' # Special
+Delimiter: '@Special' # Special
+SpecialComment: '@Special' # Special
+Debug: '@Special' # Special
+Underlined: ''
+Ignore: ''
+Error: ''
+Todo: 'black br_yellow'
+QuickFixLine: 'red darker_gray'

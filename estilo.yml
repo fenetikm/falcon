@@ -1,0 +1,14 @@
+name: 'falcon'
+version: '1.0.0'
+license: 'MIT'
+author: 'Michael Welford'
+url: ''
+description: ''
+colorschemes:
+  - name: falcon
+    background: 'dark'
+    palette: falcon
+lightline:
+  - name: falcon
+    palette: falcon
+    style: falcon
