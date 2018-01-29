@@ -2,7 +2,7 @@ phpConstant: '' # Constant
 phpCoreConstant: '' # Constant
 phpComment: '' # Comment
 phpDocTags: '' # PreProc
-phpDocCustomTags: '' # Type
+phpDocCustomTags: 'br_blue' # Type
 phpException: '' # Exception
 phpBoolean: '' # Boolean
 phpStorageClass: 'orange' # StorageClass

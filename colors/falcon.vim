@@ -4,7 +4,7 @@
 " URL: 
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/01/27 18:13
+" Last Change: 2018/01/29 22:30
 " ===============================================================
 
 set background=dark
@@ -14,6 +14,9 @@ if exists("syntax_on")
 endif
 let g:colors_name="falcon"
 
+hi ALEErrorSign guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEWarningSign guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ALEInfoSign guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#606065 ctermbg=241 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#a3a3a6 ctermfg=248 guibg=#363638 ctermbg=237 gui=bold cterm=bold
@@ -104,6 +107,7 @@ hi jsClassProperty guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE ct
 hi jsObjectKey guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsonBoolean guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeCWD guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpDocCustomTags guifg=#d4d6f4 ctermfg=189 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpStorageClass guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpStructure guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi phpNumber guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -120,7 +124,7 @@ hi StartifyPath guifg=#606065 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi StartifyHeader guifg=#d4d6f4 ctermfg=189 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyFile guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySection guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitGutterAdd guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterAdd guifg=#718e54 ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterChange guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterDelete guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterChangeDelete guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

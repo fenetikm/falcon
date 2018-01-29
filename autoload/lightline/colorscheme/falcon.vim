@@ -1,7 +1,7 @@
 " ============================================================
-" falcon
-" 
-" URL: 
+" Falcon
+"
+" URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
 " Last Change: 2018/01/06 22:27
@@ -29,8 +29,9 @@ if exists('g:lightline')
   let s:p.tabline.tabsel = [[["#a3a3a6", 248], ["#363638", 237]]]
   let s:p.tabline.middle = [[["#606065", 241], ["#363638", 237]]]
   let s:p.tabline.right = [[["#606065", 241], ["#363638", 237]]]
-  let s:p.normal.error = [[["#ff5000", 202], ["#000002", 0]]]
-  let s:p.normal.warning = [[["#ff9800", 208], ["#000002", 0]]]
+  let s:p.normal.error = [[["#000002", 254], ["#ff5000", 202]]]
+  let s:p.normal.warning = [[["#000002", 208], ["#ff9800", 208]]]
+  let s:p.normal.ok = [[["#000002", 208], ["#9cd481", 208]]]
 
   let g:lightline#colorscheme#falcon#palette = lightline#colorscheme#flatten(s:p)
 endif
