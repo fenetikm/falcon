@@ -1,10 +1,10 @@
 " ===============================================================
-" Falcon
+" falcon
 " 
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/01/29 22:30
+" Last Change: 2018/01/30 08:05
 " ===============================================================
 
 set background=dark
@@ -19,7 +19,7 @@ hi ALEWarningSign guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cte
 hi ALEInfoSign guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#606065 ctermbg=241 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
-hi CursorLineNr guifg=#a3a3a6 ctermfg=248 guibg=#363638 ctermbg=237 gui=bold cterm=bold
+hi CursorLineNr guifg=#a3a3a6 ctermfg=248 guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
 hi Directory guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=NONE ctermfg=NONE guibg=#435943 ctermbg=238 gui=NONE cterm=NONE
 hi DiffChange guifg=NONE ctermfg=NONE guibg=#595943 ctermbg=240 gui=NONE cterm=NONE
