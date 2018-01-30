@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/01/30 08:05
+" Last Change: 2018/01/30 10:39
 " ===============================================================
 
 set background=dark
@@ -125,9 +125,9 @@ hi StartifyHeader guifg=#d4d6f4 ctermfg=189 guibg=NONE ctermbg=NONE gui=NONE cte
 hi StartifyFile guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySection guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterAdd guifg=#718e54 ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitGutterChange guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterChange guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterDelete guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitGutterChangeDelete guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterChangeDelete guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignatureMarkText guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlBlockMappingKey guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlPlainScalar guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
