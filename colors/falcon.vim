@@ -1,6 +1,6 @@
 " ===============================================================
 " falcon
-" 
+"
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
