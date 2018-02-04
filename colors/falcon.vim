@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/02/04 11:25
+" Last Change: 2018/02/04 17:28
 " ===============================================================
 
 set background=dark
@@ -110,14 +110,17 @@ hi jsClassProperty guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE ct
 hi jsObjectKey guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsonBoolean guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeCWD guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpCommentTitle guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpDocTags guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpDocCustomTags guifg=#d4d6f4 ctermfg=189 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpStorageClass guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpStructure guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi phpNumber guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link phpFloat phpNumber
-hi phpMethods guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpMethod guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpRepeat guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi phpType guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpKeyword guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpType guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpMemberSelector guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpOperator guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpVarSelector guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -127,6 +130,18 @@ hi StartifyPath guifg=#606065 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi StartifyHeader guifg=#d4d6f4 ctermfg=189 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyFile guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySection guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarComment guifg=#363638 ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarKind guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarNestedKind guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarScope guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarType guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarSignature guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarPseudoID guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarFoldIcon guifg=#606065 ctermfg=241 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarHighlight guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarVisibilityPublic guifg=#718e54 ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarVisibilityProtected guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarVisibilityPrivate guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterAdd guifg=#718e54 ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterChange guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterDelete guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
