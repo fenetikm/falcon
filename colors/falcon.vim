@@ -1,10 +1,10 @@
 " ===============================================================
 " falcon
-"
+" 
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/01/30 10:39
+" Last Change: 2018/02/04 11:25
 " ===============================================================
 
 set background=dark
@@ -95,6 +95,9 @@ hi cssBraces guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi cssAttributeSelector guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssClassName guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssClassNameDot guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi fzf1 guifg=#ffd500 ctermfg=220 guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
+hi fzf2 guifg=#ff9800 ctermfg=208 guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
+hi fzf3 guifg=#ff9800 ctermfg=208 guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
 hi gitcommitSummary guifg=#9cd481 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IndentGuidesOdd guifg=NONE ctermfg=NONE guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
 hi IndentGuidesEven guifg=NONE ctermfg=NONE guibg=#26262a ctermbg=235 gui=NONE cterm=NONE
