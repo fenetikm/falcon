@@ -14,7 +14,7 @@ yamlFlowString: '' # yamlString
 yamlFlowStringDelimiter: '' # yamlString
 yamlEscape: '' # SpecialChar
 yamlSingleEscape: '' # SpecialChar
-yamlBlockCollectionItemStart: '' # Label
+yamlBlockCollectionItemStart: 'yellow' # Label
 yamlBlockMappingKey: 'blue_gray' # Identifier
 yamlBlockMappingMerge: '' # Special
 yamlFlowMappingKey: 'normal_gray' # Identifier
@@ -23,12 +23,12 @@ yamlMappingKeyStart: '' # Special
 yamlFlowIndicator: '' # Special
 yamlKeyValueDelimiter: '' # Special
 yamlConstant: '' # Constant
-yamlNull: '' # yamlConstant
-yamlBool: '' # yamlConstant
+yamlNull: 'red - b' # yamlConstant
+yamlBool: '@yamlNull' # yamlConstant
 yamlAnchor: '' # Type
 yamlAlias: '' # Type
 yamlNodeTag: '' # Type
 yamlInteger: '' # Number
 yamlFloat: '' # Float
 yamlTimestamp: '' # Number
-yamlPlainScalar: 'red'
+yamlPlainScalar: 'normal_gray'
