@@ -17,7 +17,7 @@ yamlSingleEscape: '' # SpecialChar
 yamlBlockCollectionItemStart: '' # Label
 yamlBlockMappingKey: 'blue_gray' # Identifier
 yamlBlockMappingMerge: '' # Special
-yamlFlowMappingKey: '' # Identifier
+yamlFlowMappingKey: 'normal_gray' # Identifier
 yamlFlowMappingMerge: '' # Special
 yamlMappingKeyStart: '' # Special
 yamlFlowIndicator: '' # Special

@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/02/04 17:28
+" Last Change: 2018/02/07 08:23
 " ===============================================================
 
 set background=dark
@@ -114,6 +114,7 @@ hi phpCommentTitle guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE ct
 hi phpDocTags guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpDocCustomTags guifg=#d4d6f4 ctermfg=189 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpStorageClass guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpClasses guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi phpStructure guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi phpNumber guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link phpFloat phpNumber
@@ -148,6 +149,7 @@ hi GitGutterDelete guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE ct
 hi GitGutterChangeDelete guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignatureMarkText guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlBlockMappingKey guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi yamlFlowMappingKey guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlPlainScalar guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 
