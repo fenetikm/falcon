@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/02/10 17:16
+" Last Change: 2018/02/10 17:22
 " ===============================================================
 
 set background=dark
@@ -99,6 +99,12 @@ hi fzf1 guifg=#ffd500 ctermfg=220 guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
 hi fzf2 guifg=#ff9800 ctermfg=208 guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
 hi fzf3 guifg=#ff9800 ctermfg=208 guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
 hi gitcommitSummary guifg=#9cd481 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goDeclaration guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goDeclType guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goType guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goUnsignedInts guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goBuiltins guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi goVar guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IndentGuidesOdd guifg=NONE ctermfg=NONE guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
 hi IndentGuidesEven guifg=NONE ctermfg=NONE guibg=#26262a ctermbg=235 gui=NONE cterm=NONE
 hi javaScriptBraces guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

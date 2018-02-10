@@ -1,16 +1,16 @@
 goDirective: '' # Statement
-goDeclaration: '' # Keyword
-goDeclType: '' # Keyword
+goDeclaration: 'yellow' # Keyword
+goDeclType: 'yellow' # Keyword
 goStatement: '' # Statement
 goConditional: '' # Conditional
 goLabel: '' # Label
 goRepeat: '' # Repeat
-goType: '' # Type
+goType: 'br_yellow' # Type
 goSignedInts: '' # Type
-goUnsignedInts: '' # Type
+goUnsignedInts: 'yellow' # Type
 goFloats: '' # Type
 goComplexes: '' # Type
-goBuiltins: '' # Keyword
+goBuiltins: 'yellow' # Keyword
 goConstants: '' # Keyword
 goComment: '' # Comment
 goTodo: '' # Todo
@@ -32,3 +32,4 @@ goFloat: '' # Float
 goImaginary: '' # Number
 goExtraType: '' # Type
 goSpaceError: '' # Error
+goVar: 'blue_gray'
