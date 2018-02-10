@@ -1,0 +1,5 @@
+zshCommands: 'yellow'
+zshBrackets: 'orange'
+zshOptStart: 'orange'
+zshVariableDef: 'blue_gray'
+zshTypes: 'br_yellow'

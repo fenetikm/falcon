@@ -14,7 +14,7 @@ phpStructure: 'blue_gray - b' # Structure
 phpStringSingle: '' # String
 phpStringDouble: '' # String
 phpBacktick: '' # String
-phpNumber: 'normal_gray' # Number
+phpNumber: 'light_gray' # Number
 phpFloat: '@phpNumber' # Float
 phpMethod: 'normal_gray' # Function
 phpFunctions: '' # Function
