@@ -21,7 +21,7 @@ yamlFlowMappingKey: 'normal_gray' # Identifier
 yamlFlowMappingMerge: '' # Special
 yamlMappingKeyStart: '' # Special
 yamlFlowIndicator: '' # Special
-yamlKeyValueDelimiter: '' # Special
+yamlKeyValueDelimiter: 'normal_gray' # Special
 yamlConstant: '' # Constant
 yamlNull: 'red - b' # yamlConstant
 yamlBool: '@yamlNull' # yamlConstant

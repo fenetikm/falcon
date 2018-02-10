@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/02/07 09:49
+" Last Change: 2018/02/10 16:59
 " ===============================================================
 
 set background=dark
@@ -50,7 +50,7 @@ hi Title guifg=#9cd481 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual guifg=#faf4c6 ctermfg=230 guibg=#606065 ctermbg=241 gui=NONE cterm=NONE
 hi WildMenu guifg=#0b0b1a ctermfg=233 guibg=#ffd500 ctermbg=220 gui=NONE cterm=NONE
 hi Comment guifg=#606065 ctermfg=241 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi Constant guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi Constant guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link Character String
 hi link Boolean Constant
@@ -62,7 +62,7 @@ hi Statement guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi link Conditional Statement
 hi link Repeat Statement
 hi link Label Statement
-hi link Operator Statement
+hi Operator guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi link Exception Statement
 hi PreProc guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -102,13 +102,37 @@ hi gitcommitSummary guifg=#9cd481 ctermfg=150 guibg=NONE ctermbg=NONE gui=NONE c
 hi IndentGuidesOdd guifg=NONE ctermfg=NONE guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
 hi IndentGuidesEven guifg=NONE ctermfg=NONE guibg=#26262a ctermbg=235 gui=NONE cterm=NONE
 hi javaScriptBraces guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsClassBraces guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsBrackets guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsObjectBraces guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsParens guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsClassProperty guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link jsClassBraces jsBrackets
+hi link jsBraces jsBrackets
+hi link jsObjectBraces jsBrackets
+hi link jsParens jsBrackets
 hi jsObjectKey guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link jsFuncBraces jsBrackets
+hi link jsFuncParens jsBrackets
+hi link jsIfElseBraces jsBrackets
+hi jsFuncArgs guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsExtendsKeyword guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsArrowFunction guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFunction guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsReturn guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsClassDefinition guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsClassProperty guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsClassKeyword guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsClassFuncName guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsFuncName guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsNull guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsStorageClass guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsObjectSeparator guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsObjectValue guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsExportDefault guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsRegexpCharClass guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsTemplateBraces guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsonBoolean guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlEqual guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlEndTag guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlTagN guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlTagName guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeCWD guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpCommentTitle guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpDocTags guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -148,9 +172,11 @@ hi GitGutterChange guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE ct
 hi GitGutterDelete guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterChangeDelete guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignatureMarkText guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimCommentTitle guifg=#606065 ctermfg=241 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi yamlBlockCollectionItemStart guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlBlockMappingKey guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlFlowMappingKey guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi yamlKeyValueDelimiter guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlNull guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi link yamlBool yamlNull
 hi yamlPlainScalar guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

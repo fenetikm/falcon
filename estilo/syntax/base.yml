@@ -46,7 +46,7 @@ WarningMsg: ''
 WildMenu: 'bg yellow'
 # BASE SYNTAX
 Comment: 'mid_gray - i'
-Constant: 'red - b'
+Constant: 'red -'
 String: 'light_gray' # Constant
 Character: '@String' # Constant
 Boolean: '@Constant' # Constant
@@ -58,7 +58,7 @@ Statement: 'blue_gray'
 Conditional: '@Statement' # Statement
 Repeat: '@Statement' # Statement
 Label: '@Statement' # Statement
-Operator: '@Statement' # Statement
+Operator: 'yellow' # Statement
 Keyword: 'orange - b' # Statement
 Exception: '@Statement' # Statement
 PreProc: 'br_yellow'
