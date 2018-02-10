@@ -1,11 +1,11 @@
-pythonStatement: '' # Statement
+pythonStatement: 'yellow' # Statement
 pythonConditional: '' # Conditional
 pythonRepeat: '' # Repeat
 pythonOperator: '' # Operator
 pythonException: '' # Exception
 pythonInclude: '' # Include
 pythonDecorator: '' # Define
-pythonFunction: '' # Function
+pythonFunction: 'normal_gray' # Function
 pythonComment: '' # Comment
 pythonTodo: '' # Todo
 pythonString: '' # String
@@ -19,3 +19,6 @@ pythonExceptions: '' # Structure
 pythonSpaceError: '' # Error
 pythonDoctest: '' # Special
 pythonDoctestValue: '' # Define
+pythonExClass: 'br_yellow'
+pythonBuiltinObj: 'yellow'
+pythonDot: 'orange'
