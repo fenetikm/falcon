@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/02/10 17:22
+" Last Change: 2018/02/10 17:31
 " ===============================================================
 
 set background=dark
@@ -105,6 +105,10 @@ hi goType guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi goUnsignedInts guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi goBuiltins guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi goVar guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi helpHyperTextJump guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi helpHeadline guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi helpSectionDelim guifg=#d4d6f4 ctermfg=189 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi helpOption guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IndentGuidesOdd guifg=NONE ctermfg=NONE guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
 hi IndentGuidesEven guifg=NONE ctermfg=NONE guibg=#26262a ctermbg=235 gui=NONE cterm=NONE
 hi javaScriptBraces guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

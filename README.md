@@ -2,7 +2,7 @@
 
 If you want a few less colours (not a rainbow), a bit more grey, a super dark blue background and only a smattering of green, you want Falcon!
 
-Settings cover:
+Coverage:
 * Vim / Neovim
 * Vim plugins:
   * lightline
@@ -13,6 +13,19 @@ Settings cover:
   * tagbar
   * vim-gitgutter
   * vim-signature
+* Syntax:
+  * CSS
+  * Go
+  * HTML
+  * Javascript
+  * JSON
+  * Jsx
+  * PHP
+  * Python
+  * Ruby
+  * Shell script
+  * VimL
+  * Yaml
 * Tmux
 * Kitty
 * iTerm2
@@ -44,12 +57,6 @@ TBD.
 ### HTML
 ### Yaml
 ### JS
-
-Coming soon:
-* Go
-* Ruby
-* Python
-* Clojure
 
 ## Thanks
 
