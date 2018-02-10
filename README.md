@@ -20,12 +20,15 @@ Coverage:
   * Javascript
   * JSON
   * Jsx
+  * Lua
   * PHP
   * Python
   * Ruby
   * Shell script
+  * Tmux
   * VimL
   * Yaml
+  * Zsh
 * Tmux
 * Kitty
 * iTerm2
