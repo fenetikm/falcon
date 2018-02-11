@@ -64,7 +64,7 @@ TBD.
 
 Screenshots taken on macOS running kitty with tweaked font rendering. Fonts used are FuraCode Nerd Font (regular and bold) and DejaVu Sans Mono (italic and bold italic).
 
-*Note:* Some syntax colour will depend on which syntax highlighting plugins you use. The above was created using the polyglot syntax plugin (except for Yaml). 
+*Note:* Some syntax colour will depend on which syntax highlighting plugins you use. The above was created using the polyglot syntax plugin (except for Yaml).
 
 ## Big Thanks
 
