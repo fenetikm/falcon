@@ -17,7 +17,7 @@ phpBacktick: '' # String
 phpNumber: 'light_gray' # Number
 phpFloat: '@phpNumber' # Float
 phpMethod: 'normal_gray' # Function
-phpFunctions: '' # Function
+phpFunctions: 'normal_gray' # Function
 phpBaselib: '' # Function
 phpRepeat: 'yellow' # Repeat
 phpConditional: '' # Conditional
