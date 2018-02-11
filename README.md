@@ -5,12 +5,13 @@ If you want a few less colours (not a rainbow), a bit more grey, a super dark bl
 Coverage:
 * Vim / Neovim
 * Vim plugins:
-  * lightline
   * fugitive
   * fzf
+  * lightline
   * nerdtree
   * startify
   * tagbar
+  * ultisnips
   * vim-gitgutter
   * vim-signature
 * Syntax:
@@ -61,9 +62,14 @@ TBD.
 ### Yaml
 ### JS
 
-## Thanks
+Screenshots taken on macOS running kitty with tweaked font rendering. Fonts used are FuraCode Nerd Font (regular and bold) and DejaVu Sans Mono (italic and bold italic).
 
-* Estilo
+*Note:* Some syntax colour will depend on which syntax highlighting plugins you use. The above was created using the polyglot syntax plugin (except for Yaml). 
+
+## Big Thanks
+
+* Estilo for making colour scheme management sane
 * Inspiration: gruvbox
+* Everyone who Vims
 
 More to come!
