@@ -23,7 +23,7 @@ yamlMappingKeyStart: '' # Special
 yamlFlowIndicator: '' # Special
 yamlKeyValueDelimiter: 'normal_gray' # Special
 yamlConstant: '' # Constant
-yamlNull: 'red - b' # yamlConstant
+yamlNull: 'red -' # yamlConstant
 yamlBool: '@yamlNull' # yamlConstant
 yamlAnchor: '' # Type
 yamlAlias: '' # Type

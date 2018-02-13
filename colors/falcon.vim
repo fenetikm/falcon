@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/02/11 19:47
+" Last Change: 2018/02/13 13:12
 " ===============================================================
 
 set background=dark
@@ -230,7 +230,7 @@ hi yamlBlockCollectionItemStart guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NON
 hi yamlBlockMappingKey guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlFlowMappingKey guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlKeyValueDelimiter guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi yamlNull guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi yamlNull guifg=#ff5000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link yamlBool yamlNull
 hi yamlPlainScalar guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshCommands guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
