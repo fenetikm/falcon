@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/02/13 13:12
+" Last Change: 2018/02/14 07:11
 " ===============================================================
 
 set background=dark
@@ -87,14 +87,17 @@ hi BufTabLineActive guifg=#a3a3a6 ctermfg=248 guibg=#363638 ctermbg=237 gui=NONE
 hi BufTabLineHidden guifg=#606065 ctermfg=241 guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
 hi BufTabLineFill guifg=NONE ctermfg=NONE guibg=#26262a ctermbg=235 gui=NONE cterm=NONE
 hi cssTagName guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssSelectorOp2 guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssAttrComma guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssIdentifier guifg=#d4d6f4 ctermfg=189 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssInclude guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi cssIncludeKeyword guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssInclude guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssIncludeKeyword guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssImportant guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi cssBraces guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssAttributeSelector guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssClassName guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssClassNameDot guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssProp guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi fzf1 guifg=#ffd500 ctermfg=220 guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
 hi fzf2 guifg=#ff9800 ctermfg=208 guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
 hi fzf3 guifg=#ff9800 ctermfg=208 guibg=#363638 ctermbg=237 gui=NONE cterm=NONE
@@ -158,6 +161,12 @@ hi luaLocal guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi luaFuncParens guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaParens guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaBraces guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlH1 guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi mkdLink guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi mkdURL guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link mkdInlineURL mkdURL
+hi mkdBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi htmlBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi NERDTreeCWD guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpCommentTitle guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpDocTags guifg=#faf4c6 ctermfg=230 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -208,6 +217,13 @@ hi tmuxCmds guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi tmuxOptsSet guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptions guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptsSetw guifg=#e1e1e6 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi twigVarDelim guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi twigTagDelim guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlEndTag guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi twigString guifg=#a3a3a6 ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi twigOperator guifg=#ff9800 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi twigTagBlock guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi htmlLink guifg=#8f97b3 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi snipSnippetHeaderKeyword guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi snipSnippetFooterKeyword guifg=#ffd500 ctermfg=220 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterAdd guifg=#718e54 ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

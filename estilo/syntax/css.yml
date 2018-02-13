@@ -4,8 +4,8 @@ cssHacks: '' # Comment
 cssTagName: 'yellow' # Statement
 cssDeprecated: '' # Error
 cssSelectorOp: '' # Special
-cssSelectorOp2: '' # Special
-cssAttrComma: '' # Special
+cssSelectorOp2: 'yellow' # Special
+cssAttrComma: 'normal_gray' # Special
 cssAnimationProp: '' # cssProp
 cssBackgroundProp: '' # cssProp
 cssBorderProp: '' # cssProp
@@ -82,8 +82,8 @@ cssFunctionName: '' # Function
 cssFunctionComma: '' # Function
 cssColor: '' # Constant
 cssIdentifier: 'br_blue' # Function
-cssInclude: 'orange' # Include
-cssIncludeKeyword: 'yellow' # atKeyword
+cssInclude: 'normal_gray' # Include
+cssIncludeKeyword: 'br_yellow' # atKeyword
 cssImportant: 'orange - b' # Special
 cssBraces: 'orange' # Function
 cssBraceError: '' # Error
@@ -111,7 +111,7 @@ cssFontDescriptorAttr: '' # cssAttr
 cssUnicodeRange: '' # Constant
 cssClassName: 'normal_gray' # Function
 cssClassNameDot: 'light_gray' # Function
-cssProp: '' # StorageClass
+cssProp: 'blue_gray' # StorageClass
 cssAttr: '' # Constant
 cssUnitDecorators: '' # Number
 cssNoise: '' # Noise
