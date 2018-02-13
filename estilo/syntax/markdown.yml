@@ -26,9 +26,11 @@ markdownCodeDelimiter: '' # Delimiter
 markdownEscape: '' # Special
 markdownError: '' # Error
 
-htmlH1: 'yellow'
+htmlH1: 'br_yellow'
 mkdLink: 'light_gray'
 mkdURL: 'blue_gray'
 mkdInlineURL: '@mkdURL'
 mkdBold: '- - b'
 htmlBold: '- - b'
+mkdListItem: 'yellow'
+htmlItalic: '- - i'

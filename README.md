@@ -22,11 +22,13 @@ Coverage:
   * JSON
   * Jsx
   * Lua
+  * Markdown
   * PHP
   * Python
   * Ruby
   * Shell script
   * Tmux
+  * Twig
   * VimL
   * Yaml
   * Zsh
