@@ -1,4 +1,4 @@
 tmuxCmds: 'yellow'
-tmuxOptsSet: 'orange'
-tmuxOptions: 'blue_gray'
-tmuxOptsSetw: 'normal_gray'
+tmuxOptsSet: 'blue_gray'
+tmuxOptions: 'orange'
+tmuxOptsSetw: 'blue_gray'
