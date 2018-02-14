@@ -81,7 +81,7 @@ cssURL: '' # String
 cssFunctionName: '' # Function
 cssFunctionComma: '' # Function
 cssColor: '' # Constant
-cssIdentifier: 'br_blue' # Function
+cssIdentifier: 'normal_gray' # Function
 cssInclude: 'normal_gray' # Include
 cssIncludeKeyword: 'br_yellow' # atKeyword
 cssImportant: 'orange - b' # Special
@@ -110,7 +110,7 @@ cssFontDescriptorProp: '' # cssProp
 cssFontDescriptorAttr: '' # cssAttr
 cssUnicodeRange: '' # Constant
 cssClassName: 'normal_gray' # Function
-cssClassNameDot: 'light_gray' # Function
+cssClassNameDot: 'yellow' # Function
 cssProp: 'blue_gray' # StorageClass
 cssAttr: '' # Constant
 cssUnitDecorators: '' # Number
