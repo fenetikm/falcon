@@ -31,7 +31,7 @@ if exists('g:lightline')
   let s:p.tabline.right = [[["#646466", 241], ["#3e3e40", 237]]]
   let s:p.normal.error = [[["#000002", 254], ["#ff4000", 202]]]
   let s:p.normal.warning = [[["#000002", 208], ["#ff8000", 208]]]
-  let s:p.normal.ok = [[["#000002", 208], ["#dfffbf", 208]]]
+  let s:p.normal.ok = [[["#000002", 208], ["#779954", 208]]]
 
   let g:lightline#colorscheme#falcon#palette = lightline#colorscheme#flatten(s:p)
 endif

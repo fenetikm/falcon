@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/02/15 22:12
+" Last Change: 2018/02/15 22:44
 " ===============================================================
 
 set background=dark
@@ -19,7 +19,7 @@ hi ALEWarningSign guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cte
 hi ALEInfoSign guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#89898c ctermbg=245 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE
-hi CursorLineNr guifg=#afafb2 ctermfg=145 guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE
+hi CursorLineNr guifg=#89898c ctermfg=245 guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE
 hi Directory guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=NONE ctermfg=NONE guibg=#476629 ctermbg=238 gui=NONE cterm=NONE
 hi DiffChange guifg=NONE ctermfg=NONE guibg=#665729 ctermbg=58 gui=NONE cterm=NONE
@@ -30,7 +30,7 @@ hi VertSplit guifg=#89898c ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi Folded guifg=#89898c ctermfg=245 guibg=#252527 ctermbg=235 gui=NONE cterm=NONE
 hi SignColumn guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#000002 ctermfg=0 guibg=#bfdaff ctermbg=153 gui=NONE cterm=NONE
-hi LineNr guifg=#89898c ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LineNr guifg=#646466 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi NonText guifg=#3e3e40 ctermfg=237 guibg=#0b0b1a ctermbg=233 gui=NONE cterm=NONE
 hi Normal guifg=#d4d4d9 ctermfg=188 guibg=#0b0b1a ctermbg=233 gui=NONE cterm=NONE
