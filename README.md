@@ -1,3 +1,5 @@
+[[https://github.com/fenetikm/falcon/blob/master/support/headshot.jpg|alt=headshot]]
+
 # Falcon
 
 If you want a few less colours (not a rainbow), a bit more grey, a super dark blue background and only a smattering of green, you want Falcon!
