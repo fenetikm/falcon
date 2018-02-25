@@ -7,6 +7,7 @@ If you want a few less colours (not a rainbow), a bit more grey, a super dark bl
 Coverage:
 * Vim / Neovim
 * Vim plugins:
+  * Ale
   * fugitive
   * fzf
   * lightline
