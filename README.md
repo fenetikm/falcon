@@ -35,6 +35,7 @@ Coverage:
 * Tmux
 * Kitty
 * iTerm2
+* exa
 
 Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudos!
 
@@ -67,6 +68,27 @@ TBD.
 Screenshots taken on macOS running kitty with tweaked font rendering. Fonts used are FuraCode Nerd Font (regular and bold) and DejaVu Sans Mono (italic and bold italic).
 
 *Note:* Some syntax colour will depend on which syntax highlighting plugins you use. The above was created using the polyglot syntax plugin (except for Yaml).
+
+## Similar default terminal colours
+
+(Refer to the estilo falcon palette for names)
+red: 202
+orange: 208
+yellow: 220
+green: 107
+blue_gray: 110
+br_yellow: 229
+br_green: 193
+br_blue: 195
+white: 231
+normal_gray: 253
+light_gray 249
+mid_gray: 245
+mid_dark_gray: 241
+dark_gray: 237
+darker_gray: 235
+black: 0
+bg: 232
 
 ## Big Thanks
 
