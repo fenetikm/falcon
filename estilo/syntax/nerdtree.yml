@@ -24,3 +24,4 @@ NERDTreeClosable: '' # Title
 NERDTreeIgnore: '' # ignore
 NERDTreeRO: '' # WarningMsg
 NERDTreeFlags: '' # Number
+NERDTreeGitStatusDirDirty: 'red'
