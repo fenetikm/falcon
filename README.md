@@ -19,6 +19,7 @@ Coverage:
   * vim-signature
 * Syntax:
   * CSS
+  * Gitconfig
   * Go
   * HTML
   * Javascript
