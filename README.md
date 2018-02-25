@@ -56,7 +56,8 @@ TBD.
 TBD.
 
 ## Palette
-TBD.
+
+![swatches](https://raw.githubusercontent.com/fenetikm/falcon/master/support/swatches.png)
 
 ## Screenshots
 
