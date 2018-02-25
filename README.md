@@ -1,4 +1,4 @@
-[[https://github.com/fenetikm/falcon/blob/master/support/headshot.jpg|alt=headshot]]
+![falcon headshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/headshot.jpg)
 
 # Falcon
 
