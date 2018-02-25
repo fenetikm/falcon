@@ -83,7 +83,7 @@ Screenshots taken on macOS running kitty with tweaked font rendering. Fonts used
 * yellow: 220
 * green: 107
 * blue_gray: 110
-* br_yellow: 229
+* br_yellow: 230
 * br_green: 193
 * br_blue: 195
 * white: 231
