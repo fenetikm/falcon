@@ -50,7 +50,7 @@ shTestOpr: '' # shConditional
 shTestPattern: '' # shString
 shTestDoubleQuote: '' # shString
 shTestSingleQuote: '' # shString
-shVariable: '' # shSetList
+shVariable: 'blue_gray' # shSetList
 shWrapLineOperator: '' # shOperator
 bashAdminStatement: '' # shStatement if exists("b:is_bash")
 bashSpecialVariables: '' # shShellVariables if exists("b:is_bash")
