@@ -64,13 +64,34 @@ TBD.
 ## Screenshots
 
 ### PHP
+
+![php snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/php.png)
+
 ### VimL
+
+![vimL snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/vimL.png)
+
 ### CSS
-### HTML
-### Yaml
+
+![css snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/css.png)
+
 ### JS
 
-Screenshots taken on macOS running kitty with tweaked font rendering. Fonts used are FuraCode Nerd Font (regular and bold) and DejaVu Sans Mono (italic and bold italic).
+![js snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/js.png)
+
+### JSON
+
+![json snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/js.png)
+
+### twig
+
+![twig snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/twig.png)
+
+### exa
+
+![exa snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/exa.png)
+
+Screenshots taken on macOS running iTerm2.
 
 *Note:* Some syntax colour will depend on which syntax highlighting plugins you use. The above was created using the polyglot syntax plugin (except for Yaml).
 
