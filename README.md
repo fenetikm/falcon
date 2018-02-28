@@ -81,7 +81,7 @@ TBD.
 
 ### JSON
 
-![json snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/js.png)
+![json snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/json.png)
 
 ### twig
 
