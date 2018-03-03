@@ -199,6 +199,8 @@ Screenshots taken on macOS running iTerm2, tmux and neovim (where applicable). F
 
 ## Similar default terminal colours
 
+Sometimes you want to use a colour from the main falcon palette in the terminal. Sadly that isn't always easy and so what **is** easy, is to use a close match from the ANSI 256 palette.
+
 (Refer to the estilo falcon palette for names)
 
 * red: 202
