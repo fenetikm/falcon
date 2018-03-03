@@ -45,6 +45,10 @@ Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudo
 
 ## Installation
 
+### Prerequisites
+
+Colour scheme assumes that you have a working terminal (see iTerm2 and Kitty below) with _bold_ and *italic* working. For Vim / Neovim and Tmux a similar assumption is made.
+
 ### Vim / Neovim
 
 Install manually or use a package manager.
@@ -66,7 +70,7 @@ colorscheme falcon
 
 ### iTerm2
 
-To use in iTerm2, go to: `Preferences > Profiles > (Profile Name in left pane) > Colors > Color Presets... > Import... ` and then select the falcon.itermcolors file in the `iterm2` directory.
+To use in iTerm2, go to: `Preferences > Profiles > (Profile Name in left pane) > Colors > Color Presets... > Import... ` and then select the `falcon.itermcolors` file in the `iterm2` directory.
 
 ### Kitty
 
