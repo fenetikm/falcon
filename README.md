@@ -43,7 +43,7 @@ Coverage:
 * Tmux
 * Kitty
 * iTerm2
-* git pretty log
+* git
 * exa
 
 Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudos!
