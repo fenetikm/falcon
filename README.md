@@ -9,36 +9,36 @@ Furthermore, falcon doesn't include any magenta (replaced with orange in the ter
 Coverage:
 
 * Vim / Neovim
-* Vim plugins:
-  * Ale
-  * fugitive
-  * fzf
-  * lightline
-  * nerdtree
-  * startify
-  * tagbar
-  * ultisnips
-  * vim-gitgutter
-  * vim-signature
-* Syntax:
-  * CSS
-  * Gitconfig
-  * Go
-  * HTML
-  * Javascript
-  * JSON
-  * Jsx
-  * Lua
-  * Markdown
-  * PHP
-  * Python
-  * Ruby
-  * Shell script
-  * Tmux
-  * Twig
-  * VimL
-  * Yaml
-  * Zsh
+  * Plugins:
+    * Ale
+    * fugitive
+    * fzf
+    * lightline
+    * nerdtree
+    * startify
+    * tagbar
+    * ultisnips
+    * vim-gitgutter
+    * vim-signature
+  * Syntax:
+    * CSS
+    * Gitconfig
+    * Go
+    * HTML
+    * Javascript
+    * JSON
+    * Jsx
+    * Lua
+    * Markdown
+    * PHP
+    * Python
+    * Ruby
+    * Shell script
+    * Tmux
+    * Twig
+    * VimL
+    * Yaml
+    * Zsh
 * Tmux
 * Kitty
 * iTerm2
