@@ -51,7 +51,7 @@ Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudo
 
 ### Prerequisites
 
-Colour scheme assumes that you have a working terminal (see iTerm2 and Kitty below) with **bold** and *italic* working. For Vim / Neovim and Tmux a similar assumption is made.
+Colour scheme assumes that you have a working terminal (see iTerm2 and Kitty below) with **bold** and *italic* working. For Vim / Neovim and Tmux a similar assumption is made. How to do this is outside the scope of this README but I wish you well in your endeavours and searching :) Struggling with these small things is part of the fun amirite?!
 
 To get going with the colour scheme, either install this repo using a Vim / Neovim plugin manager or clone / download the repo to a folder of your choosing.
 
@@ -76,10 +76,17 @@ Plug '~/Documents/falcon'
 Once installed set the colour scheme:
 
 ```viml
-let g:falcon_lightline = 1
-let g:lightline.colorscheme='falcon'
 colorscheme falcon
 ```
+
+To enable lightline support it is:
+
+```viml
+let g:falcon_lightline = 1
+let g:lightline.colorscheme='falcon'
+```
+
+...one day I will get around to Airline / stock statusline support, probably. MRs welcome!
 
 ### iTerm2
 
