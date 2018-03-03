@@ -6,7 +6,7 @@ helpStar: '' # Ignore
 helpHyperTextEntry: '' # String
 helpHeadline: 'yellow' # Statement
 helpHeader: '' # PreProc
-helpSectionDelim: 'br_blue' # PreProc
+helpSectionDelim: 'br_yellow' # PreProc
 helpVim: '' # Identifier
 helpCommand: '' # Comment
 helpExample: '' # Comment
