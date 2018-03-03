@@ -51,14 +51,14 @@ Install manually or use a package manager.
 
 e.g.
 
-```vimL
+```viml
 " vim-plug
 Plug 'fenetikm/falcon'
 ```
 
 Once installed set the colour scheme:
 
-```
+```viml
 let g:falcon_lightline = 1
 let g:lightline.colorscheme='falcon'
 colorscheme falcon
@@ -90,7 +90,7 @@ Obviously this is an opinionated tmux layout but copy pasta as you see fit.
 
 Custom colours for exa are included in the `exa/EXA_COLORS` file. To use them simply include them into your shell config. ZSH e.g.
 
-```sh
+```
 source /path/to/falcon/exa/EXA_COLORS
 ```
 
