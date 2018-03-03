@@ -47,7 +47,7 @@ Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudo
 
 ### Prerequisites
 
-Colour scheme assumes that you have a working terminal (see iTerm2 and Kitty below) with _bold_ and *italic* working. For Vim / Neovim and Tmux a similar assumption is made.
+Colour scheme assumes that you have a working terminal (see iTerm2 and Kitty below) with **bold** and *italic* working. For Vim / Neovim and Tmux a similar assumption is made.
 
 ### Vim / Neovim
 
@@ -134,7 +134,7 @@ source /path/to/falcon/exa/EXA_COLORS
 
 Screenshots taken on macOS running iTerm2, tmux and neovim (where applicable). Font is FiraCode with ligatures enabled. In daily use I use kitty for it's sheer speed but iTerm2 makes perty piccies.
 
-*Note:* Some syntax colour highlighting choices will depend on which syntax highlighting plugins you use. The above was created using the polyglot syntax plugin (except for Yaml).
+**Note:** Some syntax colour highlighting choices will depend on which syntax highlighting plugins you use. The above was created using the polyglot syntax plugin (except for Yaml).
 
 ## Similar default terminal colours
 
