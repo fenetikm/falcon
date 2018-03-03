@@ -203,26 +203,26 @@ Sometimes you want to use a colour from the main falcon palette in the terminal.
 
 (Refer to the estilo falcon palette for names)
 
-* red: 202
-* orange: 208
-* yellow: 220
-* green: 107
-* blue_gray: 110
-* br_yellow: 230
-* br_green: 193
-* br_blue: 195
-* white: 231
-* normal_gray: 253
-* light_gray 249
-* mid_gray: 245
-* mid_dark_gray: 241
-* dark_gray: 237
-* darker_gray: 235
-* black: 0
-* bg: 232
+* *red*: 202
+* *orange*: 208
+* *yellow*: 220
+* *green*: 107
+* *blue*_gray: 110
+* *br*_yellow: 230
+* *br*_green: 193
+* *br*_blue: 195
+* *white*: 231
+* *normal*_gray: 253
+* *light*_gray 249
+* *mid*_gray: 245
+* *mid*_dark_gray: 241
+* *dark*_gray: 237
+* *darker*_gray: 235
+* *black*: 0
+* *bg*: 232
 
 ## Big Thanks
 
 * Estilo for making colour scheme management sane
-* Inspiration: gruvbox for not being quite right to my tastes
-* Everyone who Vims
+* Inspiration: gruvbox for not being quite right to my tastes and thus being the seed of this project
+* Everyone who Vims!
