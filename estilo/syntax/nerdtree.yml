@@ -19,8 +19,8 @@ NERDTreeDir: '' # Directory
 NERDTreeUp: '' # Directory
 NERDTreeFile: '' # Normal
 NERDTreeCWD: 'br_yellow' # Statement
-NERDTreeOpenable: '' # Title
-NERDTreeClosable: '' # Title
+NERDTreeOpenable: 'orange' # Title
+NERDTreeClosable: 'yellow' # Title
 NERDTreeIgnore: '' # ignore
 NERDTreeRO: '' # WarningMsg
 NERDTreeFlags: '' # Number
