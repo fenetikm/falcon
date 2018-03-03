@@ -39,6 +39,7 @@ Coverage:
 * Tmux
 * Kitty
 * iTerm2
+* git
 * exa
 
 Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudos!
@@ -98,6 +99,18 @@ Custom colours for exa are included in the `exa/EXA_COLORS` file. To use them si
 source /path/to/falcon/exa/EXA_COLORS
 ```
 
+### git
+
+Included is an example `.githelpers` file which is a tweaked version of [Gary Bernhardt's](https://github.com/garybernhardt/dotfiles) coloured for falcon.
+
+One way of using this is by putting the following (thanks again Gary!) in your `.gitconfig`:
+
+```gitconfig
+[alias]
+  r = !GIT_NO_PAGER=1 git l -30
+  l = "!. ~/.githelpers && pretty_git_log"
+```
+
 ## Palette
 
 ![swatches](https://raw.githubusercontent.com/fenetikm/falcon/master/support/swatches.png)
@@ -131,6 +144,10 @@ source /path/to/falcon/exa/EXA_COLORS
 ### exa
 
 ![exa snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/exa.png)
+
+### git log
+
+![git snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/gitr.png)
 
 Screenshots taken on macOS running iTerm2, tmux and neovim (where applicable). Font is FiraCode with ligatures enabled. In daily use I use kitty for it's sheer speed but iTerm2 makes perty piccies.
 
