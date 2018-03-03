@@ -1,9 +1,9 @@
 name: 'Falcon'
-version: '0.0.7'
+version: '0.0.8'
 license: 'MIT'
 author: 'Michael Welford'
 url: 'https://github.com/fenetikm/falcon'
-description: ''
+description: 'A dark, easy on the eyes, fiery gray bluish kinda colour scheme'
 colorschemes:
   - name: falcon
     background: 'dark'
