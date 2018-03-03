@@ -2,9 +2,12 @@
 
 # Falcon
 
-If you want a few less colours (not a rainbow), a bit more grey, a super dark blue background and only a smattering of green, you want Falcon!
+If you want a few less colours, a bit more gray, a super dark blue background and only a smattering of green, you want Falcon!
+
+Furthermore, falcon doesn't include any magenta (replaced with orange in the terminal) so that you can then use it _super_ sparingly to cut through the noise where appropriate e.g. for the prompt (see the screenshots below for an example)
 
 Coverage:
+
 * Vim / Neovim
 * Vim plugins:
   * Ale
@@ -50,6 +53,8 @@ Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudo
 
 Colour scheme assumes that you have a working terminal (see iTerm2 and Kitty below) with **bold** and *italic* working. For Vim / Neovim and Tmux a similar assumption is made.
 
+To get going with the colour scheme, either install this repo using a Vim / Neovim plugin manager or clone / download the repo to a folder of your choosing.
+
 ### Vim / Neovim
 
 Install manually or use a package manager.
@@ -59,6 +64,13 @@ e.g.
 ```viml
 " vim-plug
 Plug 'fenetikm/falcon'
+```
+
+If you put this repo somewhere else first, e.g. in `~/Documents` it would simply be:
+
+```viml
+" vim-plug
+Plug '~/Documents/falcon'
 ```
 
 Once installed set the colour scheme:
@@ -170,7 +182,7 @@ Optionally you could additionally put the following in your `.gitconfig`:
 
 ![exa snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/exa.png)
 
-### git pretty log
+### git
 
 ![git snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/gitr.png)
 
@@ -203,7 +215,5 @@ Screenshots taken on macOS running iTerm2, tmux and neovim (where applicable). F
 ## Big Thanks
 
 * Estilo for making colour scheme management sane
-* Inspiration: gruvbox
+* Inspiration: gruvbox for not being quite right to my tastes
 * Everyone who Vims
-
-More to come!
