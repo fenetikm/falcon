@@ -39,7 +39,7 @@ Coverage:
 * Tmux
 * Kitty
 * iTerm2
-* git
+* git pretty log
 * exa
 
 Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudos!
@@ -111,6 +111,31 @@ One way of using this is by putting the following (thanks again Gary!) in your `
   l = "!. ~/.githelpers && pretty_git_log"
 ```
 
+To then use it you would just do `git r` for a short git log listing or `git l` for a long log listing.
+
+Optionally you could additionally put the following in your `.gitconfig`:
+
+```gitconfig
+[color]
+  ui = auto
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow
+  frag = magenta
+  old = red
+  new = green
+
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = magenta
+```
+
 ## Palette
 
 ![swatches](https://raw.githubusercontent.com/fenetikm/falcon/master/support/swatches.png)
@@ -145,7 +170,7 @@ One way of using this is by putting the following (thanks again Gary!) in your `
 
 ![exa snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/exa.png)
 
-### git log
+### git pretty log
 
 ![git snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/gitr.png)
 
