@@ -24,6 +24,7 @@ Coverage:
     * CSS
     * Gitconfig
     * Go
+    * Vim help
     * HTML
     * Javascript
     * JSON
