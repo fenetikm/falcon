@@ -46,16 +46,53 @@ Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudo
 ## Installation
 
 ### Vim / Neovim
-TBD.
+
+Install manually or use a package manager.
+
+e.g.
+
+```vimL
+" vim-plug
+Plug 'fenetikm/falcon'
+```
+
+Once installed set the colour scheme:
+
+```
+let g:falcon_lightline = 1
+let g:lightline.colorscheme='falcon'
+colorscheme falcon
+```
 
 ### iTerm2
-TBD.
+
+To use in iTerm2, go to: `Preferences > Profiles > (Profile Name in left pane) > Colors > Color Presets... > Import... ` and then select the falcon.itermcolors file in the `iterm2` directory.
 
 ### Kitty
-TBD.
+
+[kitty project home page](https://github.com/kovidgoyal/kitty)
+
+To use in kitty, copy and paste the values in the `kitty.conf` into the bottom of your `kitty.conf` file (usually in `~/Library/Preferences/kitty/kitty.conf`).
 
 ### Tmux
-TBD.
+
+A tmux configuration file is included in the `tmux` directory. It depends on the colours in your terminal being set to the falcon colour scheme (e.g. iTerm2 or Kitty). To include into your tmux setup put something like the following in your `.tmux.conf`:
+
+```
+source-file /path/to/falcon/tmux/falcon.conf
+```
+
+Obviously this is an opinionated tmux layout but copy pasta as you see fit.
+
+### exa
+
+[exa home page](https://the.exa.website/)
+
+Custom colours for exa are included in the `exa/EXA_COLORS` file. To use them simply include them into your shell config. ZSH e.g.
+
+```sh
+source /path/to/falcon/exa/EXA_COLORS
+```
 
 ## Palette
 
@@ -91,9 +128,9 @@ TBD.
 
 ![exa snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/exa.png)
 
-Screenshots taken on macOS running iTerm2.
+Screenshots taken on macOS running iTerm2, tmux and neovim (where applicable). Font is FiraCode with ligatures enabled. In daily use I use kitty for it's sheer speed but iTerm2 makes perty piccies.
 
-*Note:* Some syntax colour will depend on which syntax highlighting plugins you use. The above was created using the polyglot syntax plugin (except for Yaml).
+*Note:* Some syntax colour highlighting choices will depend on which syntax highlighting plugins you use. The above was created using the polyglot syntax plugin (except for Yaml).
 
 ## Similar default terminal colours
 
