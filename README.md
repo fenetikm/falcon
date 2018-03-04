@@ -52,7 +52,7 @@ Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudo
 
 ### Prerequisites
 
-Colour scheme assumes that you have a working terminal (see iTerm2 and Kitty below) with **bold** and *italic* working. For Vim / Neovim and Tmux a similar assumption is made. How to do this is outside the scope of this README but I wish you well in your endeavours and searching :) Struggling with these small things is part of the fun amirite?!
+This colour scheme assumes that you have a working terminal (see iTerm2 and Kitty below) with **bold** and *italic* working. For Vim / Neovim and Tmux a similar assumption is made. How to do this is outside the scope of this README but I wish you well in your endeavours and searching to get it working :) Struggling with these small things (yet irksome!) is part of the fun amirite?!
 
 To get going with the colour scheme, either install this repo using a Vim / Neovim plugin manager or clone / download the repo to a folder of your choosing.
 
@@ -87,7 +87,7 @@ let g:falcon_lightline = 1
 let g:lightline.colorscheme='falcon'
 ```
 
-...one day I will get around to Airline / stock statusline support, probably. MRs welcome!
+...one day I will get around to Airline / stock statusline support... probably. MRs welcome!
 
 ### iTerm2
 
@@ -121,7 +121,7 @@ source /path/to/falcon/exa/EXA_COLORS
 
 ### git
 
-Included is an example `.githelpers` file which is a tweaked version of [Gary Bernhardt's](https://github.com/garybernhardt/dotfiles) coloured for falcon.
+To get the output of your `git log` commands looking _on point_, included is an example `.githelpers` file which is a tweaked version of [Gary Bernhardt's](https://github.com/garybernhardt/dotfiles) but with that falcon flair.
 
 One way of using this is by putting the following (thanks again Gary!) in your `.gitconfig`:
 
@@ -140,8 +140,8 @@ Optionally you could additionally put the following in your `.gitconfig`:
   ui = auto
 
 [color "branch"]
-  current = yellow reverse
-  local = yellow
+  current = yellow
+  local = 241
   remote = green
 
 [color "diff"]
@@ -200,9 +200,9 @@ Screenshots taken on macOS running iTerm2, tmux and neovim (where applicable). F
 
 ## Similar default terminal colours
 
-Sometimes you want to use a colour from the main falcon palette in the terminal. Sadly that isn't always easy and so what **is** easy, is to use a close match from the ANSI 256 palette.
+Sometimes you want to use a colour from the main falcon palette in the terminal. Sadly that isn't always easy and so what **_is_** easy, is to use a close match from the ANSI 256 palette.
 
-(Refer to the estilo falcon palette for names)
+(Refer to `estilo/palettes/falcon.yml` file for what matches up to what)
 
 * *red*: 202
 * *orange*: 208
