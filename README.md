@@ -41,8 +41,9 @@ Coverage:
     * Yaml
     * Zsh
 * Tmux
-* Kitty
 * iTerm2
+* Kitty
+* alacritty
 * git
 * exa
 
@@ -52,7 +53,7 @@ Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudo
 
 ### Prerequisites
 
-This colour scheme assumes that you have a working terminal (see iTerm2 and Kitty below) with **bold** and *italic* working. For Vim / Neovim and Tmux a similar assumption is made. How to do this is outside the scope of this README but I wish you well in your endeavours and searching to get it working :) Struggling with these small things (yet irksome!) is part of the fun amirite?!
+This colour scheme assumes that you have a working terminal (see iTerm2, Kitty and alacritty below) with **bold** and *italic* working. For Vim / Neovim and Tmux a similar assumption is made. How to do this is outside the scope of this README but I wish you well in your endeavours and searching to get it working :) Struggling with these small things (yet irksome!) is part of the fun amirite?!
 
 To get going with the colour scheme, either install this repo using a Vim / Neovim plugin manager or clone / download the repo to a folder of your choosing.
 
@@ -99,9 +100,15 @@ To use in iTerm2, go to: `Preferences > Profiles > (Profile Name in left pane) >
 
 To use in kitty, copy and paste the values in the `kitty.conf` into the bottom of your `kitty.conf` file (usually in `~/Library/Preferences/kitty/kitty.conf`).
 
+### alacritty
+
+[alacritty project home page](https://github.com/jwilm/alacritty)
+
+To use in alacritty, put the color configuration from `alacritty.yml` into your `alacritty.yml` file (usually in `~/Library/Preferences/alacritty/alacritty.yml` or `~/.config/alacritty/alacritty.yml`).
+
 ### Tmux
 
-A tmux configuration file is included in the `tmux` directory. It depends on the colours in your terminal being set to the falcon colour scheme (e.g. iTerm2 or Kitty). To include into your tmux setup put something like the following in your `.tmux.conf`:
+A tmux configuration file is included in the `tmux` directory. It depends on the colours in your terminal being set to the falcon colour scheme (e.g. iTerm2, Kitty or alacritty). To include into your tmux setup put something like the following in your `.tmux.conf`:
 
 ```
 source-file /path/to/falcon/tmux/falcon.conf
