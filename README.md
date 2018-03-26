@@ -6,6 +6,8 @@ If you want a few less colours, a bit more gray, a super dark blue background an
 
 Furthermore, falcon doesn't include any magenta (replaced with orange in the terminal) so that you can then use it _super_ sparingly to cut through the noise where appropriate e.g. for the prompt (see the screenshots below for an example)
 
+![hero shot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/hero.png)
+
 Coverage:
 
 * Vim / Neovim
@@ -53,7 +55,7 @@ Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudo
 
 ### Prerequisites
 
-This colour scheme assumes that you have a working terminal (see iTerm2, Kitty and alacritty below) with **bold** and *italic* working. For Vim / Neovim and Tmux a similar assumption is made. How to do this is outside the scope of this README but I wish you well in your endeavours and searching to get it working :) Struggling with these small things (yet irksome!) is part of the fun amirite?!
+This colour scheme assumes that you have a working terminal (see iTerm2, Kitty and alacritty below) with true colour (24bit rgb), **bold** and *italic* working. For Vim / Neovim and Tmux a similar assumption is made. How to do this is outside the scope of this README but I wish you well in your endeavours and searching to get it working :) Struggling with these small things (yet irksome!) is part of the fun amirite?!
 
 To get going with the colour scheme, either install this repo using a Vim / Neovim plugin manager or clone / download the repo to a folder of your choosing.
 
@@ -234,3 +236,9 @@ Sometimes you want to use a colour from the main falcon palette in the terminal.
 * Estilo for making colour scheme management sane
 * Inspiration: gruvbox for not being quite right to my tastes and thus being the seed of this project
 * Everyone who Vims!
+
+## Troubleshooting
+
+* **The colours look a bit off, especially inside of neovim when also inside of tmux** Have you got truecolor support working? See the [Neovim FAQ](https://github.com/neovim/neovim/wiki/FAQ) for starters.
+
+* **Can you please support <insert name of other editing program>** This project is based around Neovim/Vim support predominantly then secondarily to that terminals. Although I am not opposed to other editors (well only vehemently!) MRs are welcome :)
