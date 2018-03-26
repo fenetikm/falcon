@@ -231,16 +231,18 @@ Sometimes you want to use a colour from the main falcon palette in the terminal.
 * *black*: 0
 * *bg*: 232
 
+## Troubleshooting
+
+* **The colours look a bit off, especially inside of neovim when also inside of tmux**
+
+  Have you got truecolor support working? See the [Neovim FAQ](https://github.com/neovim/neovim/wiki/FAQ) for starters.
+
+* **Can you please support <insert name of other editing program>**
+
+  This project is based around Neovim/Vim support predominantly then secondarily to that terminals. Although I am not opposed to other editors (well only vehemently!) MRs are welcome :)
+
 ## Big Thanks
 
 * Estilo for making colour scheme management sane
 * Inspiration: gruvbox for not being quite right to my tastes and thus being the seed of this project
 * Everyone who Vims!
-
-## Troubleshooting
-
-* **The colours look a bit off, especially inside of neovim when also inside of tmux**
-  Have you got truecolor support working? See the [Neovim FAQ](https://github.com/neovim/neovim/wiki/FAQ) for starters.
-
-* **Can you please support <insert name of other editing program>**
-  This project is based around Neovim/Vim support predominantly then secondarily to that terminals. Although I am not opposed to other editors (well only vehemently!) MRs are welcome :)
