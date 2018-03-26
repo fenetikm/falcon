@@ -237,7 +237,7 @@ Sometimes you want to use a colour from the main falcon palette in the terminal.
 
   Have you got truecolor support working? See the [Neovim FAQ](https://github.com/neovim/neovim/wiki/FAQ) for starters.
 
-* **Can you please support <insert name of other editing program>**
+* **Can you please support `insert name of other editing program`**
 
   This project is based around Neovim/Vim support predominantly then secondarily to that terminals. Although I am not opposed to other editors (well only vehemently!) MRs are welcome :)
 
