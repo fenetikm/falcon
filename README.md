@@ -46,8 +46,9 @@ Coverage:
 * iTerm2
 * Kitty
 * alacritty
-* git
 * exa
+* git
+* PrismJS
 
 Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudos!
 
@@ -165,6 +166,28 @@ Optionally you could additionally put the following in your `.gitconfig`:
   untracked = magenta
 ```
 
+### PrismJS
+
+[PrismJS home page](https://github.com/PrismJS/prism)
+
+Included in this repo are some PrismJS css and JS files to add in the falcon colour scheme to your website for code syntax highlighting.
+
+Once you have PrismJS working on your website, simply include these files after the corresponding PrismJS inclusions, e.g.:
+
+```html
+<link href="css/prism.css" rel="stylesheet" />
+<link href="css/prism-falcon.css" rel="stylesheet" />
+```
+
+and:
+
+```html
+<script src="js/prism.js"></script>
+<script src="js/prism-falcon.php.js"></script>
+```
+
+Currently only PHP has some extra love, will add in more as I get to them.
+
 ## Palette
 
 ![swatches](https://raw.githubusercontent.com/fenetikm/falcon/master/support/swatches.png)
@@ -203,9 +226,9 @@ Optionally you could additionally put the following in your `.gitconfig`:
 
 ![git snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/gitr.png)
 
-Screenshots taken on macOS running iTerm2, tmux and neovim (where applicable). Font is FiraCode with ligatures enabled. In daily use I use kitty for it's sheer speed but iTerm2 makes perty piccies.
+Screenshots taken on macOS running iTerm2, tmux and Neovim (where applicable). Font is FiraCode with ligatures enabled. In daily use I use kitty for it's sheer speed but iTerm2 makes perty piccies.
 
-**Note:** Some syntax colour highlighting choices will depend on which syntax highlighting plugins you use. The above was created using the polyglot syntax plugin (except for Yaml).
+**Note:** Some syntax colour highlighting choices will depend on which syntax highlighting plugins you use. The above was created using the polyglot syntax vim plugin (except for Yaml).
 
 ## Similar default terminal colours
 
@@ -233,13 +256,13 @@ Sometimes you want to use a colour from the main falcon palette in the terminal.
 
 ## Troubleshooting
 
-* **The colours look a bit off, especially inside of neovim when also inside of tmux**
+* **The colours look a bit off, especially inside of Neovim when also inside of tmux**
 
   Have you got truecolor support working? See the [Neovim FAQ](https://github.com/neovim/neovim/wiki/FAQ) for starters.
 
 * **Can you please support `insert name of other editing program`**
 
-  This project is based around Neovim/Vim support predominantly then secondarily to that terminals. Although I am not opposed to other editors (well only vehemently!) MRs are welcome :)
+  This project is based around Vim / Neovim support predominantly followed secondarily by terminal support. Although I am not opposed to other editors (well, only vehemently!) MRs are welcome :)
 
 ## Big Thanks
 
