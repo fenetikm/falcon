@@ -78,7 +78,7 @@ cssValueTime: '' # Number
 cssValueFrequency: '' # Number
 cssFunction: '' # Constant
 cssURL: '' # String
-cssFunctionName: '' # Function
+cssFunctionName: 'br_yellow' # Function
 cssFunctionComma: '' # Function
 cssColor: '' # Constant
 cssIdentifier: 'normal_gray' # Function
@@ -104,7 +104,7 @@ cssPageMargin: '' # atKeyword
 cssPageProp: '' # cssProp
 cssKeyFrame: '' # atKeyword
 cssKeyFrameSelector: '' # Constant
-cssFontDescriptor: '' # Special
+cssFontDescriptor: 'yellow' # Special
 cssFontDescriptorFunction: '' # Constant
 cssFontDescriptorProp: '' # cssProp
 cssFontDescriptorAttr: '' # cssAttr
