@@ -1,8 +1,8 @@
 phpConstant: '' # Constant
 phpCoreConstant: '' # Constant
 phpComment: '' # Comment
-phpCommentTitle: 'light_gray'
-phpDocTags: 'br_yellow' # PreProc
+phpCommentTitle: 'light_gray - i'
+phpDocTags: 'br_yellow - i' # PreProc
 phpDocCustomTags: 'br_blue' # Type
 phpException: '' # Exception
 phpBoolean: '' # Boolean
