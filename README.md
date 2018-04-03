@@ -37,6 +37,7 @@ Coverage:
     * Python
     * Ruby
     * Shell script
+    * Sshconfig
     * Tmux
     * Twig
     * VimL
