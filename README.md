@@ -43,10 +43,10 @@ Coverage:
     * VimL
     * Yaml
     * Zsh
-* [Tmux](#tmux)
 * [iTerm2](#iterm2)
 * [Kitty](#kitty)
 * [alacritty](#alacritty)
+* [Tmux](#tmux)
 * [exa](#exa)
 * [git](#git)
 * [PrismJS](#prismjs)
@@ -98,19 +98,19 @@ let g:lightline.colorscheme='falcon'
 
 To use in iTerm2, go to: `Preferences > Profiles > (Profile Name in left pane) > Colors > Color Presets... > Import... ` and then select the `falcon.itermcolors` file in the `iterm2` directory.
 
-###<a name="kitty"></a> Kitty
+### Kitty<a name="kitty"></a>
 
 [kitty project home page](https://github.com/kovidgoyal/kitty)
 
 To use in kitty, copy and paste the values in the `kitty/kitty.conf` file into the bottom of your `kitty.conf` file (usually in `~/Library/Preferences/kitty/kitty.conf`).
 
-###<a name="alacritty"></a> alacritty
+### alacritty<a name="alacritty"></a>
 
 [alacritty project home page](https://github.com/jwilm/alacritty)
 
 To use in alacritty, put the color configuration from `alacritty.yml` into your `alacritty.yml` file (usually in `~/Library/Preferences/alacritty/alacritty.yml` or `~/.config/alacritty/alacritty.yml`).
 
-###<a name="tmux"></a> Tmux
+### Tmux<a name="tmux"></a>
 
 A tmux configuration file is included in the `tmux` directory. It depends on the colours in your terminal being set to the falcon colour scheme (e.g. iTerm2, Kitty or alacritty). To include into your tmux setup put something like the following in your `.tmux.conf`:
 
@@ -120,7 +120,7 @@ source-file /path/to/falcon/tmux/falcon.conf
 
 Obviously this is an opinionated tmux layout but copy pasta as you see fit.
 
-###<a name="exa"></a> exa
+### exa<a name="exa"></a>
 
 [exa home page](https://the.exa.website/)
 
@@ -130,7 +130,7 @@ Custom colours for exa are included in the `exa/EXA_COLORS` file. To use them si
 source /path/to/falcon/exa/EXA_COLORS
 ```
 
-###<a name="git"></a> git
+### git<a name="git"></a>
 
 To get the output of your `git log` commands looking _on point_, included is an example `.githelpers` file which is a tweaked version of [Gary Bernhardt's](https://github.com/garybernhardt/dotfiles) but with that falcon flair.
 
@@ -167,7 +167,7 @@ Optionally you could additionally put the following in your `.gitconfig`:
   untracked = magenta
 ```
 
-###<a name="prismjs"></a> PrismJS
+### PrismJS<a name="prismjs"></a>
 
 [PrismJS home page](https://github.com/PrismJS/prism)
 
