@@ -22,7 +22,7 @@ Coverage:
     * ultisnips
     * vim-gitgutter
     * vim-signature
-  * Syntax:
+  * Tweaked syntax highlighting:
     * CSS
     * Gitconfig
     * Go
@@ -43,13 +43,13 @@ Coverage:
     * VimL
     * Yaml
     * Zsh
-* Tmux
-* iTerm2
-* Kitty
-* alacritty
-* exa
-* git
-* PrismJS
+* [Tmux](#tmux)
+* [iTerm2](#iterm2)
+* [Kitty](#kitty)
+* [alacritty](#alacritty)
+* [exa](#exa)
+* [git](#git)
+* [PrismJS](#prismjs)
 
 Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudos!
 
@@ -57,7 +57,7 @@ Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudo
 
 ### Prerequisites
 
-This colour scheme assumes that you have a working terminal (see iTerm2, Kitty and alacritty below) with true colour (24bit rgb), **bold** and *italic* working. For Vim / Neovim and Tmux a similar assumption is made. How to do this is outside the scope of this README but I wish you well in your endeavours and searching to get it working :) Struggling with these small things (yet irksome!) is part of the fun amirite?!
+This colour scheme assumes that you have a working terminal (see [iTerm2](#iterm2), [Kitty](#kitty) and [alacritty](#alacritty) below) with true colour (24bit rgb), **bold** and *italic* working. For Vim / Neovim and Tmux a similar assumption is made. How to do this is outside the scope of this README but I wish you well in your searching to get it working. Struggling with these small things (yet irksome) is part of the fun, amirite?!
 
 To get going with the colour scheme, either install this repo using a Vim / Neovim plugin manager or clone / download the repo to a folder of your choosing.
 
@@ -92,25 +92,25 @@ let g:falcon_lightline = 1
 let g:lightline.colorscheme='falcon'
 ```
 
-...one day I will get around to Airline / stock statusline support... probably. MRs welcome!
+...one day I will get around to Airline support... probably. MRs welcome!
 
-### iTerm2
+<a name="iterm2"></a>### iTerm2
 
 To use in iTerm2, go to: `Preferences > Profiles > (Profile Name in left pane) > Colors > Color Presets... > Import... ` and then select the `falcon.itermcolors` file in the `iterm2` directory.
 
-### Kitty
+<a name="kitty"></a>### Kitty
 
 [kitty project home page](https://github.com/kovidgoyal/kitty)
 
-To use in kitty, copy and paste the values in the `kitty.conf` into the bottom of your `kitty.conf` file (usually in `~/Library/Preferences/kitty/kitty.conf`).
+To use in kitty, copy and paste the values in the `kitty/kitty.conf` file into the bottom of your `kitty.conf` file (usually in `~/Library/Preferences/kitty/kitty.conf`).
 
-### alacritty
+<a name="alacritty"></a>### alacritty
 
 [alacritty project home page](https://github.com/jwilm/alacritty)
 
 To use in alacritty, put the color configuration from `alacritty.yml` into your `alacritty.yml` file (usually in `~/Library/Preferences/alacritty/alacritty.yml` or `~/.config/alacritty/alacritty.yml`).
 
-### Tmux
+<a name="tmux"></a>### Tmux
 
 A tmux configuration file is included in the `tmux` directory. It depends on the colours in your terminal being set to the falcon colour scheme (e.g. iTerm2, Kitty or alacritty). To include into your tmux setup put something like the following in your `.tmux.conf`:
 
@@ -120,7 +120,7 @@ source-file /path/to/falcon/tmux/falcon.conf
 
 Obviously this is an opinionated tmux layout but copy pasta as you see fit.
 
-### exa
+<a name="exa"></a>### exa
 
 [exa home page](https://the.exa.website/)
 
@@ -130,7 +130,7 @@ Custom colours for exa are included in the `exa/EXA_COLORS` file. To use them si
 source /path/to/falcon/exa/EXA_COLORS
 ```
 
-### git
+<a name="git"></a>### git
 
 To get the output of your `git log` commands looking _on point_, included is an example `.githelpers` file which is a tweaked version of [Gary Bernhardt's](https://github.com/garybernhardt/dotfiles) but with that falcon flair.
 
@@ -167,7 +167,7 @@ Optionally you could additionally put the following in your `.gitconfig`:
   untracked = magenta
 ```
 
-### PrismJS
+<a name="prismjs"></a>### PrismJS
 
 [PrismJS home page](https://github.com/PrismJS/prism)
 
@@ -259,7 +259,7 @@ Sometimes you want to use a colour from the main falcon palette in the terminal.
 
 * **The colours look a bit off, especially inside of Neovim when also inside of tmux**
 
-  Have you got truecolor support working? See the [Neovim FAQ](https://github.com/neovim/neovim/wiki/FAQ) for starters.
+  Have you got `truecolor` support working? See the [Neovim FAQ](https://github.com/neovim/neovim/wiki/FAQ) for starters.
 
 * **Can you please support `insert name of other editing program`**
 
@@ -270,3 +270,7 @@ Sometimes you want to use a colour from the main falcon palette in the terminal.
 * Estilo for making colour scheme management sane
 * Inspiration: gruvbox for not being quite right to my tastes and thus being the seed of this project
 * Everyone who Vims!
+
+## License
+
+Falcon is released under the MIT license.
