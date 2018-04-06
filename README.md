@@ -94,7 +94,7 @@ let g:lightline.colorscheme='falcon'
 
 ...one day I will get around to Airline support... probably. MRs welcome!
 
-###<a name="iterm2"></a> iTerm2
+### iTerm2<a name="iterm2"></a>
 
 To use in iTerm2, go to: `Preferences > Profiles > (Profile Name in left pane) > Colors > Color Presets... > Import... ` and then select the `falcon.itermcolors` file in the `iterm2` directory.
 
