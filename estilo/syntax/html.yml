@@ -11,7 +11,7 @@ htmlH4: '' # htmlH3
 htmlH5: '' # htmlH4
 htmlH6: '' # htmlH5
 htmlHead: '' # PreProc
-htmlTitle: '' # Title
+htmlTitle: 'normal_gray - b' # Title
 htmlBoldItalicUnderline: '' # htmlBoldUnderlineItalic
 htmlUnderlineBold: '' # htmlBoldUnderline
 htmlUnderlineItalicBold: '' # htmlBoldUnderlineItalic

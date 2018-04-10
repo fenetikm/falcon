@@ -42,6 +42,7 @@ Coverage:
     * Twig
     * VimL
     * Yaml
+    * XML
     * Zsh
 * [iTerm2](#iterm2)
 * [Kitty](#kitty)
