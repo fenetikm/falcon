@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/04/06 09:57
+" Last Change: 2018/04/11 08:27
 " ===============================================================
 
 set background=dark
@@ -284,6 +284,7 @@ hi zshBrackets guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi zshOptStart guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshVariableDef guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshTypes guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi zshKeyword guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 
 " ===================================
