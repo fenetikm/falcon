@@ -14,5 +14,7 @@ let g:fzf_colors =
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
-hi ActiveWindow guibg=NONE | hi InactiveWindow guibg=#141420
-set winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
+if exists('+winhighlight')
+  hi ActiveWindow guibg=NONE | hi InactiveWindow guibg=#141420
+  set winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
+endif
