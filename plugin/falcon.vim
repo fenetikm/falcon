@@ -13,3 +13,6 @@ let g:fzf_colors =
   \ 'marker':  ['fg', 'Keyword'],
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
+
+hi ActiveWindow guibg=NONE | hi InactiveWindow guibg=#141420
+set winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
