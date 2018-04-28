@@ -23,6 +23,7 @@ Coverage:
     * vim-gitgutter
     * vim-signature
   * Tweaked syntax highlighting:
+    * C/C++
     * CSS
     * Gitconfig
     * Go

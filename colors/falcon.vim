@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/04/25 16:11
+" Last Change: 2018/04/28 15:52
 " ===============================================================
 
 set background=dark
@@ -86,6 +86,15 @@ hi BufTabLineCurrent guifg=#d4d4d9 ctermfg=188 guibg=#89898c ctermbg=245 gui=NON
 hi BufTabLineActive guifg=#afafb2 ctermfg=145 guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE
 hi BufTabLineHidden guifg=#89898c ctermfg=245 guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE
 hi BufTabLineFill guifg=NONE ctermfg=NONE guibg=#252527 ctermbg=235 gui=NONE cterm=NONE
+hi cPreCondit guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cDefine guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi cStructure guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cStorageClass guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cType guifg=#fdfdff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cCustomParen guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cConditional guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cCustomFunc guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cStatement guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssTagName guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssSelectorOp2 guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssAttrComma guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
