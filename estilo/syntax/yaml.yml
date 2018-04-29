@@ -11,7 +11,7 @@ yamlReservedDirective: '' # Error
 yamlYAMLVersion: '' # Number
 yamlString: '' # String
 yamlFlowString: '' # yamlString
-yamlFlowStringDelimiter: '' # yamlString
+yamlFlowStringDelimiter: 'normal_gray' # yamlString
 yamlEscape: '' # SpecialChar
 yamlSingleEscape: '' # SpecialChar
 yamlBlockCollectionItemStart: 'yellow' # Label

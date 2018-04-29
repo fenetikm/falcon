@@ -52,3 +52,4 @@ phpVarSelector: 'normal_gray' # Operator
 phpRelation: '' # Operator
 phpIdentifier: 'blue_gray' # Identifier
 phpIdentifierSimply: '' # Identifier
+phpStringDelimiter: 'normal_gray'

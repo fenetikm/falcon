@@ -9,4 +9,6 @@ vimFuncVar: 'blue_gray - b'
 vimFuncName: 'normal_gray'
 vimAutoEvent: 'red'
 vimMap: 'blue_gray'
-
+vimGroup: 'blue_gray'
+vimHiTerm: 'blue_gray'
+vimSetSep: 'normal_gray'
