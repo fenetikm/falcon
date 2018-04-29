@@ -24,7 +24,7 @@ phpConditional: '' # Conditional
 phpLabel: '' # Label
 phpStatement: '' # Statement
 phpKeyword: 'yellow' # Statement
-phpType: 'br_yellow' # Type
+phpType: 'white' # Type
 phpInclude: '' # Include
 phpDefine: '' # Define
 phpBackslashSequences: '' # SpecialChar
@@ -53,3 +53,4 @@ phpRelation: '' # Operator
 phpIdentifier: 'blue_gray' # Identifier
 phpIdentifierSimply: '' # Identifier
 phpStringDelimiter: 'normal_gray'
+phpSuperglobals: 'green'
