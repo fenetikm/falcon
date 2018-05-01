@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/04/29 18:47
+" Last Change: 2018/05/02 08:08
 " ===============================================================
 
 set background=dark
@@ -109,6 +109,10 @@ hi cssFontDescriptor guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE 
 hi cssClassName guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssClassNameDot guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssProp guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi diffAdded guifg=NONE ctermfg=NONE guibg=#476629 ctermbg=238 gui=NONE cterm=NONE
+hi diffRemoved guifg=NONE ctermfg=NONE guibg=#663829 ctermbg=237 gui=NONE cterm=NONE
+hi diffFile guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi diffLine guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi fzf1 guifg=#ffbf00 ctermfg=214 guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE
 hi fzf2 guifg=#ff8000 ctermfg=208 guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE
 hi fzf3 guifg=#ff8000 ctermfg=208 guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE

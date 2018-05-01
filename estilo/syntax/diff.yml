@@ -1,0 +1,4 @@
+diffAdded: '- off_green'
+diffRemoved: '- off_red'
+diffFile: 'br_yellow'
+diffLine: 'yellow'
