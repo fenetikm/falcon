@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/05/02 08:08
+" Last Change: 2018/05/05 17:38
 " ===============================================================
 
 set background=dark
@@ -70,7 +70,7 @@ hi link Include PreProc
 hi link Define PreProc
 hi link Macro PreProc
 hi link PreCondit PreProc
-hi Type guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi Type guifg=#fdfdff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link StorageClass Type
 hi link Structure Type
 hi link Typedef Type
