@@ -34,3 +34,6 @@ mkdBold: '- - b'
 htmlBold: '- - b'
 mkdListItem: 'yellow'
 htmlItalic: '- - i'
+
+healthSuccess: 'bg green'
+healthError: 'bg red'
