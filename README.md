@@ -45,6 +45,7 @@ Coverage:
     * Yaml
     * XML
     * Zsh
+* Terminal emulator (Neovim)
 * [iTerm2](#iterm2)
 * [Kitty](#kitty)
 * [alacritty](#alacritty)
@@ -85,6 +86,12 @@ Once installed set the colour scheme:
 
 ```viml
 colorscheme falcon
+```
+
+You also need 24-bit colour enabled with:
+
+```viml
+set termguicolors
 ```
 
 To enable lightline support it is:
@@ -261,7 +268,12 @@ Sometimes you want to use a colour from the main falcon palette in the terminal.
 
 * **The colours look a bit off, especially inside of Neovim when also inside of tmux**
 
-  Have you got `truecolor` support working? See the [Neovim FAQ](https://github.com/neovim/neovim/wiki/FAQ) for starters.
+  Have you got `truecolor` support working? Have you `set termguicolors` ? See the [Neovim FAQ](https://github.com/neovim/neovim/wiki/FAQ) for starters.
+
+* **In NeoVim, the background colour of the active window is lighter that the inactive window**
+
+  The active window will take its colour from the terminal which is mean to be *darker* than the inactive window - check that your terminal colour is the falcon background colour e.g. load the iTerm2 colours that are included.
+
 
 * **Can you please support `insert name of other editing program`**
 
