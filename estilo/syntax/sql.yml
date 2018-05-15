@@ -1,0 +1,3 @@
+mysqlKeyword: 'yellow'
+mysqlOperator: 'yellow'
+mysqlFunction: 'white'

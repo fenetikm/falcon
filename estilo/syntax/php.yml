@@ -47,10 +47,11 @@ phpDocTodo: '' # Todo
 phpMemberSelector: 'light_gray' # Structure
 phpIntVar: '' # Identifier
 phpEnvVar: '' # Identifier
-phpOperator: 'yellow' # Operator
+phpOperator: 'orange' # Operator
 phpVarSelector: 'normal_gray' # Operator
 phpRelation: '' # Operator
 phpIdentifier: 'blue_gray' # Identifier
 phpIdentifierSimply: '' # Identifier
 phpStringDelimiter: 'normal_gray'
 phpSuperglobals: 'green'
+phpSpecialChar: 'green'
