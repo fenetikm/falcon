@@ -54,6 +54,7 @@ Coverage:
 * [exa](#exa)
 * [git](#git)
 * [PrismJS](#prismjs)
+* [Taskwarrior](#taskwarrior)
 
 Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). *Kudos!*
 
@@ -198,6 +199,14 @@ and:
 ```
 
 Currently only PHP has some extra love, will add in more as I get to them.
+
+### Taskwar <a name="taskwarrior"></a>
+
+Simply include the `taskwarrior/falcon.theme` file in your `.taskrc` e.g.
+
+```
+include ~/Documents/falcon/taskwarrior/falcon.theme
+```
 
 ## Palette
 
