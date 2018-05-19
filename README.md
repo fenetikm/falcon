@@ -22,6 +22,7 @@ Coverage:
     * ultisnips
     * vim-gitgutter
     * vim-signature
+    * vimwiki
   * Tweaked syntax highlighting:
     * C/C++
     * CSS
@@ -54,7 +55,7 @@ Coverage:
 * [git](#git)
 * [PrismJS](#prismjs)
 
-Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). Kudos!
+Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). *Kudos!*
 
 ## Installation
 
@@ -250,17 +251,17 @@ Sometimes you want to use a colour from the main falcon palette in the terminal.
 * *orange*: 208
 * *yellow*: 220
 * *green*: 107
-* *blue*_gray: 110
-* *br*_yellow: 230
-* *br*_green: 193
-* *br*_blue: 195
+* *blue_gray*: 110
+* *br_yellow*: 230
+* *br_green*: 193
+* *br_blue*: 195
 * *white*: 231
-* *normal*_gray: 253
-* *light*_gray 249
-* *mid*_gray: 245
-* *mid*_dark_gray: 241
-* *dark*_gray: 237
-* *darker*_gray: 235
+* *normal_gray*: 253
+* *light_gray*: 249
+* *mid_gray*: 245
+* *mid_dark_gray*: 241
+* *dark_gray*: 237
+* *darker_gray*: 235
 * *black*: 0
 * *bg*: 232
 

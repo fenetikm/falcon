@@ -27,7 +27,7 @@ markdownEscape: '' # Special
 markdownError: '' # Error
 
 htmlH1: 'br_yellow'
-mkdLink: 'light_gray'
+mkdLink: 'blue_gray - u'
 mkdURL: 'blue_gray - u'
 mkdInlineURL: '@mkdURL'
 mkdBold: '- - b'
