@@ -28,12 +28,13 @@ markdownError: '' # Error
 
 htmlH1: 'br_yellow'
 mkdLink: 'light_gray'
-mkdURL: 'blue_gray'
+mkdURL: 'blue_gray - u'
 mkdInlineURL: '@mkdURL'
 mkdBold: '- - b'
 htmlBold: '- - b'
-mkdListItem: 'yellow'
+mkdListItem: 'orange'
 htmlItalic: '- - i'
 
+# These are used when running Neovim health checks.
 healthSuccess: 'bg green'
 healthError: 'bg red'
