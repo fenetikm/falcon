@@ -200,7 +200,9 @@ and:
 
 Currently only PHP has some extra love, will add in more as I get to them.
 
-### Taskwar <a name="taskwarrior"></a>
+### Taskwarrior<a name="taskwarrior"></a>
+
+[Taskwarrior home page](https://taskwarrior.org)
 
 Simply include the `taskwarrior/falcon.theme` file in your `.taskrc` e.g.
 
