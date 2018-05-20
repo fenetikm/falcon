@@ -2,9 +2,9 @@
 
 # Falcon
 
-If you want a few less colours, a bit more gray, a super dark blue background and only a smattering of green, you want Falcon!
+If you want a few less colours, a bit more gray, a super dark blue background and only a smattering of green, you want Falcon.
 
-Furthermore, falcon doesn't include any magenta (replaced with orange in the terminal) so that you can then use it _super_ sparingly to cut through the noise where appropriate e.g. for the prompt (see the screenshots below for an example)
+Furthermore, by design, falcon doesn't include any magenta (replaced with orange in the terminal) so by using it _super_ sparingly it will cut through the noise where appropriate. Try it for the prompt (see the screenshots below for an example)!
 
 ![hero shot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/hero.png)
 
@@ -64,7 +64,7 @@ Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). *Kud
 
 This colour scheme assumes that you have a working terminal (see [iTerm2](#iterm2), [Kitty](#kitty) and [alacritty](#alacritty) below) with true colour (24bit rgb), **bold** and *italic* working. For Vim / Neovim and Tmux a similar assumption is made. How to do this is outside the scope of this README but I wish you well in your searching to get it working. Struggling with these small things (yet irksome) is part of the fun, amirite?!
 
-To get going with the colour scheme, either install this repo using a Vim / Neovim plugin manager or clone / download the repo to a folder of your choosing.
+To get going, either install this repo using a Vim / Neovim plugin manager or clone / download the repo to a folder of your choosing.
 
 ### Vim / Neovim
 
@@ -103,11 +103,11 @@ let g:falcon_lightline = 1
 let g:lightline.colorscheme='falcon'
 ```
 
-...one day I will get around to Airline support... probably. MRs welcome!
+One day I will get around to Airline support... probably. MRs welcome!
 
 ### iTerm2<a name="iterm2"></a>
 
-To use in iTerm2, go to: `Preferences > Profiles > (Profile Name in left pane) > Colors > Color Presets... > Import... ` and then select the `falcon.itermcolors` file in the `iterm2` directory.
+To use in iTerm2 go to: `Preferences > Profiles > (Profile Name in left pane) > Colors > Color Presets... > Import... ` and then select the `falcon.itermcolors` file in the `iterm2` directory.
 
 ### Kitty<a name="kitty"></a>
 
@@ -115,11 +115,15 @@ To use in iTerm2, go to: `Preferences > Profiles > (Profile Name in left pane) >
 
 To use in kitty, copy and paste the values in the `kitty/kitty.conf` file into the bottom of your `kitty.conf` file (usually in `~/Library/Preferences/kitty/kitty.conf`).
 
+_Protip_: if you are on macOS and using an external monitor, you may like my fork of [kitty](https://github.com/fenetikm/kitty) which alters the font rendering to beef it up a tad.
+
 ### alacritty<a name="alacritty"></a>
 
 [alacritty project home page](https://github.com/jwilm/alacritty)
 
 To use in alacritty, put the color configuration from `alacritty.yml` into your `alacritty.yml` file (usually in `~/Library/Preferences/alacritty/alacritty.yml` or `~/.config/alacritty/alacritty.yml`).
+
+(Thanks to [timvisee](https://github.com/fenetikm/falcon/issues?q=is%3Apr+author%3Atimvisee) for that one!)
 
 ### Tmux<a name="tmux"></a>
 
@@ -135,7 +139,7 @@ Obviously this is an opinionated tmux layout but copy pasta as you see fit.
 
 [exa home page](https://the.exa.website/)
 
-Custom colours for exa are included in the `exa/EXA_COLORS` file. To use them simply include them into your shell config. ZSH e.g.
+Custom colours for exa are included in the `exa/EXA_COLORS` file. To use them simply include the following in your shell config. e.g. for ZSH:
 
 ```
 source /path/to/falcon/exa/EXA_COLORS
@@ -198,7 +202,7 @@ and:
 <script src="js/prism-falcon.php.js"></script>
 ```
 
-Currently only PHP has some extra love, will add in more as I get to them.
+Currently only PHP has some extra love, will add in more as I need them.
 
 ### Taskwarrior<a name="taskwarrior"></a>
 
@@ -284,12 +288,16 @@ Sometimes you want to use a colour from the main falcon palette in the terminal.
 
 * **In NeoVim, the background colour of the active window is lighter that the inactive window**
 
-  The active window will take its colour from the terminal which is mean to be *darker* than the inactive window - check that your terminal colour is the falcon background colour e.g. load the iTerm2 colours that are included.
+  The active window will take its colour from the terminal which is meant to be *darker* than the inactive window - check that your terminal colour is the falcon background colour e.g. load the iTerm2 colours that are included.
 
 
 * **Can you please support `insert name of other editing program`**
 
-  This project is based around Vim / Neovim support predominantly followed secondarily by terminal support. Although I am not opposed to other editors (well, only vehemently!) MRs are welcome :)
+  This project is predominantly based around Vim / Neovim support followed secondarily by terminal support and then lastly by terminal tools. Although I am not opposed to other editors (well, only vehemently!) MRs are welcome :)
+
+* **Can you please support `insert name of terminal program`**
+
+  Possibly - most of the additional support I have been adding in is for tools that I have discovered and I continue to use. Please let me know!
 
 ## Big Thanks
 
@@ -299,4 +307,4 @@ Sometimes you want to use a colour from the main falcon palette in the terminal.
 
 ## License
 
-Falcon is released under the MIT license.
+Falcon is released under the [MIT license](https://github.com/fenetikm/falcon/blob/master/LICENSE).
