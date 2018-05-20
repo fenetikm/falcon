@@ -32,11 +32,11 @@ rule.precedence.color=deleted,completed,active,keyword.,tag.,project.,overdue,sc
 color.label=
 color.label.sort=
 color.alternate=on color0
-color.header=color4
-color.footnote=color6
+color.header=color230
+color.footnote=color195
 color.warning=color0 on color3
-color.error=color6
-color.debug=color6
+color.error=color195
+color.debug=color249
 
 # Task state
 color.completed=
@@ -45,8 +45,8 @@ color.active=bold color15
 color.recurring=color4
 color.scheduled=
 color.until=
-color.blocked=bold color0 on color7
-color.blocking=color0 on color7
+color.blocked=bold color0 on color241
+color.blocking=color0 on color241
 
 # Project
 color.project.none=
@@ -59,10 +59,10 @@ color.uda.priority.L=bold color4
 # Tags
 color.tag.next=
 color.tag.none=
-color.tagged=color10
+color.tagged=color110
 
 # Due
-color.due=color9
+color.due=color230
 color.due.today=color1
 color.overdue=color5
 
@@ -78,23 +78,22 @@ color.history.done=color0 on color2
 
 # Report: summary
 color.summary.background=on color0
-color.summary.bar=color0 on color6
+color.summary.bar=color0 on color110
 
 # Command: calendar
-color.calendar.due=color0 on color9
+color.calendar.due=color0 on color230
 color.calendar.due.today=color0 on color1
 color.calendar.holiday=color0 on color3
 color.calendar.overdue=color0 on color5
-color.calendar.today=color0 on color4
+color.calendar.today=color0 on color207
 color.calendar.weekend=on color0
-color.calendar.weeknumber=color4
+color.calendar.weeknumber=color110
 
 # Command: sync
-color.sync.added=color14
+color.sync.added=color110
 color.sync.changed=color9
 color.sync.rejected=color13
 
 # Command: undo
 color.undo.after=color2
 color.undo.before=color1
-
