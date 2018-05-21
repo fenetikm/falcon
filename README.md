@@ -4,7 +4,7 @@
 
 If you want a few less colours, a bit more gray, a super dark blue background and only a smattering of green, you want Falcon.
 
-Furthermore, by design, falcon doesn't include any magenta (replaced with orange in the terminal) so by using it _super_ sparingly it will cut through the noise where appropriate. Try it for the prompt (see the screenshots below for an example)!
+Furthermore, by design, Falcon doesn't include any magenta (replaced with orange in the terminal) so by using it _super_ sparingly it will cut through the noise where appropriate. Try it for the prompt (see the screenshots below for an example)!
 
 ![hero shot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/hero.png)
 
@@ -46,15 +46,17 @@ Coverage:
     * Yaml
     * XML
     * Zsh
-* Terminal emulator (Neovim)
-* [iTerm2](#iterm2)
-* [Kitty](#kitty)
-* [alacritty](#alacritty)
-* [Tmux](#tmux)
-* [exa](#exa)
-* [git](#git)
-* [PrismJS](#prismjs)
-* [Taskwarrior](#taskwarrior)
+  * Terminal emulator (Neovim)
+* Terminals:
+  * [iTerm2](#iterm2)
+  * [Kitty](#kitty)
+  * [alacritty](#alacritty)
+* Tools:
+  * [Tmux](#tmux)
+  * [exa](#exa)
+  * [git](#git)
+  * [PrismJS](#prismjs)
+  * [Taskwarrior](#taskwarrior)
 
 Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). *Kudos!*
 
@@ -127,7 +129,7 @@ To use in alacritty, put the color configuration from `alacritty.yml` into your 
 
 ### Tmux<a name="tmux"></a>
 
-A tmux configuration file is included in the `tmux` directory. It depends on the colours in your terminal being set to the falcon colour scheme (e.g. iTerm2, Kitty or alacritty). To include into your tmux setup put something like the following in your `.tmux.conf`:
+A tmux configuration file is included in the `tmux` directory. It depends on the colours in your terminal being set to the Falcon colour scheme (e.g. iTerm2, Kitty or alacritty). To include into your tmux setup put something like the following in your `.tmux.conf`:
 
 ```
 source-file /path/to/falcon/tmux/falcon.conf
@@ -147,7 +149,7 @@ source /path/to/falcon/exa/EXA_COLORS
 
 ### git<a name="git"></a>
 
-To get the output of your `git log` commands looking _on point_, included is an example `.githelpers` file which is a tweaked version of [Gary Bernhardt's](https://github.com/garybernhardt/dotfiles) but with that falcon flair.
+To get the output of your `git log` commands looking _on point_, included is an example `.githelpers` file which is a tweaked version of [Gary Bernhardt's](https://github.com/garybernhardt/dotfiles) but with that Falcon flair.
 
 One way of using this is by putting the following (thanks again Gary!) in your `.gitconfig`:
 
@@ -186,7 +188,7 @@ Optionally you could additionally put the following in your `.gitconfig`:
 
 [PrismJS home page](https://github.com/PrismJS/prism)
 
-Included in this repo are some PrismJS css and JS files to add in the falcon colour scheme to your website for code syntax highlighting.
+Included in this repo are some PrismJS css and JS files to add in the Falcon colour scheme to your website for code syntax highlighting.
 
 Once you have PrismJS working on your website, simply include these files after the corresponding PrismJS inclusions, e.g.:
 
@@ -258,7 +260,7 @@ Screenshots taken on macOS running iTerm2, tmux and Neovim (where applicable). F
 
 ## Similar default terminal colours
 
-Sometimes you want to use a colour from the main falcon palette in the terminal. Sadly that isn't always easy and so what **_is_** easy, is to use a close match from the ANSI 256 palette.
+Sometimes you want to use a colour from the main Falcon palette in the terminal. Sadly that isn't always easy and so what **_is_** easy, is to use a close match from the ANSI 256 palette.
 
 (Refer to `estilo/palettes/falcon.yml` file for what matches up to what)
 
@@ -288,7 +290,7 @@ Sometimes you want to use a colour from the main falcon palette in the terminal.
 
 * **In NeoVim, the background colour of the active window is lighter that the inactive window**
 
-  The active window will take its colour from the terminal which is meant to be *darker* than the inactive window - check that your terminal colour is the falcon background colour e.g. load the iTerm2 colours that are included.
+  The active window will take its colour from the terminal which is meant to be *darker* than the inactive window - check that your terminal colour is the Falcon background colour e.g. load the iTerm2 colours that are included.
 
 
 * **Can you please support `insert name of other editing program`**
