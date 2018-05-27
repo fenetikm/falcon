@@ -292,7 +292,6 @@ Sometimes you want to use a colour from the main Falcon palette in the terminal.
 
   The active window will take its colour from the terminal which is meant to be *darker* than the inactive window - check that your terminal colour is the Falcon background colour e.g. load the iTerm2 colours that are included.
 
-
 * **Can you please support `insert name of other editing program`**
 
   This project is predominantly based around Vim / Neovim support followed secondarily by terminal support and then lastly by terminal tools. Although I am not opposed to other editors (well, only vehemently!) MRs are welcome :)
