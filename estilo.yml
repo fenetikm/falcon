@@ -6,9 +6,13 @@ url: 'https://github.com/fenetikm/falcon'
 description: 'A dark, easy on the eyes, fiery gray bluish kinda colour scheme'
 colorschemes:
   - name: falcon
-    background: 'dark'
+    background: dark
     palette: falcon
 lightline:
+  - name: falcon
+    palette: falcon
+    style: falcon
+airline:
   - name: falcon
     palette: falcon
     style: falcon

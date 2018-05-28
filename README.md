@@ -12,6 +12,7 @@ Coverage:
 
 * Vim / Neovim
   * Plugins:
+    * airline
     * Ale
     * fugitive
     * fzf
@@ -102,10 +103,17 @@ To enable lightline support it is:
 
 ```viml
 let g:falcon_lightline = 1
-let g:lightline.colorscheme='falcon'
+let g:lightline.colorscheme = 'falcon'
 ```
 
-One day I will get around to Airline support... probably. MRs welcome!
+To enable airline support it is:
+
+```viml
+let g:falcon_airline = 1
+let g:airline_theme = 'falcon'
+```
+
+(Thanks to [boweevil](https://github.com/boweevil) for adding this in!)
 
 ### iTerm2<a name="iterm2"></a>
 
