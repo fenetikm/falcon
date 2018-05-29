@@ -57,7 +57,7 @@ Coverage:
   * [exa](#exa)
   * [git](#git)
   * [PrismJS](#prismjs)
-  * [Taskwarrior](#taskwarrior)
+  * [Taskwarrior](#taskwarrior) and Timewarrior
 
 Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). *Kudos!*
 
@@ -214,7 +214,7 @@ and:
 
 Currently only PHP has some extra love, will add in more as I need them.
 
-### Taskwarrior<a name="taskwarrior"></a>
+### Taskwarrior and timewarrior<a name="taskwarrior"></a>
 
 [Taskwarrior home page](https://taskwarrior.org)
 
@@ -223,6 +223,14 @@ Simply include the `taskwarrior/falcon.theme` file in your `.taskrc` e.g.
 ```
 include ~/Documents/falcon/taskwarrior/falcon.theme
 ```
+
+Also included is a timewarrior theme, simply include it in your `.timewarrior/timewarrior.cfg`:
+
+```
+import /Users/me/Documents/falcon/timewarrior/falcon.theme
+```
+
+**Note** that the full path seems to be required.
 
 ## Palette
 
@@ -265,6 +273,28 @@ include ~/Documents/falcon/taskwarrior/falcon.theme
 Screenshots taken on macOS running iTerm2, tmux and Neovim (where applicable). Font is FiraCode with ligatures enabled. In daily use I use kitty for it's sheer speed but iTerm2 makes perty piccies.
 
 **Note:** Some syntax colour highlighting choices will depend on which syntax highlighting plugins you use. The above was created using the polyglot syntax vim plugin (except for Yaml).
+
+## List of terminal colours by name
+
+In lieu of updating the palette image which I have realised is not super helpful for when you want to know what the default terminal colours are by name, here is a list:
+
+* colour 0: black
+* colour 1: red
+* colour 2: green
+* colour 3: yellow
+* colour 4: blue
+* colour 5: orange
+* colour 6: cyan
+* colour 7: light gray
+
+* colour 8: bright black / bg colour
+* colour 9: bright red
+* colour 10: bright green
+* colour 11: bright yellow
+* colour 12: bright blue / blue gray
+* colour 13: bright orange
+* colour 14: bright cyan
+* colour 15: white
 
 ## Similar default terminal colours
 
