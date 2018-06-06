@@ -224,7 +224,7 @@ Simply include the `taskwarrior/falcon.theme` file in your `.taskrc` e.g.
 include ~/Documents/falcon/taskwarrior/falcon.theme
 ```
 
-Also included is a timewarrior theme, simply include it in your `.timewarrior/timewarrior.cfg`:
+Also included is a timewarrior theme, simply include it in your `.timewarrior/timewarrior.cfg` e.g.
 
 ```
 import /Users/me/Documents/falcon/timewarrior/falcon.theme
