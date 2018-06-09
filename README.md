@@ -283,7 +283,7 @@ In lieu of updating the palette image which I have realised is not super helpful
 * colour 2: green
 * colour 3: yellow
 * colour 4: blue
-* colour 5: orange
+* colour 5: orange (magenta)
 * colour 6: cyan
 * colour 7: light gray
 
@@ -292,7 +292,7 @@ In lieu of updating the palette image which I have realised is not super helpful
 * colour 10: bright green
 * colour 11: bright yellow
 * colour 12: bright blue / blue gray
-* colour 13: bright orange
+* colour 13: bright orange (magenta)
 * colour 14: bright cyan
 * colour 15: white
 
