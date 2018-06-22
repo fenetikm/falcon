@@ -20,6 +20,7 @@ class Solarized(ColorScheme):
 
         elif context.in_browser:
             fg = 7
+            # selected means under cursor
             if context.selected:
                 attr = reverse
                 fg = 15
@@ -75,7 +76,8 @@ class Solarized(ColorScheme):
                     attr |= bold
                 if context.marked:
                     attr |= bold
-                    bg = 237
+                    bg = 3
+                    fg = 8
             if context.badinfo:
                 if attr & reverse:
                     bg = magenta
