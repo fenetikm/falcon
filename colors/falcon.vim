@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/06/18 20:06
+" Last Change: 2018/06/22 14:25
 " ===============================================================
 
 set background=dark
@@ -21,13 +21,14 @@ hi Cursor guifg=NONE ctermfg=NONE guibg=#89898c ctermbg=245 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#89898c ctermfg=245 guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE
 hi Directory guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffAdd guifg=NONE ctermfg=NONE guibg=#476629 ctermbg=238 gui=NONE cterm=NONE
-hi DiffChange guifg=NONE ctermfg=NONE guibg=#665729 ctermbg=58 gui=NONE cterm=NONE
-hi DiffDelete guifg=NONE ctermfg=NONE guibg=#663829 ctermbg=237 gui=NONE cterm=NONE
-hi DiffText guifg=NONE ctermfg=NONE guibg=#476629 ctermbg=238 gui=NONE cterm=NONE
+hi DiffAdd guifg=NONE ctermfg=NONE guibg=#3f542a ctermbg=237 gui=NONE cterm=NONE
+hi DiffChange guifg=NONE ctermfg=NONE guibg=#5d6c82 ctermbg=60 gui=NONE cterm=NONE
+hi DiffDelete guifg=NONE ctermfg=NONE guibg=#591600 ctermbg=52 gui=NONE cterm=NONE
+hi DiffText guifg=NONE ctermfg=NONE guibg=#3f542a ctermbg=237 gui=NONE cterm=NONE
 hi ErrorMsg guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#89898c ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#89898c ctermfg=245 guibg=#252527 ctermbg=235 gui=NONE cterm=NONE
+hi FoldColumn guifg=#89898c ctermfg=245 guibg=#252527 ctermbg=235 gui=NONE cterm=NONE
 hi SignColumn guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#000002 ctermfg=0 guibg=#bfdaff ctermbg=153 gui=bold cterm=bold
 hi LineNr guifg=#646466 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -109,8 +110,8 @@ hi cssFontDescriptor guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE 
 hi cssClassName guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssClassNameDot guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssProp guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi diffAdded guifg=NONE ctermfg=NONE guibg=#476629 ctermbg=238 gui=NONE cterm=NONE
-hi diffRemoved guifg=NONE ctermfg=NONE guibg=#663829 ctermbg=237 gui=NONE cterm=NONE
+hi diffAdded guifg=NONE ctermfg=NONE guibg=#3f542a ctermbg=237 gui=NONE cterm=NONE
+hi diffRemoved guifg=NONE ctermfg=NONE guibg=#591600 ctermbg=52 gui=NONE cterm=NONE
 hi diffFile guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffLine guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi fzf1 guifg=#ffbf00 ctermfg=214 guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE
