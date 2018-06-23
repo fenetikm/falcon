@@ -59,7 +59,7 @@ Coverage:
   * [git](#git)
   * [PrismJS](#prismjs)
   * [Taskwarrior](#taskwarrior) and Timewarrior
-  * [Alfred](#alfred) Alfred
+  * [Alfred](#alfredc)
 
 Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). *Kudos!*
 
@@ -234,9 +234,9 @@ import /Users/me/Documents/falcon/timewarrior/falcon.theme
 
 **Note** that the full path seems to be required.
 
-### Alfred <a name="alfred"></a>
+### Alfred <a name="alfredc"></a>
 
-To give your alfred search bar a coat of Falcon paint, open up the Alfred Preferences pane then double click on the `falcon.alfredappearance` file in the `alfred` directory.
+To give your alfred search bar a coat of Falcon paint, open up the Alfred Preferences pane and then double click on the `falcon.alfredappearance` file in the `alfred` directory.
 
 ## Palette
 
