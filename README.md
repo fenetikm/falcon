@@ -59,6 +59,7 @@ Coverage:
   * [git](#git)
   * [PrismJS](#prismjs)
   * [Taskwarrior](#taskwarrior) and Timewarrior
+  * [Alfred](#alfred) Alfred
 
 Vim colour scheme built with [estilo](https://github.com/jacoborus/estilo). *Kudos!*
 
@@ -233,6 +234,10 @@ import /Users/me/Documents/falcon/timewarrior/falcon.theme
 
 **Note** that the full path seems to be required.
 
+### Alfred <a name="alfred"></a>
+
+To give your alfred search bar a coat of Falcon paint, open up the Alfred Preferences pane then double click on the `falcon.alfredappearance` file in the `alfred` directory.
+
 ## Palette
 
 ![swatches](https://raw.githubusercontent.com/fenetikm/falcon/master/support/swatches.png)
@@ -259,17 +264,21 @@ import /Users/me/Documents/falcon/timewarrior/falcon.theme
 
 ![json snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/json.png)
 
-### twig
+### Twig
 
 ![twig snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/twig.png)
 
-### exa
+### Exa
 
 ![exa snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/exa.png)
 
-### git
+### Git
 
 ![git snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/snaps/gitr.png)
+
+### Alfred
+
+![alfred snapshot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/alfred.jpg)
 
 Screenshots taken on macOS running iTerm2, tmux and Neovim (where applicable). Font is FiraCode with ligatures enabled. In daily use I use kitty for it's sheer speed but iTerm2 makes perty piccies.
 
