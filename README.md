@@ -348,6 +348,10 @@ Sometimes you want to use a colour from the main Falcon palette in the terminal.
 
   Possibly - most of the additional support I have been adding in is for tools that I have discovered and I continue to use. Please let me know!
 
+* **The background colours are messing up with the `ap/vim-css-color` plugin when I have a split or two**
+
+  I also got that problem so I switched to [colorizer](https://github.com/lilydjwg/colorizer) which seems to work fine and dandy.
+
 ## Big Thanks
 
 * Estilo for making colour scheme management sane
