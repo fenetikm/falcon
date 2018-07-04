@@ -20,6 +20,7 @@
 * More support:
   * Mutt
   * TeX
+* The README is too long - split into wiki pages on github
 
 ## Someday
 * L*a*b values
