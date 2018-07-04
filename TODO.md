@@ -8,6 +8,20 @@
   * PHP
   * Python
   * JS
-  * ...
+  * Java
+  * C++
+  * HTML
+  * Haskell
+  * Shell
 * Tweak contrast, use of white vs orange for delimiters
 * Fix exa attributes, too colourful currently
+* Tweak colours back to their humanistic values
+* Update all values across repo
+* More support:
+  * Mutt
+  * TeX
+
+## Someday
+* L*a*b values
+* Light version
+* Setup page under projects on michaelwelford.com

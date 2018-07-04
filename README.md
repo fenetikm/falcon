@@ -8,7 +8,7 @@ Furthermore, by design, Falcon doesn't include any magenta (replaced with orange
 
 ![hero shot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/hero.png)
 
-Coverage:
+## Coverage
 
 * Vim / Neovim
   * Plugins:
@@ -351,6 +351,10 @@ Sometimes you want to use a colour from the main Falcon palette in the terminal.
 * **The background colours are messing up with the `ap/vim-css-color` plugin when I have a split or two**
 
   I also got that problem so I switched to [colorizer](https://github.com/lilydjwg/colorizer) which seems to work fine and dandy.
+
+## Roadmap
+
+Falcon is currently evoloving - to see what is coming up have a look at the [Todo](https://github.com/fenetikm/falcon/blob/master/TODO.md)
 
 ## Big Thanks
 
