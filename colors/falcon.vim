@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/07/03 20:46
+" Last Change: 2018/07/04 14:39
 " ===============================================================
 
 set background=dark
@@ -32,7 +32,7 @@ hi FoldColumn guifg=#89898c ctermfg=245 guibg=#252527 ctermbg=235 gui=NONE cterm
 hi SignColumn guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#000002 ctermfg=0 guibg=#bfdaff ctermbg=153 gui=bold cterm=bold
 hi LineNr guifg=#646466 ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi MatchParen guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=bold cterm=bold
+hi MatchParen guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi NonText guifg=#3e3e40 ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PMenu guifg=#d4d4d9 ctermfg=188 guibg=#3e3e40 ctermbg=237 gui=NONE cterm=NONE
@@ -78,7 +78,7 @@ hi link Typedef Type
 hi Special guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link SpecialChar Special
 hi link Tag Special
-hi link Delimiter Special
+hi Delimiter guifg=#fdfdff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link SpecialComment Special
 hi link Debug Special
 hi Todo guifg=#000002 ctermfg=0 guibg=#ffefbf ctermbg=229 gui=NONE cterm=NONE
@@ -184,7 +184,7 @@ hi jsParen guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsParenCatch jsParen
 hi link jsParenIfElse jsParen
 hi jsonBoolean guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsonKeywordMatch guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link jsonKeywordMatch Delimiter
 hi xmlEqual guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlEndTag guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlTagN guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -232,6 +232,7 @@ hi phpFunctions guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi phpRepeat guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpKeyword guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpType guifg=#fdfdff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link phpParent Delimiter
 hi phpMemberSelector guifg=#afafb2 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpOperator guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpVarSelector guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -252,7 +253,6 @@ hi rubyDefine guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi rubyFunction guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyConstant guifg=#ffefbf ctermfg=229 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubySymbol guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rubySymbolDelimiter guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyArrayDelimiter guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyBlockParameterList guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyCurlyBlockDelimiter guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -271,6 +271,7 @@ hi StartifyPath guifg=#89898c ctermfg=245 guibg=NONE ctermbg=NONE gui=NONE cterm
 hi StartifyHeader guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifyFile guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StartifySection guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi StartifyNumber guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarComment guifg=#3e3e40 ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarKind guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarNestedKind guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -328,10 +329,10 @@ hi VimwikiList guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi VimwikiPre guifg=#afafb2 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiCode guifg=#afafb2 ctermfg=145 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlFlowStringDelimiter guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi yamlBlockCollectionItemStart guifg=#ffbf00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi yamlBlockCollectionItemStart guifg=#ff8000 ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlBlockMappingKey guifg=#8fa3bf ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlFlowMappingKey guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi yamlKeyValueDelimiter guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link yamlKeyValueDelimiter Delimiter
 hi yamlNull guifg=#ff4000 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link yamlBool yamlNull
 hi yamlPlainScalar guifg=#d4d4d9 ctermfg=188 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

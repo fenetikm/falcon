@@ -30,7 +30,7 @@ phpDefine: '' # Define
 phpBackslashSequences: '' # SpecialChar
 phpBackslashDoubleQuote: '' # SpecialChar
 phpBackslashSingleQuote: '' # SpecialChar
-phpParent: '' # Delimiter
+phpParent: '@Delimiter' # Delimiter
 phpBrackets: '' # Delimiter
 phpIdentifierConst: '' # Delimiter
 phpParentError: '' # Error

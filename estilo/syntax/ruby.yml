@@ -44,7 +44,7 @@ rubyInterpolationDelimiter: '' # Delimiter
 rubyNoInterpolation: '' # rubyString
 rubySharpBang: '' # PreProc
 rubyRegexpDelimiter: '' # rubyStringDelimiter
-rubySymbolDelimiter: 'orange' # rubyStringDelimiter
+rubySymbolDelimiter: '' # rubyStringDelimiter
 rubyStringDelimiter: '' # Delimiter
 rubyHeredoc: '' # rubyString
 rubyString: '' # String

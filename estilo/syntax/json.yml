@@ -17,4 +17,4 @@ jsonNoQuotesError: '' # Error
 jsonTripleQuotesError: '' # Error
 jsonQuote: '' # Quote
 jsonNoise: '' # Noise
-jsonKeywordMatch: 'yellow'
+jsonKeywordMatch: '@Delimiter'

@@ -14,14 +14,14 @@ yamlFlowString: '' # yamlString
 yamlFlowStringDelimiter: 'normal_gray' # yamlString
 yamlEscape: '' # SpecialChar
 yamlSingleEscape: '' # SpecialChar
-yamlBlockCollectionItemStart: 'yellow' # Label
+yamlBlockCollectionItemStart: 'orange' # Label
 yamlBlockMappingKey: 'blue_gray' # Identifier
 yamlBlockMappingMerge: '' # Special
 yamlFlowMappingKey: 'normal_gray' # Identifier
 yamlFlowMappingMerge: '' # Special
 yamlMappingKeyStart: '' # Special
 yamlFlowIndicator: '' # Special
-yamlKeyValueDelimiter: 'normal_gray' # Special
+yamlKeyValueDelimiter: '@Delimiter' # Special
 yamlConstant: '' # Constant
 yamlNull: 'red -' # yamlConstant
 yamlBool: '@yamlNull' # yamlConstant

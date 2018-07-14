@@ -18,7 +18,7 @@ FoldColumn: 'mid_gray darker_gray'
 SignColumn: 'blue_gray'
 IncSearch: 'black br_blue b'
 LineNr: 'mid_dark_gray'
-MatchParen: 'br_blue - b'
+MatchParen: 'yellow - b'
 ModeMsg: ''
 MoreMsg: ''
 NonText: 'dark_gray'
@@ -73,7 +73,7 @@ Typedef: '@Type' # Type
 Special: 'orange'
 SpecialChar: '@Special' # Special
 Tag: '@Special' # Special
-Delimiter: '@Special' # Special
+Delimiter: 'white' # Special
 SpecialComment: '@Special' # Special
 Debug: '@Special' # Special
 Underlined: ''
