@@ -4,8 +4,8 @@ Conceal: ''
 Cursor: '- mid_gray'
 CursorIM: ''
 CursorColumn: ''
-CursorLine: '- dark_gray'
-CursorLineNr: 'mid_gray dark_gray'
+CursorLine: '- blue_dark_gray'
+CursorLineNr: 'normal_gray blue_dark_gray'
 Directory: 'blue_gray'
 DiffAdd: '- off_green'
 DiffChange: '- off_blue'
@@ -39,45 +39,45 @@ StatusLineNC: 'mid_gray dark_gray'
 TabLine: 'mid_gray dark_gray'
 TabLineFill: '- darker_gray'
 TabLineSel: 'light_gray -'
-Title: 'br_yellow'
-Visual: 'br_yellow mid_gray'
+Title: 'tan'
+Visual: 'br_yellow blue_mid_gray'
 VisualNOS: ''
 WarningMsg: ''
 WildMenu: 'bg yellow'
 # BASE SYNTAX
 Comment: 'mid_gray - i'
-Constant: 'red -'
+Constant: 'light_gray - b'
 String: 'light_gray' # Constant
 Character: '@String' # Constant
 Boolean: '@Constant' # Constant
 Number: '@String' # Constant
 Float: '@String' # Constant
-Identifier: 'normal_gray - b'
+Identifier: 'blue_gray'
 Function: 'yellow' # Identifier
 Statement: 'blue_gray'
 Conditional: '@Statement' # Statement
 Repeat: '@Statement' # Statement
 Label: '@Statement' # Statement
-Operator: 'yellow' # Statement
-Keyword: 'orange - b' # Statement
+Operator: 'orange' # Statement
+Keyword: 'yellow' # Statement
 Exception: '@Statement' # Statement
-PreProc: 'br_yellow'
+PreProc: 'tan'
 Include: '@PreProc' # PreProc
 Define: '@PreProc' # PreProc
 Macro: '@PreProc' # PreProc
 PreCondit: '@PreProc' # PreProc
-Type: 'white'
+Type: 'light_gray - b'
 StorageClass: '@Type' # Type
 Structure: '@Type' # Type
 Typedef: '@Type' # Type
 Special: 'orange'
 SpecialChar: '@Special' # Special
 Tag: '@Special' # Special
-Delimiter: 'white' # Special
+Delimiter: 'light_gray' # Special
 SpecialComment: '@Special' # Special
 Debug: '@Special' # Special
 Underlined: ''
 Ignore: ''
 Error: ''
-Todo: 'black br_yellow'
+Todo: 'black br_blue'
 QuickFixLine: 'red darker_gray'

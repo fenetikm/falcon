@@ -1,4 +1,4 @@
 diffAdded: '- off_green'
 diffRemoved: '- off_red'
-diffFile: 'br_yellow'
+diffFile: '@Title'
 diffLine: 'yellow'
