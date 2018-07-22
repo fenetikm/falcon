@@ -18,9 +18,9 @@ NERDTreeLinkDir: '' # Macro
 NERDTreeDir: '' # Directory
 NERDTreeUp: '' # Directory
 NERDTreeFile: '' # Normal
-NERDTreeCWD: 'br_yellow' # Statement
-NERDTreeOpenable: 'orange' # Title
-NERDTreeClosable: 'yellow' # Title
+NERDTreeCWD: 'yellow' # Statement
+NERDTreeOpenable: 'tan' # Title
+NERDTreeClosable: 'orange' # Title
 NERDTreeIgnore: '' # ignore
 NERDTreeRO: '' # WarningMsg
 NERDTreeFlags: '' # Number

@@ -49,13 +49,13 @@ Comment: 'mid_gray - i'
 Constant: 'light_gray - b'
 String: 'light_gray' # Constant
 Character: '@String' # Constant
-Boolean: '@Constant' # Constant
+Boolean: 'red' # Constant
 Number: '@String' # Constant
 Float: '@String' # Constant
 Identifier: 'blue_gray'
 Function: 'yellow' # Identifier
 Statement: 'blue_gray'
-Conditional: '@Statement' # Statement
+Conditional: 'yellow' # Statement
 Repeat: '@Statement' # Statement
 Label: '@Statement' # Statement
 Operator: 'orange' # Statement
@@ -76,8 +76,10 @@ Tag: '@Special' # Special
 Delimiter: 'light_gray' # Special
 SpecialComment: '@Special' # Special
 Debug: '@Special' # Special
-Underlined: ''
+Underlined: 'blue_gray - u'
 Ignore: ''
 Error: ''
 Todo: 'black br_blue'
 QuickFixLine: 'red darker_gray'
+Bold: '- - b'
+Italic: '- - i'

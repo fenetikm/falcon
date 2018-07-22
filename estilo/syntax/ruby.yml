@@ -18,7 +18,7 @@ rubyBoolean: '' # Boolean
 rubyException: '' # Exception
 rubyIdentifier: '' # Identifier
 rubyClassVariable: '' # rubyIdentifier
-rubyConstant: 'br_yellow' # Type
+rubyConstant: '@Constant' # Type
 rubyGlobalVariable: '' # rubyIdentifier
 rubyBlockParameter: '' # rubyIdentifier
 rubyInstanceVariable: '' # rubyIdentifier
@@ -59,8 +59,9 @@ rubyRegexp: '' # rubyString
 rubyInvalidVariable: '' # Error
 rubyError: '' # Error
 rubySpaceError: '' # rubyError
-rubyArrayDelimiter: 'orange'
-rubyBlockParameterList: 'orange'
-rubyCurlyBlockDelimiter: 'orange'
+rubyArrayDelimiter: '@Delimiter'
+rubyBlockParameterList: '@Delimiter'
+rubyCurlyBlockDelimiter: '@Delimiter'
 rubyDoBlock: 'yellow'
 rubyLocalVariableOrMethod: 'blue_gray'
+rubyMethodBlock: 'tan'

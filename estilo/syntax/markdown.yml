@@ -1,11 +1,13 @@
-markdownH1: '' # htmlH1
+markdownH1: 'yellow' # htmlH1
 markdownH2: '' # htmlH2
 markdownH3: '' # htmlH3
 markdownH4: '' # htmlH4
 markdownH5: '' # htmlH5
 markdownH6: '' # htmlH6
 markdownHeadingRule: '' # markdownRule
-markdownHeadingDelimiter: '' # Delimiter
+markdownHeadingDelimiter: '@Delimiter' # Delimiter
+markdownItemDelimiter: '@Delimiter'
+markdownInlineDelimiter: 'tan'
 markdownOrderedListMarker: '' # markdownListMarker
 markdownListMarker: '' # htmlTagName
 markdownBlockquote: '' # Comment
@@ -22,22 +24,23 @@ markdownUrlTitleDelimiter: '' # Delimiter
 markdownItalic: '' # htmlItalic
 markdownBold: '' # htmlBold
 markdownBoldItalic: '' # htmlBoldItalic
-markdownCodeDelimiter: '' # Delimiter
+markdownCodeDelimiter: 'yellow' # Delimiter
 markdownEscape: '' # Special
 markdownError: '' # Error
+markdownXmlElement: 'mid_gray'
 
 htmlH1: 'yellow'
-htmlH2: 'br_yellow'
-htmlH3: 'br_yellow'
-htmlH4: 'br_yellow'
-htmlH5: 'br_yellow'
-htmlH6: 'br_yellow'
-mkdLink: 'blue_gray - u'
-mkdURL: 'blue_gray - u'
-mkdInlineURL: '@mkdURL'
+htmlH2: '@Title'
+htmlH3: '@Title'
+htmlH4: '@Title'
+htmlH5: '@Title'
+htmlH6: '@Title'
+mkdLink: '@Underline'
+mkdURL: '@Underline'
+mkdInlineURL: '@Underline'
 mkdBold: '- - b'
 htmlBold: '- - b'
-mkdListItem: 'orange'
+mkdListItem: '@Delimiter'
 htmlItalic: '- - i'
 
 # These are used when running Neovim health checks.

@@ -5,7 +5,7 @@ shCaseBar: '' # shConditional
 shCaseCommandSub: '' # shCommandSub
 shCaseDoubleQuote: '' # shDoubleQuote
 shCaseIn: '' # shConditional
-shQuote: '' # shOperator
+shQuote: '@Delimiter' # shOperator
 shCaseSingleQuote: '' # shSingleQuote
 shCaseStart: '' # shConditional
 shCmdSubRegion: '' # shShellVariables
@@ -85,11 +85,11 @@ shFunctionName: '' # Function
 shNumber: '' # Number
 shOperator: '' # Operator
 shRepeat: '' # Repeat
-shSet: '' # Statement
 shSetList: '' # Identifier
 shShellVariables: '' # PreProc
 shSpecial: '' # Special
-shStatement: '' # Statement
+shStatement: 'normal_gray' # Statement
+shSet: '@shStatement' # Statement
 shString: '' # String
 shTodo: '' # Todo
 shAlias: '' # Identifier
