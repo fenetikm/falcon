@@ -1,4 +1,4 @@
-markdownH1: 'yellow' # htmlH1
+markdownH1: '' # htmlH1
 markdownH2: '' # htmlH2
 markdownH3: '' # htmlH3
 markdownH4: '' # htmlH4
@@ -8,15 +8,16 @@ markdownHeadingRule: '' # markdownRule
 markdownHeadingDelimiter: '@Delimiter' # Delimiter
 markdownItemDelimiter: '@Delimiter'
 markdownInlineDelimiter: 'tan'
-markdownOrderedListMarker: '' # markdownListMarker
-markdownListMarker: '' # htmlTagName
+markdownOrderedListMarker: '@Delimiter' # markdownListMarker
+markdownListMarker: '@Delimiter' # htmlTagName
 markdownBlockquote: '' # Comment
 markdownRule: '' # PreProc
 markdownLinkText: '' # htmlLink
+markdownLinkTextDelimiter: '@Delimiter'
 markdownIdDeclaration: '' # Typedef
 markdownId: '' # Type
 markdownAutomaticLink: '' # markdownUrl
-markdownUrl: '' # Float
+markdownUrl: 'blue_gray - u' # Float
 markdownUrlTitle: '' # String
 markdownIdDelimiter: '' # markdownLinkDelimiter
 markdownUrlDelimiter: '' # htmlTag
@@ -30,14 +31,14 @@ markdownError: '' # Error
 markdownXmlElement: 'mid_gray'
 
 htmlH1: 'yellow'
-htmlH2: '@Title'
-htmlH3: '@Title'
-htmlH4: '@Title'
-htmlH5: '@Title'
-htmlH6: '@Title'
+htmlH2: 'light_gray'
+htmlH3: 'light_gray'
+htmlH4: 'light_gray'
+htmlH5: 'light_gray'
+htmlH6: 'light_gray'
 mkdLink: '@Underline'
-mkdURL: '@Underline'
-mkdInlineURL: '@Underline'
+mkdURL: 'blue_gray - u'
+mkdInlineURL: 'blue_gray - u'
 mkdBold: '- - b'
 htmlBold: '- - b'
 mkdListItem: '@Delimiter'
