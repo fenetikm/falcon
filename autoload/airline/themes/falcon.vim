@@ -4,29 +4,29 @@
 " URL:https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/07/22 14:44
+" Last Change: 2018/07/22 18:44
 " ============================================================
 
 let g:airline#themes#falcon#palette = {}
 
 let s:normal1 = [ "#000004", "#b4b4b9", 0, 249 ]
 let s:normal2 = [ "#b4b4b9", "#3a3a3d", 249, 237 ]
-let s:normal3 = [ "#7c7c84", "#333338", 8, 236 ]
+let s:normal3 = [ "#7c7c84", "#292930", 8, 236 ]
 let g:airline#themes#falcon#palette.normal = airline#themes#generate_color_map(s:normal1, s:normal2, s:normal3)
 
 let s:insert1 = [ "#000004", "#ff3600", 0, 202 ]
 let s:insert2 = [ "#b4b4b9", "#3a3a3d", 249, 237 ]
-let s:insert3 = [ "#b4b4b9", "#333338", 249, 236 ]
+let s:insert3 = [ "#b4b4b9", "#292930", 249, 236 ]
 let g:airline#themes#falcon#palette.insert = airline#themes#generate_color_map(s:insert1, s:insert2, s:insert3)
 
 let s:replace1 = [ "#000004", "#ff761a", 0, 208 ]
 let s:replace2 = [ "#b4b4b9", "#3a3a3d", 249, 237 ]
-let s:replace3 = [ "#b4b4b9", "#333338", 249, 236 ]
+let s:replace3 = [ "#b4b4b9", "#292930", 249, 236 ]
 let g:airline#themes#falcon#palette.replace = airline#themes#generate_color_map(s:replace1, s:replace2, s:replace3)
 
 let s:visual1 = [ "#000004", "#ffc552", 0, 221 ]
 let s:visual2 = [ "#b4b4b9", "#3a3a3d", 249, 237 ]
-let s:visual3 = [ "#b4b4b9", "#333338", 249, 236 ]
+let s:visual3 = [ "#b4b4b9", "#292930", 249, 236 ]
 let g:airline#themes#falcon#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
 
 let s:inactive1 = [ "#7c7c84", "#3a3a3d", 8, 237 ]

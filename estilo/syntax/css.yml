@@ -84,7 +84,7 @@ cssColor: '' # Constant
 cssIdentifier: 'normal_gray' # Function
 cssInclude: 'normal_gray' # Include
 cssIncludeKeyword: 'tan' # atKeyword
-cssImportant: 'orange - b' # Special
+cssImportant: 'red - b' # Special
 cssBraces: '@Delimiter' # Function
 cssBraceError: '' # Error
 cssError: '' # Error
