@@ -8,9 +8,9 @@ VimwikiHeader5: 'light_gray'
 VimwikiHeader6: 'light_gray'
 VimwikiList: '@Delimiter'
 # preformatted block, unfortunately not just the fence but all the code too
-VimwikiPre: 'light_gray'
+VimwikiPre: 'mid_gray'
 # inline
-VimwikiCode: 'light_gray'
+VimwikiCode: 'mid_gray'
 VimwikiCodeChar: 'yellow'
 VimwikiMarkers: 'tan'
 VimwikiBold: '- - b'
