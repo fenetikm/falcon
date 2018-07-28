@@ -5,15 +5,16 @@
   * Check all grays re blueness - done
   * PHP - done
   * statusline - airline check
-  * inactive colour - a touch bluer and brighter
+  * inactive colour - a touch bluer and brighter - done
   * purple use - anywhere else?
-  * fix status line and cursor line, too close
+  * fix status line and cursor line, too close - done
   * other syntax highlighting for different code types = done?
   * terminal colours
   * kitty
+  * tmux
   * other terminals
   * everything else
-  * increase contrast in markdown for code blocks
+  * increase contrast in markdown for code blocks - maybe another gray...
 
 ## Full list
 * Tag current version, create 2.x branch
