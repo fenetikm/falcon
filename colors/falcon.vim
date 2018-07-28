@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/07/28 15:12
+" Last Change: 2018/07/28 15:16
 " ===============================================================
 
 set background=dark
@@ -48,7 +48,7 @@ hi TabLine guifg=#787882 ctermfg=243 guibg=#36363a ctermbg=237 gui=NONE cterm=NO
 hi TabLineFill guifg=NONE ctermfg=NONE guibg=#212127 ctermbg=235 gui=NONE cterm=NONE
 hi TabLineSel guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Title guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Visual guifg=#ffefbf ctermfg=229 guibg=#4f4f59 ctermbg=239 gui=NONE cterm=NONE
+hi Visual guifg=#ffe8c0 ctermfg=223 guibg=#4f4f59 ctermbg=239 gui=NONE cterm=NONE
 hi WildMenu guifg=#020221 ctermfg=0 guibg=#ffc552 ctermbg=221 gui=NONE cterm=NONE
 hi Comment guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -123,7 +123,7 @@ hi diffLine guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi fzf1 guifg=#ffc552 ctermfg=221 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
 hi fzf2 guifg=#ff761a ctermfg=208 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
 hi fzf3 guifg=#ff761a ctermfg=208 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
-hi gitcommitSummary guifg=#dfffbf ctermfg=193 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi gitcommitSummary guifg=#eaffc0 ctermfg=193 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitBranch guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitDiscardedType guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitSelectedType guifg=#718e3f ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
