@@ -79,7 +79,7 @@ Debug: '@Special' # Special
 Underlined: 'blue_gray - u'
 Ignore: ''
 Error: ''
-Todo: 'light_gray purple'
+Todo: 'bg purple'
 QuickFixLine: 'red darker_gray'
 Bold: '- - b'
 Italic: '- - i'

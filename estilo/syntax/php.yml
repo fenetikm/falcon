@@ -53,6 +53,6 @@ phpRelation: '' # Operator
 phpIdentifier: '@Identifier' # Identifier
 phpIdentifierSimply: '' # Identifier
 phpStringDelimiter: 'normal_gray'
-phpSuperglobals: 'lavender -'
+phpSuperglobals: 'lavender - b'
 phpSpecialChar: 'blue_gray - b'
 phpNullValue: 'red'
