@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/08/14 10:21
+" Last Change: 2018/08/14 18:42
 " ===============================================================
 
 set background=dark
@@ -42,6 +42,10 @@ hi PmenuThumb guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi Question guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Search guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=bold,underline cterm=bold,underline
 hi SpecialKey guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi SpellBad guifg=NONE ctermfg=NONE guibg=#3f3a59 ctermbg=237 gui=underline cterm=underline
+hi SpellLocal guifg=NONE ctermfg=NONE guibg=#3f3a59 ctermbg=237 gui=underline cterm=underline
+hi SpellCap guifg=NONE ctermfg=NONE guibg=#3f3a59 ctermbg=237 gui=underline cterm=underline
+hi SpellRare guifg=NONE ctermfg=NONE guibg=#3f3a59 ctermbg=237 gui=underline cterm=underline
 hi StatusLine guifg=#787882 ctermfg=243 guibg=#28282d ctermbg=235 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#787882 ctermfg=243 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
 hi TabLine guifg=#787882 ctermfg=243 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
@@ -216,6 +220,7 @@ hi link markdownListMarker Delimiter
 hi link markdownLinkTextDelimiter Delimiter
 hi markdownUrl guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi markdownCodeDelimiter guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownCode guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownXmlElement guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link mkdLink Underline
 hi mkdURL guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=underline cterm=underline
