@@ -1,6 +1,6 @@
 ![falcon logo](https://raw.githubusercontent.com/fenetikm/falcon/feature/more_colours/support/logo2.png)
 
-A colour scheme for terminals, editors and friends.
+A colour scheme for terminals, vim and friends.
 
 This is **v2.0** - vastly improved, now with more tweak, less cruft.
 
