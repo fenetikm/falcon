@@ -19,7 +19,7 @@ rubyException: '' # Exception
 rubyIdentifier: '' # Identifier
 rubyClassVariable: '' # rubyIdentifier
 rubyConstant: '@Constant' # Type
-rubyGlobalVariable: '' # rubyIdentifier
+rubyGlobalVariable: 'lavender - b' # rubyIdentifier
 rubyBlockParameter: '' # rubyIdentifier
 rubyInstanceVariable: '' # rubyIdentifier
 rubyPredefinedIdentifier: '' # rubyIdentifier

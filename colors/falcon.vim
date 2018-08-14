@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/08/14 18:42
+" Last Change: 2018/08/14 18:57
 " ===============================================================
 
 set background=dark
@@ -156,6 +156,7 @@ hi htmlTitle guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=bold cterm=bo
 hi IndentGuidesOdd guifg=NONE ctermfg=NONE guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
 hi IndentGuidesEven guifg=NONE ctermfg=NONE guibg=#212127 ctermbg=235 gui=NONE cterm=NONE
 hi javaScriptBraces guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptGlobal guifg=#9f97cc ctermfg=140 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi link jsBrackets Delimiter
 hi link jsClassBraces jsBrackets
 hi link jsBraces jsBrackets
@@ -191,7 +192,7 @@ hi jsFuncBlock guifg=#f8f8ff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi jsTry guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsCatch jsTry
 hi jsTryCatchBraces guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsGlobalObjects guifg=#718e3f ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsGlobalObjects guifg=#9f97cc ctermfg=140 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi jsParen guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsParenCatch jsParen
 hi link jsParenIfElse jsParen
@@ -270,6 +271,7 @@ hi pythonDot guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi rubyDefine guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rubyFunction guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link rubyConstant Constant
+hi rubyGlobalVariable guifg=#9f97cc ctermfg=140 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi rubySymbol guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link rubyArrayDelimiter Delimiter
 hi link rubyBlockParameterList Delimiter

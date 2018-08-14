@@ -24,7 +24,7 @@ javaScriptIdentifier: '' # Identifier
 javaScriptLabel: '' # Label
 javaScriptException: '' # Exception
 javaScriptMessage: '' # Keyword
-javaScriptGlobal: '' # Keyword
+javaScriptGlobal: 'lavender - b' # Keyword
 javaScriptMember: '' # Keyword
 javaScriptDeprecated: '' # Exception
 javaScriptReserved: '' # Keyword
@@ -65,7 +65,7 @@ jsFuncBlock: 'white'
 jsTry: 'yellow'
 jsCatch: '@jsTry'
 jsTryCatchBraces: 'orange'
-jsGlobalObjects: 'green'
+jsGlobalObjects: 'lavender - b'
 jsParen: 'blue_gray'
 jsParenCatch: '@jsParen'
 jsParenIfElse: '@jsParen'
