@@ -4,7 +4,7 @@ A colour scheme for terminals, editors and friends.
 
 This is **v2.0** - vastly improved, now with more tweak, less cruft.
 
-![hero shot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/hero.png)
+![hero shot](https://raw.githubusercontent.com/fenetikm/falcon/feature/more_colours/support/hero2.png)
 
 ## Get started
 
