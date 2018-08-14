@@ -5,7 +5,6 @@
 * Update all values across repo
 
 ## @Todo
-* vimdiff colours
 * statusline - airline check
 * everything else:
   * alfred
@@ -30,9 +29,13 @@
   * CSS
   * HTML
 * Automate the screenshot taking
-* The README is too long - split into wiki pages on github
 
 ## Done
+* Update palette images
+* Update hero image
+* New logo
+* The README is too long - split into wiki pages on github
+* vimdiff colours - done
 * Check all grays re blueness - done
 * kitty - done
 * terminal colours - done
