@@ -25,7 +25,7 @@ markdownUrlTitleDelimiter: '' # Delimiter
 markdownItalic: '' # htmlItalic
 markdownBold: '' # htmlBold
 markdownBoldItalic: '' # htmlBoldItalic
-markdownCodeDelimiter: 'yellow' # Delimiter
+markdownCodeDelimiter: 'orange' # Delimiter
 markdownCode: 'mid_gray'
 markdownEscape: '' # Special
 markdownError: '' # Error

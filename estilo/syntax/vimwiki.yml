@@ -11,7 +11,7 @@ VimwikiList: '@Delimiter'
 VimwikiPre: 'mid_gray'
 # inline
 VimwikiCode: 'mid_gray'
-VimwikiCodeChar: 'yellow'
+VimwikiCodeChar: 'orange'
 VimwikiMarkers: 'tan'
 VimwikiBold: '- - b'
 VimwikiItalic: '- - i'
