@@ -41,7 +41,7 @@ if has ("nvim")
   let g:terminal_color_9 = '#ff8e78'
   let g:terminal_color_10 = '#b1bf75'
   let g:terminal_color_11 = '#ffd392'
-  let g:terminal_color_12 = '#9f97cc'
+  let g:terminal_color_12 = '#99a4bc'
   let g:terminal_color_13 = '#ffb07b'
   let g:terminal_color_14 = '#85ccbf'
   let g:terminal_color_15 = '#f8f8ff'
