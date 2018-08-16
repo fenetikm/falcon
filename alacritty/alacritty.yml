@@ -3,35 +3,35 @@
 colors:
   # Default colors
   primary:
-    background: '0x0b0b1a'
-    foreground: '0xd4d4d9'
+    background: '0x020221'
+    foreground: '0xb4b4b9'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: '0x282828'
-    cursor: '0xffefbf'
+    text: '0x020221'
+    cursor: '0xffe8c0'
 
   # Normal colors
   normal:
-    black:   '0x0b0b1a'
-    red:     '0xff794c'
-    green:   '0x85a663'
-    yellow:  '0xffd966'
-    blue:    '0x8fa3bf'
-    magenta: '0xffac59'
-    cyan:    '0x85ccc0'
-    white:   '0xfdfdff'
+    black:   '0x000004'
+    red:     '0xff3600'
+    green:   '0x718e3f'
+    yellow:  '0xffc552'
+    blue:    '0x635196'
+    magenta: '0xff761a'
+    cyan:    '0x34bfa4'
+    white:   '0xb4b4b9'
 
   # Bright colors
   bright:
-    black:   '0x000002'
-    red:     '0xff4000'
-    green:   '0x598033'
-    yellow:  '0xffbf00'
-    blue:    '0x306cbf'
-    magenta: '0xff8000'
-    cyan:    '0x30bfa7'
-    white:   '0xd4d4d9'
+    black:   '0x020221'
+    red:     '0xff8e78'
+    green:   '0xb1bf75'
+    yellow:  '0xffd392'
+    blue:    '0x99a4bc'
+    magenta: '0xffb07b'
+    cyan:    '0x8bccbf'
+    white:   '0xf8f8ff'
 
 # Use custom cursor colors. If true, display the cursor in the cursor.foreground
 # and cursor.background colors, otherwise invert the colors of the cursor.
