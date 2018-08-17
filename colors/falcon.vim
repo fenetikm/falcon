@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/08/17 08:27
+" Last Change: 2018/08/17 11:19
 " ===============================================================
 
 set background=dark
@@ -225,7 +225,7 @@ hi link markdownListMarker Delimiter
 hi link markdownLinkTextDelimiter Delimiter
 hi markdownUrl guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi markdownCodeDelimiter guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownCode guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownCode guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownXmlElement guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link mkdLink Underline
 hi mkdURL guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -356,8 +356,8 @@ hi VimwikiHeader4 guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cte
 hi VimwikiHeader5 guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiHeader6 guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link VimwikiList Delimiter
-hi VimwikiPre guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VimwikiCode guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi VimwikiPre guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi VimwikiCode guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiCodeChar guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiMarkers guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=bold

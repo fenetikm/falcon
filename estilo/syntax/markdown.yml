@@ -26,7 +26,7 @@ markdownItalic: '' # htmlItalic
 markdownBold: '' # htmlBold
 markdownBoldItalic: '' # htmlBoldItalic
 markdownCodeDelimiter: 'orange' # Delimiter
-markdownCode: 'mid_gray'
+markdownCode: 'mid_gray_alt'
 markdownEscape: '' # Special
 markdownError: '' # Error
 markdownXmlElement: 'mid_gray'

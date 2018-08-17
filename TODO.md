@@ -6,12 +6,6 @@
 
 ## @Todo
 * statusline - airline check
-* everything else:
-  * alfred
-  * alacritty
-  * prism
-  * taskwarrior
-  * timewarrior
 * increase contrast in markdown for code blocks - maybe another gray...
 
 ## Full list
@@ -31,6 +25,12 @@
 * Automate the screenshot taking
 
 ## Done
+* everything else:
+  * alfred
+  * alacritty
+  * prism
+  * taskwarrior
+  * timewarrior
 * Update palette images
 * Update hero image
 * New logo
