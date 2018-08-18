@@ -2,7 +2,7 @@
 
 ## Before launch 2.x
 * Update screenshots
-* Update all values across repo
+* Tag it and bag it
 
 ## @Todo
 * statusline - airline check
@@ -25,6 +25,7 @@
 * Automate the screenshot taking
 
 ## Done
+* Update all values across repo - done?
 * everything else:
   * alfred
   * alacritty
