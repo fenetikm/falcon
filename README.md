@@ -4,7 +4,7 @@ A colour scheme for terminals, vim and friends.
 
 This is **v2.0** - vastly improved, with more tweak, less cruft.
 
-The aim of Falcon is a colour scheme that is a work horse that will (hopefully) stand the test of time - with fewer gimmicks, a more restrained use of colour but just enough so that everything can be distinguished, makes some kind of semantic sense with a little bit of delight thrown in..
+Falcon is a work horse of a colour scheme that will (hopefully) stand the test of time - with fewer gimmicks, a more restrained colour palette but with a splash just enough to distinguish everything semantically as well a touch of delight thrown in.
 
 ![hero shot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/hero2.png)
 
@@ -14,6 +14,8 @@ Head to [the wiki](https://github.com/fenetikm/falcon/wiki/Installation) to get 
 FAQ](https://github.com/fenetikm/falcon/wiki/Troubleshooting-&-FAQ).
 
 ## Contact
+
+If you want to get in touch please [drop me a line](https://michaelwelford.com/contact).
 
 ## Big Thanks
 
