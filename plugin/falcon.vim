@@ -29,9 +29,9 @@ if !exists('g:falcon_background')
   let g:falcon_background = 1
 endif
 
-if has("gui_running") || g:falcon_background == 1
-  hi Normal guifg=#b4b4b9 ctermfg=249 guibg=#020221 ctermbg=233 gui=NONE cterm=NONE
-  hi NonText guifg=#36363a ctermfg=237 guibg=#020221 ctermbg=233 gui=NONE cterm=NONE
+if !has("gui_running") || g:falcon_background == 0
+  hi NonText guifg=#36363a ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  hi Normal guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 endif
 
 " NeoVim terminal colors
