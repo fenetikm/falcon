@@ -10,7 +10,7 @@ Falcon is a work horse of a colour scheme that will (hopefully) stand the test o
 
 ## Get started
 
-Head to [the wiki](https://github.com/fenetikm/falcon/wiki/Installation) to get going. Also have a look through what plugins and programs are [covered](https://github.com/fenetikm/falcon/wiki/Coverage), browse the [screenshot gallery](https://github.com/fenetikm/falcon/wiki/Screenshots), the [palette](https://github.com/fenetikm/falcon/wiki/Palette) and if you need a little bit of help there is also the [troubleshooting section and
+Head to [the wiki installation page](https://github.com/fenetikm/falcon/wiki/Installation) to get going. Also have a look through what plugins and programs are [covered](https://github.com/fenetikm/falcon/wiki/Coverage), browse the [screenshot gallery](https://github.com/fenetikm/falcon/wiki/Screenshots), the [palette](https://github.com/fenetikm/falcon/wiki/Palette) and if you need a little bit of help there is also the [troubleshooting section and
 FAQ](https://github.com/fenetikm/falcon/wiki/Troubleshooting-&-FAQ).
 
 ## Contact
