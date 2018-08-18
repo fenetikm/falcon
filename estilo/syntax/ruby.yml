@@ -1,5 +1,7 @@
-rubyClass: '' # rubyDefine
-rubyModule: '' # rubyDefine
+rubyClass: 'light_gray' # rubyDefine
+rubyClassName: '@Normal'
+rubyModule: 'light_gray' # rubyDefine
+rubyModuleName: '@Normal'
 rubyMethodExceptional: '' # rubyDefine
 rubyDefine: 'yellow' # Define
 rubyFunction: 'normal_gray' # Function
@@ -32,7 +34,7 @@ rubyBeginEnd: '' # Statement
 rubyAccess: '' # Statement
 rubyAttribute: '' # Statement
 rubyEval: '' # Statement
-rubyPseudoVariable: '' # Constant
+rubyPseudoVariable: 'lavender' # Constant
 rubyComment: '' # Comment
 rubyData: '' # Comment
 rubyDataDirective: '' # Delimiter
