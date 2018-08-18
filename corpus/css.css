@@ -1,0 +1,58 @@
+/* A comment. */
+@font-face {
+  font-family: 'Fira Code';
+  src: url('eot/FiraCode-Bold.eot');
+  src: url('eot/FiraCode-Bold.eot') format('embedded-opentype'),
+    url('woff2/FiraCode-Bold.woff2') format('woff2'),
+    url('woff/FiraCode-Bold.woff') format('woff'),
+    url('ttf/FiraCode-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(11px + 9 * ((100vw - 320px) / 680));
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 21px;
+  }
+}
+
+body {
+  font-family: "Fira Code", monospace;
+  background: #000002;
+  color: #d4d4d9;
+  font-feature-settings: "calt" 1;  /* Enable ligatures for IE 10+, Edge */
+  text-rendering: optimizeLegibility; /* Force ligatures for Webkit, Blink, Gecko */
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#canvas {
+  display: block;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+code, pre {
+  font-family: "Fira Code", monospace;
+  background: transparent;
+}
+
+.blah #thing:nth-child(1) {
+  display: inline;
+}
