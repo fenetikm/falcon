@@ -13,6 +13,8 @@ The aim of Falcon is a colour scheme that is a work horse that will (hopefully) 
 Head to [the wiki](https://github.com/fenetikm/falcon/wiki/Installation) to get going. Also have a look through what plugins and programs are [covered](https://github.com/fenetikm/falcon/wiki/Coverage), browse the [screenshot gallery](https://github.com/fenetikm/falcon/wiki/Screenshots), the [palette](https://github.com/fenetikm/falcon/wiki/Palette) and if you need a little bit of help there is also the [troubleshooting section and
 FAQ](https://github.com/fenetikm/falcon/wiki/Troubleshooting-&-FAQ).
 
+## Contact
+
 ## Big Thanks
 
 * Built with [estilo](https://github.com/jacoborus/estilo), gracias!
