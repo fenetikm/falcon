@@ -25,6 +25,7 @@
 * Automate the screenshot taking
 
 ## Done
+* Option to force background colour / don't do
 * Update all values across repo - done?
 * everything else:
   * alfred
@@ -58,11 +59,10 @@
 * Fix exa attributes, too colourful currently - done
 
 ## Someday
-* Option to force background colour / don't do
 * L*a*b values
 * Light version? probably not though. Maybe some contrast options.
 * More support:
   * Mutt
   * TeX
   * highlight: https://gitlab.com/saalen/highlight
-* Setup page under projects on michaelwelford.com
+* Setup page under projects on michaelwelford.com, point to blog posts about it.
