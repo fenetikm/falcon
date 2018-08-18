@@ -1,7 +1,7 @@
 TagbarComment: 'dark_gray -'
 TagbarKind: 'blue_gray -'
 TagbarNestedKind: 'blue_gray -'
-TagbarScope: 'br_yellow -'
+TagbarScope: 'tan'
 TagbarType: 'light_gray -'
 TagbarSignature: 'normal_gray -'
 TagbarPseudoID: 'normal_gray -'

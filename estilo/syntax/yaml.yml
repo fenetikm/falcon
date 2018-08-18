@@ -20,7 +20,7 @@ yamlBlockMappingMerge: '' # Special
 yamlFlowMappingKey: 'normal_gray' # Identifier
 yamlFlowMappingMerge: '' # Special
 yamlMappingKeyStart: '' # Special
-yamlFlowIndicator: '' # Special
+yamlFlowIndicator: '@Delimiter' # Special
 yamlKeyValueDelimiter: '@Delimiter' # Special
 yamlConstant: '' # Constant
 yamlNull: 'red -' # yamlConstant

@@ -5,16 +5,19 @@ markdownH4: '' # htmlH4
 markdownH5: '' # htmlH5
 markdownH6: '' # htmlH6
 markdownHeadingRule: '' # markdownRule
-markdownHeadingDelimiter: '' # Delimiter
-markdownOrderedListMarker: '' # markdownListMarker
-markdownListMarker: '' # htmlTagName
+markdownHeadingDelimiter: '@Delimiter' # Delimiter
+markdownItemDelimiter: '@Delimiter'
+markdownInlineDelimiter: 'tan'
+markdownOrderedListMarker: '@Delimiter' # markdownListMarker
+markdownListMarker: '@Delimiter' # htmlTagName
 markdownBlockquote: '' # Comment
 markdownRule: '' # PreProc
 markdownLinkText: '' # htmlLink
+markdownLinkTextDelimiter: '@Delimiter'
 markdownIdDeclaration: '' # Typedef
 markdownId: '' # Type
 markdownAutomaticLink: '' # markdownUrl
-markdownUrl: '' # Float
+markdownUrl: 'blue_gray - u' # Float
 markdownUrlTitle: '' # String
 markdownIdDelimiter: '' # markdownLinkDelimiter
 markdownUrlDelimiter: '' # htmlTag
@@ -22,22 +25,24 @@ markdownUrlTitleDelimiter: '' # Delimiter
 markdownItalic: '' # htmlItalic
 markdownBold: '' # htmlBold
 markdownBoldItalic: '' # htmlBoldItalic
-markdownCodeDelimiter: '' # Delimiter
+markdownCodeDelimiter: 'orange' # Delimiter
+markdownCode: 'mid_gray_alt'
 markdownEscape: '' # Special
 markdownError: '' # Error
+markdownXmlElement: 'mid_gray'
 
 htmlH1: 'yellow'
-htmlH2: 'br_yellow'
-htmlH3: 'br_yellow'
-htmlH4: 'br_yellow'
-htmlH5: 'br_yellow'
-htmlH6: 'br_yellow'
-mkdLink: 'blue_gray - u'
+htmlH2: 'light_gray'
+htmlH3: 'light_gray'
+htmlH4: 'light_gray'
+htmlH5: 'light_gray'
+htmlH6: 'light_gray'
+mkdLink: '@Underline'
 mkdURL: 'blue_gray - u'
-mkdInlineURL: '@mkdURL'
+mkdInlineURL: 'blue_gray - u'
 mkdBold: '- - b'
 htmlBold: '- - b'
-mkdListItem: 'orange'
+mkdListItem: '@Delimiter'
 htmlItalic: '- - i'
 
 # These are used when running Neovim health checks.

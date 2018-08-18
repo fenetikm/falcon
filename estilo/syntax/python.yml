@@ -19,6 +19,6 @@ pythonExceptions: '' # Structure
 pythonSpaceError: '' # Error
 pythonDoctest: '' # Special
 pythonDoctestValue: '' # Define
-pythonExClass: 'br_yellow'
+pythonExClass: 'tan'
 pythonBuiltinObj: 'yellow'
 pythonDot: 'orange'

@@ -1,68 +1,71 @@
 .token.function {
-  color: #d4d4d9;
+  color: #b4b4b9;
 }
 
 .token.brackets {
-  color: #ff8000;
+  color: #f8f8ff;
 }
 
 .token.punctuation {
-  color: #d4d4d9;
+  color: #f8f8ff;
 }
 
-.token.variable, .token.this {
-  color: #8fa3bf;
+.token.variable, .token.function-variable, .token.this, .token.key, .token.builtin {
+  color: #99a4bc;
 }
 
 .token.variable .dollar {
-  color: #d4d4d9;
+  color: #b4b4b9;
 }
 
 .token.string {
-  color: #afafb2;
+  color: #dfdfe5;
 }
 
 .token.comment {
-  color: #89898c;
+  color: #787882;
   font-style: italic;
 }
 
 .token.comment .doc-block {
-  color: #ffefbf;
+  color: #ddcfbf;
 }
 
 .token.scope {
-  color: #d4d4d9;
+  color: #b4b4b9;
   font-weight: 700;
 }
 
 .token.class-name {
-  color: #d4d4d9;
+  color: #b4b4b9;
 }
 
 .token.delimiter.important {
-  color: #ff8000;
+  color: #dfdfe5;
   font-weight: normal;
 }
 
 .token.keyword.keyword-protected, .token.keyword.keyword-public, .token.keyword.keyword-private, .token.keyword.keyword-parent, .token.keyword.keyword-array, .token.keyword.keyword-NULL, .token.keyword.keyword-use, .token.keyword.keyword-namespace {
-  color: #ffefbf;
+  color: #ddcfbf;
   font-weight: normal;
 }
 
-.token.php-boolean {
-  color: #ff4000;
+.token.boolean, .token.php-boolean, .token.number {
+  color: #ff3600;
 }
 
 .token.php-functions {
-  color: #ffefbf;
+  color: #ddcfbf;
 }
 
 .token.property {
-  color: #d4d4d9;
+  color: #b4b4b9;
 }
 
-.token.keyword, .token.operator {
-  color: #ffbf00;
+.token.operator {
+  color: #ff761a;
 }
 
+.token.keyword {
+  color: #ffc552;
+}

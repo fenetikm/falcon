@@ -6,11 +6,11 @@ helpStar: '' # Ignore
 helpHyperTextEntry: '' # String
 helpHeadline: 'yellow' # Statement
 helpHeader: '' # PreProc
-helpSectionDelim: 'br_yellow' # PreProc
+helpSectionDelim: 'tan' # PreProc
 helpVim: '' # Identifier
 helpCommand: '' # Comment
 helpExample: '' # Comment
-helpOption: 'br_yellow' # Type
+helpOption: 'tan' # Type
 helpSpecial: '' # Special
 helpNote: '' # Todo
 helpComment: '' # Comment

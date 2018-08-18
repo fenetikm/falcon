@@ -4,19 +4,19 @@ Conceal: ''
 Cursor: '- mid_gray'
 CursorIM: ''
 CursorColumn: ''
-CursorLine: '- dark_gray'
-CursorLineNr: 'mid_gray dark_gray'
+CursorLine: '- blue_dark_gray'
+CursorLineNr: 'normal_gray blue_dark_gray'
 Directory: 'blue_gray'
-DiffAdd: '- off_green'
-DiffChange: '- off_blue'
-DiffDelete: '- off_red'
-DiffText: '- off_green'
+DiffAdd: 'off_green -'
+DiffChange: 'off_blue -'
+DiffDelete: 'off_red -'
+DiffText: 'off_green -'
 ErrorMsg: 'red -'
 VertSplit: 'mid_gray -'
 Folded: 'mid_gray darker_gray'
 FoldColumn: 'mid_gray darker_gray'
 SignColumn: 'blue_gray'
-IncSearch: 'black br_blue b'
+IncSearch: 'bg br_blue b'
 LineNr: 'mid_dark_gray'
 MatchParen: 'yellow - b'
 ModeMsg: ''
@@ -29,55 +29,57 @@ PmenuSbar: 'normal_gray'
 PmenuThumb: 'light_gray'
 Question: 'light_gray'
 Search: 'br_blue - bu'
-SpecialKey: 'neutral_gray'
-SpellBad: ''
-SpellLocal: ''
-SpellCap: ''
-SpellRare: ''
-StatusLine: 'mid_gray status_gray'
+SpecialKey: 'mid_gray'
+SpellBad: '- purple_dark_gray u'
+SpellLocal: '- purple_dark_gray u'
+SpellCap: '- purple_dark_gray u'
+SpellRare: '- purple_dark_gray u'
+StatusLine: 'mid_gray status'
 StatusLineNC: 'mid_gray dark_gray'
 TabLine: 'mid_gray dark_gray'
 TabLineFill: '- darker_gray'
 TabLineSel: 'light_gray -'
-Title: 'br_yellow'
-Visual: 'br_yellow mid_gray'
+Title: 'tan'
+Visual: 'dark_gray tan'
 VisualNOS: ''
 WarningMsg: ''
 WildMenu: 'bg yellow'
 # BASE SYNTAX
 Comment: 'mid_gray - i'
-Constant: 'red -'
+Constant: 'light_gray - b'
 String: 'light_gray' # Constant
 Character: '@String' # Constant
-Boolean: '@Constant' # Constant
+Boolean: 'red' # Constant
 Number: '@String' # Constant
 Float: '@String' # Constant
-Identifier: 'normal_gray - b'
+Identifier: 'blue_gray'
 Function: 'yellow' # Identifier
 Statement: 'blue_gray'
-Conditional: '@Statement' # Statement
+Conditional: 'yellow' # Statement
 Repeat: '@Statement' # Statement
 Label: '@Statement' # Statement
-Operator: 'yellow' # Statement
-Keyword: 'orange - b' # Statement
+Operator: 'orange' # Statement
+Keyword: 'yellow' # Statement
 Exception: '@Statement' # Statement
-PreProc: 'br_yellow'
+PreProc: 'tan'
 Include: '@PreProc' # PreProc
 Define: '@PreProc' # PreProc
 Macro: '@PreProc' # PreProc
 PreCondit: '@PreProc' # PreProc
-Type: 'white'
+Type: 'light_gray - b'
 StorageClass: '@Type' # Type
 Structure: '@Type' # Type
 Typedef: '@Type' # Type
 Special: 'orange'
 SpecialChar: '@Special' # Special
 Tag: '@Special' # Special
-Delimiter: 'white' # Special
+Delimiter: 'light_gray' # Special
 SpecialComment: '@Special' # Special
 Debug: '@Special' # Special
-Underlined: ''
+Underlined: 'blue_gray - u'
 Ignore: ''
 Error: ''
-Todo: 'black br_yellow'
+Todo: 'bg purple'
 QuickFixLine: 'red darker_gray'
+Bold: '- - b'
+Italic: '- - i'

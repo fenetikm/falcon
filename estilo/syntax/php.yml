@@ -2,7 +2,7 @@ phpConstant: '' # Constant
 phpCoreConstant: '' # Constant
 phpComment: '' # Comment
 phpCommentTitle: 'light_gray - i'
-phpDocTags: 'br_yellow - i' # PreProc
+phpDocTags: 'tan - i' # PreProc
 phpDocCustomTags: 'br_blue' # Type
 phpException: '' # Exception
 phpBoolean: '' # Boolean
@@ -17,14 +17,14 @@ phpBacktick: '' # String
 phpNumber: 'light_gray' # Number
 phpFloat: '@phpNumber' # Float
 phpMethod: 'normal_gray' # Function
-phpFunctions: 'br_yellow' # Function
+phpFunctions: 'tan' # Function
 phpBaselib: '' # Function
 phpRepeat: 'yellow' # Repeat
 phpConditional: '' # Conditional
 phpLabel: '' # Label
 phpStatement: '' # Statement
-phpKeyword: 'yellow' # Statement
-phpType: 'white' # Type
+phpKeyword: '@Keyword' # Statement
+phpType: '@Type' # Type
 phpInclude: '' # Include
 phpDefine: '' # Define
 phpBackslashSequences: '' # SpecialChar
@@ -47,11 +47,12 @@ phpDocTodo: '' # Todo
 phpMemberSelector: 'light_gray' # Structure
 phpIntVar: '' # Identifier
 phpEnvVar: '' # Identifier
-phpOperator: 'orange' # Operator
-phpVarSelector: 'normal_gray' # Operator
+phpOperator: '@Operator' # Operator
+phpVarSelector: 'light_gray' # Operator
 phpRelation: '' # Operator
-phpIdentifier: 'blue_gray' # Identifier
+phpIdentifier: '@Identifier' # Identifier
 phpIdentifierSimply: '' # Identifier
 phpStringDelimiter: 'normal_gray'
-phpSuperglobals: 'green'
-phpSpecialChar: 'green'
+phpSuperglobals: 'lavender - b'
+phpSpecialChar: 'blue_gray - b'
+phpNullValue: 'red'

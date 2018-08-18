@@ -24,13 +24,13 @@ javaScriptIdentifier: '' # Identifier
 javaScriptLabel: '' # Label
 javaScriptException: '' # Exception
 javaScriptMessage: '' # Keyword
-javaScriptGlobal: '' # Keyword
+javaScriptGlobal: 'lavender - b' # Keyword
 javaScriptMember: '' # Keyword
 javaScriptDeprecated: '' # Exception
 javaScriptReserved: '' # Keyword
 javaScriptDebug: '' # Debug
 javaScriptConstant: '' # Label
-jsBrackets: 'orange'
+jsBrackets: '@Delimiter'
 jsClassBraces: '@jsBrackets'
 jsBraces: '@jsBrackets'
 jsObjectBraces: '@jsBrackets'
@@ -41,7 +41,7 @@ jsFuncParens: '@jsBrackets'
 jsIfElseBraces: '@jsBrackets'
 jsFuncArgs: 'blue_gray'
 jsExtendsKeyword: 'yellow'
-jsArrowFunction: 'yellow'
+jsArrowFunction: '@Operator'
 jsFunction: 'yellow'
 jsReturn: 'yellow'
 jsClassDefinition: 'normal_gray'
@@ -50,14 +50,14 @@ jsClassKeyword: 'yellow'
 jsClassFuncName: 'normal_gray'
 jsFuncName: 'normal_gray'
 jsNull: 'red'
-jsStorageClass: 'br_yellow'
-jsObjectSeparator: 'yellow'
+jsStorageClass: '@StorageClass'
+jsObjectSeparator: 'normal_gray'
 jsObjectValue: 'blue_gray'
 jsExportDefault: 'blue_gray'
 jsRegexpCharClass: 'orange'
 jsTemplateBraces: 'orange'
 jsThis: 'blue_gray - b'
-jsFuncCall: 'normal_gray'
+jsFuncCall: 'tan'
 jsObjectProp: 'normal_gray'
 jsConditional: 'yellow'
 jsVariableDef: 'blue_gray'
@@ -65,7 +65,7 @@ jsFuncBlock: 'white'
 jsTry: 'yellow'
 jsCatch: '@jsTry'
 jsTryCatchBraces: 'orange'
-jsGlobalObjects: 'green'
+jsGlobalObjects: 'lavender - b'
 jsParen: 'blue_gray'
 jsParenCatch: '@jsParen'
 jsParenIfElse: '@jsParen'
