@@ -112,7 +112,7 @@ cssUnicodeRange: '' # Constant
 cssClassName: 'normal_gray' # Function
 cssClassNameDot: 'yellow' # Function
 cssProp: 'normal_gray' # StorageClass
-cssAttr: '' # Constant
+cssAttr: 'light_gray' # Constant
 cssUnitDecorators: '' # Number
 cssNoise: 'light_gray' # Noise
 atKeyword: '' # PreProc

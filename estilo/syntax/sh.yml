@@ -1,7 +1,7 @@
 shArithRegion: '' # shShellVariables
 shAtExpr: '' # shSetList
 shBeginHere: '' # shRedir
-shCaseBar: '' # shConditional
+shCaseBar: '@Operator' # shConditional
 shCaseCommandSub: '' # shCommandSub
 shCaseDoubleQuote: '' # shDoubleQuote
 shCaseIn: '' # shConditional
@@ -74,7 +74,7 @@ shTestError: '' # Error if !exists("g:sh_no_error")
 shDTestError: '' # Error if exists("b:is_kornshell")
 shArithmetic: '' # Special
 shCharClass: '' # Identifier
-shSnglCase: '' # Statement
+shSnglCase: '@Delimiter' # Statement
 shCommandSub: '' # Special
 shComment: '' # Comment
 shConditional: '' # Conditional
