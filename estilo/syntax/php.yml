@@ -1,7 +1,7 @@
 phpConstant: '' # Constant
 phpCoreConstant: '' # Constant
 phpComment: '' # Comment
-phpCommentTitle: 'light_gray - i'
+phpCommentTitle: 'mid_gray_alt - i'
 phpDocTags: 'tan - i' # PreProc
 phpDocCustomTags: 'br_blue' # Type
 phpException: '' # Exception

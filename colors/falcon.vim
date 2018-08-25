@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/08/19 17:27
+" Last Change: 2018/08/25 11:41
 " ===============================================================
 
 set background=dark
@@ -244,7 +244,7 @@ hi NERDTreeOpenable guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE c
 hi NERDTreeClosable guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeGitStatusDirDirty guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi netrwClassify guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi phpCommentTitle guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi phpCommentTitle guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi phpDocTags guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi phpDocCustomTags guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpStorageClass guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
