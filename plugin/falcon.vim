@@ -4,9 +4,9 @@ if exists('g:loaded_falcon')
 endif
 let g:loaded_falcon=1
 
-" required as colors will come from terminal without
+" Required as colors will come from terminal without
 let g:fzf_colors=
-\ { 'fg':      ['fg', 'Comment'],
+  \ { 'fg':      ['fg', 'Comment'],
   \ 'bg':      ['bg', 'Normal'],
   \ 'hl':      ['fg', 'Normal'],
   \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
@@ -25,6 +25,7 @@ function s:SetColors()
   if !exists('g:falcon_inactive')
     let g:falcon_inactive=0
   endif
+
   if exists('+winhighlight') && g:falcon_inactive == 1
     hi ActiveWindow guibg=NONE | hi InactiveWindow guibg=#151521
     set winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
