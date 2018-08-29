@@ -11,7 +11,7 @@
 ## Full list
 * Tag current version, create 2.x branch
 * Add in some lean prompt stuff, fix up brackets to be delimiter colour etc.
-* Fill out corpus:
+* Fill out corpus (https://rosettacode.org/wiki/Rosetta_Code, https://rosettacode.org/wiki/Sorting_algorithms/Quicksort)
   * PHP
   * Python
   * JS
