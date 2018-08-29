@@ -40,7 +40,7 @@ ANSI_WHITE_BOLD='\033[0;37;1m'
 ANSI_RESET='\033[0m'
 
 BLUE_GRAY='\033[0;38;5;12m'
-BR_YELLOW='\033[0;38;5;230m'
+BR_YELLOW='\033[0;38;5;3m'
 
 show_git_head() {
     pretty_git_log -1
