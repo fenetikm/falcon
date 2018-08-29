@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/08/25 15:55
+" Last Change: 2018/08/29 18:57
 " ===============================================================
 
 set background=dark
@@ -86,7 +86,7 @@ hi Delimiter guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi link SpecialComment Special
 hi link Debug Special
 hi Underlined guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi Todo guifg=#020221 ctermfg=0 guibg=#635196 ctermbg=60 gui=NONE cterm=NONE
+hi Todo guifg=#020221 ctermfg=0 guibg=#ff3600 ctermbg=202 gui=italic cterm=italic
 hi QuickFixLine guifg=#ff3600 ctermfg=202 guibg=#212127 ctermbg=235 gui=NONE cterm=NONE
 hi Bold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Italic guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=italic cterm=italic
