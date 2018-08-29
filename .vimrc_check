@@ -1,0 +1,16 @@
+set nocompatible " disable compatibility with vi
+syntax enable "enable syntax highlighting
+
+" Assumes vim-plug is installed.
+call plug#begin()
+Plug 'fenetikm/falcon'
+call plug#end()
+
+"enable 24bit support.
+set termguicolors
+
+" enables the active / inactive functionality.
+let g:falcon_background = 0
+let g:falcon_inactive = 1
+
+colorscheme falcon
