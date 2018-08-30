@@ -1,34 +1,73 @@
-#include "algostuff.hpp"
-using namespace std;
+/**
+ * From: http://rosettacode.org/wiki/Sorting_algorithms/
+ */
+#include <iterator>
+#include <algorithm> // for std::partition
+#include <functional> // for std::less
 
-bool bothEvenOrOdd (int elem1, int elem2)
+// helper function for median of three
+template<typename T>
+ T median(T t1, T t2, T t3)
 {
-    return elem1 % 2 == elem2 % 2;
+  if (t1 < t2)
+  {
+    if (t2 < t3)
+      return t2;
+    else if (t1 < t3)
+      return t3;
+    else
+      return t1;
+  }
+  else
+  {
+    if (t1 < t3)
+      return t1;
+    else if (t2 < t3)
+      return t3;
+    else
+      return t2;
+  }
 }
 
-int main()
+// helper object to get <= from <
+template<typename Order> struct non_strict_op:
+  public std::binary_function<typename Order::second_argument_type,
+                              typename Order::first_argument_type,
+                              bool>
 {
-    vector<int> coll1;
-    list<int> coll2;
+  non_strict_op(Order o): order(o) {}
+  bool operator()(typename Order::second_argument_type arg1,
+                  typename Order::first_argument_type arg2) const
+  {
+    return !order(arg2, arg1);
+  }
+private:
+  Order order;
+};
 
-    float m = 40.0f;
+template<typename Order> non_strict_op<Order> non_strict(Order o)
+{
+  return non_strict_op<Order>(o);
+}
 
-    INSERT_ELEMENTS(coll1,1,7);
-    INSERT_ELEMENTS(coll2,3,9);
+template<typename RandomAccessIterator,
+         typename Order>
+ void quicksort(RandomAccessIterator first, RandomAccessIterator last, Order order)
+{
+  if (first != last && first+1 != last)
+  {
+    typedef typename std::iterator_traits<RandomAccessIterator>::value_type value_type;
+    RandomAccessIterator mid = first + (last - first)/2;
+    value_type pivot = median(*first, *mid, *(last-1));
+    RandomAccessIterator split1 = std::partition(first, last, std::bind2nd(order, pivot));
+    RandomAccessIterator split2 = std::partition(split1, last, std::bind2nd(non_strict(order), pivot));
+    quicksort(first, split1, order);
+    quicksort(split2, last, order);
+  }
+}
 
-    PRINT_ELEMENTS(coll1,"coll1: \n");
-    PRINT_ELEMENTS(coll2,"coll2: \n");
-
-    // check whether both collections are equal
-    if (equal (coll1.begin(), coll1.end(),  // first range
-               coll2.begin())) {            // second range
-        cout << "coll1 == coll2" << endl;
-    } /* TODO Shouldn't there be an 'else' case? */
-
-    // check for corresponding even and odd elements
-    if (equal (coll1.begin(), coll1.end(),  // first range
-               coll2.begin(),               // second range
-               bothEvenOrOdd)) {            // comparison criterion
-        cout << "even and odd elements correspond" << endl;
-    }
+template<typename RandomAccessIterator>
+ void quicksort(RandomAccessIterator first, RandomAccessIterator last)
+{
+  quicksort(first, last, std::less<typename std::iterator_traits<RandomAccessIterator>::value_type>());
 }
