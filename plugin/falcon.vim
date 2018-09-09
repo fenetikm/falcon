@@ -42,7 +42,7 @@ function s:SetColors()
   endif
 endfunction
 
-autocmd VimEnter * call s:SetColors()
+autocmd VimEnter,ColorScheme * call s:SetColors()
 
 " NeoVim terminal colors
 if has ("nvim")
