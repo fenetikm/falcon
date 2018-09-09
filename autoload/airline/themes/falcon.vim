@@ -4,7 +4,7 @@
 " URL:https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/09/09 10:28
+" Last Change: 2018/09/09 12:10
 " ============================================================
 
 let g:airline#themes#falcon#palette = {}
