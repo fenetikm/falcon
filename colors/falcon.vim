@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/09/09 12:10
+" Last Change: 2018/09/11 08:23
 " ===============================================================
 
 set background=dark
@@ -17,7 +17,7 @@ let g:colors_name="falcon"
 hi ALEErrorSign guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ALEWarningSign guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ALEInfoSign guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Conceal guifg=NONE ctermfg=NONE guibg=#3f3a59 ctermbg=237 gui=NONE cterm=NONE
+hi Conceal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#787882 ctermbg=243 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#2f2f3a ctermbg=236 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#b4b4b9 ctermfg=249 guibg=#2f2f3a ctermbg=236 gui=NONE cterm=NONE
@@ -232,7 +232,7 @@ hi markdownCodeDelimiter guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=N
 hi markdownCode guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link markdownError SpellBad
 hi markdownXmlElement guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi link mkdLink Underline
+hi link mkdLink Underlined
 hi mkdURL guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi mkdInlineURL guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi mkdBold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=bold
