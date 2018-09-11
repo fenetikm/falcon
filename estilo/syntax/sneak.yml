@@ -1,2 +1,3 @@
-Sneak: 'bg yellow'
-SneakScope: 'bg yellow'
+Sneak: 'yellow purple_dark_gray'
+SneakScope: '@Sneak'
+SneakLabel: '@Sneak'
