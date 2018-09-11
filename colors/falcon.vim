@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/09/11 13:01
+" Last Change: 2018/09/11 16:13
 " ===============================================================
 
 set background=dark
@@ -301,8 +301,6 @@ hi link shSnglCase Delimiter
 hi shStatement guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link shSet shStatement
 hi Sneak guifg=#ffc552 ctermfg=221 guibg=#3f3a59 ctermbg=237 gui=NONE cterm=NONE
-hi link SneakScope Sneak
-hi link SneakLabel Sneak
 hi link mysqlKeyword Keyword
 hi link mysqlOperator Operator
 hi link mysqlFunction Title
