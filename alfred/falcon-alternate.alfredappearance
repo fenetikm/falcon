@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 4,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#DFDFE5FF",
+        "font" : "Fira Code",
+        "color" : "#57575EFF"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#B4B4B9FF",
+        "font" : "Fira Code",
+        "color" : "#787882FF"
+      },
+      "backgroundSelected" : "#212127FF",
+      "text" : {
+        "size" : 20,
+        "colorSelected" : "#F8F8FFFF",
+        "font" : "Fira Code",
+        "color" : "#B4B4B9FF"
+      },
+      "iconPaddingHorizontal" : 12,
+      "paddingVertical" : 9,
+      "iconSize" : 32
+    },
+    "search" : {
+      "paddingVertical" : 11,
+      "background" : "#2F2F3AFF",
+      "spacing" : 0,
+      "text" : {
+        "size" : 32,
+        "colorSelected" : "#000004FF",
+        "font" : "Fira Code",
+        "color" : "#FFC552FF"
+      },
+      "backgroundSelected" : "#BFDAFFFF"
+    },
+    "window" : {
+      "color" : "#2F2F3AFF",
+      "paddingHorizontal" : 9,
+      "width" : 560,
+      "borderPadding" : 0,
+      "borderColor" : "#FFC552FF",
+      "blur" : 0,
+      "roundness" : -16,
+      "paddingVertical" : 0
+    },
+    "credit" : "Michael Welford",
+    "separator" : {
+      "color" : "#00000400",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#57575EFF",
+      "thickness" : 0
+    },
+    "name" : "Falcon Alternate"
+  }
+}
