@@ -1,4 +1,7 @@
 " Guard
+if g:colors_name != "falcon"
+  finish
+endif
 if exists('g:loaded_falcon')
   finish
 endif
@@ -21,6 +24,11 @@ let g:fzf_colors=
   \ 'header':  ['fg', 'Comment'] }
 
 function s:SetColors()
+  " Guard
+  if g:colors_name != "falcon"
+    return
+  endif
+
   " NeoVim has support for changing background colour depending on active or not
   if !exists('g:falcon_inactive')
     let g:falcon_inactive=0
