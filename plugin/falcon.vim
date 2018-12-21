@@ -1,5 +1,5 @@
 " Guard
-if g:colors_name != "falcon"
+if exists('g:colors_name') && g:colors_name != "falcon"
   finish
 endif
 if exists('g:loaded_falcon')
