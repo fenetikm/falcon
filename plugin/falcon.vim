@@ -25,7 +25,7 @@ let g:fzf_colors=
 
 function s:SetColors()
   " Guard
-  if g:colors_name != "falcon"
+  if exists('g:colors_name') && g:colors_name != "falcon"
     return
   endif
 
