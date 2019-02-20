@@ -1,4 +1,5 @@
---in-place quicksort
+-- in-place quicksort
+-- @todo do the thing
 function quicksort(t, start, endi)
   start, endi = start or 1, endi or #t
   --partition w.r.t. first element
@@ -18,7 +19,7 @@ function quicksort(t, start, endi)
   return quicksort(t, pivot + 1, endi)
 end
 
---example
+-- example
 print(unpack(quicksort{5, 2, 7, 3, 4, 7, 1}))
 
 function quicksort(t)

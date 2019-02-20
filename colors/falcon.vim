@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2018/11/30 11:34
+" Last Change: 2019/02/20 13:20
 " ===============================================================
 
 set background=dark
@@ -225,6 +225,7 @@ hi link luaLocal Constant
 hi link luaFuncParens Delimiter
 hi link luaParens luaFuncParens
 hi link luaBraces luaFuncParens
+hi link luaDocTag tan
 hi link markdownHeadingDelimiter Delimiter
 hi link markdownItemDelimiter Delimiter
 hi markdownInlineDelimiter guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
