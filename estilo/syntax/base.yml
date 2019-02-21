@@ -1,9 +1,9 @@
 # BASE UI
-ColorColumn: ''
+ColorColumn: '- inactive_bg'
 Conceal: '- -'
 Cursor: '- mid_gray'
 CursorIM: ''
-CursorColumn: ''
+CursorColumn: '- blue_darkest_gray'
 CursorLine: '- blue_dark_gray'
 CursorLineNr: 'normal_gray blue_dark_gray'
 Directory: 'blue_gray'
