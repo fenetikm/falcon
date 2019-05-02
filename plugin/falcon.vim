@@ -24,24 +24,10 @@ let g:fzf_colors=
   \ 'spinner': ['fg', 'Label'],
   \ 'header':  ['fg', 'Comment'] }
 
-function s:SetColors()
-  " Guard
-  if !exists('g:colors_name') || !exists('g:loaded_falcon')
-    return
-  endif
-
-  if g:colors_name != "falcon"
-    return
-  endif
-
+function s:HandleInactiveBackground()
   " NeoVim has support for changing background colour depending on active or not
   if !exists('g:falcon_inactive')
     let g:falcon_inactive=0
-  endif
-
-  if exists('+winhighlight') && g:falcon_inactive == 1
-    hi ActiveWindow guibg=NONE | hi InactiveWindow guibg=#151521
-    set winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
   endif
 
   " Put in a background colour for gui
@@ -52,8 +38,54 @@ function s:SetColors()
   if !has("gui_running") || g:falcon_background == 0
     hi NonText guifg=#36363a ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
     hi Normal guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+  else
+    hi NonText guifg=#36363a ctermfg=237 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
+    hi Normal guifg=#b4b4b9 ctermfg=249 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
+  endif
+
+  if exists('+winhighlight') && g:falcon_inactive == 1
+    hi ActiveWindow guibg=NONE
+    hi InactiveWindow guibg=#151521
+    set winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
+  else
+    if g:falcon_background == 1
+      hi ActiveWindow guibg=#020221
+      hi InactiveWindow guibg=#151521
+    else
+      hi ActiveWindow guibg=NONE
+      hi InactiveWindow guibg=NONE
+    endif
   endif
 endfunction
+
+function s:SetColors()
+  " Guard
+  if !exists('g:colors_name') || !exists('g:loaded_falcon')
+    return
+  endif
+
+  if g:colors_name != "falcon"
+    return
+  endif
+
+  call s:HandleInactiveBackground()
+endfunction
+
+" goyo support
+function! s:GoyoEnter()
+  " add in background colour
+  hi NonText guifg=#36363a ctermfg=237 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
+  hi Normal guifg=#b4b4b9 ctermfg=249 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
+  hi ActiveWindow guibg=#020221
+  hi InactiveWindow guibg=#020221
+endfunction
+
+function! s:GoyoLeave()
+  call s:HandleInactiveBackground()
+endfunction
+
+autocmd! User GoyoEnter nested call <SID>GoyoEnter()
+autocmd! User GoyoLeave nested call <SID>GoyoLeave()
 
 autocmd VimEnter,ColorScheme * call s:SetColors()
 
@@ -79,4 +111,15 @@ if has ("nvim")
 
   let g:terminal_color_background=g:terminal_color_8
   let g:terminal_color_foreground=g:terminal_color_7
+else
+  let g:terminal_ansi_colors = [
+    \ '#000004', '#ff3600',
+    \ '#718e3f', '#ffc552',
+    \ '#635196', '#ff761a',
+    \ '#34bfa4', '#b4b4b9',
+    \ '#020221', '#ff8e78',
+    \ '#b1bf75', '#ffd392',
+    \ '#99a4bc', '#ffb07b',
+    \ '#85ccbf', '#f8f8ff',
+    \]
 endif
