@@ -116,3 +116,4 @@ cssAttr: 'light_gray' # Constant
 cssUnitDecorators: '' # Number
 cssNoise: 'light_gray' # Noise
 atKeyword: '' # PreProc
+cssPseudoClass: 'light_gray'
