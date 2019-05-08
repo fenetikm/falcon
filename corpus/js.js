@@ -12,6 +12,8 @@
 const fs = require('fs');
 const path = require('path');
 const chokidar = require('chokidar');
+const nconst = 4;
+const arr = thing[1];
 
 const changeOrAdded = require('./changeOrAdded');
 const log = require('./log');
