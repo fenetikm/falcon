@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/07/02 14:17
+" Last Change: 2019/07/02 15:05
 " ===============================================================
 
 set background=dark
@@ -368,6 +368,8 @@ hi snipSnippetHeaderKeyword guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gu
 hi snipSnippetFooterKeyword guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DbgBreakptLine guifg=NONE ctermfg=NONE guibg=#747e8c ctermbg=8 gui=NONE cterm=NONE
 hi DbgBreakptSign guifg=#747e8c ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DbgCurrentLine guifg=NONE ctermfg=NONE guibg=#b24d36 ctermbg=131 gui=NONE cterm=NONE
+hi DbgCurrentSign guifg=#b24d36 ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterAdd guifg=#718e3f ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterChange guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterDelete guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
