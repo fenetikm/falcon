@@ -1,4 +1,6 @@
+# git commit messages
 diffAdded: '- off_green'
 diffRemoved: '- off_red'
 diffFile: '@Title'
 diffLine: 'yellow'
+# vimdiff uses DiffAdd etc. in base.yml
