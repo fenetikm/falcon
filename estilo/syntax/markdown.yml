@@ -31,7 +31,7 @@ markdownEscape: '' # Special
 markdownError: '@SpellBad' # Error
 markdownXmlElement: 'mid_gray'
 
-htmlH1: '@Function'
+htmlH1: '@Function - b'
 htmlH2: '@htmlH1'
 htmlH3: '@htmlH1'
 htmlH4: '@htmlH1'

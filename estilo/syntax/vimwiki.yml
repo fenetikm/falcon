@@ -1,6 +1,6 @@
 VimwikiLink: '@Underlined'
 VimwikiHeaderChar: '@Delimiter'
-VimwikiHeader1: '@Function'
+VimwikiHeader1: '@Function - b'
 VimwikiHeader2: '@VimwikiHeader1'
 VimwikiHeader3: '@VimwikiHeader1'
 VimwikiHeader4: '@VimwikiHeader1'
