@@ -31,12 +31,12 @@ markdownEscape: '' # Special
 markdownError: '@SpellBad' # Error
 markdownXmlElement: 'mid_gray'
 
-htmlH1: 'yellow'
-htmlH2: 'light_gray'
-htmlH3: 'light_gray'
-htmlH4: 'light_gray'
-htmlH5: 'light_gray'
-htmlH6: 'light_gray'
+htmlH1: '@Function'
+htmlH2: '@htmlH1'
+htmlH3: '@htmlH1'
+htmlH4: '@htmlH1'
+htmlH5: '@htmlH1'
+htmlH6: '@htmlH1'
 mkdLink: '@Underlined'
 mkdURL: 'blue_gray - u'
 mkdInlineURL: 'blue_gray - u'
@@ -45,6 +45,7 @@ htmlBold: '- - b'
 mkdListItem: '@Delimiter'
 htmlItalic: '- - i'
 mkdCode: 'mid_gray_alt'
+mkdHeading: '@Delimiter'
 
 # These are used when running Neovim health checks.
 healthSuccess: 'bg green'

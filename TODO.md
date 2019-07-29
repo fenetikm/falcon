@@ -1,12 +1,10 @@
 # Falcon Todo
 
-## Before launch 2.x
-* Update screenshots
-* Tag it and bag it
-
 ## @Todo
 * statusline - airline check
 * increase contrast in markdown for code blocks - maybe another gray...
+* check gnome
+* add in palette file with rbg and hex and names
 
 ## Full list
 * Tag current version, create 2.x branch

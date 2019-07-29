@@ -20,8 +20,8 @@ NERDTreeUp: '' # Directory
 NERDTreeFile: '' # Normal
 NERDTreeCWD: 'yellow' # Statement
 NERDTreeOpenable: 'tan' # Title
-NERDTreeClosable: 'orange' # Title
+NERDTreeClosable: 'tan' # Title
 NERDTreeIgnore: '' # ignore
 NERDTreeRO: '' # WarningMsg
-NERDTreeFlags: '' # Number
+NERDTreeFlags: 'tan' # Number
 NERDTreeGitStatusDirDirty: 'red'
