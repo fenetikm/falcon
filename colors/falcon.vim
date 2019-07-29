@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/07/29 13:12
+" Last Change: 2019/07/29 13:31
 " ===============================================================
 
 set background=dark
@@ -397,12 +397,12 @@ hi vimSetSep guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi link vimHighlight vimLet
 hi link VimwikiLink Underlined
 hi link VimwikiHeaderChar Delimiter
-hi VimwikiHeader1 guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VimwikiHeader2 guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VimwikiHeader3 guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VimwikiHeader4 guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VimwikiHeader5 guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VimwikiHeader6 guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link VimwikiHeader1 Function
+hi link VimwikiHeader2 VimwikiHeader1
+hi link VimwikiHeader3 VimwikiHeader1
+hi link VimwikiHeader4 VimwikiHeader1
+hi link VimwikiHeader5 VimwikiHeader1
+hi link VimwikiHeader6 VimwikiHeader1
 hi link VimwikiList Delimiter
 hi VimwikiPre guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiCode guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
