@@ -5,6 +5,12 @@
 * increase contrast in markdown for code blocks - maybe another gray...
 * check gnome
 * add in palette file with rbg and hex and names
+* vscode scheme
+
+## VSCode refs
+- https://github.com/sdras/night-owl-vscode-theme
+- https://css-tricks.com/creating-a-vs-code-theme/
+- https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme&WT.mc_id=csstricks-themearticle-sdras
 
 ## Full list
 * Tag current version, create 2.x branch
