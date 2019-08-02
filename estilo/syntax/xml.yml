@@ -1,5 +1,5 @@
 xmlEndTag: 'blue_gray'
 xmlEqual: '@Operator'
-xmlTagName: 'normal_gray'
+xmlTagName: '@Delimiter'
 xmlAttrib: 'blue_gray'
-xmlTag: '@Delimiter'
+xmlTag: 'normal_gray'
