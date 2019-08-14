@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/08/02 13:33
+" Last Change: 2019/08/15 07:42
 " ===============================================================
 
 set background=dark
@@ -148,6 +148,8 @@ hi link elmTypeDef Type
 hi elmType guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi elmTopLevelDecl guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link elmAlias Identifier
+hi fugitiveSymbolicRef guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi fugitiveHeader guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi fzf1 guifg=#ffc552 ctermfg=221 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
 hi fzf2 guifg=#ff761a ctermfg=208 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
 hi fzf3 guifg=#ff761a ctermfg=208 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
@@ -279,8 +281,11 @@ hi netrwClassify guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cter
 hi phpCommentTitle guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi phpDocTags guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi phpDocCustomTags guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link phpDocNamespaceSeparator Comment
+hi phpUseNamespaceSeparator guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpStorageClass guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpClasses guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi phpClassImplements guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi phpStructure guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi phpNumber guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link phpFloat phpNumber

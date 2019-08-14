@@ -8,3 +8,5 @@ FugitiveblameOriginalLineNumber: '' #
 FugitiveblameShort: '' # FugitiveblameDelimiter
 FugitiveblameDelimiter: '' # Delimiter
 FugitiveblameNotCommittedYet: '' # Comment
+fugitiveSymbolicRef: 'blue_gray'
+fugitiveHeader: 'yellow'

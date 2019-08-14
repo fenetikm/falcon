@@ -4,10 +4,13 @@ phpComment: '' # Comment
 phpCommentTitle: 'mid_gray_alt - i'
 phpDocTags: 'tan - i' # PreProc
 phpDocCustomTags: 'br_blue' # Type
+phpDocNamespaceSeparator: '@Comment'
+phpUseNamespaceSeparator: 'light_gray -'
 phpException: '' # Exception
 phpBoolean: '' # Boolean
 phpStorageClass: 'orange' # StorageClass
 phpClasses: 'normal_gray - b'
+phpClassImplements: 'normal_gray - i'
 phpSCKeyword: '' # StorageClass
 phpFCKeyword: '' # Define
 phpStructure: 'blue_gray - b' # Structure
