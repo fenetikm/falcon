@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/08/22 09:17
+" Last Change: 2019/08/22 09:22
 " ===============================================================
 
 set background=dark
@@ -240,7 +240,7 @@ hi link jsonKeywordMatch Delimiter
 hi link xmlEqual Operator
 hi xmlEndTag guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlTagN guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi link xmlTagName Delimiter
+hi xmlTagName guifg=#c8d0e3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaFuncKeyword guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaFuncTable guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaFuncName guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -431,6 +431,7 @@ hi VistaTag guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi VistaPrefix guifg=#57575e ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlAttrib guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlTag guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi xmlProcessingDelim guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlFlowStringDelimiter guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlBlockCollectionItemStart guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlBlockMappingKey guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
