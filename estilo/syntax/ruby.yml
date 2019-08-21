@@ -11,7 +11,7 @@ rubyExceptional: '' # rubyConditional
 rubyRepeat: '' # Repeat
 rubyRepeatModifier: '' # rubyRepeat
 rubyOptionalDo: '' # rubyRepeat
-rubyControl: '' # Statement
+rubyControl: 'yellow' # Statement
 rubyInclude: '' # Include
 rubyInteger: '' # Number
 rubyASCIICode: '' # Character
@@ -20,7 +20,7 @@ rubyBoolean: '' # Boolean
 rubyException: '' # Exception
 rubyIdentifier: '' # Identifier
 rubyClassVariable: '' # rubyIdentifier
-rubyConstant: '@Constant' # Type
+rubyConstant: 'light_blue_gray' # Type
 rubyGlobalVariable: 'lavender - b' # rubyIdentifier
 rubyBlockParameter: '' # rubyIdentifier
 rubyInstanceVariable: '' # rubyIdentifier
@@ -62,8 +62,10 @@ rubyInvalidVariable: '' # Error
 rubyError: '' # Error
 rubySpaceError: '' # rubyError
 rubyArrayDelimiter: '@Delimiter'
-rubyBlockParameterList: '@Delimiter'
+rubyBlockParameterList: 'blue_gray'
 rubyCurlyBlockDelimiter: '@Delimiter'
 rubyDoBlock: 'yellow'
 rubyLocalVariableOrMethod: 'blue_gray'
 rubyMethodBlock: 'tan'
+rubyHeredocDelimiter: 'orange'
+rubyCurlyBlock: 'orange'

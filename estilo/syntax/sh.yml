@@ -85,7 +85,7 @@ shFunctionName: '' # Function
 shNumber: '' # Number
 shOperator: '' # Operator
 shRepeat: '' # Repeat
-shSetList: '' # Identifier
+shSetList: 'light_blue_gray' # Identifier
 shShellVariables: '' # PreProc
 shSpecial: '' # Special
 shStatement: 'normal_gray' # Statement

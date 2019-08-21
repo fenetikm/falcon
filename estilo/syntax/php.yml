@@ -9,7 +9,7 @@ phpUseNamespaceSeparator: 'light_gray -'
 phpException: '' # Exception
 phpBoolean: '' # Boolean
 phpStorageClass: 'orange' # StorageClass
-phpClasses: 'normal_gray - b'
+phpClasses: 'light_blue_gray - b'
 phpClassImplements: 'normal_gray - i'
 phpSCKeyword: '' # StorageClass
 phpFCKeyword: '' # Define

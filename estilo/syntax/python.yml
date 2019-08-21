@@ -21,5 +21,5 @@ pythonDoctest: '' # Special
 pythonDoctestValue: '' # Define
 pythonExClass: 'tan'
 pythonBuiltinObj: 'yellow'
-pythonDot: 'yellow'
+pythonDot: 'orange'
 pythonBuiltinFunc: 'tan'
