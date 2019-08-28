@@ -1,3 +1,5 @@
 rstSections: 'yellow'
 rstCodeBlock: 'mid_gray_alt'
 rstDirective: 'orange'
+rstHyperlinkTarget: 'blue_gray - u'
+rstExDirective: 'blue_gray'

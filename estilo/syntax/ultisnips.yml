@@ -1,2 +1,6 @@
 snipSnippetHeaderKeyword: 'yellow'
-snipSnippetFooterKeyword: 'yellow'
+snipSnippetFooterKeyword: '@snipSnippetHeaderKeyword'
+snipTabStop: 'orange'
+snipMirror: '@snipTabStop'
+snipSnippetTrigger: '@String'
+snipSnippetDocContextString: '@Comment'

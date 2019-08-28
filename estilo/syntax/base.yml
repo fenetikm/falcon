@@ -47,11 +47,11 @@ WildMenu: 'bg yellow'
 # BASE SYNTAX
 Comment: 'mid_gray - i'
 Constant: 'light_gray - b'
-String: 'light_gray' # Constant
+String: 'light_blue_gray' # Constant
 Character: '@String' # Constant
 Boolean: 'red' # Constant
-Number: '@String' # Constant
-Float: '@String' # Constant
+Number: 'light_gray' # Constant
+Float: '@Number' # Constant
 Identifier: 'blue_gray'
 Function: 'yellow' # Identifier
 Statement: 'blue_gray'
@@ -66,7 +66,7 @@ Include: '@PreProc' # PreProc
 Define: '@PreProc' # PreProc
 Macro: '@PreProc' # PreProc
 PreCondit: '@PreProc' # PreProc
-Type: 'light_gray - b'
+Type: 'light_gray -'
 StorageClass: '@Type' # Type
 Structure: '@Type' # Type
 Typedef: '@Type' # Type

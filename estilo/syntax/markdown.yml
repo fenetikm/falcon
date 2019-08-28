@@ -45,6 +45,7 @@ htmlBold: '- - b'
 mkdListItem: '@Delimiter'
 htmlItalic: '- - i'
 mkdCode: 'mid_gray_alt'
+mkdCodeDelimiter: 'orange'
 mkdHeading: '@Delimiter'
 
 # These are used when running Neovim health checks.
