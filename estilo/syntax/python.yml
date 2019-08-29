@@ -1,6 +1,6 @@
 pythonStatement: 'yellow' # Statement
 pythonConditional: '' # Conditional
-pythonRepeat: '' # Repeat
+pythonRepeat: 'yellow' # Repeat
 pythonOperator: '' # Operator
 pythonException: '' # Exception
 pythonInclude: '' # Include
