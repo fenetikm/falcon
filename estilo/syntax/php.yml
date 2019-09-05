@@ -9,7 +9,8 @@ phpUseNamespaceSeparator: 'light_gray -'
 phpException: '' # Exception
 phpBoolean: '' # Boolean
 phpStorageClass: 'orange' # StorageClass
-phpClasses: 'light_gray - b'
+phpClasses: 'light_gray'
+phpStaticClasses: 'light_gray - b'
 phpClassImplements: 'normal_gray - i'
 phpClassExtends: '@phpClassImplements'
 phpSCKeyword: '' # StorageClass
@@ -56,7 +57,7 @@ phpVarSelector: 'light_gray' # Operator
 phpRelation: '' # Operator
 phpIdentifier: '@Identifier' # Identifier
 phpIdentifierSimply: '' # Identifier
-phpStringDelimiter: 'normal_gray'
+phpStringDelimiter: 'light_gray'
 phpSuperglobals: 'lavender - b'
 phpSpecialChar: 'blue_gray - b'
 phpNullValue: 'red'

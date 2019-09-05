@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/08/29 12:06
+" Last Change: 2019/09/05 12:39
 " ===============================================================
 
 set background=dark
@@ -50,7 +50,7 @@ hi FoldColumn guifg=#787882 ctermfg=243 guibg=#212127 ctermbg=235 gui=NONE cterm
 hi SignColumn guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#020221 ctermfg=0 guibg=#bfdaff ctermbg=153 gui=Bold cterm=Bold
 hi LineNr guifg=#57575e ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi MatchParen guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi MatchParen guifg=#ffe8c0 ctermfg=223 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi NonText guifg=#36363a ctermfg=237 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
 hi Normal guifg=#b4b4b9 ctermfg=249 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
 hi PMenu guifg=#b4b4b9 ctermfg=249 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
@@ -70,7 +70,7 @@ hi TabLine guifg=#787882 ctermfg=243 guibg=#36363a ctermbg=237 gui=NONE cterm=NO
 hi TabLineFill guifg=NONE ctermfg=NONE guibg=#212127 ctermbg=235 gui=NONE cterm=NONE
 hi TabLineSel guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Title guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Visual guifg=#36363a ctermfg=237 guibg=#ddcfbf ctermbg=187 gui=NONE cterm=NONE
+hi Visual guifg=#dfdfe5 ctermfg=254 guibg=#3b0d91 ctermbg=54 gui=NONE cterm=NONE
 hi WildMenu guifg=#020221 ctermfg=0 guibg=#ffc552 ctermbg=221 gui=NONE cterm=NONE
 hi Comment guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi Constant guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
@@ -123,6 +123,9 @@ hi cCustomFunc guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi cStatement guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cppSTLnamespace guifg=#c8d0e3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cppAccess guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cAnsiFunction guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cRepeat guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cSpecial guifg=#c8d0e3 ctermfg=252 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi cssVendor guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssTagName guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssSelectorOp2 guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -134,6 +137,7 @@ hi cssIncludeKeyword guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE 
 hi cssImportant guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi link cssBraces Delimiter
 hi cssAttributeSelector guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssMediaType guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi cssMediaKeyword guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssFontDescriptor guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssClassName guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -142,6 +146,7 @@ hi cssProp guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssAttr guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssNoise guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssPseudoClass guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi cssAtRuleLogical guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link diffAdded DiffAdd
 hi link diffRemoved DiffDelete
 hi link diffFile Title
@@ -178,7 +183,7 @@ hi helpHyperTextJump guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=under
 hi helpHeadline guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi helpSectionDelim guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi helpOption guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi HighlightedyankRegion guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi HighlightedyankRegion guifg=#f8f8ff ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlTag guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlEndTag guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlArg guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -294,7 +299,8 @@ hi phpDocCustomTags guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE c
 hi link phpDocNamespaceSeparator Comment
 hi phpUseNamespaceSeparator guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpStorageClass guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi phpClasses guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi phpClasses guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpStaticClasses guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi phpClassImplements guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link phpClassExtends phpClassImplements
 hi phpStructure guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
@@ -310,7 +316,7 @@ hi phpMemberSelector guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE 
 hi link phpOperator Operator
 hi phpVarSelector guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link phpIdentifier Identifier
-hi phpStringDelimiter guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpStringDelimiter guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpSuperglobals guifg=#9f97cc ctermfg=140 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi phpSpecialChar guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi phpNullValue guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

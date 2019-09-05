@@ -93,7 +93,7 @@ cssStringQQ: '' # String
 cssStringQ: '' # String
 cssAttributeSelector: 'normal_gray' # String
 cssMedia: '' # atKeyword
-cssMediaType: '' # Special
+cssMediaType: 'yellow - i' # Special
 cssMediaComma: '' # Normal
 cssMediaKeyword: 'yellow' # Statement
 cssMediaProp: '' # cssProp
@@ -117,3 +117,4 @@ cssUnitDecorators: '' # Number
 cssNoise: 'light_gray' # Noise
 atKeyword: '' # PreProc
 cssPseudoClass: 'light_gray'
+cssAtRuleLogical: 'orange'
