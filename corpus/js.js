@@ -30,6 +30,9 @@ const unlinkHandler = (err) => {
   if (err) {
     log(err);
   }
+  for (var i = 0; i < 9; i++) {
+    console.log(i);
+  }
 };
 
 console.log('Check.');

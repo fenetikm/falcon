@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/09/09 11:40
+" Last Change: 2019/09/15 15:43
 " ===============================================================
 
 set background=dark
@@ -216,6 +216,7 @@ hi jsFuncArgs guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi jsExtendsKeyword guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link jsArrowFunction Operator
 hi jsFunction guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link jsRepeat jsFunction
 hi jsReturn guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassDefinition guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassProperty guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
