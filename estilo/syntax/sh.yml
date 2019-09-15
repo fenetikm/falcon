@@ -28,10 +28,10 @@ shEmbeddedEcho: '' # shString
 shEscape: '' # shCommandSub
 shExDoubleQuote: '' # shDoubleQuote
 shExSingleQuote: '' # shSingleQuote
-shFunction: '' # Function
+shFunction: 'normal_gray' # Function
 shHereDoc: '' # shString
 shHerePayload: '' # shHereDoc
-shLoop: '' # shStatement
+shLoop: '@Function' # shStatement
 shMoreSpecial: '' # shSpecial
 shOption: '' # shCommandSub
 shPattern: '' # shString
