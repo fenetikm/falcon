@@ -53,7 +53,7 @@ shTestSingleQuote: '' # shString
 shVariable: 'blue_gray' # shSetList
 shWrapLineOperator: '' # shOperator
 bashAdminStatement: '' # shStatement if exists("b:is_bash")
-bashSpecialVariables: '' # shShellVariables if exists("b:is_bash")
+bashSpecialVariables: 'blue_gray' # shShellVariables if exists("b:is_bash")
 bashStatement: '' # shStatement if exists("b:is_bash")
 shFunctionParen: '' # Delimiter if exists("b:is_bash")
 shFunctionDelim: '' # Delimiter if exists("b:is_bash")
