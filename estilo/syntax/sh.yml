@@ -46,7 +46,7 @@ shSingleQuote: '' # shString
 shSource: '' # shOperator
 shStringSpecial: '' # shSpecial
 shSubShRegion: '' # shOperator
-shTestOpr: '' # shConditional
+shTestOpr: '@Operator' # shConditional
 shTestPattern: '' # shString
 shTestDoubleQuote: '' # shString
 shTestSingleQuote: '' # shString
