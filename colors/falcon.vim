@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/09/15 16:15
+" Last Change: 2019/09/17 10:30
 " ===============================================================
 
 set background=dark
@@ -180,6 +180,7 @@ hi graphqlName guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi graphqlKeyword guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi graphqlOperator guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi helpHyperTextJump guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi helpStar guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi helpHeadline guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi helpSectionDelim guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi helpOption guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -189,12 +190,12 @@ hi htmlEndTag guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi htmlArg guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link htmlTagName Number
 hi htmlSpecialTagName guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi link htmlH1 Function
-hi link htmlH2 htmlH1
-hi link htmlH3 htmlH1
-hi link htmlH4 htmlH1
-hi link htmlH5 htmlH1
-hi link htmlH6 htmlH1
+hi htmlH1 guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi htmlH2 guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link htmlH3 htmlH2
+hi link htmlH4 htmlH2
+hi link htmlH5 htmlH2
+hi link htmlH6 htmlH2
 hi htmlTitle guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi htmlSpecialChar guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IndentGuidesOdd guifg=NONE ctermfg=NONE guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
@@ -332,7 +333,7 @@ hi pythonExClass guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cter
 hi pythonBuiltinObj guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonDot guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi pythonBuiltinFunc guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi rstSections guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi rstSections guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rstCodeBlock guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rstDirective guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi rstHyperlinkTarget guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -439,12 +440,12 @@ hi vimSetSep guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi link vimHighlight vimLet
 hi link VimwikiLink Underlined
 hi link VimwikiHeaderChar Delimiter
-hi link VimwikiHeader1 Function
-hi link VimwikiHeader2 VimwikiHeader1
-hi link VimwikiHeader3 VimwikiHeader1
-hi link VimwikiHeader4 VimwikiHeader1
-hi link VimwikiHeader5 VimwikiHeader1
-hi link VimwikiHeader6 VimwikiHeader1
+hi VimwikiHeader1 guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi VimwikiHeader2 guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link VimwikiHeader3 VimwikiHeader2
+hi link VimwikiHeader4 VimwikiHeader2
+hi link VimwikiHeader5 VimwikiHeader2
+hi link VimwikiHeader6 VimwikiHeader2
 hi link VimwikiList Delimiter
 hi VimwikiPre guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiCode guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

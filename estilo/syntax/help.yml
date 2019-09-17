@@ -2,7 +2,7 @@ helpIgnore: '' # Ignore
 helpHyperTextJump: 'blue_gray - u' # Identifier
 helpBar: '' # Ignore
 helpBacktick: '' # Ignore
-helpStar: '' # Ignore
+helpStar: 'br_blue' # Ignore
 helpHyperTextEntry: '' # String
 helpHeadline: 'yellow' # Statement
 helpHeader: '' # PreProc
