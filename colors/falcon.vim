@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/09/17 10:30
+" Last Change: 2019/09/24 10:52
 " ===============================================================
 
 set background=dark
@@ -369,9 +369,16 @@ hi shSetList guifg=#c8d0e3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi shStatement guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link shSet shStatement
 hi Sneak guifg=#ff761a ctermfg=208 guibg=#3f3a59 ctermbg=237 gui=NONE cterm=NONE
-hi link mysqlKeyword Keyword
+hi link sqlStatement Function
+hi sqlKeyword guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi sqlSpecial guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi sqlType guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link sqlFunction Title
+hi link mysqlKeyword sqlKeyword
 hi link mysqlOperator Operator
-hi link mysqlFunction Title
+hi link mysqlFunction sqlType
+hi link mysqlStatement sqlStatement
+hi link mysqlType sqlType
 hi sshconfigKeyword guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi sshconfigMatch guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi sshconfigYesNo guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
