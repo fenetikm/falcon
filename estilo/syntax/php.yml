@@ -10,7 +10,7 @@ phpException: '' # Exception
 phpBoolean: '' # Boolean
 phpStorageClass: 'orange' # StorageClass
 phpClasses: 'light_gray'
-phpStaticClasses: 'light_gray - b'
+phpStaticClasses: 'normal_gray - b'
 phpClassImplements: 'normal_gray - i'
 phpClassExtends: '@phpClassImplements'
 phpSCKeyword: '' # StorageClass

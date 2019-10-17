@@ -10,3 +10,5 @@ FugitiveblameDelimiter: '' # Delimiter
 FugitiveblameNotCommittedYet: '' # Comment
 fugitiveSymbolicRef: 'blue_gray'
 fugitiveHeader: 'yellow'
+fugitiveHunk: 'normal_gray'
+fugitiveModifier: 'orange'

@@ -5,7 +5,9 @@
 * increase contrast in markdown for code blocks - maybe another gray...
 * check gnome
 * add in palette file with rbg and hex and names
-* vscode scheme
+* vscode scheme, in progress
+* update other themes with indigo for selection colour
+* kitty file for inclusion
 
 ## VSCode refs
 - https://github.com/sdras/night-owl-vscode-theme
@@ -29,6 +31,7 @@
 * Automate the screenshot taking
 
 ## Done
+* redo screenshots since String syntax change
 * Option to force background colour / don't do
 * Update all values across repo - done?
 * everything else:
