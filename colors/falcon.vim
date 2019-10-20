@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/10/04 16:45
+" Last Change: 2019/10/20 15:58
 " ===============================================================
 
 set background=dark
@@ -112,6 +112,7 @@ hi BufTabLineCurrent guifg=#b4b4b9 ctermfg=249 guibg=#787882 ctermbg=243 gui=NON
 hi BufTabLineActive guifg=#dfdfe5 ctermfg=254 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
 hi BufTabLineHidden guifg=#787882 ctermfg=243 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
 hi BufTabLineFill guifg=NONE ctermfg=NONE guibg=#212127 ctermbg=235 gui=NONE cterm=NONE
+hi CleverFDefaultLabel guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi cPreCondit guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link cDefine Define
 hi cStructure guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -163,7 +164,7 @@ hi fugitiveModifier guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE c
 hi fzf1 guifg=#ffc552 ctermfg=221 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
 hi fzf2 guifg=#ff761a ctermfg=208 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
 hi fzf3 guifg=#ff761a ctermfg=208 guibg=#36363a ctermbg=237 gui=NONE cterm=NONE
-hi gitcommitSummary guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi gitcommitSummary guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitBranch guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitDiscardedType guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitSelectedType guifg=#718e3f ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -371,7 +372,7 @@ hi link shSnglCase Delimiter
 hi shSetList guifg=#c8d0e3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi shStatement guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link shSet shStatement
-hi Sneak guifg=#ff761a ctermfg=208 guibg=#3f3a59 ctermbg=237 gui=NONE cterm=NONE
+hi Sneak guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi link sqlStatement Function
 hi sqlKeyword guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi sqlSpecial guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
