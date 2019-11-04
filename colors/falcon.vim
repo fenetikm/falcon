@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/10/20 15:58
+" Last Change: 2019/11/04 14:59
 " ===============================================================
 
 set background=dark
@@ -294,9 +294,9 @@ hi healthSuccess guifg=#020221 ctermfg=0 guibg=#718e3f ctermbg=65 gui=NONE cterm
 hi healthError guifg=#020221 ctermfg=0 guibg=#ff3600 ctermbg=202 gui=NONE cterm=NONE
 hi NormalFloat guifg=NONE ctermfg=NONE guibg=#0a0a29 ctermbg=232 gui=NONE cterm=NONE
 hi NERDTreeCWD guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NERDTreeOpenable guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NERDTreeClosable guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NERDTreeFlags guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NERDTreeOpenable guifg=#c8d0e3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NERDTreeClosable guifg=#c8d0e3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NERDTreeFlags guifg=#c8d0e3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeGitStatusDirDirty guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi netrwClassify guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpCommentTitle guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
@@ -373,6 +373,7 @@ hi shSetList guifg=#c8d0e3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi shStatement guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link shSet shStatement
 hi Sneak guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi link SneakLabel Sneak
 hi link sqlStatement Function
 hi sqlKeyword guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi sqlSpecial guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -449,6 +450,10 @@ hi vimGroup guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi vimHiTerm guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimSetSep guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link vimHighlight vimLet
+hi vimSetEqual guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimNotation guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimMapLhs guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimMapRhs guifg=#c8d0e3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link VimwikiLink Underlined
 hi link VimwikiHeaderChar Delimiter
 hi VimwikiHeader1 guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold

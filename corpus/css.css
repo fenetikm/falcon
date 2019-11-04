@@ -8,6 +8,7 @@
     url('ttf/FiraCode-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal !important;
+  color: #fff;
 }
 
 html, body {
