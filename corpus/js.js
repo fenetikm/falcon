@@ -35,6 +35,8 @@ const unlinkHandler = (err) => {
   }
 };
 
+const bool = false;
+
 console.log('Check.');
 
 // Watch for filesystem changes.

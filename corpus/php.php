@@ -42,6 +42,9 @@ class CcspUserService implements CcspUserServiceInterface {
       ->setEmail($email)
       ->save();
 
+    $a_flag = FALSE;
+    $a_number = 0;
+
     // @TODO fix this up, plaz.
     return $reviewer;
   }

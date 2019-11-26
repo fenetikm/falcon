@@ -4,7 +4,7 @@
 " URL:https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/11/04 14:59
+" Last Change: 2019/11/27 09:09
 " ============================================================
 
 let g:airline#themes#falcon#palette = {}
@@ -29,9 +29,9 @@ let s:visual2 = [ "#b4b4b9", "#36363a", 249, 237 ]
 let s:visual3 = [ "#b4b4b9", "#28282d", 249, 235 ]
 let g:airline#themes#falcon#palette.visual = airline#themes#generate_color_map(s:visual1, s:visual2, s:visual3)
 
-let s:inactive1 = [ "#57575e", "#212127", 240, 235 ]
-let s:inactive2 = [ "#57575e", "#212127", 240, 235 ]
-let s:inactive3 = [ "#57575e", "#212127", 240, 235 ]
+let s:inactive1 = [ "#57575e", "#1c1c22", 240, 234 ]
+let s:inactive2 = [ "#57575e", "#1c1c22", 240, 234 ]
+let s:inactive3 = [ "#57575e", "#1c1c22", 240, 234 ]
 let g:airline#themes#falcon#palette.inactive = airline#themes#generate_color_map(s:inactive1, s:inactive2, s:inactive3)
 
 if !get(g:, 'loaded_ctrlp', 0)

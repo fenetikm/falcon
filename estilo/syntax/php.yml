@@ -19,8 +19,8 @@ phpStructure: 'blue_gray - b' # Structure
 phpStringSingle: '' # String
 phpStringDouble: '' # String
 phpBacktick: '' # String
-phpNumber: 'light_gray' # Number
-phpFloat: '@phpNumber' # Float
+phpNumber: '' # Number
+phpFloat: '' # Float
 phpMethod: 'normal_gray' # Function
 phpFunctions: 'tan' # Function
 phpBaselib: '' # Function
@@ -60,4 +60,4 @@ phpIdentifierSimply: '' # Identifier
 phpStringDelimiter: 'light_gray'
 phpSuperglobals: 'lavender - b'
 phpSpecialChar: 'blue_gray - b'
-phpNullValue: 'red'
+phpNullValue: '@phpBoolean'

@@ -20,6 +20,8 @@ function main() {
       error('Invalid API key specified');
     }
 
+    $thing = FALSE;
+
     // Check API credentials.
     $sql = <<<EOSQL
 SELECT *

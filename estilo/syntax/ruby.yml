@@ -34,7 +34,7 @@ rubyBeginEnd: '' # Statement
 rubyAccess: '' # Statement
 rubyAttribute: '' # Statement
 rubyEval: '' # Statement
-rubyPseudoVariable: 'lavender' # Constant
+rubyPseudoVariable: '' # Constant
 rubyComment: '' # Comment
 rubyData: '' # Comment
 rubyDataDirective: '' # Delimiter
