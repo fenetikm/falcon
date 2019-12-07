@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/11/29 09:39
+" Last Change: 2019/12/04 09:14
 " ===============================================================
 
 set background=dark
@@ -373,7 +373,7 @@ hi Sneak guifg=#bfdaff ctermfg=153 guibg=NONE ctermbg=NONE gui=underline cterm=u
 hi link SneakLabel Sneak
 hi link sqlStatement Function
 hi sqlKeyword guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi sqlSpecial guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link sqlSpecial Number
 hi sqlType guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link sqlFunction Title
 hi link mysqlKeyword sqlKeyword
@@ -381,6 +381,7 @@ hi link mysqlOperator Operator
 hi link mysqlFunction sqlType
 hi link mysqlStatement sqlStatement
 hi link mysqlType sqlType
+hi link Quote Delimiter
 hi sshconfigKeyword guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi sshconfigMatch guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi sshconfigYesNo guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
