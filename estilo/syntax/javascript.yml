@@ -17,7 +17,7 @@ javaScriptFunction: '' # Function
 javaScriptBraces: 'orange' # Function
 javaScriptError: '' # Error
 javaScriptParensError: '' # Error
-javaScriptNull: '' # Keyword
+javaScriptNull: 'normal_gray - i' # Keyword
 javaScriptBoolean: '' # Boolean
 javaScriptRegexpString: '' # String
 javaScriptIdentifier: '' # Identifier
@@ -50,7 +50,7 @@ jsClassProperty: 'normal_gray'
 jsClassKeyword: 'yellow'
 jsClassFuncName: 'normal_gray'
 jsFuncName: 'normal_gray'
-jsNull: 'red'
+jsNull: 'normal_gray - i'
 jsStorageClass: '@StorageClass'
 jsObjectSeparator: 'normal_gray'
 jsObjectValue: 'blue_gray'

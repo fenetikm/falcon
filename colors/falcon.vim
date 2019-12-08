@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/12/09 09:44
+" Last Change: 2019/12/09 10:00
 " ===============================================================
 
 set background=dark
@@ -207,6 +207,7 @@ hi IndentGuidesEven guifg=NONE ctermfg=NONE guibg=#212127 ctermbg=235 gui=NONE c
 hi javaRepeat guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link javaStatement javaRepeat
 hi javaScriptBraces guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javaScriptNull guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi javaScriptGlobal guifg=#9f97cc ctermfg=140 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi link jsBrackets Delimiter
 hi link jsClassBraces jsBrackets
@@ -228,7 +229,7 @@ hi jsClassProperty guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE ct
 hi jsClassKeyword guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsClassFuncName guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsFuncName guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi jsNull guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi jsNull guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link jsStorageClass StorageClass
 hi jsObjectSeparator guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi jsObjectValue guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -323,7 +324,7 @@ hi link phpIdentifier Identifier
 hi phpStringDelimiter guifg=#dfdfe5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpSuperglobals guifg=#9f97cc ctermfg=140 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi phpSpecialChar guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi phpNullValue guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi phpNullValue guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi plugDeleted guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi plugBracket guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi plug1 guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -478,7 +479,7 @@ hi yamlBlockMappingKey guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=NON
 hi yamlFlowMappingKey guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link yamlFlowIndicator Delimiter
 hi link yamlKeyValueDelimiter Delimiter
-hi yamlNull guifg=#ff3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi yamlNull guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link yamlBool Number
 hi yamlPlainScalar guifg=#b4b4b9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi zshCommands guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

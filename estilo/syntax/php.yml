@@ -60,4 +60,4 @@ phpIdentifierSimply: '' # Identifier
 phpStringDelimiter: 'light_gray'
 phpSuperglobals: 'lavender - b'
 phpSpecialChar: 'blue_gray - b'
-phpNullValue: 'red'
+phpNullValue: 'normal_gray - i'
