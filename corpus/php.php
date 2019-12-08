@@ -44,6 +44,7 @@ class CcspUserService implements CcspUserServiceInterface {
 
     $a_flag = FALSE;
     $a_number = 0;
+    $a_null = NULL;
 
     // @TODO fix this up, plaz.
     return $reviewer;

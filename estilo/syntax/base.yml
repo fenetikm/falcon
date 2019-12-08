@@ -46,10 +46,10 @@ WarningMsg: ''
 WildMenu: 'bg yellow'
 # BASE SYNTAX
 Comment: 'mid_gray - i'
-Constant: 'light_gray - b'
+Constant: 'normal_gray - b'
 String: 'light_blue_gray' # Constant
 Character: '@String' # Constant
-Boolean: 'light_gray' # Constant
+Boolean: '@Number' # Constant
 Number: 'normal_gray' # Constant
 Float: '@Number' # Constant
 Identifier: 'blue_gray'

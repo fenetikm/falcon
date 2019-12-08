@@ -24,7 +24,7 @@ yamlFlowIndicator: '@Delimiter' # Special
 yamlKeyValueDelimiter: '@Delimiter' # Special
 yamlConstant: '' # Constant
 yamlNull: 'red -' # yamlConstant
-yamlBool: '@yamlNull' # yamlConstant
+yamlBool: '@Number' # yamlConstant
 yamlAnchor: '' # Type
 yamlAlias: '' # Type
 yamlNodeTag: '' # Type
