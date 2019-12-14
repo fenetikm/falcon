@@ -49,7 +49,7 @@ Comment: 'mid_gray - i'
 Constant: 'normal_gray - b'
 String: 'light_blue_gray' # Constant
 Character: '@String' # Constant
-Boolean: '@Number' # Constant
+Boolean: 'normal_gray - i' # Constant
 Number: 'normal_gray' # Constant
 Float: '@Number' # Constant
 Identifier: 'blue_gray'

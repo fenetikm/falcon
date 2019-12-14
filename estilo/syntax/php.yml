@@ -7,7 +7,7 @@ phpDocCustomTags: 'br_blue' # Type
 phpDocNamespaceSeparator: '@Comment'
 phpUseNamespaceSeparator: 'light_gray -'
 phpException: '' # Exception
-phpBoolean: '' # Boolean
+phpBoolean: '@Boolean' # Boolean
 phpStorageClass: 'orange' # StorageClass
 phpClasses: 'light_gray'
 phpStaticClasses: 'normal_gray - b'
@@ -60,4 +60,4 @@ phpIdentifierSimply: '' # Identifier
 phpStringDelimiter: 'light_gray'
 phpSuperglobals: 'lavender - b'
 phpSpecialChar: 'blue_gray - b'
-phpNullValue: 'normal_gray - i'
+phpNullValue: '@Boolean'
