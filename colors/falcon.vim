@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2019/12/13 09:35
+" Last Change: 2020/01/02 09:54
 " ===============================================================
 
 set background=dark
@@ -420,7 +420,8 @@ hi link twigVariable Identifier
 hi twigFilter guifg=#ddcfbf ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi snipSnippetHeaderKeyword guifg=#ffc552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link snipSnippetFooterKeyword snipSnippetHeaderKeyword
-hi snipTabStop guifg=#ff761a ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link snipTabStop Identifier
+hi snipTabStopDefault guifg=#99a4bc ctermfg=248 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi link snipMirror snipTabStop
 hi link snipSnippetTrigger String
 hi link snipSnippetDocContextString Comment
