@@ -11,16 +11,16 @@ let g:loaded_falcon=1
 " Required as colors will come from terminal without
 let g:fzf_colors=
   \ { 'fg':      ['fg', 'Comment'],
-    \ 'bg':      ['bg', 'Normal'],
+    \ 'bg':      ['bg', 'NormalFloat'],
     \ 'hl':      ['fg', 'Normal'],
     \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
-    \ 'bg+':     ['bg', 'CursorLine', 'CursorColumn'],
+    \ 'bg+':     ['bg', 'NormalFloat', 'NormalFloat'],
     \ 'hl+':     ['fg', 'Keyword'],
     \ 'info':    ['fg', 'PreProc'],
     \ 'border':  ['fg', 'Ignore'],
     \ 'prompt':  ['fg', 'Conditional'],
-    \ 'pointer': ['fg', 'Exception'],
-    \ 'marker':  ['fg', 'Keyword'],
+    \ 'pointer': ['fg', 'Question'],
+    \ 'marker':  ['fg', 'Directory'],
     \ 'spinner': ['fg', 'Label'],
     \ 'header':  ['fg', 'Comment'] }
 
