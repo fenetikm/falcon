@@ -2,7 +2,7 @@ phpConstant: '' # Constant
 phpCoreConstant: '' # Constant
 phpComment: '' # Comment
 phpCommentTitle: 'mid_gray_alt - i'
-phpDocTags: 'tan - i' # PreProc
+phpDocTags: 'dark_tan - i' # PreProc
 phpDocCustomTags: 'br_blue' # Type
 phpDocNamespaceSeparator: '@Comment'
 phpUseNamespaceSeparator: 'light_gray -'
