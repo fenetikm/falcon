@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2020/03/02 12:01
+" Last Change: 2020/04/16 12:08
 " ===============================================================
 
 set background=dark
@@ -155,6 +155,7 @@ hi link diffRemoved DiffDelete
 hi link diffFile Title
 hi diffLine guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffSubname guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi dockercomposeKeywords guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link elmTypeDef Type
 hi elmType guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi elmTopLevelDecl guifg=#DDCFBF ctermfg=187 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -499,9 +500,41 @@ hi link zshParentheses Delimiter
 if exists('*term_setansicolors')
   let g:terminal_ansi_colors = repeat([0], 16)
 
+  let g:terminal_ansi_colors[0] = '#000004'
+  let g:terminal_ansi_colors[1] = '#FF3600'
+  let g:terminal_ansi_colors[2] = '#718E3F'
+  let g:terminal_ansi_colors[3] = '#FFC552'
+  let g:terminal_ansi_colors[4] = '#635196'
+  let g:terminal_ansi_colors[5] = '#FF761A'
+  let g:terminal_ansi_colors[6] = '#34bfa4'
+  let g:terminal_ansi_colors[7] = '#B4B4B9'
+  let g:terminal_ansi_colors[8] = '#020221'
+  let g:terminal_ansi_colors[9] = '#FF8E78'
+  let g:terminal_ansi_colors[10] = '#B1BF75'
+  let g:terminal_ansi_colors[11] = '#FFD392'
+  let g:terminal_ansi_colors[12] = '#99A4BC'
+  let g:terminal_ansi_colors[13] = '#FFB07B'
+  let g:terminal_ansi_colors[14] = '#8BCCBF'
+  let g:terminal_ansi_colors[15] = '#F8F8FF'
 endif
 
 if has('nvim')
+  let g:terminal_color_0 = '#000004'
+  let g:terminal_color_1 = '#FF3600'
+  let g:terminal_color_2 = '#718E3F'
+  let g:terminal_color_3 = '#FFC552'
+  let g:terminal_color_4 = '#635196'
+  let g:terminal_color_5 = '#FF761A'
+  let g:terminal_color_6 = '#34bfa4'
+  let g:terminal_color_7 = '#B4B4B9'
+  let g:terminal_color_8 = '#020221'
+  let g:terminal_color_9 = '#FF8E78'
+  let g:terminal_color_10 = '#B1BF75'
+  let g:terminal_color_11 = '#FFD392'
+  let g:terminal_color_12 = '#99A4BC'
+  let g:terminal_color_13 = '#FFB07B'
+  let g:terminal_color_14 = '#8BCCBF'
+  let g:terminal_color_15 = '#F8F8FF'
 endif
 
 " ===================================
