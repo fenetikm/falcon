@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2021/01/07 07:12
+" Last Change: 2021/03/01 21:17
 " ===============================================================
 
 set background=dark
@@ -414,6 +414,16 @@ hi tmuxCmds guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi tmuxOptsSet guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptions guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptsSetw guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link TSKeyword Keyword
+hi link TSVariable Identifier
+hi TSMethod guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link TSVariableBuiltin Type
+hi link TSFunction Keyword
+hi link TSOperator Operator
+hi TSConstructor guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi link TSException Keyword
+hi link TSConstant Constant
+hi link TSConstBuiltin Boolean
 hi link twigVarDelim Delimiter
 hi link twigTagDelim Delimiter
 hi twigString guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
