@@ -42,12 +42,19 @@ class CcspUserService implements CcspUserServiceInterface {
       ->setEmail($email)
       ->save();
 
+    define('CONST', 1);
+    // Here is a comment
+
     $a_flag = FALSE;
     $a_number = 0;
     $a_null = NULL;
 
     // @TODO fix this up, plaz.
     return $reviewer;
+
+    $hello = array_map(function($item) {
+      return $item;
+    }, $arr);
   }
 
 }
