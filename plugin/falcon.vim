@@ -46,15 +46,16 @@ function s:HandleInactiveBackground()
   if exists('+winhighlight') && g:falcon_inactive == 1
     hi ActiveWindow guibg=NONE
     hi InactiveWindow guibg=#151521
-    set winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
+
+    return
+  endif
+
+  if g:falcon_background == 1
+    hi ActiveWindow guibg=#020221
+    hi InactiveWindow guibg=#151521
   else
-    if g:falcon_background == 1
-      hi ActiveWindow guibg=#020221
-      hi InactiveWindow guibg=#151521
-    else
-      hi ActiveWindow guibg=NONE
-      hi InactiveWindow guibg=NONE
-    endif
+    hi ActiveWindow guibg=NONE
+    hi InactiveWindow guibg=NONE
   endif
 endfunction
 
