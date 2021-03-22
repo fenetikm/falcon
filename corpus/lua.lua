@@ -38,3 +38,8 @@ function quicksort(t)
   for _,v in ipairs(c) do a[#a+1]=v end
   return a
 end
+
+-- on purpose errors to check LSP
+re
+function
+
