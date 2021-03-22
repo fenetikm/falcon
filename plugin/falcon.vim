@@ -12,10 +12,10 @@ let g:loaded_falcon=1
 if !exists('g:fzf_colors')
   let g:fzf_colors=
     \ { 'fg':      ['fg', 'Comment'],
-      \ 'bg':      ['bg', 'NormalFloatAlt'],
+      \ 'bg':      ['bg', 'PMenu'],
       \ 'hl':      ['fg', 'Normal'],
       \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
-      \ 'bg+':     ['bg', 'NormalFloatAlt', 'NormalFloatAlt'],
+      \ 'bg+':     ['bg', 'PMenu', 'PMenu'],
       \ 'hl+':     ['fg', 'Keyword'],
       \ 'info':    ['fg', 'PreProc'],
       \ 'border':  ['fg', 'Ignore'],
