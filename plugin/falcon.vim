@@ -9,20 +9,22 @@ endif
 let g:loaded_falcon=1
 
 " Required as colors will come from terminal without
-let g:fzf_colors=
-  \ { 'fg':      ['fg', 'Comment'],
-    \ 'bg':      ['bg', 'NormalFloatAlt'],
-    \ 'hl':      ['fg', 'Normal'],
-    \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
-    \ 'bg+':     ['bg', 'NormalFloatAlt', 'NormalFloatAlt'],
-    \ 'hl+':     ['fg', 'Keyword'],
-    \ 'info':    ['fg', 'PreProc'],
-    \ 'border':  ['fg', 'Ignore'],
-    \ 'prompt':  ['fg', 'Conditional'],
-    \ 'pointer': ['fg', 'Question'],
-    \ 'marker':  ['fg', 'Directory'],
-    \ 'spinner': ['fg', 'Label'],
-    \ 'header':  ['fg', 'Comment'] }
+if !exists('g:fzf_colors')
+  let g:fzf_colors=
+    \ { 'fg':      ['fg', 'Comment'],
+      \ 'bg':      ['bg', 'NormalFloatAlt'],
+      \ 'hl':      ['fg', 'Normal'],
+      \ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+      \ 'bg+':     ['bg', 'NormalFloatAlt', 'NormalFloatAlt'],
+      \ 'hl+':     ['fg', 'Keyword'],
+      \ 'info':    ['fg', 'PreProc'],
+      \ 'border':  ['fg', 'Ignore'],
+      \ 'prompt':  ['fg', 'Conditional'],
+      \ 'pointer': ['fg', 'Question'],
+      \ 'marker':  ['fg', 'Directory'],
+      \ 'spinner': ['fg', 'Label'],
+      \ 'header':  ['fg', 'Comment'] }
+endif
 
 function s:HandleInactiveBackground()
   " NeoVim has support for changing background colour depending on active or not
