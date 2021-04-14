@@ -31,6 +31,7 @@ class CcspUserService implements CcspUserServiceInterface {
     if (!empty($reviewer)) {
       return reset($reviewer);
     }
+    $change;
 
     $user_storage = $this->entityTypeManager->getStorage('user');
     $reviewer = $user_storage->create();
@@ -42,7 +43,7 @@ class CcspUserService implements CcspUserServiceInterface {
       ->setEmail($email)
       ->save();
 
-    define('CONST', 1);
+    define('CONST', 1); //thing
     // Here is a comment
 
     $a_flag = FALSE;
@@ -51,6 +52,7 @@ class CcspUserService implements CcspUserServiceInterface {
 
     // @TODO fix this up, plaz.
     return $reviewer;
+
 
     $hello = array_map(function($item) {
       return $item;

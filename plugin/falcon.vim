@@ -49,6 +49,8 @@ function s:HandleInactiveBackground()
     hi ActiveWindow guibg=NONE
     hi InactiveWindow guibg=#151521
 
+    "TODO normalfloat background settings to not use PMenu
+    set winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
     return
   endif
 
