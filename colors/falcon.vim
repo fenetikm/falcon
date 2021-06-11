@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2021/04/13 14:36
+" Last Change: 2021/05/06 14:41
 " ===============================================================
 
 set background=dark
@@ -327,6 +327,8 @@ hi NvimTreeFolderName guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE
 hi NvimTreeRootFolder guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeFolderIcon guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeEmptyFolderName guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeOpenedFolderName guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeOpenedFile guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitDirty guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitStaged guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitMerge guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
