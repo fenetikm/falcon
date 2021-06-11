@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2021/05/06 14:41
+" Last Change: 2021/06/11 13:39
 " ===============================================================
 
 set background=dark
@@ -407,8 +407,9 @@ hi link shSnglCase Delimiter
 hi shSetList guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi shStatement guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link shSet shStatement
-hi Sneak guifg=#BFDAFF ctermfg=153 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi link SneakLabel Sneak
+hi Sneak guifg=#F8F8FF ctermfg=15 guibg=#2D1078 ctermbg=4 gui=NONE cterm=NONE
+hi SneakLabel guifg=#F8F8FF ctermfg=15 guibg=#2D1078 ctermbg=4 gui=NONE cterm=NONE
+hi SneakScope guifg=#F8F8FF ctermfg=15 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link sqlStatement Function
 hi sqlKeyword guifg=#cfc1b2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link sqlSpecial Number
