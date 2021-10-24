@@ -53,7 +53,6 @@ class CcspUserService implements CcspUserServiceInterface {
     // @TODO fix this up, plaz.
     return $reviewer;
 
-
     $hello = array_map(function($item) {
       return $item;
     }, $arr);
