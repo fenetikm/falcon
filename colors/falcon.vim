@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2021/09/20 08:42
+" Last Change: 2021/10/25 20:07
 " ===============================================================
 
 set background=dark
@@ -35,7 +35,7 @@ hi link AspVBSStatement Keyword
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#151521 ctermbg=234 gui=NONE cterm=NONE
 hi Conceal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#787882 ctermbg=243 gui=NONE cterm=NONE
-hi CursorColumn guifg=NONE ctermfg=NONE guibg=#131323 ctermbg=233 gui=NONE cterm=NONE
+hi CursorColumn guifg=NONE ctermfg=NONE guibg=#171729 ctermbg=234 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#2F2F3A ctermbg=236 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#B4B4B9 ctermfg=249 guibg=#2F2F3A ctermbg=236 gui=NONE cterm=NONE
 hi Directory guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -53,7 +53,7 @@ hi LineNr guifg=#57575E ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#f0e1ce ctermfg=224 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi NonText guifg=#36363A ctermfg=237 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
 hi Normal guifg=#B4B4B9 ctermfg=249 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
-hi PMenu guifg=#878791 ctermfg=102 guibg=#131323 ctermbg=233 gui=NONE cterm=NONE
+hi PMenu guifg=#878791 ctermfg=102 guibg=#171729 ctermbg=234 gui=NONE cterm=NONE
 hi PMenuSel guifg=#000004 ctermfg=0 guibg=#FFC552 ctermbg=221 gui=NONE cterm=NONE
 hi PmenuSbar guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuThumb guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -110,7 +110,7 @@ hi Bold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi Italic guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi IndentBlanklineChar guifg=#36363A ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IndentBlanklineIndent1 guifg=#36363A ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IndentBlanklineIndent2 guifg=#212127 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IndentBlanklineIndent2 guifg=#4F4F59 ctermfg=239 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi BufTabLineCurrent guifg=#B4B4B9 ctermfg=249 guibg=#787882 ctermbg=243 gui=NONE cterm=NONE
 hi BufTabLineActive guifg=#DFDFE5 ctermfg=254 guibg=#36363A ctermbg=237 gui=NONE cterm=NONE
 hi BufTabLineHidden guifg=#787882 ctermfg=243 guibg=#36363A ctermbg=237 gui=NONE cterm=NONE
@@ -318,14 +318,20 @@ hi mkdCodeDelimiter guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE c
 hi link mkdHeading Delimiter
 hi healthSuccess guifg=#020221 ctermfg=0 guibg=#718E3F ctermbg=65 gui=NONE cterm=NONE
 hi healthError guifg=#020221 ctermfg=0 guibg=#FF3600 ctermbg=202 gui=NONE cterm=NONE
-hi NormalFloat guifg=NONE ctermfg=NONE guibg=#242430 ctermbg=235 gui=NONE cterm=NONE
-hi NormalFloatAlt guifg=NONE ctermfg=NONE guibg=#0A0A29 ctermbg=232 gui=NONE cterm=NONE
+hi NormalFloat guifg=NONE ctermfg=NONE guibg=#2F2F3A ctermbg=236 gui=NONE cterm=NONE
+hi NormalFloatAlt guifg=NONE ctermfg=NONE guibg=#242430 ctermbg=235 gui=NONE cterm=NONE
 hi NERDTreeCWD guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeOpenable guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeClosable guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeFlags guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeGitStatusDirDirty guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi netrwClassify guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CmpItemAbbr guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CmpItemAbbrDeprecated guifg=#cfc1b2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CmpItemAbbrMatch guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CmpItemAbbrMatchFuzzy guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CmpItemKind guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CmpItemMenu guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeFolderName guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeRootFolder guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeFolderIcon guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
