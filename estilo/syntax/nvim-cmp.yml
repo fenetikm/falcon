@@ -1,6 +1,6 @@
 CmpItemAbbr: 'mid_gray_alt'
 CmpItemAbbrDeprecated: 'mid_gray_alt - i'
 CmpItemAbbrMatch: 'normal_gray'
-CmpItemAbbrMatchFuzzy: 'yellow'
+CmpItemAbbrMatchFuzzy: 'normal_gray - i'
 CmpItemKind: 'mid_dark_gray'
 CmpItemMenu: 'mid_gray'
