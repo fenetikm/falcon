@@ -1,6 +1,6 @@
-LspDiagnosticsDefaultError: 'mid_red - '
+LspDiagnosticsDefaultError: 'mid_red -'
 LspDiagnosticsDefaultWarning: 'mid_yellow -'
-LspDiagnosticsDefaultInformation: 'mid_gray - '
+LspDiagnosticsDefaultInformation: 'mid_gray -'
 LspDiagnosticsDefaultHint: 'dark_tan -'
 LspReferenceRead: '- - u'
 LspReferenceText: '- - u'

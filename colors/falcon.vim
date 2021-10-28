@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2021/10/28 12:51
+" Last Change: 2021/10/29 09:33
 " ===============================================================
 
 set background=dark
@@ -53,7 +53,7 @@ hi LineNr guifg=#57575E ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#f0e1ce ctermfg=224 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi NonText guifg=#36363A ctermfg=237 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
 hi Normal guifg=#B4B4B9 ctermfg=249 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
-hi PMenu guifg=#878791 ctermfg=102 guibg=#171729 ctermbg=234 gui=NONE cterm=NONE
+hi PMenu guifg=#878791 ctermfg=102 guibg=#141426 ctermbg=233 gui=NONE cterm=NONE
 hi PMenuSel guifg=#000004 ctermfg=0 guibg=#FFC552 ctermbg=221 gui=NONE cterm=NONE
 hi PmenuSbar guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuThumb guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -272,20 +272,20 @@ hi link xmlEqual Operator
 hi xmlEndTag guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlTagN guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi xmlTagName guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsDefaultError guifg=#a82400 ctermfg=124 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsDefaultWarning guifg=#c99c40 ctermfg=179 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsDefaultError guifg=#9e1e00 ctermfg=124 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsDefaultWarning guifg=#bc8f3f ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsDefaultInformation guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsDefaultHint guifg=#a1968a ctermfg=246 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsDefaultHint guifg=#847b73 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspReferenceRead guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi LspReferenceText guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi LspReferenceWrite guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi LspDiagnosticsVirtualTextError guifg=#a82400 ctermfg=124 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi LspDiagnosticsVirtualTextWarning guifg=#c99c40 ctermfg=179 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi LspDiagnosticsVirtualTextHint guifg=#a1968a ctermfg=246 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi LspDiagnosticsVirtualTextError guifg=#9e1e00 ctermfg=124 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi LspDiagnosticsVirtualTextWarning guifg=#bc8f3f ctermfg=137 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi LspDiagnosticsVirtualTextHint guifg=#847b73 ctermfg=8 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi LspDiagnosticsVirtualTextInformation guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi LspDiagnosticsUnderlineError guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#a82400
-hi LspDiagnosticsUnderlineWarning guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#c99c40
-hi LspDiagnosticsUnderlineHint guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#a1968a
+hi LspDiagnosticsUnderlineError guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#9e1e00
+hi LspDiagnosticsUnderlineWarning guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#bc8f3f
+hi LspDiagnosticsUnderlineHint guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#847b73
 hi LspDiagnosticsUnderlineInformation guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#787882
 hi luaFuncKeyword guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaFuncTable guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -322,8 +322,7 @@ hi mkdCodeDelimiter guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE c
 hi link mkdHeading Delimiter
 hi healthSuccess guifg=#020221 ctermfg=0 guibg=#718E3F ctermbg=65 gui=NONE cterm=NONE
 hi healthError guifg=#020221 ctermfg=0 guibg=#FF3600 ctermbg=202 gui=NONE cterm=NONE
-hi NormalFloat guifg=NONE ctermfg=NONE guibg=#2F2F3A ctermbg=236 gui=NONE cterm=NONE
-hi NormalFloatAlt guifg=NONE ctermfg=NONE guibg=#242430 ctermbg=235 gui=NONE cterm=NONE
+hi NormalFloat guifg=NONE ctermfg=NONE guibg=#1e1e2f ctermbg=234 gui=NONE cterm=NONE
 hi NERDTreeCWD guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeOpenable guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeClosable guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -349,7 +348,7 @@ hi NvimTreeGitRenamed guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE
 hi NvimTreeGitNew guifg=#718E3F ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitDeleted guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpCommentTitle guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi phpDocTags guifg=#a1968a ctermfg=246 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi phpDocTags guifg=#847b73 ctermfg=8 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi phpDocCustomTags guifg=#BFDAFF ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link phpDocNamespaceSeparator Comment
 hi phpUseNamespaceSeparator guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -456,6 +455,11 @@ hi TagbarHighlight guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE ct
 hi TagbarVisibilityPublic guifg=#718E3F ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarVisibilityProtected guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarVisibilityPrivate guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TelescopeBorder guifg=#36363A ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TelescopeTitle guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TelescopeMatching guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TelescopePromptPrefix guifg=#57575E ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TelescopeSelection guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxCmds guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptsSet guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptions guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
