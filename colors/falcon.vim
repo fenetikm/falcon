@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2021/10/29 09:33
+" Last Change: 2021/10/30 14:32
 " ===============================================================
 
 set background=dark
@@ -53,7 +53,7 @@ hi LineNr guifg=#57575E ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#f0e1ce ctermfg=224 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi NonText guifg=#36363A ctermfg=237 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
 hi Normal guifg=#B4B4B9 ctermfg=249 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
-hi PMenu guifg=#878791 ctermfg=102 guibg=#141426 ctermbg=233 gui=NONE cterm=NONE
+hi PMenu guifg=#878791 ctermfg=102 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
 hi PMenuSel guifg=#000004 ctermfg=0 guibg=#FFC552 ctermbg=221 gui=NONE cterm=NONE
 hi PmenuSbar guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuThumb guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -171,7 +171,7 @@ hi fugitiveSymbolicRef guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NON
 hi fugitiveHeader guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi fugitiveHunk guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi fugitiveModifier guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi fzf1 guifg=#FFC552 ctermfg=221 guibg=#36363A ctermbg=237 gui=NONE cterm=NONE
+hi fzf1 guifg=#cfc1b2 ctermfg=181 guibg=#36363A ctermbg=237 gui=NONE cterm=NONE
 hi fzf2 guifg=#FF761A ctermfg=208 guibg=#36363A ctermbg=237 gui=NONE cterm=NONE
 hi fzf3 guifg=#FF761A ctermfg=208 guibg=#36363A ctermbg=237 gui=NONE cterm=NONE
 hi gitcommitSummary guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -455,11 +455,15 @@ hi TagbarHighlight guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE ct
 hi TagbarVisibilityPublic guifg=#718E3F ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarVisibilityProtected guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarVisibilityPrivate guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TelescopeBorder guifg=#36363A ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TelescopeTitle guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TelescopeMatching guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TelescopePromptPrefix guifg=#57575E ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TelescopeSelection guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TelescopeBorder guifg=#36363A ctermfg=237 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
+hi TelescopeTitle guifg=#878791 ctermfg=102 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
+hi TelescopeMatching guifg=#cfc1b2 ctermfg=181 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
+hi TelescopePromptPrefix guifg=#57575E ctermfg=240 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
+hi TelescopeSelection guifg=#DFDFE5 ctermfg=254 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
+hi TelescopeSelectionCaret guifg=#FF761A ctermfg=208 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
+hi TelescopeMultiSelection guifg=#DFDFE5 ctermfg=254 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
+hi TelescopeNormal guifg=#787882 ctermfg=243 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
+hi TelescopePreviewNormal guifg=#B4B4B9 ctermfg=249 guibg=#1e1e2f ctermbg=234 gui=NONE cterm=NONE
 hi tmuxCmds guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptsSet guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptions guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
