@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2021/10/30 15:13
+" Last Change: 2021/10/30 16:02
 " ===============================================================
 
 set background=dark
@@ -350,7 +350,7 @@ hi NotifyWARNTitle guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE ct
 hi NotifyINFOTitle guifg=#859933 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NotifyDEBUGTitle guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NotifyTRACETitle guifg=#cfc1b2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NotifyERRORBody guifg=#B4B4B9 ctermfg=249 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
+hi link NotifyERRORBody Normal
 hi link NotifyWARNBody Normal
 hi link NotifyINFOBody Normal
 hi link NotifyDEBUGBody Normal
@@ -492,13 +492,14 @@ hi link TSKeyword Keyword
 hi link TSVariable Identifier
 hi TSMethod guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link TSVariableBuiltin Type
-hi link TSFunction Keyword
+hi link TSFunction Function
 hi link TSOperator Operator
 hi TSConstructor guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi link TSException Keyword
 hi link TSConstant Constant
 hi link TSConstBuiltin Boolean
 hi TSError guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSKeywordFunction guifg=#cfc1b2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link twigVarDelim Delimiter
 hi link twigTagDelim Delimiter
 hi twigString guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
