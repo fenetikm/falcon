@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2021/10/30 14:43
+" Last Change: 2021/10/30 15:13
 " ===============================================================
 
 set background=dark
@@ -151,7 +151,7 @@ hi cssAttr guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssNoise guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssPseudoClass guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssAtRuleLogical guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Done guifg=#718E3F ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Done guifg=#859933 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Partial guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DashboardFooter guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi DashboardHeader guifg=#5521D9 ctermfg=56 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -177,12 +177,12 @@ hi fzf3 guifg=#FF761A ctermfg=208 guibg=#36363A ctermbg=237 gui=NONE cterm=NONE
 hi gitcommitSummary guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitBranch guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitDiscardedType guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi gitcommitSelectedType guifg=#718E3F ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi gitcommitSelectedType guifg=#859933 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitDiscardedFile guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitSelectedFile guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitconfigSection guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitconfigVariable guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitSignsAdd guifg=#718E3F ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitSignsAdd guifg=#859933 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsChange guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsDelete guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitSignsChangeDelete guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -320,7 +320,7 @@ hi htmlItalic guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Italic cterm=I
 hi mkdCode guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi mkdCodeDelimiter guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link mkdHeading Delimiter
-hi healthSuccess guifg=#020221 ctermfg=0 guibg=#718E3F ctermbg=65 gui=NONE cterm=NONE
+hi healthSuccess guifg=#020221 ctermfg=0 guibg=#859933 ctermbg=101 gui=NONE cterm=NONE
 hi healthError guifg=#020221 ctermfg=0 guibg=#FF3600 ctermbg=202 gui=NONE cterm=NONE
 hi NormalFloat guifg=NONE ctermfg=NONE guibg=#1e1e2f ctermbg=234 gui=NONE cterm=NONE
 hi NERDTreeCWD guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -335,6 +335,26 @@ hi CmpItemAbbrMatch guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE c
 hi CmpItemAbbrMatchFuzzy guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi CmpItemKind guifg=#57575E ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CmpItemMenu guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyERRORBorder guifg=#9e1e00 ctermfg=124 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyWARNBorder guifg=#bc8f3f ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyINFOBorder guifg=#666d26 ctermfg=58 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyDEBUGBorder guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyTRACEBorder guifg=#847b73 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyERRORIcon guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyWARNIcon guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyINFOIcon guifg=#859933 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyDEBUGIcon guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyTRACEIcon guifg=#cfc1b2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyERRORTitle guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyWARNTitle guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyINFOTitle guifg=#859933 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyDEBUGTitle guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyTRACETitle guifg=#cfc1b2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NotifyERRORBody guifg=#B4B4B9 ctermfg=249 guibg=#020221 ctermbg=0 gui=NONE cterm=NONE
+hi link NotifyWARNBody Normal
+hi link NotifyINFOBody Normal
+hi link NotifyDEBUGBody Normal
+hi link NotifyTRACEBody Normal
 hi NvimTreeFolderName guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeRootFolder guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeFolderIcon guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -345,7 +365,7 @@ hi NvimTreeGitDirty guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE c
 hi NvimTreeGitStaged guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitMerge guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitRenamed guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NvimTreeGitNew guifg=#718E3F ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeGitNew guifg=#859933 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeGitDeleted guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi phpCommentTitle guifg=#878791 ctermfg=102 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi phpDocTags guifg=#847b73 ctermfg=8 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
@@ -452,7 +472,7 @@ hi TagbarSignature guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE ct
 hi TagbarPseudoID guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarFoldIcon guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarHighlight guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TagbarVisibilityPublic guifg=#718E3F ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TagbarVisibilityPublic guifg=#859933 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarVisibilityProtected guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TagbarVisibilityPrivate guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TelescopeBorder guifg=#36363A ctermfg=237 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
@@ -498,7 +518,7 @@ hi DbgBreakptLine guifg=NONE ctermfg=NONE guibg=#031630 ctermbg=233 gui=NONE cte
 hi DbgBreakptSign guifg=#031630 ctermfg=233 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DbgCurrentLine guifg=NONE ctermfg=NONE guibg=#300E03 ctermbg=233 gui=NONE cterm=NONE
 hi DbgCurrentSign guifg=#300E03 ctermfg=233 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitGutterAdd guifg=#718E3F ctermfg=65 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterAdd guifg=#859933 ctermfg=101 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterChange guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterDelete guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi GitGutterChangeDelete guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -568,7 +588,7 @@ if exists('*term_setansicolors')
 
   let g:terminal_ansi_colors[0] = '#000004'
   let g:terminal_ansi_colors[1] = '#FF3600'
-  let g:terminal_ansi_colors[2] = '#718E3F'
+  let g:terminal_ansi_colors[2] = '#859933'
   let g:terminal_ansi_colors[3] = '#FFC552'
   let g:terminal_ansi_colors[4] = '#635196'
   let g:terminal_ansi_colors[5] = '#FF761A'
@@ -576,7 +596,7 @@ if exists('*term_setansicolors')
   let g:terminal_ansi_colors[7] = '#B4B4B9'
   let g:terminal_ansi_colors[8] = '#020221'
   let g:terminal_ansi_colors[9] = '#FF8E78'
-  let g:terminal_ansi_colors[10] = '#B1BF75'
+  let g:terminal_ansi_colors[10] = '#b2bc55'
   let g:terminal_ansi_colors[11] = '#FFD392'
   let g:terminal_ansi_colors[12] = '#99A4BC'
   let g:terminal_ansi_colors[13] = '#FFB07B'
@@ -587,7 +607,7 @@ endif
 if has('nvim')
   let g:terminal_color_0 = '#000004'
   let g:terminal_color_1 = '#FF3600'
-  let g:terminal_color_2 = '#718E3F'
+  let g:terminal_color_2 = '#859933'
   let g:terminal_color_3 = '#FFC552'
   let g:terminal_color_4 = '#635196'
   let g:terminal_color_5 = '#FF761A'
@@ -595,7 +615,7 @@ if has('nvim')
   let g:terminal_color_7 = '#B4B4B9'
   let g:terminal_color_8 = '#020221'
   let g:terminal_color_9 = '#FF8E78'
-  let g:terminal_color_10 = '#B1BF75'
+  let g:terminal_color_10 = '#b2bc55'
   let g:terminal_color_11 = '#FFD392'
   let g:terminal_color_12 = '#99A4BC'
   let g:terminal_color_13 = '#FFB07B'
