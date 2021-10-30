@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2021/10/30 14:32
+" Last Change: 2021/10/30 14:43
 " ===============================================================
 
 set background=dark
@@ -457,7 +457,7 @@ hi TagbarVisibilityProtected guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE g
 hi TagbarVisibilityPrivate guifg=#FF3600 ctermfg=202 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TelescopeBorder guifg=#36363A ctermfg=237 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
 hi TelescopeTitle guifg=#878791 ctermfg=102 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
-hi TelescopeMatching guifg=#cfc1b2 ctermfg=181 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
+hi TelescopeMatching guifg=#FFC552 ctermfg=221 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
 hi TelescopePromptPrefix guifg=#57575E ctermfg=240 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
 hi TelescopeSelection guifg=#DFDFE5 ctermfg=254 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
 hi TelescopeSelectionCaret guifg=#FF761A ctermfg=208 guibg=#171728 ctermbg=234 gui=NONE cterm=NONE
