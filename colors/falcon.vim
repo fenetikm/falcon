@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2021/11/02 10:22
+" Last Change: 2021/11/03 18:59
 " ===============================================================
 
 set background=dark
@@ -323,6 +323,7 @@ hi link mkdHeading Delimiter
 hi healthSuccess guifg=#020221 ctermfg=0 guibg=#859933 ctermbg=101 gui=NONE cterm=NONE
 hi healthError guifg=#020221 ctermfg=0 guibg=#FF3600 ctermbg=202 gui=NONE cterm=NONE
 hi NormalFloat guifg=NONE ctermfg=NONE guibg=#1E1E2F ctermbg=234 gui=NONE cterm=NONE
+hi FloatBorder guifg=#36363A ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeCWD guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeOpenable guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NERDTreeClosable guifg=#C8D0E3 ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
