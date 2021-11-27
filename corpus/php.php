@@ -25,7 +25,7 @@ class CcspUserService implements CcspUserServiceInterface {
   /**
    * {@inheritdoc}
    */
-  public static function createReturnReviewer($reviewer_id, $reviewer_name = '', $email = '') {
+  public static function createReturnReviewer($reviewer_id, $reviewer_name = '', $email = '', int $unused) {
     // @TODO fix this up.
     $reviewer = $this->loadUserByName($reviewer_id);
     if (!empty($reviewer)) {
@@ -43,8 +43,9 @@ class CcspUserService implements CcspUserServiceInterface {
       ->setEmail($email)
       ->save();
 
-    define('CONST', 1); //thing
     // Here is a comment
+    //
+    Here is a change
 
     $a_flag = FALSE;
     $a_number = 0;
@@ -59,3 +60,4 @@ class CcspUserService implements CcspUserServiceInterface {
   }
 
 }
+

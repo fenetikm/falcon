@@ -1,6 +1,10 @@
 -- in-place quicksort
+
+-- show lsp warning
+thing
+
 -- @todo do the thing
-function quicksort(t, start, endi)
+function quicksort(t, start, endi, hey)
   start, endi = start or 1, endi or #t
   --partition w.r.t. first element
   if(endi - start < 1) then return t end
@@ -15,6 +19,7 @@ function quicksort(t, start, endi)
       pivot = pivot + 1
     end
   end
+  
   t = quicksort(t, start, pivot - 1)
   return quicksort(t, pivot + 1, endi)
 end
@@ -32,7 +37,6 @@ function quicksort(t)
     else                b[#b+1]=v
     end
   end
-  a=quicksort(a)
   c=quicksort(c)
   for _,v in ipairs(b) do a[#a+1]=v end
   for _,v in ipairs(c) do a[#a+1]=v end
@@ -40,6 +44,5 @@ function quicksort(t)
 end
 
 -- on purpose errors to check LSP
-re
 function
 

@@ -20,7 +20,8 @@ vim.api.nvim_set_var('falcon.palette', {
   branch = '#99a4bc',
   method = '#a1968a',
   path = '#787882',
-  info = '#a1968a',
-  error = '#a82400',
-  warning = '#c99c40'
+  info = '#787882',
+  hint = '#847b73',
+  error = '#9e1e00',
+  warning = '#bc8f3f'
 })
