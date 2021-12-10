@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2021/11/27 12:09
+" Last Change: 2021/12/10 15:51
 " ===============================================================
 
 set background=dark
@@ -108,9 +108,9 @@ hi Todo guifg=#020221 ctermfg=0 guibg=#CFC1B2 ctermbg=181 gui=Italic cterm=Itali
 hi QuickFixLine guifg=#BFDAFF ctermfg=153 guibg=#36363A ctermbg=237 gui=NONE cterm=NONE
 hi Bold guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi Italic guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-hi IndentBlanklineChar guifg=#36363A ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IndentBlanklineIndent1 guifg=#36363A ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IndentBlanklineIndent2 guifg=#4F4F59 ctermfg=239 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IndentBlanklineChar guifg=#2F2F3A ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IndentBlanklineIndent1 guifg=#2F2F3A ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi IndentBlanklineIndent2 guifg=#36363A ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi BufTabLineCurrent guifg=#B4B4B9 ctermfg=249 guibg=#787882 ctermbg=243 gui=NONE cterm=NONE
 hi BufTabLineActive guifg=#DFDFE5 ctermfg=254 guibg=#36363A ctermbg=237 gui=NONE cterm=NONE
 hi BufTabLineHidden guifg=#787882 ctermfg=243 guibg=#36363A ctermbg=237 gui=NONE cterm=NONE
@@ -287,6 +287,25 @@ hi LspDiagnosticsUnderlineError guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE 
 hi LspDiagnosticsUnderlineWarning guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#BC8F3F
 hi LspDiagnosticsUnderlineHint guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#847B73
 hi LspDiagnosticsUnderlineInformation guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#787882
+hi DiagnosticSignError guifg=#9E1E00 ctermfg=124 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticSignWarning guifg=#BC8F3F ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticSignInformation guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticSignHint guifg=#847B73 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticError guifg=#9E1E00 ctermfg=124 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticWarning guifg=#BC8F3F ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticInformation guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticHint guifg=#847B73 ctermfg=8 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi ReferenceRead guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi ReferenceText guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi ReferenceWrite guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi DiagnosticVirtualTextError guifg=#9E1E00 ctermfg=124 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi DiagnosticVirtualTextWarning guifg=#BC8F3F ctermfg=137 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi DiagnosticVirtualTextHint guifg=#847B73 ctermfg=8 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi DiagnosticVirtualTextInformation guifg=#787882 ctermfg=243 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi DiagnosticUnderlineError guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#9E1E00
+hi DiagnosticUnderlineWarning guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#BC8F3F
+hi DiagnosticUnderlineHint guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#847B73
+hi DiagnosticUnderlineInformation guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=undercurl cterm=undercurl guisp=#787882
 hi LspSignatureActiveParameter guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi luaFuncKeyword guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi luaFuncTable guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
