@@ -1,0 +1,29 @@
+--- # Sequencer protocols for Laser eye surgery
+- step:  &id001                  # defines anchor label &id001
+    instrument:      Lasik 2000
+    pulseEnergy:     5.4
+    pulseDuration:   12
+    repetition:      1000
+    spotSize:        1mm
+
+- step: &id002
+    instrument:      Lasik 2000
+    pulseEnergy:     5.0
+    pulseDuration:   10
+    repetition:      500
+    spotSize:        2mm
+- step: *id001                   # refers to the first step (with anchor &id001)
+- step: *id002                   # refers to the second step
+- step: *id002
+
+---
+example: >
+        HTML goes into YAML without modification
+message: |
+
+        <blockquote style="font: italic 1em serif">
+        <p>"Three is always greater than two,
+           even for large values of two"</p>
+        <p>--Author Unknown</p>
+        </blockquote>
+date: 2007-06-01
