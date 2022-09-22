@@ -24,7 +24,7 @@ approach is to make simple incremental additions and see how it helps or not
 - single colour statusline vs full colour
 - chrome full colour or mono
 - syntax full colour or minimal
-- light mode?
+- light mode? change warmth / cool dependent on season / time
 
 ### How
 - contrast: define different colours to reference - apprentice does this, could be done programmatically maybe using colour commands like saturation, lightness etc.
