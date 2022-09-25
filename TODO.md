@@ -1,7 +1,13 @@
 # Falcon Todo
 
-## v3 outline
-approach is to make simple incremental additions and see how it helps or not
+## Todo v3
+- try out using lush, specifically:
+  * having a base and other, merge
+  * turning other on and off via command?
+  * changing contrast
+  * turn on / off, there is a way to do that with lush, can create a command
+- output kitty conf file using template
+- other terminal files
 
 ### What
 - dynamic colour scheme, lua based for neovim, use current colours, could tweak a bit?
@@ -55,6 +61,9 @@ special keys:
 > nocombine:     boolean, enables or disables nocombine.
 
 ### references
+#### Rando
+- https://github.com/mcchrish/zenbones.nvim Very nice, kind of thing we are going for, also outputs terminal files
+
 #### Tools
 - https://github.com/rktjmp/lush.nvim interactive colour scheme tool
 - https://github.com/tjdevries/colorbuddy.nvim a bunch of functions to help with creating schemes
@@ -68,17 +77,12 @@ special keys:
 - https://github.com/folke/tokyonight.nvim
 - https://github.com/kvrohit/rasmus.nvim
 
-## v3 todo
-- setup src for lua
-- readup on neovim color scheming, don't think there is much there? blend? `nvim_set_hl`
-- try out using lush, specifically:
-  * having a base and other, merge
-  * turning other on and off via command?
-  * changing contrast
-  * turn on / off
-- output kitty conf file using template
+## VSCode refs
+- https://github.com/sdras/night-owl-vscode-theme
+- https://css-tricks.com/creating-a-vs-code-theme/
+- https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme&WT.mc_id=csstricks-themearticle-sdras
 
-## Todo
+## Someday
 * statusline - airline check
 * increase contrast in markdown for code blocks - maybe another gray...
 * check gnome
@@ -87,13 +91,6 @@ special keys:
 * update other themes with indigo for selection colour
 * kitty file for inclusion
 * fzf colors, check PR
-
-## VSCode refs
-- https://github.com/sdras/night-owl-vscode-theme
-- https://css-tricks.com/creating-a-vs-code-theme/
-- https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme&WT.mc_id=csstricks-themearticle-sdras
-
-## Someday
 * L*a*b values
 * Light version? probably not though. Maybe some contrast options.
 * More support:
