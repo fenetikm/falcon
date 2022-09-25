@@ -69,13 +69,14 @@ special keys:
 - https://github.com/tjdevries/colorbuddy.nvim a bunch of functions to help with creating schemes
 - https://github.com/bungle/lua-resty-template lua resty templating, says html but maybe other?
 
-#### Colour schemes that use Lua
+#### Colour schemes that use Lua or related
 - https://github.com/sainnhe/everforest
 - https://github.com/sainnhe/sonokai
 - https://github.com/savq/melange
 - https://github.com/EdenEast/nightfox.nvim
 - https://github.com/folke/tokyonight.nvim
 - https://github.com/kvrohit/rasmus.nvim
+- https://github.com/mcchrish/zenbones.nvim/
 
 ## VSCode refs
 - https://github.com/sdras/night-owl-vscode-theme
