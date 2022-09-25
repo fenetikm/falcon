@@ -8,6 +8,8 @@
   * turn on / off, there is a way to do that with lush, can create a command
 - output kitty conf file using template
 - other terminal files
+- vim export possible?
+- submit PR to lush.nvim for inclusion
 
 ### What
 - dynamic colour scheme, lua based for neovim, use current colours, could tweak a bit?
