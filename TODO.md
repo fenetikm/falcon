@@ -65,6 +65,7 @@ special keys:
 ### references
 #### Rando
 - https://github.com/mcchrish/zenbones.nvim Very nice, kind of thing we are going for, also outputs terminal files
+- https://github.com/mcchrish/zenbones.nvim/blob/main/doc/zenbones.md#create-your-own-colorscheme good inspiration re configurability - maybe too much?
 
 #### Tools
 - https://github.com/rktjmp/lush.nvim interactive colour scheme tool
