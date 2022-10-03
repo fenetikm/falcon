@@ -1,0 +1,61 @@
+local lush = require('lush')
+local hsl = lush.hsl
+
+local red               = hsl('#FF3600')
+local mid_red           = hsl('#9E1E00')
+local orange            = hsl('#FF761A')
+local yellow            = hsl('#FFC552')
+local mid_yellow        = hsl('#BC8F3F')
+local green             = hsl('#859933')
+local mid_green         = hsl('#666D26')
+local light_blue_gray   = hsl('#C8D0E3')
+local blue_gray         = hsl('#99A4BC')
+local blue_mid_gray     = hsl('#4F4F59')
+local blue_dark_gray    = hsl('#2F2F3A')
+local blue_darkest_gray = hsl('#171729')
+local blue_dark_float   = hsl('#18182A')
+local blue_dark_float2  = hsl('#1E1E2F')
+local dark_tan          = hsl('#847B73')
+local tan               = hsl('#CFC1B2')
+local br_tan            = hsl('#F0E1CE')
+local br_blue           = hsl('#BFDAFF')
+local white             = hsl('#F8F8FF')
+local light_gray        = hsl('#DFDFE5')
+local normal_gray       = hsl('#B4B4B9')
+local mid_gray_alt      = hsl('#878791')
+local mid_gray          = hsl('#787882')
+local mid_dark_gray     = hsl('#57575E')
+local dark_gray         = hsl('#36363A')
+local darker_gray       = hsl('#212127')
+local black             = hsl('#000004')
+local bg                = hsl('#020221')
+local bg_alt            = hsl('#0A0A29')
+local inactive_bg       = hsl('#151521')
+local purple_dark_gray  = hsl('#3F3A59')
+local purple            = hsl('#635196')
+local lavender          = hsl('#9F97CC')
+local status            = hsl('#28282D')
+local inactive_status   = hsl('#1C1C22')
+local off_red           = hsl('#300E03')
+local off_blue          = hsl('#031630')
+local off_green         = hsl('#203003')
+local dark_indigo       = hsl('#2D1078')
+local indigo            = hsl('#5521D9')
+local br_indigo         = hsl('#8859FF')
+local cyan              = hsl('#34BFA4')
+local bright_red        = hsl('#FF8E78')
+local bright_green      = hsl('#B2BC55')
+local bright_yellow     = hsl('#FFD392')
+local bright_orange     = hsl('#FFB07B')
+local bright_cyan       = hsl('#8BCCBF')
+
+local theme = lush(function()
+  return {
+    ColorColumn {bg = inactive_bg},
+    Conceal { },
+    Cursor {bg = mid_gray},
+    CursorIM { },
+    CursorColumn {bg = blue_darkest_gray},
+
+  }
+)
