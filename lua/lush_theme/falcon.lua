@@ -1,64 +1,67 @@
 local lush = require('lush')
-local hsl = lush.hsl
+local hsluv = lush.hsluv
 
 local styles = {
+  italic = "italic",
   bold = "bold",
-  italic = "italic"
+  underline = "underline",
+  inverse = "inverse",
+  undercurl = "undercurl",
+  invert_signs = "",
+  invert_selection = "inverse",
+  invert_tabline = "",
+  italic_comments = "italic",
+  italic_booleans = "NONE",
+  italic_strings = "NONE"
 }
 
-function style(s)
-  local r = {}
-  for _,si in ipairs(s) do
-  end
-end
-
-local red               = hsl('#FF3600')
-local mid_red           = hsl('#9E1E00')
-local orange            = hsl('#FF761A')
-local yellow            = hsl('#FFC552')
-local mid_yellow        = hsl('#BC8F3F')
-local green             = hsl('#859933')
-local mid_green         = hsl('#666D26')
-local light_blue_gray   = hsl('#C8D0E3')
-local blue_gray         = hsl('#99A4BC')
-local blue_mid_gray     = hsl('#4F4F59')
-local blue_dark_gray    = hsl('#2F2F3A')
-local blue_darkest_gray = hsl('#171729')
-local blue_dark_float   = hsl('#18182A')
-local blue_dark_float2  = hsl('#1E1E2F')
-local dark_tan          = hsl('#847B73')
-local tan               = hsl('#CFC1B2')
-local br_tan            = hsl('#F0E1CE')
-local br_blue           = hsl('#BFDAFF')
-local white             = hsl('#F8F8FF')
-local light_gray        = hsl('#DFDFE5')
-local normal_gray       = hsl('#B4B4B9')
-local mid_gray_alt      = hsl('#878791')
-local mid_gray          = hsl('#787882')
-local mid_dark_gray     = hsl('#57575E')
-local dark_gray         = hsl('#36363A')
-local darker_gray       = hsl('#212127')
-local black             = hsl('#000004')
-local bg                = hsl('#020221')
-local bg_alt            = hsl('#0A0A29')
-local inactive_bg       = hsl('#151521')
-local purple_dark_gray  = hsl('#3F3A59')
-local purple            = hsl('#635196')
-local lavender          = hsl('#9F97CC')
-local status            = hsl('#28282D')
-local inactive_status   = hsl('#1C1C22')
-local off_red           = hsl('#300E03')
-local off_blue          = hsl('#031630')
-local off_green         = hsl('#203003')
-local dark_indigo       = hsl('#2D1078')
-local indigo            = hsl('#5521D9')
-local br_indigo         = hsl('#8859FF')
-local cyan              = hsl('#34BFA4')
-local bright_red        = hsl('#FF8E78')
-local bright_green      = hsl('#B2BC55')
-local bright_yellow     = hsl('#FFD392')
-local bright_orange     = hsl('#FFB07B')
-local bright_cyan       = hsl('#8BCCBF')
+local red               = hsluv '#FF3600'
+local mid_red           = hsluv '#9E1E00'
+local orange            = hsluv '#FF761A'
+local yellow            = hsluv '#FFC552'
+local mid_yellow        = hsluv '#BC8F3F'
+local green             = hsluv '#859933'
+local mid_green         = hsluv '#666D26'
+local light_blue_gray   = hsluv '#C8D0E3'
+local blue_gray         = hsluv '#99A4BC'
+local blue_mid_gray     = hsluv '#4F4F59'
+local blue_dark_gray    = hsluv '#2F2F3A'
+local blue_darkest_gray = hsluv '#171729'
+local blue_dark_float   = hsluv '#18182A'
+local blue_dark_float2  = hsluv '#1E1E2F'
+local dark_tan          = hsluv '#847B73'
+local tan               = hsluv '#CFC1B2'
+local br_tan            = hsluv '#F0E1CE'
+local br_blue           = hsluv '#BFDAFF'
+local white             = hsluv '#F8F8FF'
+local light_gray        = hsluv '#DFDFE5'
+local normal_gray       = hsluv '#B4B4B9'
+local mid_gray_alt      = hsluv '#878791'
+local mid_gray          = hsluv '#787882'
+local mid_dark_gray     = hsluv '#57575E'
+local dark_gray         = hsluv '#36363A'
+local darker_gray       = hsluv '#212127'
+local black             = hsluv '#000004'
+local bg                = hsluv '#020221'
+local bg_alt            = hsluv '#0A0A29'
+local inactive_bg       = hsluv '#151521'
+local purple_dark_gray  = hsluv '#3F3A59'
+local purple            = hsluv '#635196'
+local lavender          = hsluv '#9F97CC'
+local status            = hsluv '#28282D'
+local inactive_status   = hsluv '#1C1C22'
+local off_red           = hsluv '#300E03'
+local off_blue          = hsluv '#031630'
+local off_green         = hsluv '#203003'
+local dark_indigo       = hsluv '#2D1078'
+local indigo            = hsluv '#5521D9'
+local br_indigo         = hsluv '#8859FF'
+local cyan              = hsluv '#34BFA4'
+local bright_red        = hsluv '#FF8E78'
+local bright_green      = hsluv '#B2BC55'
+local bright_yellow     = hsluv '#FFD392'
+local bright_orange     = hsluv '#FFB07B'
+local bright_cyan       = hsluv '#8BCCBF'
 
 local theme = lush(function()
   return {
@@ -136,34 +139,35 @@ local theme = lush(function()
     Folded {fg = mid_gray, bg = darker_gray},
     FoldColumn {fg = mid_gray, bg = darker_gray},
     SignColumn {fg = blue_gray},
-    IncSearch {fg = bg, bg = br_blue b},
+    IncSearch {fg = bg, bg = br_blue, gui = styles.bold},
     LineNr {fg = mid_dark_gray},
-    MatchParen {fg = br_tan, - b},
+    MatchParen {fg = br_tan, gui = styles.bold},
     ModeMsg {},
     MoreMsg {},
     NonText {fg = dark_gray, bg = bg},
     Normal {fg = normal_gray, bg = bg},
     PMenu {fg = mid_gray_alt, bg = blue_dark_float},
-    PMenuSel {fg = black yellow},
+    PMenuSel {fg = black, bg = yellow},
     PmenuSbar {fg = normal_gray},
     PmenuThumb {fg = light_gray},
     Question {fg = light_gray},
-    Search {fg = br_blue - bu},
+    Search {fg = br_blue, gui = styles.underline .. ',' .. styles.bold},
     SpecialKey {fg = mid_gray},
-    SpellBad {bg = purple_dark_gray u},
-    SpellLocal {bg = purple_dark_gray u},
-    SpellCap {bg = purple_dark_gray c},
-    SpellRare {bg = purple_dark_gray u},
+    SpellBad {bg = purple_dark_gray, gui = styles.underline},
+    SpellLocal {bg = purple_dark_gray, gui = styles.underline},
+    SpellCap {bg = purple_dark_gray, gui = styles.undercurl},
+    SpellRare {bg = purple_dark_gray, gui = styles.underline},
     StatusLine {fg = mid_gray, bg = status},
     StatusLineNC {fg = mid_gray, bg = dark_gray},
     TabLine {fg = mid_gray, bg = dark_gray},
     TabLineFill {bg = darker_gray},
-    TabLineSel {fg = light_gray -},
+    TabLineSel {fg = light_gray},
     Title {fg = tan},
     Visual {fg = light_gray, bg = dark_indigo},
     VisualNOS {},
     WarningMsg {},
     WildMenu {fg = bg, bg = yellow},
-
   }
-)
+end)
+
+return theme
