@@ -10,6 +10,7 @@
 - other terminal files
 - plugins in separate files
 - language support in separate files
+- new items in base
 - vim export possible?
 - submit PR to lush.nvim for inclusion
 
