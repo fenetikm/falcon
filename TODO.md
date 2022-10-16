@@ -14,6 +14,7 @@
 - new items in base
 - move falcon.lua setting of palette to theme
 - remove estilo remnants, can delete as we go
+- fix up transparent background as setting
 - vim export possible? should be using shipwright
 - submit PR to lush.nvim for inclusion
 
