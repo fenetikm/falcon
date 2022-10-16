@@ -65,6 +65,7 @@ local bright_cyan       = hsluv '#8BCCBF'
 
 local theme = lush(function()
   return {
+    -- Base UI
     ColorColumn {bg = inactive_bg},
     Conceal { },
     Cursor {bg = mid_gray},
@@ -111,15 +112,56 @@ local theme = lush(function()
     WarningMsg {},
     WildMenu {fg = bg, bg = yellow},
 
-    -- Newer items, TODO
+    -- Base syntax
+    Comment {fg = mid_gray, gui = styles.italic},
+    Constant {fg = normal_gray, gui = styles.bold},
+    String {fg = light_blue_gray},
+    Character {String},
+    Boolean {fg = normal_gray, gui = styles.italic},
+    Number {fg = normal_gray},
+    Float {Number},
+    Identifier {fg = blue_gray},
+    Function {fg = yellow},
+    Statement {fg = blue_gray},
+    Conditional {fg = yellow},
+    Repeat {Statement},
+    Label {Statement},
+    Operator {fg = orange},
+    Keyword {fg = yellow},
+    Exception {Statement},
+    PreProc {fg = tan},
+    Include {PreProc},
+    Define {PreProc},
+    Macro {PreProc},
+    PreCondit {PreProc},
+    Type {fg = light_gray},
+    StorageClass {Type},
+    Structure {Type},
+    Typedef {Type},
+    Special {fg = orange},
+    SpecialChar {Special},
+    Tag {Special},
+    Delimiter {light_gray},
+    SpecialComment {Special},
+    Debug {Special},
+    Underlined {fg = blue_gray, gui = styles.underline},
+    Ignore {},
+    Error {},
+    Todo {fg = bg, bg = tan, gui = styles.italic},
+    QuickFixLine {fg = br_blue, bg = dark_gray},
+    Bold {gui = styles.bold},
+    Italic {gui = styles.italic},
+
+    -- Newer items
     lCursor { },
     EndOfBuffer {NonText}, -- Filler lines (~) after the end of the buffer. By default, this is highlighted like |hl-NonText|.
+    FloatBorder {fg = dark_gray, bg = blue_dark_float2},
     MsgArea      { }, -- Area for messages and cmdline
     MsgSeparator { }, -- Separator for scrolled messages, `msgsep` flag of 'display'
     TermCursor   { }, -- Cursor in a focused terminal
     TermCursorNC { }, -- Cursor in an unfocused terminal
     Substitute   { }, -- |:substitute| replacement text highlighting
-    NormalFloat  { }, -- Normal text in floating windows. NormalNC     { }, -- normal text in non-current windows
+    NormalFloat  {bg = blue_dark_float2}, -- Normal text in floating windows. NormalNC     { }, -- normal text in non-current windows
     QuickFixLine { }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
     Whitespace   { }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
     Winseparator { }, -- Separator between window splits. Inherts from |hl-VertSplit| by default, which it will replace eventually.
