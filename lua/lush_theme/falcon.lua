@@ -123,6 +123,42 @@ local theme = lush(function()
     QuickFixLine { }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
     Whitespace   { }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
     Winseparator { }, -- Separator between window splits. Inherts from |hl-VertSplit| by default, which it will replace eventually.
+
+    -- LSP
+    LspDiagnosticsDefaultError {fg = mid_red},
+    LspDiagnosticsDefaultWarning {fg = mid_yellow},
+    LspDiagnosticsDefaultInformation {fg = mid_gray},
+    LspDiagnosticsDefaultHint {fg = dark_tan},
+    LspReferenceRead {gui = styles.underline},
+    LspReferenceText {gui = styles.underline},
+    LspReferenceWrite {gui = styles.underline},
+    LspDiagnosticsVirtualTextError {fg = mid_red, gui = styles.italic},
+    LspDiagnosticsVirtualTextWarning {fg = mid_yellow, gui = styles.italic},
+    LspDiagnosticsVirtualTextHint {fg = dark_tan, gui = styles.italic},
+    LspDiagnosticsVirtualTextInformation {fg = mid_gray, gui = styles.italic},
+    LspDiagnosticsUnderlineError {gui = styles.undercurl, guisp = mid_red},
+    LspDiagnosticsUnderlineWarning {gui = styles.undercurl, guisp = mid_yellow},
+    LspDiagnosticsUnderlineHint {gui = styles.undercurl, guisp = dark_tan},
+    LspDiagnosticsUnderlineInformation {gui = styles.undercurl, guisp = mid_gray},
+    DiagnosticSignError {fg = mid_red},
+    DiagnosticSignWarn {fg = mid_yellow},
+    DiagnosticSignInfo {fg = mid_gray},
+    DiagnosticSignHint {fg = dark_tan},
+    DiagnosticError {fg = mid_red},
+    DiagnosticWarn {fg = mid_yellow},
+    DiagnosticInfo {fg = mid_gray},
+    DiagnosticHint {fg = dark_tan},
+    ReferenceRead {gui = styles.underline},
+    ReferenceText {gui = styles.underline},
+    ReferenceWrite {gui = styles.underline},
+    DiagnosticVirtualTextError {fg = mid_red, gui = styles.italic},
+    DiagnosticVirtualTextWarn {fg = mid_yellow, gui = styles.italic},
+    DiagnosticVirtualTextHint {fg = dark_tan, gui = styles.italic},
+    DiagnosticVirtualTextInfo {fg = mid_gray, gui = styles.italic},
+    DiagnosticUnderlineError {gui = styles.undercurl, guisp = mid_red},
+    DiagnosticUnderlineWarn {gui = styles.undercurl, guisp = mid_yellow},
+    DiagnosticUnderlineHint {gui = styles.undercurl, guisp = dark_tan},
+    DiagnosticUnderlineInfo {gui = styles.undercurl, guisp = mid_gray},
   }
 end)
 
