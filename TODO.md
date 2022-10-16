@@ -8,6 +8,10 @@
   * turn on / off, there is a way to do that with lush, can create a command
 - output kitty conf file using template
 - other terminal files
+- plugins in separate files
+- language support in separate files
+- support for differing contrast
+- new items in base
 - vim export possible?
 - submit PR to lush.nvim for inclusion
 
