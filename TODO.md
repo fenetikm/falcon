@@ -12,7 +12,8 @@
 - language support in separate files
 - support for differing contrast
 - new items in base
-- vim export possible?
+- remove estilo remnants, can delete as we go
+- vim export possible? should be using shipwright
 - submit PR to lush.nvim for inclusion
 
 ### What
