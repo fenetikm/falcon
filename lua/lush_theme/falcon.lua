@@ -42,7 +42,7 @@ local mid_dark_gray     = hsluv '#57575E'
 local dark_gray         = hsluv '#36363A'
 local darker_gray       = hsluv '#212127'
 local black             = hsluv '#000004'
-local bg                = hsluv '#020221'
+local bg_               = hsluv '#020221'
 local bg_alt            = hsluv '#0A0A29'
 local inactive_bg       = hsluv '#151521'
 local purple_dark_gray  = hsluv '#3F3A59'
@@ -83,13 +83,13 @@ local theme = lush(function()
     Folded {fg = mid_gray, bg = darker_gray},
     FoldColumn {fg = mid_gray, bg = darker_gray},
     SignColumn {fg = blue_gray},
-    IncSearch {fg = bg, bg = br_blue, gui = styles.bold},
+    IncSearch {fg = bg_, bg = br_blue, gui = styles.bold},
     LineNr {fg = mid_dark_gray},
     MatchParen {fg = br_tan, gui = styles.bold},
     ModeMsg {},
     MoreMsg {},
-    NonText {fg = dark_gray, bg = bg},
-    Normal {fg = normal_gray, bg = bg},
+    NonText {fg = dark_gray, bg = bg_},
+    Normal {fg = normal_gray, bg = bg_},
     PMenu {fg = mid_gray_alt, bg = blue_dark_float},
     PMenuSel {fg = black, bg = yellow},
     PmenuSbar {fg = normal_gray},
@@ -110,7 +110,7 @@ local theme = lush(function()
     Visual {fg = light_gray, bg = dark_indigo},
     VisualNOS {},
     WarningMsg {},
-    WildMenu {fg = bg, bg = yellow},
+    WildMenu {fg = bg_, bg = yellow},
 
     -- Base syntax
     Comment {fg = mid_gray, gui = styles.italic},
@@ -122,13 +122,13 @@ local theme = lush(function()
     Float {Number},
     Identifier {fg = blue_gray},
     Function {fg = yellow},
-    Statement {fg = blue_gray},
     Conditional {fg = yellow},
+    Statement {fg = blue_gray},
+    Exception {Statement},
     Repeat {Statement},
     Label {Statement},
     Operator {fg = orange},
     Keyword {fg = yellow},
-    Exception {Statement},
     PreProc {fg = tan},
     Include {PreProc},
     Define {PreProc},
@@ -141,13 +141,13 @@ local theme = lush(function()
     Special {fg = orange},
     SpecialChar {Special},
     Tag {Special},
-    Delimiter {light_gray},
+    Delimiter {fg = light_gray},
     SpecialComment {Special},
     Debug {Special},
     Underlined {fg = blue_gray, gui = styles.underline},
     Ignore {},
     Error {},
-    Todo {fg = bg, bg = tan, gui = styles.italic},
+    Todo {fg = bg_, bg = tan, gui = styles.italic},
     QuickFixLine {fg = br_blue, bg = dark_gray},
     Bold {gui = styles.bold},
     Italic {gui = styles.italic},
@@ -162,7 +162,6 @@ local theme = lush(function()
     TermCursorNC { }, -- Cursor in an unfocused terminal
     Substitute   { }, -- |:substitute| replacement text highlighting
     NormalFloat  {bg = blue_dark_float2}, -- Normal text in floating windows. NormalNC     { }, -- normal text in non-current windows
-    QuickFixLine { }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
     Whitespace   { }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
     Winseparator { }, -- Separator between window splits. Inherts from |hl-VertSplit| by default, which it will replace eventually.
 
