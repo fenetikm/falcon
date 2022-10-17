@@ -10,7 +10,11 @@ local plugins = {
     'fzf',
     'gitsigns',
     'highlightedyank',
-    'indentguides'
+    'indentguides',
+    'lsp-signature',
+    'nerdtree',
+    'nvim-cmp',
+    'nvim-notify',
 }
 
 local loaded_plugins = {}
