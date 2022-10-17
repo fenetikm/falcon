@@ -6,7 +6,11 @@ local plugins = {
     'buftabline',
     'cleverf',
     'dashboard',
+    'fugitive',
+    'fzf',
     'gitsigns',
+    'highlightedyank',
+    'indentguides'
 }
 
 local loaded_plugins = {}
