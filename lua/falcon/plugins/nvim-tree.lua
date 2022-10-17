@@ -1,12 +1,43 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
+local styles = require('falcon.styles')
 
 local p = lush(function()
     return {
-        GitSignsAdd {fg = colours.green},
-        GitSignsChange {fg = colours.yellow},
-        GitSignsDelete {fg = colours.red},
-        GitSignsChangeDelete {fg = colours.orange},
+        NvimTreeSymlink {},
+        NvimTreeFolderName {fg = colours.blue_gray},
+        NvimTreeRootFolder {fg = colours.light_blue_gray},
+        NvimTreeFolderIcon {fg = colours.light_blue_gray},
+        NvimTreeEmptyFolderName {fg = colours.blue_gray},
+        NvimTreeOpenedFolderName {fg = colours.light_gray},
+        NvimTreeOpenedFile {fg = colours.br_blue, gui = styles.underline},
+        NvimTreeExecFile {},
+        NvimTreeSpecialFile {},
+        NvimTreeImageFile {},
+        NvimTreeMarkdownFile {},
+        NvimTreeIndentMarker {},
+        NvimTreeLspDiagnostics {},
+        NvimTreeLicenseIcon {},
+        NvimTreeYamlIcon {},
+        NvimTreeTomlIcon {},
+        NvimTreeGitignoreIcon {},
+        NvimTreeJsonIcon {},
+        NvimTreeLuaIcon {},
+        NvimTreePythonIcon {},
+        NvimTreeShellIcon {},
+        NvimTreeJavascriptIcon {},
+        NvimTreeCIcon {},
+        NvimTreeReactIcon {},
+        NvimTreeHtmlIcon {},
+        NvimTreeRustIcon {},
+        NvimTreeVimIcon {},
+        NvimTreeTypescriptIcon {},
+        NvimTreeGitDirty {fg = colours.orange},
+        NvimTreeGitStaged {fg = colours.orange},
+        NvimTreeGitMerge {fg = colours.yellow},
+        NvimTreeGitRenamed {fg = colours.yellow},
+        NvimTreeGitNew {fg = colours.green},
+        NvimTreeGitDeleted {fg = colours.red},
     }
 end)
 

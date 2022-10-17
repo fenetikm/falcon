@@ -15,6 +15,10 @@ local plugins = {
     'nerdtree',
     'nvim-cmp',
     'nvim-notify',
+    'nvim-tree',
+    'plug',
+    'sneak',
+    'startify',
 }
 
 local loaded_plugins = {}

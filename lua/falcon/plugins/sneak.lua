@@ -3,10 +3,9 @@ local colours = require('falcon.colours')
 
 local p = lush(function()
     return {
-        GitSignsAdd {fg = colours.green},
-        GitSignsChange {fg = colours.yellow},
-        GitSignsDelete {fg = colours.red},
-        GitSignsChangeDelete {fg = colours.orange},
+        Sneak {fg = colours.white, bg = colours.dark_indigo},
+        SneakLabel {fg = colours.white, bg = colours.dark_indigo},
+        SneakScope {fg = colours.white},
     }
 end)
 
