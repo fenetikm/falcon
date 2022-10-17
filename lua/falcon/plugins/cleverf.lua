@@ -1,12 +1,10 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
+local styles = require('falcon.styles')
 
 local p = lush(function()
     return {
-        GitSignsAdd {fg = colours.green},
-        GitSignsChange {fg = colours.yellow},
-        GitSignsDelete {fg = colours.red},
-        GitSignsChangeDelete {fg = colours.orange},
+        CleverFDefaultLabel {fg = colours.br_blue, gui = styles.underline}
     }
 end)
 

@@ -4,6 +4,8 @@ local plugins = {
     'ale',
     'blankline',
     'buftabline',
+    'cleverf',
+    'dashboard',
     'gitsigns',
 }
 

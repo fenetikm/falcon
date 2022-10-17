@@ -1,12 +1,13 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
+local styles = require('falcon.styles')
 
 local p = lush(function()
     return {
-        GitSignsAdd {fg = colours.green},
-        GitSignsChange {fg = colours.yellow},
-        GitSignsDelete {fg = colours.red},
-        GitSignsChangeDelete {fg = colours.orange},
+        DashboardFooter {fg = colours.yellow, gui = styles.bold},
+        DashboardHeader {fg = colours.indigo},
+        DashboardCenter {fg = colours.normal_gray},
+        DashboardShortCut {fg = colours.mid_gray},
     }
 end)
 

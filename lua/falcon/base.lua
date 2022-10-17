@@ -1,20 +1,7 @@
 local lush = require('lush')
 local colours = require('falcon.colours')
+local styles = require('falcon.styles')
 local hsluv = lush.hsluv
-
-local styles = {
-  italic = "italic",
-  bold = "bold",
-  underline = "underline",
-  inverse = "inverse",
-  undercurl = "undercurl",
-  invert_signs = "",
-  invert_selection = "inverse",
-  invert_tabline = "",
-  italic_comments = "italic",
-  italic_booleans = "NONE",
-  italic_strings = "NONE"
-}
 
 local theme = lush(function()
   return {
