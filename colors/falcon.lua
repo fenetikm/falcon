@@ -1,6 +1,6 @@
 vim.opt.background = 'dark'
 vim.g.colors_name = 'falcon'
 
-package.loaded['lush_theme.falcon'] = nil
+package.loaded['falcon'] = nil
 
-require('lush')(require('lush_theme.falcon'))
+require('lush')(require('falcon').setup())
