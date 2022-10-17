@@ -1,12 +1,12 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
+local base = require('falcon.base')
 
 local p = lush(function()
     return {
-        GitSignsAdd {fg = colours.green},
-        GitSignsChange {fg = colours.yellow},
-        GitSignsDelete {fg = colours.red},
-        GitSignsChangeDelete {fg = colours.orange},
+        titleEntry {fg = colours.yellow},
+        diffRemoved {base.DiffDelete},
+        diffAdded {base.DiffAdd},
     }
 end)
 
