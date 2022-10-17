@@ -1,3 +1,5 @@
+local base = require('falcon.base')
+
 vim.api.nvim_set_var('falcon.palette', {
   red = '#ff3600',
   orange = '#ff761a',
@@ -25,3 +27,9 @@ vim.api.nvim_set_var('falcon.palette', {
   error = '#9e1e00',
   warning = '#bc8f3f'
 })
+
+local function setup()
+  return base
+end
+
+return {setup = setup}
