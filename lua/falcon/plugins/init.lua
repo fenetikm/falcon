@@ -19,6 +19,10 @@ local plugins = {
     'plug',
     'sneak',
     'startify',
+    'tagbar',
+    'telescope',
+    'ultisnips',
+    'vdebug',
 }
 
 local loaded_plugins = {}
