@@ -24,6 +24,10 @@ local filetypes = {
     'sql',
     'sshconfig',
     'twig',
+    'viml',
+    'xml',
+    'yaml',
+    'zsh',
 }
 
 local loaded_filetypes = {}
