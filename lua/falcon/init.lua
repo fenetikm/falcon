@@ -3,6 +3,7 @@ local colours = require('falcon.colours')
 local base = require('falcon.base')
 local plugins = require('falcon.plugins')
 local filetypes = require('falcon.filetypes')
+local extras = require('falcon.extras')
 
 vim.api.nvim_set_var('falcon.palette', {
   red             = colours.red.hex,
@@ -33,7 +34,7 @@ vim.api.nvim_set_var('falcon.palette', {
 })
 
 local function setup()
-  return lush.merge({base, plugins, filetypes})
+  return lush.merge({base, plugins, filetypes, extras})
 end
 
 return {setup = setup}
