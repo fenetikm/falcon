@@ -4,6 +4,11 @@ local filetypes = {
     'aspvbs',
     'cpp',
     'css',
+    'docker',
+    'elm',
+    'go',
+    'graphql',
+    'help',
     'php',
 }
 
