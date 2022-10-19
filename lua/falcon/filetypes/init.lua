@@ -19,6 +19,11 @@ local filetypes = {
     'php',
     'python',
     'rst',
+    'ruby',
+    'sh',
+    'sql',
+    'sshconfig',
+    'twig',
 }
 
 local loaded_filetypes = {}
