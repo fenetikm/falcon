@@ -9,6 +9,10 @@ local filetypes = {
     'go',
     'graphql',
     'help',
+    'html',
+    'java',
+    'javascript',
+    'json',
     'php',
 }
 

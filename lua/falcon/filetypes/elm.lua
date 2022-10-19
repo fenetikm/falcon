@@ -4,10 +4,10 @@ local base = require('falcon.base')
 
 local p = lush(function()
     return {
-        elmTypeDef {base.Type},
-        elmType {fg = colours.light_gray},
+        elmTypeDef      {base.Type},
+        elmType         {fg = colours.light_gray},
         elmTopLevelDecl {fg = colours.tan},
-        elmAlias {base.Identifier},
+        elmAlias        {base.Identifier},
     }
 end)
 
