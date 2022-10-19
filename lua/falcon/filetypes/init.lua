@@ -13,7 +13,12 @@ local filetypes = {
     'java',
     'javascript',
     'json',
+    'jsx',
+    'lua',
+    'markdown',
     'php',
+    'python',
+    'rst',
 }
 
 local loaded_filetypes = {}
