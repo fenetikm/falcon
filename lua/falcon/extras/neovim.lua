@@ -3,6 +3,11 @@ local colours = require('falcon.colours')
 
 local p = lush(function()
     return {
+        FloatBorder {fg = colours.dark_gray, bg = colours.blue_dark_float2},
+        NormalFloat  {bg = colours.blue_dark_float2}, -- Normal text in floating windows. NormalNC     { }, -- normal text in non-current windows
+        TermCursor   { }, -- Cursor in a focused terminal
+        TermCursorNC { }, -- Cursor in an unfocused terminal
+        -- healthcheck
         healthSuccess {fg = colours.bg, bg = colours.green},
         healthError   {fg = colours.bg, bg = colours.red},
     }
