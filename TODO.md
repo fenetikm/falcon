@@ -11,11 +11,14 @@
 - language support in separate files
 - support for differing contrast
 - new items in base
-- move falcon.lua setting of palette to theme
 - remove estilo remnants, can delete as we go
-- fix up transparent background as setting
+- lightline and airline support?
+- settings:
+  * toggle bold,italic,underline support
+  * contrast
+  * focus backgrounds / transparency
 - vim export possible? should be using shipwright
-- submit PR to lush.nvim for inclusion
+- submit PR to lush.nvim for inclusion of falcon colour scheme
 
 ### What
 - dynamic colour scheme, lua based for neovim, use current colours, could tweak a bit?
@@ -93,20 +96,16 @@ special keys:
 - https://marketplace.visualstudio.com/items?itemName=whizkydee.material-palenight-theme&WT.mc_id=csstricks-themearticle-sdras
 
 ## Someday
-* statusline - airline check
 * increase contrast in markdown for code blocks - maybe another gray...
 * check gnome
 * add in palette file with rbg and hex and names
-* vscode scheme, in progress
+* vscode scheme
 * update other themes with indigo for selection colour
-* kitty file for inclusion
 * fzf colors, check PR
-* L*a*b values
-* Light version? probably not though. Maybe some contrast options.
+* Light version?
 * More support:
   * Mutt
   * TeX
-  * highlight: https://gitlab.com/saalen/highlight
 * Setup page under projects on michaelwelford.com, point to blog posts about it.
 * Add in some lean prompt stuff, fix up brackets to be delimiter colour etc.
 * Automate the screenshot taking
