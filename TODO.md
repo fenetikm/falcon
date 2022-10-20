@@ -14,9 +14,25 @@
 - remove estilo remnants, can delete as we go
 - lightline and airline support?
 - settings:
-  * toggle bold,italic,underline support
+  * toggle bold,italic,underline,undercurl support
   * contrast
-  * focus backgrounds / transparency
+  * change background on focus
+  * warm / cold
+  * transparent background
+  * option for no lush, see zenbones
+- more plugins:
+  * aerial https://github.com/stevearc/aerial.nvim
+  * barbar https://github.com/romgrk/barbar.nvim
+  * hop https://github.com/phaazon/hop.nvim
+  * nvim-dap https://github.com/mfussenegger/nvim-dap
+  * nvim-dap-ui https://github.com/rcarriga/nvim-dap-ui
+  * nvim-navic https://github.com/SmiteshP/nvim-navic
+  * nvim-ts-rainbow https://github.com/p00f/nvim-ts-rainbow
+  * packer https://github.com/wbthomason/packer.nvim
+  * trouble https://github.com/folke/trouble.nvim
+  * neotest https://github.com/nvim-neotest/neotest
+  * which-key https://github.com/folke/which-key.nvim
+  * neo-tree https://github.com/nvim-neo-tree/neo-tree.nvim
 - vim export possible? should be using shipwright
 - submit PR to lush.nvim for inclusion of falcon colour scheme
 
