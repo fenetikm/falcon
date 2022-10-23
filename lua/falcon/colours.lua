@@ -30,7 +30,7 @@ return {
   dark_gray         = hsluv '#36363A',
   darker_gray       = hsluv '#212127',
   black             = hsluv '#000004',
-  bg_               = hsluv '#020221',
+  bg                = hsluv '#020221',
   bg_alt            = hsluv '#0A0A29',
   inactive_bg       = hsluv '#151521',
   purple_dark_gray  = hsluv '#3F3A59',
