@@ -25,7 +25,7 @@ vim.api.nvim_set_var('falcon.palette', {
   dark_gray       = colours.dark_gray.hex,
   modified        = colours.light_blue_gray.hex,
   branch          = colours.blue_gray.hex,
-  method          = '#a1968a',
+  method          = colours.dark_tan.hex,
   path            = colours.mid_gray.hex,
   info            = colours.mid_gray.hex,
   hint            = colours.dark_tan.hex,

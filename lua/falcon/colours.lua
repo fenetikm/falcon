@@ -16,6 +16,7 @@ return {
   blue_darkest_gray = hsluv '#171729',
   blue_dark_float   = hsluv '#18182A',
   blue_dark_float2  = hsluv '#1E1E2F',
+  darker_tan        = hsluv '#A1968A',
   dark_tan          = hsluv '#847B73',
   tan               = hsluv '#CFC1B2',
   br_tan            = hsluv '#F0E1CE',
