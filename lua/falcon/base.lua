@@ -1,7 +1,6 @@
 local lush = require('lush')
 local colours = require('falcon.colours')
 local styles = require('falcon.styles')
-local hsluv = lush.hsluv
 
 local theme = lush(function()
   return {

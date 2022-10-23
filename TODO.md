@@ -33,6 +33,7 @@
   * neotest https://github.com/nvim-neotest/neotest
   * which-key https://github.com/folke/which-key.nvim
   * neo-tree https://github.com/nvim-neo-tree/neo-tree.nvim
+  * neogit
 - vim export possible? should be using shipwright
 - submit PR to lush.nvim for inclusion of falcon colour scheme
 
