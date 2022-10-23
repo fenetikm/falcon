@@ -15,6 +15,7 @@
   * change background on focus
   * transparent background
   * warm / cold
+- help file
 - more plugins:
   * aerial https://github.com/stevearc/aerial.nvim
   * barbar https://github.com/romgrk/barbar.nvim
