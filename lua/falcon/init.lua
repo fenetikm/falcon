@@ -35,14 +35,14 @@ vim.api.nvim_set_var('falcon.palette', {
 
 if vim.fn.has('nvim') == 1 then
   vim.g.terminal_color_0 = colours.black.hex
-  vim.g.terminal_color_1 = colours.ral_red.hex
+  vim.g.terminal_color_1 = colours.red.hex
   vim.g.terminal_color_2 = colours.green.hex
   vim.g.terminal_color_3 = colours.yellow.hex
-  vim.g.terminal_color_4 = colours.blue.hex
-  vim.g.terminal_color_5 = colours.purple.hex
+  vim.g.terminal_color_4 = colours.purple.hex
+  vim.g.terminal_color_5 = colours.orange.hex
   vim.g.terminal_color_6 = colours.cyan.hex
   vim.g.terminal_color_7 = colours.normal_gray.hex
-  vim.g.terminal_color_8 = colours.bg.hex
+  vim.g.terminal_color_8 = colours.bg_.hex
   vim.g.terminal_color_9 = colours.bright_red.hex
   vim.g.terminal_color_10 = colours.bright_green.hex
   vim.g.terminal_color_11 = colours.bright_yellow.hex
