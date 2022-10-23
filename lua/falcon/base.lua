@@ -1,3 +1,5 @@
+--@diagnostic disable: undefined-global
+
 local lush = require('lush')
 local colours = require('falcon.colours')
 local styles = require('falcon.styles')
@@ -5,6 +7,8 @@ local styles = require('falcon.styles')
 local theme = lush(function()
   return {
     -- Base UI
+    NonText      {fg = colours.dark_gray, bg = colours.bg},
+    Normal       {fg = colours.normal_gray, bg = colours.bg},
     ColorColumn  {bg = colours.inactive_bg},
     Conceal      { },
     lCursor      { },
@@ -28,8 +32,6 @@ local theme = lush(function()
     MatchParen   {fg = colours.br_tan, gui = styles.bold},
     ModeMsg      {},
     MoreMsg      {},
-    NonText      {fg = colours.dark_gray, bg = colours.bg},
-    Normal       {fg = colours.normal_gray, bg = colours.bg},
     PMenu        {fg = colours.mid_gray_alt, bg = colours.blue_dark_float},
     PMenuSel     {fg = colours.black, bg = colours.yellow},
     PmenuSbar    {fg = colours.normal_gray},
