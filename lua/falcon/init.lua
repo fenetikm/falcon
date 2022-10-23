@@ -42,7 +42,7 @@ if vim.fn.has('nvim') == 1 then
   vim.g.terminal_color_5 = colours.orange.hex
   vim.g.terminal_color_6 = colours.cyan.hex
   vim.g.terminal_color_7 = colours.normal_gray.hex
-  vim.g.terminal_color_8 = colours.bg_.hex
+  vim.g.terminal_color_8 = colours.bg.hex
   vim.g.terminal_color_9 = colours.bright_red.hex
   vim.g.terminal_color_10 = colours.bright_green.hex
   vim.g.terminal_color_11 = colours.bright_yellow.hex
