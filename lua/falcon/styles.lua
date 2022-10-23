@@ -9,5 +9,6 @@ return {
   invert_tabline = "",
   italic_comments = "italic",
   italic_booleans = "NONE",
-  italic_strings = "NONE"
+  italic_strings = "NONE",
+  strikethrough = 'strikethrough',
 }

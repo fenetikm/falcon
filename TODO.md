@@ -14,7 +14,7 @@
 - remove estilo remnants, can delete as we go
 - lightline and airline support?
 - settings:
-  * toggle bold,italic,underline,undercurl support
+  * toggle bold,italic,underline,undercurl,strikethrough support
   * contrast
   * change background on focus
   * warm / cold
