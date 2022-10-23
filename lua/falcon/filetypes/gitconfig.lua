@@ -3,8 +3,8 @@ local colours = require('falcon.colours')
 
 local p = lush(function()
     return {
-        IndentGuidesOdd  {bg = colours.dark_gray},
-        IndentGuidesEven {bg = colours.darker_gray},
+        gitconfigSection  {fg = colours.yellow},
+        gitconfigVariable {fg = colours.blue_gray},
     }
 end)
 
