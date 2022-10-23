@@ -6,6 +6,7 @@ local settings = {
   strikethrough = true,
   italic_comments = true,
   underline_for_undercurl = false,
+  transparent_bg = false,
 }
 
 if vim.g.falcon_settings ~= nil then

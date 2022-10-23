@@ -30,7 +30,10 @@
   * which-key https://github.com/folke/which-key.nvim
   * neo-tree https://github.com/nvim-neo-tree/neo-tree.nvim
   * neogit
-- create equiv to falcon.vim
+- update plugin/falcon.vim:
+  * set fzf colours elsewhere
+  * set goyo for neovim too
+  * make it work with transparent_bg setting
 - vim export possible? should be using shipwright
 - submit PR to lush.nvim for inclusion of falcon colour scheme
 
