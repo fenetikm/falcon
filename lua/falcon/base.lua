@@ -59,7 +59,7 @@ local theme = lush(function()
     Winseparator { }, -- Separator between window splits. Inherts from |hl-VertSplit| by default, which it will replace eventually.
 
     -- Base syntax
-    Comment        {fg = colours.mid_gray, gui = styles.italic},
+    Comment        {fg = colours.mid_gray, gui = styles.italic_comments},
     Constant       {fg = colours.normal_gray, gui = styles.bold},
     String         {fg = colours.light_blue_gray},
     Character      {String},

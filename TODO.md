@@ -10,11 +10,11 @@
 - remove estilo remnants, can delete as we go
 - lightline and airline support?
 - settings:
-  * toggle bold,italic,underline,undercurl,strikethrough support
   * contrast
   * change background on focus
   * transparent background
   * warm / cold
+  * see https://github.com/mcchrish/zenbones.nvim/blob/main/doc/zenbones.md for an example around percentage colouring
 - help file
 - more plugins:
   * aerial https://github.com/stevearc/aerial.nvim
