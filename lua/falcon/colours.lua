@@ -21,6 +21,8 @@ return {
   tan               = hsluv '#CFC1B2',
   br_tan            = hsluv '#F0E1CE',
   br_blue           = hsluv '#BFDAFF',
+  br_yellow         = hsluv '#FFE8C0',
+  br_green          = hsluv '#EAFFC0',
   white             = hsluv '#F8F8FF',
   light_gray        = hsluv '#DFDFE5',
   normal_gray       = hsluv '#B4B4B9',
