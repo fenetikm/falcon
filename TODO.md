@@ -4,22 +4,17 @@
 - try out using lush, specifically:
   * having a base and other, merge
   * turning other on and off via command?
-  * changing contrast
   * turn on / off, there is a way to do that with lush, can create a command
 - output kitty conf file using template
 - other terminal files
-- language support in separate files
-- support for differing contrast
-- new items in base
 - remove estilo remnants, can delete as we go
 - lightline and airline support?
 - settings:
   * toggle bold,italic,underline,undercurl,strikethrough support
   * contrast
   * change background on focus
-  * warm / cold
   * transparent background
-  * option for no lush, see zenbones
+  * warm / cold
 - more plugins:
   * aerial https://github.com/stevearc/aerial.nvim
   * barbar https://github.com/romgrk/barbar.nvim
