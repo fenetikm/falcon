@@ -3,12 +3,25 @@
 local lush = require('lush')
 local colours = require('falcon.colours')
 local styles = require('falcon.styles')
+local settings = require('falcon.settings')
+
+local windowBg = colours.bg
+local windowBgNC = colours.inactive_bg
+if not settings.inactive_bg then
+  windowBgNC = colours.bg
+end
+
+if transparent_bg then
+  windowBg = 'NONE'
+  windowBgNC = 'NONE'
+end
 
 local theme = lush(function()
   return {
     -- Base UI
-    NonText      {fg = colours.dark_gray, bg = colours.bg},
-    Normal       {fg = colours.normal_gray, bg = colours.bg},
+    NonText      {fg = colours.dark_gray, bg = windowBg},
+    Normal       {fg = colours.normal_gray, bg = windowBg},
+    NormalNC     {fg = colours.normal_gray, bg = windowBgNC},
     ColorColumn  {bg = colours.inactive_bg},
     Conceal      { },
     lCursor      { },

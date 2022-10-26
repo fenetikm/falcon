@@ -7,6 +7,7 @@ local settings = {
   italic_comments = true,
   underline_for_undercurl = false,
   transparent_bg = false,
+  inactive_bg = false,
 }
 
 if vim.g.falcon_settings ~= nil then

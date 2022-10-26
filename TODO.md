@@ -13,6 +13,7 @@
   * contrast
   * change background on focus
   * transparent background
+  * overlay blend?
   * warm / cold
   * see https://github.com/mcchrish/zenbones.nvim/blob/main/doc/zenbones.md for an example around percentage colouring
 - help file
