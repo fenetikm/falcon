@@ -98,6 +98,7 @@ special keys:
 - https://github.com/rktjmp/lush.nvim interactive colour scheme tool
 - https://github.com/tjdevries/colorbuddy.nvim a bunch of functions to help with creating schemes
 - https://github.com/bungle/lua-resty-template lua resty templating, says html but maybe other?
+- https://coolors.co/020221-020222-020d28-01182d-002d38 For creating palettes
 
 #### Colour schemes that use Lua or related
 - https://github.com/sainnhe/everforest
