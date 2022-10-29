@@ -11,7 +11,7 @@ if not settings.inactive_bg then
   windowBgNC = colours.bg
 end
 
-if transparent_bg then
+if settings.transparent_bg then
   windowBg = 'NONE'
   windowBgNC = 'NONE'
 end
