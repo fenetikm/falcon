@@ -1,5 +1,9 @@
 local runners = {
-  'kitty'
+  'alacritty',
+  'foot',
+  'iterm',
+  'kitty',
+  'windows_terminal',
 }
 
 for _, runner in pairs(runners) do
