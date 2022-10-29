@@ -31,5 +31,5 @@ builder.run(
     bright_white = colours.white.hex,
   },
   foot,
-  {overwrite, 'alacritty/foot.ini'}
+  {overwrite, 'foot/foot.ini'}
 )

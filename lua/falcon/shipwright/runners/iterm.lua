@@ -3,6 +3,7 @@
 ---@diagnostic disable: undefined-global
 local overwrite = require('shipwright.transform.overwrite')
 local builder = require('shipwright.builder')
+local colours = require('falcon.colours')
 
 local key_template = [[
   <key>$k Color</key>
@@ -32,7 +33,7 @@ local end_template = [[
 </dict>
 </plist>]]
 
-local helpers = require "shipwright.transform.helpers"
+local helpers = require ('shipwright.transform.helpers')
 
 local function hex_to_rgb(hex)
   local _, r, g, b = hex:match "(.)(..)(..)(..)"
@@ -90,8 +91,12 @@ end
 template = template .. table.concat(vim.fn.sort(xml_compiled), "\n")
 template = template .. end_template
 
+local function to_iterm(colourscheme)
+  return { template }
+end
+
 builder.run(
-  colours,
+  {},
   to_iterm,
   {overwrite, 'iterm2/falcon.itermcolors'}
 )
