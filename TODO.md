@@ -10,11 +10,13 @@
 - remove estilo remnants, can delete as we go
 - lightline and airline support?
 - settings:
-  * toggle bold,italic,underline,undercurl,strikethrough support
   * contrast
   * change background on focus
   * transparent background
+  * overlay blend?
+  * underline, underdotted, underdashed, see: https://github.com/rktjmp/lush.nvim/commit/5fa6b33f99211ee7b8741bc8731c4156b707b344, supported in kitty: https://sw.kovidgoyal.net/kitty/underlines/
   * warm / cold
+  * see https://github.com/mcchrish/zenbones.nvim/blob/main/doc/zenbones.md for an example around percentage colouring
 - help file
 - more plugins:
   * aerial https://github.com/stevearc/aerial.nvim
@@ -30,7 +32,10 @@
   * which-key https://github.com/folke/which-key.nvim
   * neo-tree https://github.com/nvim-neo-tree/neo-tree.nvim
   * neogit
-- create equiv to falcon.vim
+- update plugin/falcon.vim:
+  * set fzf colours elsewhere
+  * set goyo for neovim too
+  * make it work with transparent_bg setting
 - vim export possible? should be using shipwright
 - submit PR to lush.nvim for inclusion of falcon colour scheme
 
@@ -94,6 +99,7 @@ special keys:
 - https://github.com/rktjmp/lush.nvim interactive colour scheme tool
 - https://github.com/tjdevries/colorbuddy.nvim a bunch of functions to help with creating schemes
 - https://github.com/bungle/lua-resty-template lua resty templating, says html but maybe other?
+- https://coolors.co/020221-020222-020d28-01182d-002d38 For creating palettes
 
 #### Colour schemes that use Lua or related
 - https://github.com/sainnhe/everforest

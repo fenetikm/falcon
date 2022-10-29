@@ -1,3 +1,7 @@
+if has('nvim')
+  finish
+endif
+
 " Guard
 if exists('g:colors_name') && g:colors_name != "falcon"
   finish
