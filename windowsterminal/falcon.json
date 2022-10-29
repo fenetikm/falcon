@@ -1,28 +1,23 @@
 {
-    "$schema": "https://aka.ms/terminal-profiles-schema",
-    "schemes":
-    [
-        {
-            "name": "falcon",
-            "background": "#020221",
-            "foreground": "#b4b4b9",
-            "black": "#000004",
-            "red": "#ff3600",
-            "green": "#859933",
-            "yellow": "#ffc552",
-            "blue": "#635196",
-            "purple": "#ff761a",
-            "cyan": "#34b5a4",
-            "white": "#b4b4b9",
-            "cursorColor": "#ffe8c0",
-            "brightBlack": "#020221",
-            "brightRed": "#ff8e78",
-            "brightGreen": "#b2bc55",
-            "brightYellow": "#ffd392",
-            "brightBlue": "#99a4bc",
-            "brightPurple": "#ffb07b",
-            "brightCyan": "#8bccbf",
-            "brightWhite": "#f8f8ff"
-        }
-    ]
+    "name": "Falcon",
+    "selectionBackground": "#2E1179",
+    "cursorColor": "#FFE9C2",
+    "foreground": "#B5B5BA",
+    "background": "#020222",
+    "black": "#000005",
+    "blue": "#635095",
+    "cyan": "#35C0A4",
+    "green": "#859933",
+    "purple": "#FF751A",
+    "red": "#FF3700",
+    "white": "#B5B5BA",
+    "yellow": "#FFC552",
+    "brightBlack": "#020222",
+    "brightBlue": "#99A4BD",
+    "brightCyan": "#8ACCBF",
+    "brightGreen": "#B2BC57",
+    "brightRed": "#FF917A",
+    "brightPurple": "#FFAF7A",
+    "brightWhite": "#FAFAFF"
+    "brightYellow": "#FFD494",
 }
