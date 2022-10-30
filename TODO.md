@@ -5,14 +5,14 @@
   * having a base and other, merge
   * turning other on and off via command?
   * turn on / off, there is a way to do that with lush, can create a command
-- output kitty conf file using template
+- ~~output kitty conf file using template~~
 - other terminal files
 - remove estilo remnants, can delete as we go
 - lightline and airline support?
 - settings:
   * contrast
-  * change background on focus
-  * transparent background
+  * ~~change background on focus~~
+  * ~~transparent background~~
   * overlay blend?
   * underline, underdotted, underdashed, see: https://github.com/rktjmp/lush.nvim/commit/5fa6b33f99211ee7b8741bc8731c4156b707b344, supported in kitty: https://sw.kovidgoyal.net/kitty/underlines/
   * warm / cold
@@ -36,7 +36,8 @@
   * set fzf colours elsewhere
   * set goyo for neovim too
   * make it work with transparent_bg setting
-- vim export possible? should be using shipwright
+- vim export possible? should be using shipwright:
+  * see https://github.com/mcchrish/zenbones.nvim/blob/main/lua/zenbones/shipwright/runners/vim.lua
 - submit PR to lush.nvim for inclusion of falcon colour scheme
 
 ### What
