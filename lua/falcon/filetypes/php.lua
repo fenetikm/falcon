@@ -1,7 +1,7 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
 local styles = require('falcon.styles')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 
 local p = lush(function()
     return {
@@ -11,10 +11,10 @@ local p = lush(function()
         phpCommentTitle {fg = colours.mid_gray_alt, gui = styles.italic},
         phpDocTags {fg = colours.dark_tan, gui = styles.italic}, -- PreProc
         phpDocCustomTags {fg = colours.br_blue}, -- Type
-        phpDocNamespaceSeparator {base.Comment},
+        phpDocNamespaceSeparator {classic.Comment},
         phpUseNamespaceSeparator {fg = colours.light_gray},
         phpException {}, -- Exception
-        phpBoolean {base.Boolean}, -- Boolean
+        phpBoolean {classic.Boolean}, -- Boolean
         phpStorageClass {fg = colours.orange}, -- StorageClass
         phpClasses {fg = colours.light_gray},
         phpStaticClasses {fg = colours.normal_gray, gui = styles.bold},
@@ -35,14 +35,14 @@ local p = lush(function()
         phpConditional {}, -- Conditional
         phpLabel {}, -- Label
         phpStatement {}, -- Statement
-        phpKeyword {base.Keyword}, -- Statement
-        phpType {base.Type}, -- Type
+        phpKeyword {classic.Keyword}, -- Statement
+        phpType {classic.Type}, -- Type
         phpInclude {}, -- Include
         phpDefine {}, -- Define
         phpBackslashSequences {}, -- SpecialChar
         phpBackslashDoubleQuote {}, -- SpecialChar
         phpBackslashSingleQuote {}, -- SpecialChar
-        phpParent {base.Delimiter}, -- Delimiter
+        phpParent {classic.Delimiter}, -- Delimiter
         phpBrackets {}, -- Delimiter
         phpIdentifierConst {}, -- Delimiter
         phpParentError {}, -- Error
@@ -59,15 +59,15 @@ local p = lush(function()
         phpMemberSelector {fg = colours.light_gray}, -- Structure
         phpIntVar {}, -- Identifier
         phpEnvVar {}, -- Identifier
-        phpOperator {base.Operator}, -- Operator
+        phpOperator {classic.Operator}, -- Operator
         phpVarSelector {fg = colours.light_gray}, -- Operator
         phpRelation {}, -- Operator
-        phpIdentifier {base.Identifier}, -- Identifier
+        phpIdentifier {classic.Identifier}, -- Identifier
         phpIdentifierSimply {}, -- Identifier
         phpStringDelimiter {fg = colours.light_gray},
         phpSuperglobals {fg = colours.lavender, gui = styles.bold},
         phpSpecialChar {fg = colours.blue_gray, gui = styles.bold},
-        phpNullValue {base.Boolean},
+        phpNullValue {classic.Boolean},
     }
 end)
 

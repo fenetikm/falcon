@@ -1,17 +1,17 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 
 local p = lush(function()
     return {
         shArithRegion        {}, -- shShellVariables
         shAtExpr             {}, -- shSetList
         shBeginHere          {}, -- shRedir
-        shCaseBar            {base.Operator}, -- shConditional
+        shCaseBar            {classic.Operator}, -- shConditional
         shCaseCommandSub     {}, -- shCommandSub
         shCaseDoubleQuote    {}, -- shDoubleQuote
         shCaseIn             {}, -- shConditional
-        shQuote              {base.Delimiter}, -- shOperator
+        shQuote              {classic.Delimiter}, -- shOperator
         shCaseSingleQuote    {}, -- shSingleQuote
         shCaseStart          {}, -- shConditional
         shCmdSubRegion       {}, -- shShellVariables
@@ -37,7 +37,7 @@ local p = lush(function()
         shFunction           {fg = colours.normal_gray}, -- Function
         shHereDoc            {}, -- shString
         shHerePayload        {}, -- shHereDoc
-        shLoop               {base.Function}, -- shStatement
+        shLoop               {classic.Function}, -- shStatement
         shMoreSpecial        {}, -- shSpecial
         shOption             {}, -- shCommandSub
         shPattern            {}, -- shString
@@ -52,7 +52,7 @@ local p = lush(function()
         shSource             {}, -- shOperator
         shStringSpecial      {}, -- shSpecial
         shSubShRegion        {}, -- shOperator
-        shTestOpr            {base.Operator}, -- shConditional
+        shTestOpr            {classic.Operator}, -- shConditional
         shTestPattern        {}, -- shString
         shTestDoubleQuote    {}, -- shString
         shTestSingleQuote    {}, -- shString
@@ -80,7 +80,7 @@ local p = lush(function()
         shDTestError         {}, -- Error if exists("b:is_kornshell")
         shArithmetic         {}, -- Special
         shCharClass          {}, -- Identifier
-        shSnglCase           {base.Delimiter}, -- Statement
+        shSnglCase           {classic.Delimiter}, -- Statement
         shCommandSub         {}, -- Special
         shComment            {}, -- Comment
         shConditional        {}, -- Conditional

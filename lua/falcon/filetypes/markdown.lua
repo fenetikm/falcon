@@ -1,6 +1,7 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
+local base_ui = require('falcon.base_ui')
 local styles = require('falcon.styles')
 
 local p = lush(function()
@@ -12,15 +13,15 @@ local p = lush(function()
         markdownH5                {}, -- htmlH5
         markdownH6                {}, -- htmlH6
         markdownHeadingRule       {}, -- markdownRule
-        markdownHeadingDelimiter  {base.Delimiter}, -- Delimiter
-        markdownItemDelimiter     {base.Delimiter},
+        markdownHeadingDelimiter  {classic.Delimiter}, -- Delimiter
+        markdownItemDelimiter     {classic.Delimiter},
         markdownInlineDelimiter   {fg = colours.tan},
-        markdownOrderedListMarker {base.Delimiter}, -- markdownListMarker
-        markdownListMarker        {base.Delimiter}, -- htmlTagName
+        markdownOrderedListMarker {classic.Delimiter}, -- markdownListMarker
+        markdownListMarker        {classic.Delimiter}, -- htmlTagName
         markdownBlockquote        {}, -- Comment
         markdownRule              {}, -- PreProc
         markdownLinkText          {}, -- htmlLink
-        markdownLinkTextDelimiter {base.Delimiter},
+        markdownLinkTextDelimiter {classic.Delimiter},
         markdownIdDeclaration     {}, -- Typedef
         markdownId                {}, -- Type
         markdownAutomaticLink     {}, -- markdownUrl
@@ -35,7 +36,7 @@ local p = lush(function()
         markdownCodeDelimiter     {fg = colours.orange}, -- Delimiter
         markdownCode              {fg = colours.mid_gray_alt},
         markdownEscape            {}, -- Special
-        markdownError             {base.SpellBad}, -- Error
+        markdownError             {base_ui.SpellBad}, -- Error
         markdownXmlElement        {fg = colours.mid_gray},
         htmlH1                    {fg = colours.br_blue, gui = styles.bold},
         htmlH2                    {fg = colours.br_blue},
@@ -43,16 +44,16 @@ local p = lush(function()
         htmlH4                    {htmlH2},
         htmlH5                    {htmlH2},
         htmlH6                    {htmlH2},
-        mkdLink                   {base.Underlined},
+        mkdLink                   {classic.Underlined},
         mkdURL                    {fg = colours.blue_gray, gui = styles.underline},
         mkdInlineURL              {fg = colours.blue_gray, gui = styles.underline},
-        mkdBold                   {base.Bold},
-        htmlBold                  {base.Bold},
-        mkdListItem               {base.Delimiter},
-        htmlItalic                {base.Italic},
+        mkdBold                   {classic.Bold},
+        htmlBold                  {classic.Bold},
+        mkdListItem               {classic.Delimiter},
+        htmlItalic                {classic.Italic},
         mkdCode                   {fg = colours.mid_gray_alt},
         mkdCodeDelimiter          {fg = colours.orange},
-        mkdHeading                {base.Delimiter},
+        mkdHeading                {classic.Delimiter},
     }
 end)
 

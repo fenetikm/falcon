@@ -1,11 +1,11 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 
 local p = lush(function()
     return {
         xmlEndTag          {fg = colours.blue_gray},
-        xmlEqual           {base.Operator},
+        xmlEqual           {classic.Operator},
         xmlTagName         {fg = colours.light_blue_gray},
         xmlAttrib          {fg = colours.blue_gray},
         xmlTag             {fg = colours.normal_gray},

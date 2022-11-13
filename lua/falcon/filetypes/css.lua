@@ -1,7 +1,7 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
 local styles = require('falcon.styles')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 
 local p = lush(function()
     return {
@@ -83,7 +83,7 @@ local p = lush(function()
         cssValueAngle               {}, -- Number
         cssValueTime                {}, -- Number
         cssValueFrequency           {}, -- Number
-        cssFunction                 {base.Function}, -- Constant
+        cssFunction                 {classic.Function}, -- Constant
         cssURL                      {}, -- String
         cssFunctionName             {}, -- Function
         cssFunctionComma            {}, -- Function
@@ -92,7 +92,7 @@ local p = lush(function()
         cssInclude                  {fg = colours.normal_gray}, -- Include
         cssIncludeKeyword           {fg = colours.tan}, -- atKeyword
         cssImportant                {fg = colours.red, gui = styles.b}, -- Special
-        cssBraces                   {base.Delimiter}, -- Function
+        cssBraces                   {classic.Delimiter}, -- Function
         cssBraceError               {}, -- Error
         cssError                    {}, -- Error
         cssUnicodeEscape            {}, -- Special

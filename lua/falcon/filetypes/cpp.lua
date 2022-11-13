@@ -1,15 +1,15 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
 local styles = require('falcon.styles')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 
 local p = lush(function()
     return {
         cPreCondit      {fg = colours.br_blue},
-        cDefine         {base.Define},
+        cDefine         {classic.Define},
         cStructure      {fg = colours.blue_gray},
-        cStorageClass   {base.StorageClass},
-        cType           {base.Type},
+        cStorageClass   {classic.StorageClass},
+        cType           {classic.Type},
         cCustomParen    {fg = colours.orange},
         cConditional    {fg = colours.yellow},
         cCustomFunc     {fg = colours.blue_gray},

@@ -1,14 +1,15 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
+local base_ui = require('falcon.base_ui')
 local styles = require('falcon.styles')
 
 local p = lush(function()
     return {
         rubyClass                  {fg = colours.light_gray}, -- rubyDefine
-        rubyClassName              {base.Normal},
+        rubyClassName              {base_ui.Normal},
         rubyModule                 {fg = colours.light_gray}, -- rubyDefine
-        rubyModuleName             {base.Normal},
+        rubyModuleName             {base_ui.Normal},
         rubyMethodExceptional      {}, -- rubyDefine
         rubyDefine                 {fg = colours.yellow}, -- Define
         rubyFunction               {fg = colours.normal_gray}, -- Function
@@ -68,9 +69,9 @@ local p = lush(function()
         rubyInvalidVariable        {}, -- Error
         rubyError                  {}, -- Error
         rubySpaceError             {}, -- rubyError
-        rubyArrayDelimiter         {base.Delimiter},
+        rubyArrayDelimiter         {classic.Delimiter},
         rubyBlockParameterList     {fg = colours.blue_gray},
-        rubyCurlyBlockDelimiter    {base.Delimiter},
+        rubyCurlyBlockDelimiter    {classic.Delimiter},
         rubyDoBlock                {fg = colours.yellow},
         rubyLocalVariableOrMethod  {fg = colours.blue_gray},
         rubyMethodBlock            {fg = colours.tan},

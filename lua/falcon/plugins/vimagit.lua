@@ -1,12 +1,12 @@
 local lush = require('lush')
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 
 local p = lush(function()
     return {
         titleEntry  {fg = colours.yellow},
-        diffRemoved {base.DiffDelete},
-        diffAdded   {base.DiffAdd},
+        diffRemoved {classic.DiffDelete},
+        diffAdded   {classic.DiffAdd},
     }
 end)
 

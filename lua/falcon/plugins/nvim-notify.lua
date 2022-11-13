@@ -1,6 +1,6 @@
 local lush = require('lush')
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local base_ui = require('falcon.base_ui')
 
 local p = lush(function()
     return {
@@ -19,11 +19,11 @@ local p = lush(function()
         NotifyINFOTitle   {fg = colours.green},
         NotifyDEBUGTitle  {fg = colours.light_gray},
         NotifyTRACETitle  {fg = colours.tan},
-        NotifyERRORBody   {base.Normal},
-        NotifyWARNBody    {base.Normal},
-        NotifyINFOBody    {base.Normal},
-        NotifyDEBUGBody   {base.Normal},
-        NotifyTRACEBody   {base.Normal},
+        NotifyERRORBody   {base_ui.Normal},
+        NotifyWARNBody    {base_ui.Normal},
+        NotifyINFOBody    {base_ui.Normal},
+        NotifyDEBUGBody   {base_ui.Normal},
+        NotifyTRACEBody   {base_ui.Normal},
     }
 end)
 

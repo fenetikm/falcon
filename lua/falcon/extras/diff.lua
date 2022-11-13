@@ -1,6 +1,6 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local base_ui = require('falcon.base_ui')
 
 local p = lush(function()
     return {

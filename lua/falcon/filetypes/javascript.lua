@@ -1,6 +1,6 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 local styles = require('falcon.styles')
 
 local p = lush(function()
@@ -37,7 +37,7 @@ local p = lush(function()
         javaScriptReserved         {}, -- Keyword
         javaScriptDebug            {}, -- Debug
         javaScriptConstant         {}, -- Label
-        jsBrackets                 {base.Delimiter},
+        jsBrackets                 {classic.Delimiter},
         jsClassBraces              {jsBrackets},
         jsBraces                   {jsBrackets},
         jsObjectBraces             {jsBrackets},
@@ -48,7 +48,7 @@ local p = lush(function()
         jsIfElseBraces             {jsBrackets},
         jsFuncArgs                 {fg = colours.blue_gray},
         jsExtendsKeyword           {fg = colours.yellow},
-        jsArrowFunction            {base.Operator},
+        jsArrowFunction            {classic.Operator},
         jsFunction                 {fg = colours.yellow},
         jsRepeat                   {jsFunction},
         jsReturn                   {fg = colours.yellow},
@@ -58,7 +58,7 @@ local p = lush(function()
         jsClassFuncName            {fg = colours.normal_gray},
         jsFuncName                 {fg = colours.normal_gray},
         jsNull                     {fg = colours.normal_gray, gui = styles.italic},
-        jsStorageClass             {base.StorageClass},
+        jsStorageClass             {classic.StorageClass},
         jsObjectSeparator          {fg = colours.normal_gray},
         jsObjectValue              {fg = colours.blue_gray},
         jsExportDefault            {fg = colours.blue_gray},

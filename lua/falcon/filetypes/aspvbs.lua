@@ -1,11 +1,11 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 
 local p = lush(function()
     return {
-        AspVBSVariableSimple {base.Identifier},
-        AspVBSStatement      {base.Keyword},
+        AspVBSVariableSimple {classic.Identifier},
+        AspVBSStatement      {classic.Keyword},
     }
 end)
 

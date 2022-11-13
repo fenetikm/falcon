@@ -1,18 +1,18 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 
 local p = lush(function()
     return {
         zshCommands        {fg = colours.yellow},
-        zshBrackets        {base.Delimiter},
+        zshBrackets        {classic.Delimiter},
         zshOptStart        {fg = colours.orange},
         zshVariableDef     {fg = colours.blue_gray},
-        zshTypes           {base.Type},
-        zshKeyword         {base.Keyword},
-        zshStringDelimiter {base.Delimiter},
-        zshDelimiter       {base.Delimiter},
-        zshParentheses     {base.Delimiter},
+        zshTypes           {classic.Type},
+        zshKeyword         {classic.Keyword},
+        zshStringDelimiter {classic.Delimiter},
+        zshDelimiter       {classic.Delimiter},
+        zshParentheses     {classic.Delimiter},
     }
 end)
 

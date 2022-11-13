@@ -1,20 +1,21 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
+local base_ui = require('falcon.base_ui')
 
 local p = lush(function()
     return {
-        sqlStatement   {base.Function},
+        sqlStatement   {classic.Function},
         sqlKeyword     {fg = colours.tan},
-        sqlSpecial     {base.Number},
+        sqlSpecial     {classic.Number},
         sqlType        {fg = colours.blue_gray},
-        sqlFunction    {base.Title},
+        sqlFunction    {base_ui.Title},
         mysqlKeyword   {sqlKeyword},
-        mysqlOperator  {base.Operator},
+        mysqlOperator  {classic.Operator},
         mysqlFunction  {sqlType},
         mysqlStatement {sqlStatement},
         mysqlType      {sqlType},
-        Quote          {base.Delimiter},
+        Quote          {classic.Delimiter},
     }
 end)
 

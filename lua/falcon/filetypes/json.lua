@@ -1,6 +1,6 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 
 local p = lush(function()
     return {
@@ -23,7 +23,7 @@ local p = lush(function()
         jsonTripleQuotesError  {}, -- Error
         jsonQuote              {}, -- Quote
         jsonNoise              {}, -- Noise
-        jsonKeywordMatch       {base.Delimiter},
+        jsonKeywordMatch       {classic.Delimiter},
     }
 end)
 

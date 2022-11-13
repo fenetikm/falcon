@@ -1,6 +1,6 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 local styles = require('falcon.styles')
 
 local p = lush(function()
@@ -27,11 +27,11 @@ local p = lush(function()
         yamlFlowMappingKey           {fg = colours.normal_gray}, -- Identifier
         yamlFlowMappingMerge         {}, -- Special
         yamlMappingKeyStart          {}, -- Special
-        yamlFlowIndicator            {base.Delimiter}, -- Special
-        yamlKeyValueDelimiter        {base.Delimiter}, -- Special
+        yamlFlowIndicator            {classic.Delimiter}, -- Special
+        yamlKeyValueDelimiter        {classic.Delimiter}, -- Special
         yamlConstant                 {}, -- Constant
         yamlNull                     {fg = colours.normal_gray, gui = styles.italic}, -- yamlConstant
-        yamlBool                     {base.Number}, -- yamlConstant
+        yamlBool                     {classic.Number}, -- yamlConstant
         yamlAnchor                   {}, -- Type
         yamlAlias                    {}, -- Type
         yamlNodeTag                  {}, -- Type

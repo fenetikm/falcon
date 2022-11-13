@@ -1,6 +1,6 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 
 local p = lush(function()
     return {
@@ -29,7 +29,7 @@ local p = lush(function()
         pythonBuiltinObj   {fg = colours.yellow},
         pythonDot          {fg = colours.orange},
         pythonBuiltinFunc  {fg = colours.tan},
-        pythonNone         {base.Boolean},
+        pythonNone         {classic.Boolean},
     }
 end)
 

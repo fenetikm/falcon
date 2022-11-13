@@ -1,14 +1,14 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 local styles = require('falcon.styles')
 
 local p = lush(function()
     return {
         htmlTag                 {fg = colours.normal_gray}, -- Function
-        htmlEndTag              {base.Delimiter}, -- Identifier
+        htmlEndTag              {classic.Delimiter}, -- Identifier
         htmlArg                 {fg = colours.blue_gray}, -- Type
-        htmlTagName             {base.Number}, -- htmlStatement
+        htmlTagName             {classic.Number}, -- htmlStatement
         htmlSpecialTagName      {fg = colours.yellow}, -- Exception
         htmlValue               {}, -- String
         htmlH1                  {fg = colours.yellow}, -- Title

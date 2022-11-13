@@ -1,6 +1,6 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 local styles = require('falcon.styles')
 
 local p = lush(function()
@@ -12,8 +12,8 @@ local p = lush(function()
         luaFuncArgName {fg = colours.blue_gray},
         luaCond        {fg = colours.yellow},
         luaStatement   {luaCond},
-        luaLocal       {base.Constant},
-        luaFuncParens  {base.Delimiter},
+        luaLocal       {classic.Constant},
+        luaFuncParens  {classic.Delimiter},
         luaParens      {luaFuncParens},
         luaBraces      {luaFuncParens},
         luaDocTag      {fg = colours.tan, gui = styles.italic},

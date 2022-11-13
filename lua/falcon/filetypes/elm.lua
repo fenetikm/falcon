@@ -1,13 +1,13 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 
 local p = lush(function()
     return {
-        elmTypeDef      {base.Type},
+        elmTypeDef      {classic.Type},
         elmType         {fg = colours.light_gray},
         elmTopLevelDecl {fg = colours.tan},
-        elmAlias        {base.Identifier},
+        elmAlias        {classic.Identifier},
     }
 end)
 

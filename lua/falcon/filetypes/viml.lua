@@ -1,6 +1,6 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 local styles = require('falcon.styles')
 
 local p = lush(function()
@@ -11,7 +11,7 @@ local p = lush(function()
         vimLet          {fg = colours.yellow},
         vimNotFunc      {fg = colours.yellow},
         vimIsCommand    {fg = colours.yellow},
-        vimOperParen    {base.Delimiter},
+        vimOperParen    {classic.Delimiter},
         vimFuncVar      {fg = colours.blue_gray, gui = styles.bold},
         vimFuncName     {fg = colours.normal_gray},
         vimAutoEvent    {fg = colours.red},

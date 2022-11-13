@@ -1,6 +1,6 @@
 local lush = require('lush')
 local colours = require('falcon.colours')
-local base = require('falcon.base')
+local classic = require('falcon.classic')
 local plugins = require('falcon.plugins')
 local filetypes = require('falcon.filetypes')
 local extras = require('falcon.extras')
@@ -53,7 +53,7 @@ if vim.fn.has('nvim') == 1 then
 end
 
 local function setup()
-  return lush.merge({base, plugins, filetypes, extras})
+  return lush.merge({classic, plugins, filetypes, extras})
 end
 
 return {setup = setup}
