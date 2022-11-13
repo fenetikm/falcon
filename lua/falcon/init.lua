@@ -1,9 +1,9 @@
 local lush = require('lush')
 local colours = require('falcon.colours')
-local classic = require('falcon.classic')
 local plugins = require('falcon.plugins')
 local filetypes = require('falcon.filetypes')
 local extras = require('falcon.extras')
+local settings = require('falcon.settings')
 
 vim.api.nvim_set_var('falcon.palette', {
   red             = colours.red.hex,
@@ -53,7 +53,17 @@ if vim.fn.has('nvim') == 1 then
 end
 
 local function setup()
-  return lush.merge({classic, plugins, filetypes, extras})
+  local variation_theme = {}
+
+  if settings.variation == 'classic' then
+    variation_theme = require('falcon.classic')
+    return lush.merge({variation_theme, plugins, filetypes, extras})
+  elseif settings.variation == 'zen' then
+    variation_theme = require('falcon.zen')
+    return lush.merge({variation_theme})
+  end
+
+  return {}
 end
 
 return {setup = setup}
