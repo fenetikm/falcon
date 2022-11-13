@@ -40,6 +40,26 @@
   * see https://github.com/mcchrish/zenbones.nvim/blob/main/lua/zenbones/shipwright/runners/vim.lua
 - submit PR to lush.nvim for inclusion of falcon colour scheme
 
+### Update instructions for neovim
+e.g.
+```lua
+
+vim.opt.background = 'dark'
+vim.g.colors_name = 'falcon'
+vim.g.falcon_settings = {
+  italic_comments = true,
+  bold = true,
+  undercurl = true,
+  underline_for_undercurl = false,
+  transparent_bg = false,
+  inactive_bg = false
+}
+
+package.loaded['falcon'] = nil
+require('lush')(require('falcon').setup())
+
+```
+
 ### What
 - dynamic colour scheme, lua based for neovim, use current colours, could tweak a bit?
 - more minimal in colour use in general
