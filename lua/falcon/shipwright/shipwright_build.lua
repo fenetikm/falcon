@@ -4,6 +4,7 @@ local runners = {
   'iterm',
   'kitty',
   'windows_terminal',
+  'vim',
 }
 
 for _, runner in pairs(runners) do
