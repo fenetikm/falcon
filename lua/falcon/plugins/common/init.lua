@@ -1,33 +1,7 @@
 local lush = require('lush')
 
 local plugins = {
-    'ale',
-    'blankline',
-    'buftabline',
-    'cleverf',
-    'dashboard',
-    'fugitive',
-    'fzf',
     'gitsigns',
-    'highlightedyank',
-    'indentguides',
-    'lsp-signature',
-    'nerdtree',
-    'nvim-cmp',
-    'nvim-notify',
-    'nvim-tree',
-    'plug',
-    'sneak',
-    'startify',
-    'tagbar',
-    'telescope',
-    'ultisnips',
-    'vdebug',
-    'vim-gitgutter',
-    'vim-signature',
-    'vimagit',
-    'vimwiki',
-    'vista',
 }
 
 local loaded_plugins = {}

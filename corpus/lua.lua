@@ -3,6 +3,8 @@
 -- show lsp warning
 thing
 
+local bob = 'this is a string!'
+
 -- @todo do the thing
 function quicksort(t, start, endi, hey)
   start, endi = start or 1, endi or #t

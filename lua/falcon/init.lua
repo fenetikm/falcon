@@ -56,7 +56,8 @@ local function setup()
   if settings.variation == 'classic' then
     return lush.merge({
       require('falcon.classic'),
-      plugins,
+      require('falcon.plugins.common'),
+      require('falcon.plugins.classic'),
       filetypes,
       require('falcon.extras.common'),
       require('falcon.extras.classic'),
@@ -66,6 +67,7 @@ local function setup()
   if settings.variation == 'zen' then
     return lush.merge({
       require('falcon.zen'),
+      require('falcon.plugins.common'),
       require('falcon.extras.common'),
       require('falcon.extras.zen'),
     })

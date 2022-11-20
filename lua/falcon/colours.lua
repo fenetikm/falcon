@@ -1,5 +1,4 @@
 local lush = require('lush')
-local hsluv = lush.hsluv
 local hsl = lush.hsl
 
 return {
