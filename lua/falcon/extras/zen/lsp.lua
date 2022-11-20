@@ -1,6 +1,7 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
 local styles = require('falcon.styles')
+print ('zen lsp')
 
 local p = lush(function()
     return {

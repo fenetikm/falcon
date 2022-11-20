@@ -12,9 +12,9 @@ local p = lush(function(injected_functions)
         TSAttribute          {},
         TSBoolean            {},
         TSCharacter          {},
-        TSCharacterSpecial   { } , -- Special characters.
+        TSCharacterSpecial   {} , -- Special characters.
         TSComment            {},
-        TSConditional        {},
+        TSConditional        {fg = colours.blue_gray},
         TSConstBuiltin       {},
         TSConstMacro         {},
         TSConstant           {},
@@ -74,8 +74,11 @@ local p = lush(function(injected_functions)
         TSVariable           {},
         TSVariableBuiltin    {},
         TSWarning            {},
+        sym('@conditional')  {gui = styles.italic},
         sym('@keyword')      {gui = styles.bold},
         sym('@punctuation')  {fg = colours.mid_gray},
+        sym('@repeat')       {sym("@keyword")},
+        sym('@include')      {sym("@keyword")},
     }
 end)
 

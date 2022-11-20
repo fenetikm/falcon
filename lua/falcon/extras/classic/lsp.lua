@@ -23,7 +23,7 @@ local p = lush(function()
         DiagnosticSignHint          {fg = colours.dark_tan},
         DiagnosticSignInfo          {fg = colours.mid_gray},
         DiagnosticSignWarn          {fg = colours.mid_yellow},
-        DiagnosticUnderlineError    {gui = styles.undercurl, guisp = colours.mid_red},
+        DiagnosticUnderlineError    {bg = colours.mid_red, gui = styles.undercurl, guisp = colours.mid_red},
         DiagnosticUnderlineHint     {gui = styles.undercurl, guisp = colours.dark_tan},
         DiagnosticUnderlineInfo     {gui = styles.undercurl, guisp = colours.mid_gray},
         DiagnosticUnderlineWarn     {gui = styles.undercurl, guisp = colours.mid_yellow},

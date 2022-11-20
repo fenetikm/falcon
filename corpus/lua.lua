@@ -2,6 +2,7 @@
 
 -- show lsp warning
 thing
+another_thing = true
 
 local bob = 'this is a string!'
 

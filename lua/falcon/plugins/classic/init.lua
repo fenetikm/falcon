@@ -2,7 +2,6 @@ local lush = require('lush')
 
 local plugins = {
     'ale',
-    'blankline',
     'buftabline',
     'cleverf',
     'dashboard',

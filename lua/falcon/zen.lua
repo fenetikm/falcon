@@ -25,7 +25,7 @@ local theme = lush(function(injected_functions)
     -- Base syntax
     Normal         {fg = colours.mid_gray_alt2, bg = windowBg},
     NormalNC       {fg = colours.mig_gray_alt2, bg = windowBgNC},
-    Comment        {fg = colours.dark_tan, gui = styles.italic_comments},
+    Comment        {fg = colours.darker_blue_gray, gui = styles.italic_comments},
     Constant       {},
     String         {fg = colours.light_blue_gray},
     Character      {},
@@ -39,7 +39,7 @@ local theme = lush(function(injected_functions)
     Exception      {},
     Repeat         {},
     Label          {},
-    Operator       {},
+    Operator       {fg = colours.darker_orange},
     Keyword        {},
     PreProc        {},
     Include        {},
@@ -63,7 +63,6 @@ local theme = lush(function(injected_functions)
     QuickFixLine   {},
     Bold           {gui = styles.bold},
     Italic         {gui = styles.italic},
-    sym("@number") {fg = colours.green},
   }
 end)
 

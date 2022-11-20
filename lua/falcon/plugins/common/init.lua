@@ -1,6 +1,7 @@
 local lush = require('lush')
 
 local plugins = {
+    'blankline',
     'gitsigns',
 }
 
