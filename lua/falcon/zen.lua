@@ -8,47 +8,62 @@ local styles = require('falcon.styles')
 local settings = require('falcon.settings')
 local base_ui = require('falcon.base_ui')
 
-local theme = lush(function()
+local windowBg = colours.bg
+local windowBgNC = colours.inactive_bg
+if not settings.inactive_bg then
+  windowBgNC = colours.bg
+end
+
+if settings.transparent_bg then
+  windowBg = 'NONE'
+  windowBgNC = 'NONE'
+end
+
+local theme = lush(function(injected_functions)
+  local sym = injected_functions.sym
   return {
     -- Base syntax
+    Normal         {fg = colours.mid_gray_alt2, bg = windowBg},
+    NormalNC       {fg = colours.mig_gray_alt2, bg = windowBgNC},
     Comment        {fg = colours.dark_tan, gui = styles.italic_comments},
-    Constant       {fg = colours.normal_gray, gui = styles.bold},
+    Constant       {},
     String         {fg = colours.light_blue_gray},
-    Character      {String},
-    Boolean        {fg = colours.normal_gray, gui = styles.italic},
-    Number         {fg = colours.normal_gray},
-    Float          {Number},
-    Identifier     {fg = colours.blue_gray},
-    Function       {fg = colours.tan},
-    Conditional    {fg = colours.tan},
-    Statement      {fg = colours.blue_gray},
-    Exception      {Statement},
-    Repeat         {Statement},
-    Label          {Statement},
-    Operator       {fg = colours.tan},
-    Keyword        {fg = colours.normal_gray, gui = styles.bold},
-    PreProc        {fg = colours.tan},
-    Include        {PreProc},
-    Define         {PreProc},
-    Macro          {PreProc},
-    PreCondit      {PreProc},
-    Type           {fg = colours.light_gray},
-    StorageClass   {Type},
-    Structure      {Type},
-    Typedef        {Type},
-    Special        {fg = colours.light_gray},
-    SpecialChar    {Special},
-    Tag            {Special},
-    Delimiter      {fg = colours.light_gray},
-    SpecialComment {Special},
-    Debug          {Special},
-    Underlined     {fg = colours.blue_gray, gui = styles.underline},
+    Character      {},
+    Boolean        {},
+    Number         {},
+    Float          {},
+    Identifier     {},
+    Function       {gui = stylies.bold},
+    Conditional    {},
+    Statement      {},
+    Exception      {},
+    Repeat         {},
+    Label          {},
+    Operator       {},
+    Keyword        {},
+    PreProc        {},
+    Include        {},
+    Define         {},
+    Macro          {},
+    PreCondit      {},
+    Type           {gui = styles.bold},
+    StorageClass   {},
+    Structure      {},
+    Typedef        {},
+    Special        {},
+    SpecialChar    {},
+    Tag            {},
+    Delimiter      {},
+    SpecialComment {},
+    Debug          {},
+    Underlined     {gui = styles.underline},
     Ignore         {},
     Error          {},
-    Todo           {fg = colours.bg, bg = colours.tan, gui = styles.italic},
-    QuickFixLine   {fg = colours.br_blue, bg = colours.dark_gray},
+    Todo           {},
+    QuickFixLine   {},
     Bold           {gui = styles.bold},
     Italic         {gui = styles.italic},
+    sym("@number") {fg = colours.green},
   }
 end)
 

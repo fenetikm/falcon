@@ -20,8 +20,6 @@ local theme = lush(function()
   return {
     -- Base UI
     NonText      {fg = colours.dark_gray, bg = windowBg},
-    Normal       {fg = colours.normal_gray, bg = windowBg},
-    NormalNC     {fg = colours.normal_gray, bg = windowBgNC},
     ColorColumn  {bg = colours.inactive_bg},
     Conceal      { },
     lCursor      { },

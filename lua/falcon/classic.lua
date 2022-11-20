@@ -6,9 +6,22 @@ local styles = require('falcon.styles')
 local settings = require('falcon.settings')
 local base_ui = require('falcon.base_ui')
 
+local windowBg = colours.bg
+local windowBgNC = colours.inactive_bg
+if not settings.inactive_bg then
+  windowBgNC = colours.bg
+end
+
+if settings.transparent_bg then
+  windowBg = 'NONE'
+  windowBgNC = 'NONE'
+end
+
 local theme = lush(function()
   return {
     -- Base syntax
+    Normal         {fg = colours.normal_gray, bg = windowBg},
+    NormalNC       {fg = colours.normal_gray, bg = windowBgNC},
     Comment        {fg = colours.mid_gray, gui = styles.italic_comments},
     Constant       {fg = colours.normal_gray, gui = styles.bold},
     String         {fg = colours.light_blue_gray},
