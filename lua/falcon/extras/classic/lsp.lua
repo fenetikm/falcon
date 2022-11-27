@@ -1,6 +1,7 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
 local styles = require('falcon.styles')
+print ('lsp classic?')
 
 local p = lush(function()
     return {
@@ -23,10 +24,10 @@ local p = lush(function()
         DiagnosticSignHint          {fg = colours.dark_tan},
         DiagnosticSignInfo          {fg = colours.mid_gray},
         DiagnosticSignWarn          {fg = colours.mid_yellow},
-        DiagnosticUnderlineError    {bg = colours.mid_red, gui = styles.undercurl, guisp = colours.mid_red},
-        DiagnosticUnderlineHint     {gui = styles.undercurl, guisp = colours.dark_tan},
-        DiagnosticUnderlineInfo     {gui = styles.undercurl, guisp = colours.mid_gray},
-        DiagnosticUnderlineWarn     {gui = styles.undercurl, guisp = colours.mid_yellow},
+        DiagnosticUnderlineError    {bg = colours.mid_red, gui = styles.undercurl, sp = colours.mid_red},
+        DiagnosticUnderlineHint     {gui = styles.undercurl, sp = colours.dark_tan},
+        DiagnosticUnderlineInfo     {gui = styles.undercurl, sp = colours.mid_gray},
+        DiagnosticUnderlineWarn     {gui = styles.undercurl, sp = colours.mid_yellow},
         DiagnosticVirtualTextError  {fg = colours.mid_red, gui = styles.italic},
         DiagnosticVirtualTextHint   {fg = colours.dark_tan, gui = styles.italic},
         DiagnosticVirtualTextInfo   {fg = colours.mid_gray, gui = styles.italic},

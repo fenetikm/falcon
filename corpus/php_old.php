@@ -1,5 +1,7 @@
 <?php
 
+an_ error
+
 /**
  * {@inheritdoc}
  */
