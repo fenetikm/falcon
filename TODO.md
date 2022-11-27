@@ -12,7 +12,7 @@
 - settings:
   * contrast
   * overlay blend?
-  * underline, underdotted, underdashed, see: https://github.com/rktjmp/lush.nvim/commit/5fa6b33f99211ee7b8741bc8731c4156b707b344, supported in kitty: https://sw.kovidgoyal.net/kitty/underlines/
+  * underline, underdotted, underdashed, see: https://github.com/rktjmp/lush.nvim/commit/5fa6b33f99211ee7b8741bc8731c4156b707b344, supported in kitty: https://sw.kovidgoyal.net/kitty/underlines/ do using undercurl style setting?
   * warm / cold
   * see https://github.com/mcchrish/zenbones.nvim/blob/main/doc/zenbones.md for an example around percentage colouring
   * background instead of underline for lsp, trigger with keys?
