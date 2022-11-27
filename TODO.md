@@ -40,8 +40,6 @@
   * set fzf colours elsewhere
   * set goyo for neovim too
   * make it work with transparent_bg setting
-- vim export possible? should be using shipwright:
-  * see https://github.com/mcchrish/zenbones.nvim/blob/main/lua/zenbones/shipwright/runners/vim.lua
 - submit PR to lush.nvim for inclusion of falcon colour scheme
 
 ### Update instructions for neovim
