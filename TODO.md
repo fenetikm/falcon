@@ -8,6 +8,7 @@
 - remove estilo remnants, can delete as we go
 - lightline and airline support?
 - output zen vim colours
+- mono variation, could be based on zen with saturation turned down?
 - settings:
   * contrast
   * overlay blend?
