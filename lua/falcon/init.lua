@@ -58,7 +58,8 @@ local function setup()
       require('falcon.classic'),
       require('falcon.plugins.common'),
       require('falcon.plugins.classic'),
-      filetypes,
+      require('falcon.filetypes.common'),
+      require('falcon.filetypes.classic'),
       require('falcon.extras.common'),
       require('falcon.extras.classic'),
     })
@@ -68,6 +69,7 @@ local function setup()
     return lush.merge({
       require('falcon.zen'),
       require('falcon.plugins.common'),
+      require('falcon.filetypes.zen'),
       require('falcon.extras.common'),
       require('falcon.extras.zen'),
     })

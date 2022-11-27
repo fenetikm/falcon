@@ -15,7 +15,6 @@ local filetypes = {
     'json',
     'jsx',
     'lua',
-    'markdown',
     'php',
     'python',
     'rst',

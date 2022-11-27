@@ -5,7 +5,6 @@
   * having a base and other, merge
   * turning other on and off via command?
   * turn on / off, there is a way to do that with lush, can create a command
-- other terminal files
 - remove estilo remnants, can delete as we go
 - lightline and airline support?
 - output zen vim colours
@@ -15,8 +14,12 @@
   * underline, underdotted, underdashed, see: https://github.com/rktjmp/lush.nvim/commit/5fa6b33f99211ee7b8741bc8731c4156b707b344, supported in kitty: https://sw.kovidgoyal.net/kitty/underlines/
   * warm / cold
   * see https://github.com/mcchrish/zenbones.nvim/blob/main/doc/zenbones.md for an example around percentage colouring
-  * background instead of underline for lsp, trigger with keys
+  * background instead of underline for lsp, trigger with keys?
   * comment contrast
+  * only lsp, only errors
+  * emphasise errors
+  * fix some plugins for zen:
+    + telescope
 - help file
 - more plugins:
   * aerial https://github.com/stevearc/aerial.nvim
