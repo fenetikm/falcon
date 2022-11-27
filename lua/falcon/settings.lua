@@ -8,6 +8,7 @@ local settings = {
   underline_for_undercurl = false,
   transparent_bg = false,
   inactive_bg = false,
+  lsp_background = false,
   variation = 'classic',
 }
 

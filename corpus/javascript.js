@@ -18,6 +18,9 @@ const arr = thing[1];
 const changeOrAdded = require('./changeOrAdded');
 const log = require('./log');
 
+an error
+let error++;
+
 // Match only on .es6.js files.
 const fileMatch = './**/*.es6.js';
 // Ignore everything in node_modules

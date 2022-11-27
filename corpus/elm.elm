@@ -66,7 +66,6 @@ update msg model =
 
 -- VIEW CONTROLS AND FOOTER
 
-
 viewControls : String -> List Entry -> Html Msg
 viewControls visibility entries =
     let

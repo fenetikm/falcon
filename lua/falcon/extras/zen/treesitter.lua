@@ -75,10 +75,15 @@ local p = lush(function(injected_functions)
         TSVariableBuiltin    {},
         TSWarning            {},
         sym('@conditional')  {gui = styles.italic},
+        sym('@boolean')      {gui = styles.italic},
         sym('@keyword')      {gui = styles.bold},
         sym('@punctuation')  {fg = colours.mid_gray},
         sym('@repeat')       {sym("@keyword")},
         sym('@include')      {sym("@keyword")},
+        sym('@function')     {sym("@keyword")},
+        sym('@text.title')   {fg = colours.normal_gray},
+        sym('@tag')          {sym("@keyword")},
+        sym('@tag.attribute') {},
     }
 end)
 
