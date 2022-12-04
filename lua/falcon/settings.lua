@@ -9,6 +9,7 @@ local settings = {
   transparent_bg = false,
   inactive_bg = false,
   lsp_background = false,
+  lsp_inverse = false,
   variation = 'classic',
 }
 

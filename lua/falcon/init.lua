@@ -69,6 +69,7 @@ local function setup()
     return lush.merge({
       require('falcon.zen'),
       require('falcon.plugins.common'),
+      require('falcon.plugins.zen'),
       require('falcon.filetypes.zen'),
       require('falcon.extras.common'),
       require('falcon.extras.zen'),
