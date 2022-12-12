@@ -9,6 +9,11 @@
 - lightline and airline support?
 - output zen vim colours
 - mono variation, could be based on zen with saturation turned down?
+- modes:
+  * comments only
+  * errors only, warnings secondary
+  * whitespace issues, formatting?
+  * spelling only
 - settings:
   * contrast
   * lsp_inverse - set fg text to dark / bg, bg to colour
@@ -17,9 +22,6 @@
   * warm / cold
   * see https://github.com/mcchrish/zenbones.nvim/blob/main/doc/zenbones.md for an example around percentage colouring
   * background instead of underline for lsp, trigger with keys?
-  * comment contrast
-  * only lsp, only errors
-  * emphasise errors
   * fix some plugins for zen:
     + telescope
 - help file
