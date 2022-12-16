@@ -24,10 +24,10 @@ local theme = lush(function(injected_functions)
   return {
     -- Base syntax
     Normal         {fg = colours.mid_gray_alt2, bg = windowBg},
-    NormalNC       {fg = colours.mig_gray_alt2, bg = windowBgNC},
-    Comment        {fg = colours.darker_blue_gray, gui = styles.italic_comments},
+    NormalNC       {fg = colours.mid_gray_alt2, bg = windowBgNC},
+    Comment        {fg = colours.darker_bluer_gray, gui = styles.italic_comments},
     Constant       {},
-    String         {fg = colours.light_blue_gray},
+    String         {fg = colours.light_bluer_gray},
     Character      {},
     Boolean        {},
     Number         {},
@@ -39,7 +39,7 @@ local theme = lush(function(injected_functions)
     Exception      {},
     Repeat         {},
     Label          {},
-    Operator       {fg = colours.darker_orange},
+    Operator       {fg = colours.darker_tanner},
     Keyword        {},
     PreProc        {},
     Include        {},

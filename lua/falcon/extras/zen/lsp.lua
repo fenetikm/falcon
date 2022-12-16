@@ -5,14 +5,25 @@ local settings = require('falcon.settings')
 
 local d = {}
 if (settings.lsp_background == true) then
-    d = lush(function()
-        return {
-            DiagnosticUnderlineError {bg = colours.dark_red},
-            DiagnosticUnderlineHint  {bg = colours.darkest_tan},
-            DiagnosticUnderlineInfo  {bg = colours.blue_dark_gray},
-            DiagnosticUnderlineWarn  {bg = colours.dark_yellow},
-        }
-    end)
+    if (settings.lsp_inverse == true) then
+        d = lush(function()
+            return {
+                DiagnosticUnderlineError {fg = colours.bg, bg = colours.mid_red},
+                DiagnosticUnderlineHint  {fg = colours.bg, bg = colours.dark_tan},
+                DiagnosticUnderlineInfo  {fg = colours.bg, bg = colours.blue_gray},
+                DiagnosticUnderlineWarn  {fg = colours.bg, bg = colours.mid_yellow},
+            }
+        end)
+    else
+        d = lush(function()
+            return {
+                DiagnosticUnderlineError {bg = colours.dark_red},
+                DiagnosticUnderlineHint  {bg = colours.darkest_tan},
+                DiagnosticUnderlineInfo  {bg = colours.blue_dark_gray},
+                DiagnosticUnderlineWarn  {bg = colours.dark_yellow},
+            }
+        end)
+    end
 else
     d = lush(function()
         return {

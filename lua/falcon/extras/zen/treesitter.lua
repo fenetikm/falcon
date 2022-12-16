@@ -76,7 +76,7 @@ local p = lush(function(injected_functions)
         TSWarning            {},
         sym('@conditional')  {gui = styles.italic},
         sym('@boolean')      {gui = styles.italic},
-        sym('@keyword')      {gui = styles.bold},
+        sym('@keyword')      {fg = colours.mid_gray_alt, gui = styles.bold},
         sym('@punctuation')  {fg = colours.mid_gray},
         sym('@repeat')       {sym("@keyword")},
         sym('@include')      {sym("@keyword")},
