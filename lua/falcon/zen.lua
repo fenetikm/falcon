@@ -33,7 +33,7 @@ local theme = lush(function(injected_functions)
     Number         {},
     Float          {},
     Identifier     {},
-    Function       {gui = stylies.bold},
+    Function       {gui = styles.bold},
     Conditional    {},
     Statement      {},
     Exception      {},

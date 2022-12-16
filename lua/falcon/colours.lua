@@ -24,7 +24,7 @@ return {
   tan               = hsl '#CFC1B2',
   dark_tan          = hsl '#A1968A',
   darker_tan        = hsl '#847B73',
-  darker_tanner     = hsl '#776657',
+  darker_tanner     = hsl '#847161',
   darkest_tan       = hsl '#3A3532',
   br_tan            = hsl '#F0E1CE',
   br_blue           = hsl '#BFDAFF',

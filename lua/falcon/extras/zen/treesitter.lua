@@ -80,10 +80,11 @@ local p = lush(function(injected_functions)
         sym('@punctuation')  {fg = colours.mid_gray},
         sym('@repeat')       {sym("@keyword")},
         sym('@include')      {sym("@keyword")},
-        sym('@function')     {sym("@keyword")},
+        sym('@function')     {},
         sym('@text.title')   {fg = colours.normal_gray},
         sym('@tag')          {sym("@keyword")},
         sym('@tag.attribute') {},
+        sym('@method') {},
     }
 end)
 
