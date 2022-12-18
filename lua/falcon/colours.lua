@@ -33,7 +33,7 @@ return {
   white             = hsl '#F8F8FF',
   light_gray        = hsl '#DFDFE5',
   normal_gray       = hsl '#B4B4B9',
-  mid_gray_alt2     = hsl '#9D9DA0',
+  mid_gray_alt2     = hsl '#a1a1A9',
   mid_gray_alt      = hsl '#878791',
   mid_gray          = hsl '#787882',
   mid_dark_gray     = hsl '#57575E',
