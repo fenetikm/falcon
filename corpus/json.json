@@ -1,0 +1,25 @@
+{
+    "name": "php-thing/diff",
+    "description": "it does a thing",
+    "keywords": ["diff"],
+    "homepage": "https://example.com",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Tommy",
+            "email": "tommy@example.com"
+        },
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0 || ^8.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
