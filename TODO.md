@@ -46,6 +46,7 @@
   * set goyo for neovim too
   * make it work with transparent_bg setting
 - submit PR to lush.nvim for inclusion of falcon colour scheme
+- exa tweaking, see https://the.exa.website/docs/colour-themes
 
 ### Update instructions for neovim
 e.g.
