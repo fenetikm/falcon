@@ -2,6 +2,7 @@ local lush = require('lush')
 
 local plugins = {
     'telescope',
+    'cleverf'
 }
 
 local loaded_plugins = {}
