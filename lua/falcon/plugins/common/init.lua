@@ -3,6 +3,7 @@ local lush = require('lush')
 local plugins = {
     'blankline',
     'gitsigns',
+    'highlightedyank',
 }
 
 local loaded_plugins = {}

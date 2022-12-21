@@ -7,7 +7,6 @@ local plugins = {
     'dashboard',
     'fugitive',
     'fzf',
-    'highlightedyank',
     'indentguides',
     'lsp-signature',
     'nerdtree',
