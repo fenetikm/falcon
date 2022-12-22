@@ -24,8 +24,6 @@
   * warm / cold
   * see https://github.com/mcchrish/zenbones.nvim/blob/main/doc/zenbones.md for an example around percentage colouring
   * background instead of underline for lsp, trigger with keys?
-  * fix some plugins for zen:
-    + telescope
 - help file
 - more plugins:
   * aerial https://github.com/stevearc/aerial.nvim
@@ -52,7 +50,6 @@
 ### Update instructions for neovim
 e.g.
 ```lua
-
 vim.opt.background = 'dark'
 vim.g.colors_name = 'falcon'
 vim.g.falcon_settings = {
