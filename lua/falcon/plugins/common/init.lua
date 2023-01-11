@@ -4,6 +4,7 @@ local plugins = {
     'blankline',
     'gitsigns',
     'highlightedyank',
+    'vim-signature',
 }
 
 local loaded_plugins = {}
