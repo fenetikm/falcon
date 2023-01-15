@@ -1,6 +1,4 @@
 --@diagnostic disable: undefined-global
---
-print ('zen variation')
 
 local lush = require('lush')
 local colours = require('falcon.colours')
