@@ -63,18 +63,6 @@ else
     }
   end)
 end
---
--- if (settings.lsp_settings.hint == 'inverse') then
---   hint = {ft = colours.bg, bg = colours.dark_tan}
--- else
---   hint = {ft = colours.dark_tan, gui = styles[settings.lsp_settings.hint]}
--- end
---
--- if (settings.lsp_settings.info == 'inverse') then
---   info = {ft = colours.bg, bg = colours.blue_gray}
--- else
---   info = {ft = colours.mid_gray, gui = styles[settings.lsp_settings.info]}
--- end
 
 local p = lush(function()
     return {
