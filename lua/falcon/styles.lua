@@ -7,6 +7,8 @@ local styles = {
   undercurl        = 'undercurl',
   strikethrough    = 'strikethrough',
   italic_comments  = 'italic',
+  underdotted      = 'underdotted',
+  underdashed      = 'underdashed'
 }
 
 if not settings.italic_comments then
@@ -27,6 +29,10 @@ end
 
 if settings.underline_for_undercurl then
   styles.undercurl = 'underline'
+end
+
+if settings.underline_for_underdotted then
+  styles.underdotted = 'underline'
 end
 
 if not settings.strikethrough then

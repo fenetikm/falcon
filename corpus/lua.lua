@@ -5,6 +5,7 @@ thing
 another_thing = true
 
 local bob = 'this is a string!'
+bob = 
 
 -- @todo do the thing
 function quicksort(t, start, endi, hey)

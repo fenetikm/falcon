@@ -17,14 +17,11 @@
 - settings:
   * contrast
   * overall brightness
-  * lsp mode: inverse, error emphasis, underline, subtle
-  * lsp_inverse - set fg text to dark / bg, bg to colour
   * colour palettes - classic, gibson (cyber), laser, vampire, edgey (gruv), CGA
   * overlay blend?
-  * underline, underdotted, underdashed, see: https://github.com/rktjmp/lush.nvim/commit/5fa6b33f99211ee7b8741bc8731c4156b707b344, supported in kitty: https://sw.kovidgoyal.net/kitty/underlines/ do using undercurl style setting?
   * warm / cold
   * see https://github.com/mcchrish/zenbones.nvim/blob/main/doc/zenbones.md for an example around percentage colouring
-  * background instead of underline for lsp, trigger with keys?
+  * triggering of modes
 - help file
 - more plugins:
   * aerial https://github.com/stevearc/aerial.nvim

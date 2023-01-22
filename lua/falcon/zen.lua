@@ -59,6 +59,7 @@ local theme = lush(function(injected_functions)
     Error          {},
     Todo           {},
     QuickFixLine   {},
+    MatchParen     {fg = colours.light_gray},
     Bold           {gui = styles.bold},
     Italic         {gui = styles.italic},
   }

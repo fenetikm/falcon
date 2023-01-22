@@ -3,37 +3,78 @@ local colours = require('falcon.colours')
 local styles = require('falcon.styles')
 local settings = require('falcon.settings')
 
-local d = {}
-if (settings.lsp_background == true) then
-    if (settings.lsp_inverse == true) then
-        d = lush(function()
-            return {
-                DiagnosticUnderlineError {fg = colours.bg, bg = colours.mid_red},
-                DiagnosticUnderlineHint  {fg = colours.bg, bg = colours.dark_tan},
-                DiagnosticUnderlineInfo  {fg = colours.bg, bg = colours.blue_gray},
-                DiagnosticUnderlineWarn  {fg = colours.bg, bg = colours.mid_yellow},
-            }
-        end)
-    else
-        d = lush(function()
-            return {
-                DiagnosticUnderlineError {bg = colours.dark_red},
-                DiagnosticUnderlineHint  {bg = colours.darkest_tan},
-                DiagnosticUnderlineInfo  {bg = colours.blue_dark_gray},
-                DiagnosticUnderlineWarn  {bg = colours.dark_yellow},
-            }
-        end)
-    end
+local error = {}
+local warning = {}
+local hint = {}
+local info = {}
+
+if (settings.lsp_settings.error == 'inverse') then
+  error = lush(function()
+    return {
+      DiagnosticUnderlineError {fg = colours.bg, bg = colours.mid_red}
+    }
+  end)
 else
-    d = lush(function()
-        return {
-            DiagnosticUnderlineError {gui = styles.undercurl, sp = colours.mid_red},
-            DiagnosticUnderlineHint  {gui = styles.undercurl, sp = colours.dark_tan},
-            DiagnosticUnderlineInfo  {gui = styles.undercurl, sp = colours.mid_gray},
-            DiagnosticUnderlineWarn  {gui = styles.undercurl, sp = colours.mid_yellow},
-        }
-    end)
+  error = lush(function()
+    return {
+      DiagnosticUnderlineError {gui = styles[settings.lsp_settings.error], guisp = colours.mid_red}
+    }
+  end)
 end
+
+if (settings.lsp_settings.warning == 'inverse') then
+  warning = lush(function()
+    return {
+      DiagnosticUnderlineWarn {fg = colours.bg, bg = colours.mid_yellow}
+    }
+  end)
+else
+  warning = lush(function()
+    return {
+      DiagnosticUnderlineWarn {gui = styles[settings.lsp_settings.warning], guisp = colours.mid_yellow}
+    }
+  end)
+end
+
+if (settings.lsp_settings.hint == 'inverse') then
+  hint = lush(function()
+    return {
+      DiagnosticUnderlineHint {fg = colours.bg, bg = colours.dark_tan}
+    }
+  end)
+else
+  hint = lush(function()
+    return {
+      DiagnosticUnderlineHint {gui = styles[settings.lsp_settings.hint], guisp = colours.dark_tan}
+    }
+  end)
+end
+
+if (settings.lsp_settings.info == 'inverse') then
+  info = lush(function()
+    return {
+      DiagnosticUnderlineInfo {fg = colours.bg, bg = colours.blue_gray}
+    }
+  end)
+else
+  info = lush(function()
+    return {
+      DiagnosticUnderlineInfo {gui = styles[settings.lsp_settings.info], guisp = colours.mid_gray}
+    }
+  end)
+end
+--
+-- if (settings.lsp_settings.hint == 'inverse') then
+--   hint = {ft = colours.bg, bg = colours.dark_tan}
+-- else
+--   hint = {ft = colours.dark_tan, gui = styles[settings.lsp_settings.hint]}
+-- end
+--
+-- if (settings.lsp_settings.info == 'inverse') then
+--   info = {ft = colours.bg, bg = colours.blue_gray}
+-- else
+--   info = {ft = colours.mid_gray, gui = styles[settings.lsp_settings.info]}
+-- end
 
 local p = lush(function()
     return {
@@ -44,10 +85,10 @@ local p = lush(function()
         LspReferenceWrite           {gui = styles.underline},
         LspSignatureActiveParameter { } , -- Used to highlight the active parameter in the signature help. See |vim.lsp.handlers.signature_help()|.
 
-        DiagnosticError             {fg = colours.mid_red},
-        DiagnosticHint              {fg = colours.darker_tan},
-        DiagnosticInfo              {fg = colours.mid_gray},
-        DiagnosticWarn              {fg = colours.mid_yellow},
+        DiagnosticError             {fg = colours.mid_red}, -- Default error diagnostics
+        DiagnosticHint              {fg = colours.darker_tan}, -- Default hint diagnostics
+        DiagnosticInfo              {fg = colours.mid_gray}, -- Default info diagnostic
+        DiagnosticWarn              {fg = colours.mid_yellow}, -- Default warn diagnostic
         DiagnosticFloatingError     { } , -- Used to color "Error" diagnostic messages in diagnostics float. See |vim.diagnostic.open_float()|
         DiagnosticFloatingHint      { } , -- Used to color "Hint" diagnostic messages in diagnostics float.
         DiagnosticFloatingInfo      { } , -- Used to color "Info" diagnostic messages in diagnostics float.
@@ -66,4 +107,4 @@ local p = lush(function()
     }
 end)
 
-return lush.merge({d, p})
+return lush.merge({error, warning, hint, info, p})
