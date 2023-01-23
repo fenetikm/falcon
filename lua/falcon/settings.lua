@@ -34,7 +34,7 @@ elseif settings['lsp_underline'] ~= nil then
     }
   elseif settings['lsp_underline'] == 'mixed' then
     settings['lsp_settings'] = {
-      error = 'inverse',
+      error = 'undercurl',
       warning = 'underline',
       info = 'underdotted',
       hint = 'underdotted'
