@@ -14,6 +14,7 @@
   * errors only, warnings secondary
   * whitespace issues, formatting?
   * spelling only
+  * in PHP, code vs txt in views
 - settings:
   * contrast
   * overall brightness
