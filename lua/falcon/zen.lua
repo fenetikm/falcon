@@ -58,8 +58,8 @@ local theme = lush(function(injected_functions)
     Ignore         {},
     Error          {},
     Todo           {},
-    QuickFixLine   {},
-    MatchParen     {fg = colours.light_gray},
+    QuickFixLine   {fg = colours.light_gray, bg = colours.blue_darkest_gray},
+    MatchParen     {fg = colours.light_gray, gui = styles.bold},
     Bold           {gui = styles.bold},
     Italic         {gui = styles.italic},
   }
