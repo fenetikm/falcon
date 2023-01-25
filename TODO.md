@@ -18,7 +18,8 @@
 - settings:
   * contrast
   * overall brightness
-  * colour palettes - classic, gibson (cyber), laser, vampire, edgey (gruv), CGA
+  * colour palettes or highlight theme - classic, gibson (cyber), laser, vampire, edgey (gruv), CGA
+  * grays - warm, cool, neutral
   * overlay blend?
   * warm / cold
   * see https://github.com/mcchrish/zenbones.nvim/blob/main/doc/zenbones.md for an example around percentage colouring
