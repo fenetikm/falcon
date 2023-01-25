@@ -38,9 +38,10 @@ elseif settings['lsp_underline'] ~= nil then
       hint = 'underdotted'
     }
   else
+    -- just use the one setting for all
     settings['lsp_settings'] = {}
-    for _,line in ipairs(lsp_setting_levels) do
-      settings['lsp_settings'][line] = settings['lsp_underline']
+    for _,level in ipairs(lsp_setting_levels) do
+      settings['lsp_settings'][level] = settings['lsp_underline']
     end
   end
 end

@@ -54,6 +54,7 @@ local p = lush(function()
         mkdCode                   {fg = colours.mid_gray_alt},
         mkdCodeDelimiter          {fg = colours.orange},
         mkdHeading                {classic.Delimiter},
+        mkdStrike                 {gui = styles.strikethrough},
     }
 end)
 

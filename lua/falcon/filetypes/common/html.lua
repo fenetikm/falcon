@@ -49,6 +49,7 @@ local p = lush(function()
         javaScriptExpression    {}, -- javaScript
         htmlCssStyleComment     {}, -- Comment
         htmlCssDefinition       {}, -- Special
+        htmlStrike              {gui = styles.strikethrough} -- Strikethrough
     }
 end)
 
