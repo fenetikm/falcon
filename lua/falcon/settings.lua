@@ -9,7 +9,7 @@ local settings = {
   underline_for_underdotted = false,
   transparent_bg = false,
   inactive_bg = false,
-  lsp_underline = 'errrr',
+  lsp_underline = 'mixed',
   variation = 'classic',
 }
 
@@ -21,9 +21,7 @@ end
 
 local lsp_setting_levels = {'error', 'warning', 'info', 'hint'}
 
--- resolve lsp settings
 if settings['lsp_settings'] ~= nil then
-  -- specific settings
 elseif settings['lsp_underline'] ~= nil then
   if settings['lsp_underline'] == 'errrr' then
     settings['lsp_settings'] = {

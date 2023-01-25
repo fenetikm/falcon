@@ -17,7 +17,7 @@ if (settings.lsp_settings.error == 'inverse') then
 else
   error = lush(function()
     return {
-      DiagnosticUnderlineError {gui = styles[settings.lsp_settings.error], guisp = colours.mid_red}
+      DiagnosticUnderlineError {gui = styles[settings.lsp_settings.error], sp = colours.red}
     }
   end)
 end
@@ -31,7 +31,7 @@ if (settings.lsp_settings.warning == 'inverse') then
 else
   warning = lush(function()
     return {
-      DiagnosticUnderlineWarn {gui = styles[settings.lsp_settings.warning], guisp = colours.mid_yellow}
+      DiagnosticUnderlineWarn {gui = styles[settings.lsp_settings.warning], sp = colours.yellow}
     }
   end)
 end
@@ -45,7 +45,7 @@ if (settings.lsp_settings.hint == 'inverse') then
 else
   hint = lush(function()
     return {
-      DiagnosticUnderlineHint {gui = styles[settings.lsp_settings.hint], guisp = colours.dark_tan}
+      DiagnosticUnderlineHint {gui = styles[settings.lsp_settings.hint], sp = colours.dark_tan}
     }
   end)
 end
@@ -59,7 +59,7 @@ if (settings.lsp_settings.info == 'inverse') then
 else
   info = lush(function()
     return {
-      DiagnosticUnderlineInfo {gui = styles[settings.lsp_settings.info], guisp = colours.mid_gray}
+      DiagnosticUnderlineInfo {gui = styles[settings.lsp_settings.info], sp = colours.mid_gray}
     }
   end)
 end
