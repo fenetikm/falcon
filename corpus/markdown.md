@@ -9,7 +9,7 @@ A Paragraph with some _italics_ and something **bold** and now a [link](http://e
 
 > This is a block
 >
->
+
 Here is some ~~strikethrough plox~~
 
 Inline `code` perhaps?
@@ -33,5 +33,3 @@ First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
-
-~~strikethrough~~ ?
