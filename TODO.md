@@ -18,6 +18,8 @@
 - In zen, consider reconciling what should be underlined vs background?
   * Thinking about Reference highlighting, underline or background?
   * put into lsp settings
+- Consider whether instead of light blue for string, blue gray or something else - keep brightness for other things
+- Consider making the cursorline more subtle
 - settings:
   * contrast
   * overall brightness
@@ -91,6 +93,14 @@ require('lush')(require('falcon').setup())
 - chrome full colour or mono
 - syntax full colour or minimal
 - light mode? change warmth / cool dependent on season / time of day
+
+### Concept
+- In code, functionally it's all very similar, so don't differentiate unneccessarily
+- Differentiate on it's effect (strings) vs keywords vs user written
+- Also differentiate meta information such as what comes from the LSP, linter etc.
+- Don't put in meaning where there wasn't any
+- Make it programmatic, allow swapping out "highlight colours", tweaking the other things (contrast, warm, cool)
+- Fun features: only showing certain things
 
 ### How
 - contrast: define different colours to reference - apprentice does this, could be done programmatically maybe using colour commands like saturation, lightness etc.
