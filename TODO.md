@@ -15,6 +15,9 @@
   * whitespace issues, formatting?
   * spelling only
   * in PHP, code vs txt in views
+- In zen, consider reconciling what should be underlined vs background?
+  * Thinking about Reference highlighting, underline or background?
+  * put into lsp settings
 - settings:
   * contrast
   * overall brightness
@@ -87,7 +90,7 @@ require('lush')(require('falcon').setup())
 - single colour statusline vs full colour
 - chrome full colour or mono
 - syntax full colour or minimal
-- light mode? change warmth / cool dependent on season / time
+- light mode? change warmth / cool dependent on season / time of day
 
 ### How
 - contrast: define different colours to reference - apprentice does this, could be done programmatically maybe using colour commands like saturation, lightness etc.
