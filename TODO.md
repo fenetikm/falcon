@@ -9,6 +9,7 @@
 - lightline and airline support?
 - output zen vim colours
 - mono variation, could be based on zen with saturation turned down?
+- consider different, more interesting cursor colour
 - modes:
   * comments only
   * errors only, warnings secondary
