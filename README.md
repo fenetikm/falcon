@@ -13,6 +13,10 @@ Falcon is a work horse of a colour scheme that will (hopefully) stand the test o
 Head to [the wiki installation page](https://github.com/fenetikm/falcon/wiki/Installation) to get going. Also have a look through what plugins and programs are [covered](https://github.com/fenetikm/falcon/wiki/Coverage), browse the [screenshot gallery](https://github.com/fenetikm/falcon/wiki/Screenshots), the [palette](https://github.com/fenetikm/falcon/wiki/Palette) and if you need a little bit of help there is also the [troubleshooting section and
 FAQ](https://github.com/fenetikm/falcon/wiki/Troubleshooting-&-FAQ).
 
+## Developing
+### Generating extra files
+Generating the extra files, such as for kitty and other terminals, is accompished using [Shipwright](https://github.com/rktjmp/shipwright.nvim) via the `shipwright_build.lua` file by running `:Shipwright ./lua/falcon/shipwright/shipwright_build.lua`.
+
 ## Contact
 
 If you want to get in touch please [drop me a line](https://michaelwelford.com/contact).
