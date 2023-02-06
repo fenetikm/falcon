@@ -62,6 +62,7 @@ local theme = lush(function(injected_functions)
     MatchParen     {fg = colours.light_gray, gui = styles.bold},
     Bold           {gui = styles.bold},
     Italic         {gui = styles.italic},
+    CursorLine     {bg = colours.blue_darkest_gray},
   }
 end)
 
