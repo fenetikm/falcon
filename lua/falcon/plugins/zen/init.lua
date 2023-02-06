@@ -1,13 +1,14 @@
 local lush = require('lush')
 
 local plugins = {
-    'telescope',
-    'cleverf'
+  'telescope',
+  'cleverf',
+  'nvim-tree',
 }
 
 local loaded_plugins = {}
 for index, plugin in pairs(plugins) do
-    loaded_plugins[index] = require('falcon.plugins.zen.' .. plugin)
+  loaded_plugins[index] = require('falcon.plugins.zen.' .. plugin)
 end
 
 return lush.merge(loaded_plugins)
