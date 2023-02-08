@@ -62,7 +62,15 @@ local theme = lush(function(injected_functions)
     MatchParen     {fg = colours.light_gray, gui = styles.bold},
     Bold           {gui = styles.bold},
     Italic         {gui = styles.italic},
+
+    -- Specific overrides of base
     CursorLine     {bg = colours.blue_darkest_gray},
+    SpellBad       {sp = colours.red, gui = styles.undercurl },
+    SpellLocal     {sp = colours.mid_yellow, gui = styles.underdotted },
+    SpellCap       {sp = colours.mid_yellow, gui = styles.underdotted },
+    SpellRare      {sp = colours.mid_yellow, gui = styles.underdotted },
+    Folded         {fg = colours.mid_gray, bg = colours.darkest_gray},
+    FoldColumn     {fg = colours.mid_gray, bg = colours.darkest_gray},
   }
 end)
 

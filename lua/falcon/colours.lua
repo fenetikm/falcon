@@ -39,6 +39,7 @@ return {
   mid_dark_gray     = hsl '#57575E',
   dark_gray         = hsl '#36363A',
   darker_gray       = hsl '#212127',
+  darkest_gray      = hsl '#18181D',
   black             = hsl '#000004',
   bg                = hsl '#020221',
   bg_alt            = hsl '#0A0A29',
