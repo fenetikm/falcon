@@ -15,6 +15,8 @@ Baad spelling and sam and and should have caps.
 
 Here is some ~~strikethrough plox~~
 
+<span>html in ya md</span>
+
 Inline `code` perhaps?
 
 ```sh
