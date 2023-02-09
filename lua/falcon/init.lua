@@ -54,6 +54,7 @@ end
 
 local function setup()
   if settings.variation == 'classic' then
+    print ('classic?!')
     return lush.merge({
       require('falcon.classic'),
       require('falcon.plugins.common'),

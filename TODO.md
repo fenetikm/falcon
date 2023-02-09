@@ -8,6 +8,9 @@
 - remove estilo remnants, can delete as we go
 - lightline and airline support?
 - output zen vim colours
+- Include a lualine which does things depending on lsp settings e.g.
+  * could go completely red when there is an error for `errr`
+- Also an even more drastic 'ERRRR' variation, when then is an error, whole screen is red except for the error
 - mono variation, could be based on zen with saturation turned down?
 - consider different, more interesting cursor colour
 - modes:
@@ -69,7 +72,6 @@ vim.g.falcon_settings = {
 
 package.loaded['falcon'] = nil
 require('lush')(require('falcon').setup())
-
 ```
 
 ### What

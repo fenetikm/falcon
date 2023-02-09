@@ -38,8 +38,8 @@ local p = lush(function()
         markdownEscape            {}, -- Special
         markdownError             {base_ui.SpellBad}, -- Error
         markdownXmlElement        {fg = colours.mid_gray},
-        htmlH1                    {fg = colours.br_blue, gui = styles.bold},
-        htmlH2                    {fg = colours.br_blue},
+        htmlH1                    {gui = styles.bold},
+        htmlH2                    {htmlH1},
         htmlH3                    {htmlH2},
         htmlH4                    {htmlH2},
         htmlH5                    {htmlH2},
@@ -55,6 +55,7 @@ local p = lush(function()
         mkdCodeDelimiter          {fg = colours.orange},
         mkdHeading                {classic.Delimiter},
         mkdStrike                 {gui = styles.strikethrough},
+        mkdCodeStart              {mkdCodeDelimiter},
     }
 end)
 

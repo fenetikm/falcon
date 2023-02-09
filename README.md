@@ -1,3 +1,4 @@
+# The Falcon colour scheme
 ![falcon logo](https://raw.githubusercontent.com/fenetikm/falcon/master/support/logo2.png)
 
 A colour scheme for terminals, vim and friends.
@@ -9,7 +10,6 @@ Falcon is a work horse of a colour scheme that will (hopefully) stand the test o
 ![hero shot](https://raw.githubusercontent.com/fenetikm/falcon/master/support/hero2.png)
 
 ## Get started
-
 Head to [the wiki installation page](https://github.com/fenetikm/falcon/wiki/Installation) to get going. Also have a look through what plugins and programs are [covered](https://github.com/fenetikm/falcon/wiki/Coverage), browse the [screenshot gallery](https://github.com/fenetikm/falcon/wiki/Screenshots), the [palette](https://github.com/fenetikm/falcon/wiki/Palette) and if you need a little bit of help there is also the [troubleshooting section and
 FAQ](https://github.com/fenetikm/falcon/wiki/Troubleshooting-&-FAQ).
 
@@ -18,15 +18,12 @@ FAQ](https://github.com/fenetikm/falcon/wiki/Troubleshooting-&-FAQ).
 Generating the extra files, such as for kitty and other terminals, is accompished using [Shipwright](https://github.com/rktjmp/shipwright.nvim) via the `shipwright_build.lua` file by running `:Shipwright ./lua/falcon/shipwright/shipwright_build.lua`.
 
 ## Contact
-
 If you want to get in touch please [drop me a line](https://michaelwelford.com/contact).
 
 ## Big Thanks
-
 * Built with [estilo](https://github.com/jacoborus/estilo), gracias!
 * Inspiration: gruvbox for not being quite right to my tastes and thus being the seed of this project
 * Everyone who Vims, f'yeah!
 
 ## License
-
 Falcon is released under the [MIT license](https://github.com/fenetikm/falcon/blob/master/LICENSE).
