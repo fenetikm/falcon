@@ -7,13 +7,12 @@
   * turn on / off, there is a way to do that with lush, can create a command
 - remove estilo remnants, can delete as we go
 - lightline and airline support?
-- output zen vim colours
 - Include a lualine which does things depending on lsp settings e.g.
   * could go completely red when there is an error for `errr`
 - Also an even more drastic 'ERRRR' variation, when then is an error, whole screen is red except for the error
 - mono variation, could be based on zen with saturation turned down?
 - consider different, more interesting cursor colour
-- modes:
+- focus modes:
   * comments only
   * errors only, warnings secondary
   * whitespace issues, formatting?
@@ -23,7 +22,6 @@
   * Thinking about Reference highlighting, underline or background?
   * put into lsp settings
 - Consider whether instead of light blue for string, blue gray or something else - keep brightness for other things
-- Consider making the cursorline more subtle
 - settings:
   * contrast
   * overall brightness
