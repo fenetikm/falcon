@@ -66,21 +66,21 @@ end
 
 local p = lush(function()
     return {
-        LspCodeLens                 { } , -- Used to color the virtual text of the codelens. See |nvim_buf_set_extmark()|.
-        LspCodeLensSeparator        { } , -- Used to color the seperator between two or more code lens.
-        LspReferenceRead            {gui = styles.underline},
-        LspReferenceText            {gui = styles.underline},
-        LspReferenceWrite           {gui = styles.underline},
+        LspCodeLens                 { } , -- Used to colour the virtual text of the codelens. See |nvim_buf_set_extmark()|.
+        LspCodeLensSeparator        { } , -- Used to colour the separator between two or more code lens.
+        LspReferenceRead            {gui = styles.underline, sp = colours.blue_gray},
+        LspReferenceText            {gui = styles.underline, sp = colours.blue_gray},
+        LspReferenceWrite           {gui = styles.underline, sp = colours.blue_gray},
         LspSignatureActiveParameter { } , -- Used to highlight the active parameter in the signature help. See |vim.lsp.handlers.signature_help()|.
 
         DiagnosticError             {fg = colours.mid_red}, -- Default error diagnostics
         DiagnosticHint              {fg = colours.darker_tan}, -- Default hint diagnostics
         DiagnosticInfo              {fg = colours.mid_gray}, -- Default info diagnostic
         DiagnosticWarn              {fg = colours.mid_yellow}, -- Default warn diagnostic
-        DiagnosticFloatingError     { } , -- Used to color "Error" diagnostic messages in diagnostics float. See |vim.diagnostic.open_float()|
-        DiagnosticFloatingHint      { } , -- Used to color "Hint" diagnostic messages in diagnostics float.
-        DiagnosticFloatingInfo      { } , -- Used to color "Info" diagnostic messages in diagnostics float.
-        DiagnosticFloatingWarn      { } , -- Used to color "Warn" diagnostic messages in diagnostics float.
+        DiagnosticFloatingError     { } , -- Used to colour "Error" diagnostic messages in diagnostics float. See |vim.diagnostic.open_float()|
+        DiagnosticFloatingHint      { } , -- Used to colour "Hint" diagnostic messages in diagnostics float.
+        DiagnosticFloatingInfo      { } , -- Used to colour "Info" diagnostic messages in diagnostics float.
+        DiagnosticFloatingWarn      { } , -- Used to colour "Warn" diagnostic messages in diagnostics float.
         DiagnosticSignError         {fg = colours.mid_red},
         DiagnosticSignHint          {fg = colours.darker_tan},
         DiagnosticSignInfo          {fg = colours.mid_gray},
