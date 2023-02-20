@@ -68,9 +68,9 @@ local p = lush(function()
     return {
         LspCodeLens                 { } , -- Used to colour the virtual text of the codelens. See |nvim_buf_set_extmark()|.
         LspCodeLensSeparator        { } , -- Used to colour the separator between two or more code lens.
-        LspReferenceRead            {gui = styles.underline, sp = colours.blue_gray},
-        LspReferenceText            {gui = styles.underline, sp = colours.blue_gray},
-        LspReferenceWrite           {gui = styles.underline, sp = colours.blue_gray},
+        LspReferenceRead            {bg = colours.darkest_indigo},
+        LspReferenceText            {bg = colours.darkest_indigo},
+        LspReferenceWrite           {bg = colours.darkest_indigo},
         LspSignatureActiveParameter { } , -- Used to highlight the active parameter in the signature help. See |vim.lsp.handlers.signature_help()|.
 
         DiagnosticError             {fg = colours.mid_red}, -- Default error diagnostics
