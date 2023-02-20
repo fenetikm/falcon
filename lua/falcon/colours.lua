@@ -46,6 +46,7 @@ return {
   inactive_bg       = hsl '#151521',
   purple_dark_gray  = hsl '#3F3A59',
   purple            = hsl '#635196',
+  br_purple         = hsl '#AD94D9',
   lavender          = hsl '#9F97CC',
   status            = hsl '#28282D',
   inactive_status   = hsl '#1C1C22',
