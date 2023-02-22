@@ -6,11 +6,9 @@
   * turning other on and off via command?
   * turn on / off, there is a way to do that with lush, can create a command
 - selection of items on telescope could be better
-- folding, still not right
-- selection colour could be just bold white
+- folding, still not right?
 - remove estilo remnants, can delete as we go
 - in colours, define a lot of the variations using the methods such as darken etc.
-- consider changing the colour used re searching highlight, too close to strings?
 - lightline and airline support?
 - Include a lualine which does things depending on lsp settings e.g.
   * could go completely red when there is an error for `errr`
