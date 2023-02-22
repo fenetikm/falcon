@@ -71,6 +71,8 @@ local theme = lush(function(injected_functions)
     SpellRare      {sp = colours.mid_yellow, gui = styles.underdotted },
     Folded         {fg = colours.mid_gray, bg = colours.darkest_gray},
     FoldColumn     {fg = colours.mid_gray, bg = colours.darkest_gray},
+    IncSearch      {fg = colours.light_gray, gui = styles.bold},
+    Search         {fg = colours.light_gray, gui = styles.bold .. ',' .. styles.underline},
   }
 end)
 

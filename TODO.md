@@ -5,6 +5,9 @@
   * having a base and other, merge
   * turning other on and off via command?
   * turn on / off, there is a way to do that with lush, can create a command
+- selection of items on telescope could be better
+- folding, still not right
+- selection colour could be just bold white
 - remove estilo remnants, can delete as we go
 - in colours, define a lot of the variations using the methods such as darken etc.
 - consider changing the colour used re searching highlight, too close to strings?
