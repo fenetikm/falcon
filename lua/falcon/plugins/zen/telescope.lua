@@ -6,7 +6,7 @@ local p = lush(function()
     return {
         TelescopeBorder         {fg = colours.dark_gray, bg = colours.blue_dark_float},
         TelescopeTitle          {fg = colours.mid_gray_alt, bg = colours.blue_dark_float},
-        TelescopeMatching       {fg = colours.normal_gray, bg = colours.blue_dark_float, gui = styles.bold},
+        TelescopeMatching       {fg = colours.light_gray, bg = colours.blue_dark_float, gui = styles.bold},
         TelescopePromptPrefix   {fg = colours.mid_gray_alt2, bg = colours.blue_dark_float},
         TelescopeSelection      {fg = colours.normal_gray, bg = colours.blue_dark_float},
         TelescopeSelectionCaret {fg = colours.darker_tanner, bg = colours.blue_dark_float},
