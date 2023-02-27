@@ -10,7 +10,7 @@ local p = lush(function()
         TelescopePromptPrefix   {fg = colours.mid_gray_alt2, bg = colours.blue_dark_float},
         TelescopeSelection      {fg = colours.normal_gray, bg = colours.blue_dark_float},
         TelescopeSelectionCaret {fg = colours.darker_tanner, bg = colours.blue_dark_float},
-        TelescopeMultiSelection {fg = colours.normal_gray, bg = colours.blue_dark_float, gui = styles.bold},
+        TelescopeMultiSelection {fg = colours.light_gray, bg = colours.blue_dark_float, gui = styles.bold},
         TelescopeMultiIcon      {fg = colours.normal_gray},
         TelescopeNormal         {fg = colours.mid_gray, bg = colours.blue_dark_float},
         TelescopePreviewNormal  {TelescopeNormal},
