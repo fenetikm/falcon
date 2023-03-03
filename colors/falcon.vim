@@ -4,7 +4,7 @@
 " URL: https://github.com/fenetikm/falcon
 " Author: Michael Welford
 " License: MIT
-" Last Change: 2021/12/15 08:30
+" Last Change: 2023/03/03 15:43
 " ===============================================================
 
 set background=dark
@@ -510,18 +510,62 @@ hi tmuxCmds guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi tmuxOptsSet guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptions guifg=#FF761A ctermfg=208 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi tmuxOptsSetw guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi link TSKeyword Keyword
-hi link TSVariable Identifier
-hi TSMethod guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi link TSVariableBuiltin Type
-hi link TSFunction Function
-hi link TSOperator Operator
-hi TSConstructor guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
-hi link TSException Keyword
-hi link TSConstant Constant
-hi link TSConstBuiltin Boolean
-hi TSError guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSKeywordFunction guifg=#CFC1B2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link @annotation PreProc
+hi link @attribute PreProc
+hi link @boolean Boolean
+hi link @character Character
+hi link @comment Comment
+hi link @conditional Conditional
+hi link @constant Constant
+hi link @constant.builtin Boolean
+hi link @constant.macro Define
+hi @constructor guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi @emphasis guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
+hi @error guifg=#FFC552 ctermfg=221 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link @exception Keyword
+hi link @field Identifier
+hi link @float Float
+hi link @function Function
+hi link @function.builtin Special
+hi link @function.macro Macro
+hi link @include Include
+hi link @keyword Keyword
+hi @keyword.function guifg=#CFC1B2 ctermfg=181 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link @keyword.operator Operator
+hi link @keyword.return Operator
+hi link @label Label
+hi link @literal String
+hi link @namespace Include
+hi link @note Todo
+hi link @number Number
+hi @method guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link @operator Operator
+hi link @parameter Identifier
+hi link @parameter.reference Identifier
+hi link @property Identifier
+hi link @punctuation.bracket Delimiter
+hi link @punctuation.delimiter Delimiter
+hi link @punctuation.special Delimiter
+hi link @repeat Repeat
+hi @strike guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=standout cterm=standout
+hi link @string String
+hi link @string.escape SpecialChar
+hi link @string.regex String
+hi link @string.special String
+hi @strong guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi link @structure Structure
+hi @symbol guifg=#99A4BC ctermfg=248 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link @tag Tag
+hi @tag.attribute guifg=#B4B4B9 ctermfg=249 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi link @tag.delimiter Delimiter
+hi link @title Title
+hi link @type Type
+hi link @type.builtin Type
+hi link @uri Underlined
+hi @underline guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
+hi link @variable Identifier
+hi link @variable.builtin Special
+hi @warning guifg=#BC8F3F ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi link twigVarDelim Delimiter
 hi link twigTagDelim Delimiter
 hi twigString guifg=#DFDFE5 ctermfg=254 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
