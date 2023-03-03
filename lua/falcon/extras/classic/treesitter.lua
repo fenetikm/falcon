@@ -6,6 +6,7 @@ local styles = require('falcon.styles')
 
 local p = lush(function()
     return {
+    -- These are all deprecated, to be replaced below
         TSAnnotation         {classic.PreProc},
         TSAttribute          {classic.PreProc},
         TSBoolean            {classic.Boolean},

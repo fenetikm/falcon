@@ -21,7 +21,6 @@ local plugins = {
     'ultisnips',
     'vdebug',
     'vim-gitgutter',
-    'vim-signature',
     'vimagit',
     'vimwiki',
     'vista',

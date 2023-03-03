@@ -1,6 +1,7 @@
 # Falcon Todo
 
 ## Todo v3
+- instead of zen, call it hemingway or similar
 - try out using lush, specifically:
   * having a base and other, merge
   * turning other on and off via command?
@@ -56,6 +57,7 @@
 - submit PR to lush.nvim for inclusion of falcon colour scheme
 - exa tweaking, see https://the.exa.website/docs/colour-themes
 - document highlightedyank how to
+- create a vim style docs file
 
 ### Update instructions for neovim
 e.g.
