@@ -1,14 +1,18 @@
 # Falcon Todo
 
+## Zen todo, to release
+- Rename?
+- Doc how to use
+- Screenshots
+- Palette stuff
+
 ## Todo v3
-- instead of zen, call it hemingway or similar
+- instead of zen, call it hemingway, or similar
+- colors/falcon_zen.vim version
 - try out using lush, specifically:
   * having a base and other, merge
   * turning other on and off via command?
   * turn on / off, there is a way to do that with lush, can create a command
-- selection of items on telescope could be better
-- folding, still not right?
-- remove estilo remnants, can delete as we go
 - in colours, define a lot of the variations using the methods such as darken etc.
 - lightline and airline support?
 - Include a lualine which does things depending on lsp settings e.g.
@@ -22,10 +26,6 @@
   * whitespace issues, formatting?
   * spelling only
   * in PHP, code vs txt in views
-- In zen, consider reconciling what should be underlined vs background?
-  * Thinking about Reference highlighting, underline or background?
-  * put into lsp settings
-- Consider whether instead of light blue for string, blue gray or something else - keep brightness for other things
 - settings:
   * contrast
   * overall brightness
@@ -35,7 +35,6 @@
   * warm / cold
   * see https://github.com/mcchrish/zenbones.nvim/blob/main/doc/zenbones.md for an example around percentage colouring
   * triggering of modes
-- help file
 - more plugins:
   * aerial https://github.com/stevearc/aerial.nvim
   * barbar https://github.com/romgrk/barbar.nvim
@@ -55,9 +54,10 @@
   * set goyo for neovim too
   * make it work with transparent_bg setting
 - submit PR to lush.nvim for inclusion of falcon colour scheme
-- exa tweaking, see https://the.exa.website/docs/colour-themes
 - document highlightedyank how to
 - create a vim style docs file
+
+### Todo maybe / later
 
 ### Update instructions for neovim
 e.g.
