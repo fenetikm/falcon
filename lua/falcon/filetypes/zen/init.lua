@@ -2,6 +2,9 @@ local lush = require('lush')
 
 local filetypes = {
     'markdown',
+    'rst',
+    'yaml',
+    'xml'
 }
 
 local loaded_filetypes = {}

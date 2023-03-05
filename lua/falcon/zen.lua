@@ -38,7 +38,7 @@ local theme = lush(function(injected_functions)
     Repeat         {},
     Label          {},
     Operator       {fg = colours.darker_tanner},
-    Keyword        {},
+    Keyword        {gui = styles.bold},
     PreProc        {},
     Include        {},
     Define         {},

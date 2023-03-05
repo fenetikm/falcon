@@ -1,11 +1,12 @@
 -- in-place quicksort
 
--- show lsp warning
+-- show lsp warnings
 thing
 another_thing = true
 
 local bob = 'this is a string!'
 bob = 
+bob bob
 
 -- @todo do the thing
 function quicksort(t, start, endi, hey)

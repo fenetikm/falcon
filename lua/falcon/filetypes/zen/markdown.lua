@@ -3,7 +3,8 @@ local colours = require('falcon.colours')
 local zen = require('falcon.zen')
 local styles = require('falcon.styles')
 
-local p = lush(function()
+local p = lush(function(injected_functions)
+    local sym = injected_functions.sym
     return {
         markdownH1                {}, -- htmlH1
         markdownH2                {}, -- htmlH2
@@ -37,23 +38,24 @@ local p = lush(function()
         markdownEscape            {}, -- Special
         markdownError             {zen.SpellBad}, -- Error
         markdownXmlElement        {},
-        htmlH1                    {gui = styles.bold},
+        htmlH1                    {zen.Keyword},
         htmlH2                    {htmlH1},
         htmlH3                    {htmlH2},
         htmlH4                    {htmlH2},
         htmlH5                    {htmlH2},
         htmlH6                    {htmlH2},
+        htmlTagName                   {zen.Keyword},
         mkdLink                   {zen.Underlined},
         mkdURL                    {fg = colours.blue_gray, gui = styles.underline},
         mkdInlineURL              {fg = colours.blue_gray, gui = styles.underline},
         mkdBold                   {zen.Bold},
-        mkdListItem               {zen.Operator},
+        mkdListItem               {},
         mkdCode                   {zen.String},
         mkdCodeDelimiter          {zen.Operator},
         mkdHeading                {},
         mkdStrike                 {gui = styles.strikethrough},
-        mkdCodeStart              {zen.Comment},
-        mkdCodeEnd                {zen.Comment},
+        mkdCodeStart              {zen.Operator},
+        mkdCodeEnd                {zen.Operator},
         mkdBlockQuote             {zen.Comment}
     }
 end)
