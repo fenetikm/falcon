@@ -8,6 +8,7 @@
 
 ## Todo v3
 - instead of zen, call it hemingway, or similar
+- tweak indigo, more blue
 - colors/falcon_zen.vim version
 - try out using lush, specifically:
   * having a base and other, merge

@@ -4,7 +4,7 @@ local styles = require('falcon.styles')
 
 local p = lush(function()
     return {
-        CleverFDefaultLabel {fg = colours.br_blue, gui = styles.underline}
+        CleverFDefaultLabel {fg = colours.light_gray, gui = styles.underline .. ',' .. styles.bold}
     }
 end)
 
