@@ -6,6 +6,9 @@
 - Screenshots
 - Palette stuff
 
+## Todo include statusline
+- Set StatusLineNC to take into account inactive bg
+
 ## Todo v3
 - instead of zen, call it hemingway, or similar
 - tweak indigo, more blue
