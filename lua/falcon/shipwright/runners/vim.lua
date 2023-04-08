@@ -29,6 +29,12 @@ builder.run(
   falcon,
   lushwright.to_vimscript,
   lushwright.vim_compatible_vimscript,
+  function(lines)
+    local filtered_lines = vim.tbl_filter(function(line)
+      return not string.match(line, "@")
+    end, lines)
+    return filtered_lines
+  end,
   {append, {"set background=dark", "let g:colors_name=\"falcon\""}},
   {append, term_colours},
   {overwrite, "colors/falcon.vim"}

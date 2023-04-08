@@ -6,10 +6,13 @@
     * utility
     * neo, neue
     * modern `this one`
+- Move classic docs stuff into its own place
+- Fix falcon.vim colours like the master ones
+
+## v3 release
 - Doc how to use
 - Screenshots
 - Palette stuff pics and values
-- Move classic stuff into its own place
 
 ### Todo include statusline config
 - Set StatusLineNC to take into account inactive bg

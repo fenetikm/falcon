@@ -2,7 +2,6 @@ highlight Normal guifg=#A2A2A9 guibg=#020222 guisp=NONE gui=NONE cterm=NONE
 highlight! link xmlAttrib Normal
 highlight! link yamlAlias Normal
 highlight! link yamlAnchor Normal
-highlight! link @text.title Normal
 highlight Bold guifg=NONE guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight! link mkdBold Bold
 highlight Boolean guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -14,7 +13,6 @@ highlight! link mkdBlockQuote Comment
 highlight! link rstInterpretedTextOrHyperlinkReference Comment
 highlight Conceal guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight Conditional guifg=NONE guibg=NONE guisp=NONE gui=italic cterm=italic
-highlight! link @conditional Conditional
 highlight Constant guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight Cursor guifg=NONE guibg=#787882 guisp=NONE gui=NONE cterm=NONE
 highlight CursorColumn guifg=NONE guibg=#18182A guisp=NONE gui=NONE cterm=NONE
@@ -77,8 +75,6 @@ highlight! link htmlTagName Keyword
 highlight! link rstDirective Keyword
 highlight! link rstSections Keyword
 highlight! link yamlBlockMappingKey Keyword
-highlight! link @keyword Keyword
-highlight! link @keyword.function Keyword
 highlight Label guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight LineNr guifg=#56565D guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight LspCodeLens guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -414,22 +410,6 @@ highlight yamlTimestamp guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight yamlTodo guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight yamlYAMLDirective guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight yamlYAMLVersion guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
-highlight @annotation guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
-highlight @attribute guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
-highlight @boolean guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
-highlight @function guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
-highlight @function.call guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
-highlight! link @function.builtin @keyword
-highlight! link @include @keyword
-highlight! link @repeat @keyword
-highlight! link @tag @keyword
-highlight! link @variable.builtin @keyword
-highlight @method guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
-highlight @property guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
-highlight @punctuation guifg=#787882 guibg=NONE guisp=NONE gui=NONE cterm=NONE
-highlight! link @punctuation.bracket @punctuation
-highlight! link @tag.delimiter @punctuation
-highlight @tag.attribute guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 set background=dark
 let g:colors_name="falcon"
 let g:terminal_color_0 = '#000005'
