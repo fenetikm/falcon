@@ -1,6 +1,6 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local zen = require('falcon.zen')
+local modern = require('falcon.modern')
 local styles = require('falcon.styles')
 
 local p = lush(function(injected_functions)
@@ -36,27 +36,27 @@ local p = lush(function(injected_functions)
         markdownCodeDelimiter     {}, -- Delimiter
         markdownCode              {},
         markdownEscape            {}, -- Special
-        markdownError             {zen.SpellBad}, -- Error
+        markdownError             {modern.SpellBad}, -- Error
         markdownXmlElement        {},
-        htmlH1                    {zen.Keyword},
+        htmlH1                    {modern.Keyword},
         htmlH2                    {htmlH1},
         htmlH3                    {htmlH2},
         htmlH4                    {htmlH2},
         htmlH5                    {htmlH2},
         htmlH6                    {htmlH2},
-        htmlTagName                   {zen.Keyword},
-        mkdLink                   {zen.Underlined},
+        htmlTagName                   {modern.Keyword},
+        mkdLink                   {modern.Underlined},
         mkdURL                    {fg = colours.blue_gray, gui = styles.underline},
         mkdInlineURL              {fg = colours.blue_gray, gui = styles.underline},
-        mkdBold                   {zen.Bold},
+        mkdBold                   {modern.Bold},
         mkdListItem               {},
-        mkdCode                   {zen.String},
-        mkdCodeDelimiter          {zen.Operator},
+        mkdCode                   {modern.String},
+        mkdCodeDelimiter          {modern.Operator},
         mkdHeading                {},
         mkdStrike                 {gui = styles.strikethrough},
-        mkdCodeStart              {zen.Operator},
-        mkdCodeEnd                {zen.Operator},
-        mkdBlockQuote             {zen.Comment}
+        mkdCodeStart              {modern.Operator},
+        mkdCodeEnd                {modern.Operator},
+        mkdBlockQuote             {modern.Comment}
     }
 end)
 

@@ -1,13 +1,13 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local zen = require('falcon.zen')
+local modern = require('falcon.modern')
 
 local p = lush(function()
     return {
         xmlEndTag          {},
-        xmlEqual           {zen.Operator},
+        xmlEqual           {modern.Operator},
         xmlTagName         {},
-        xmlAttrib          {zen.Normal},
+        xmlAttrib          {modern.Normal},
         xmlTag             {},
         xmlProcessingDelim {},
     }

@@ -8,7 +8,7 @@ local plugins = {
 
 local loaded_plugins = {}
 for index, plugin in pairs(plugins) do
-  loaded_plugins[index] = require('falcon.plugins.zen.' .. plugin)
+  loaded_plugins[index] = require('falcon.plugins.modern.' .. plugin)
 end
 
 return lush.merge(loaded_plugins)

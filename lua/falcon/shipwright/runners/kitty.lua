@@ -67,5 +67,5 @@ builder.run(
     name = "Falcon",
   },
   kitty,
-  {overwrite, 'kitty/kitty.falcon.zen.conf'}
+  {overwrite, 'kitty/kitty.falcon.modern.conf'}
 )

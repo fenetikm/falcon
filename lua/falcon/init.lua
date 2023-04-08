@@ -65,14 +65,14 @@ local function setup()
     })
   end
 
-  if settings.variation == 'zen' then
+  if settings.variation == 'modern' then
     return lush.merge({
-      require('falcon.zen'),
+      require('falcon.modern'),
       require('falcon.plugins.common'),
-      require('falcon.plugins.zen'),
-      require('falcon.filetypes.zen'),
+      require('falcon.plugins.modern'),
+      require('falcon.filetypes.modern'),
       require('falcon.extras.common'),
-      require('falcon.extras.zen'),
+      require('falcon.extras.modern'),
     })
   end
 

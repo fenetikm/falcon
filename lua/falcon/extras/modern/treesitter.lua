@@ -2,7 +2,7 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
 local styles = require('falcon.styles')
-local zen = require('falcon.zen')
+local modern = require('falcon.modern')
 
 local p = lush(function(injected_functions)
     local sym = injected_functions.sym
@@ -76,9 +76,9 @@ local p = lush(function(injected_functions)
         sym('@annotation')          {},
         sym('@attribute')           {},
         sym('@boolean')             {},
-        sym('@conditional')         {zen.Conditional},
-        sym('@keyword')             {zen.Keyword},
-        sym('@keyword.function')    {zen.Keyword},
+        sym('@conditional')         {modern.Conditional},
+        sym('@keyword')             {modern.Keyword},
+        sym('@keyword.function')    {modern.Keyword},
         sym('@function')            {},
         sym('@function.call')       {},
         sym('@function.builtin')    {sym("@keyword")},
@@ -91,7 +91,7 @@ local p = lush(function(injected_functions)
         sym('@tag')                 {sym("@keyword")},
         sym('@tag.attribute')       {},
         sym('@tag.delimiter')       {sym("@punctuation")},
-        sym('@text.title')          {zen.Normal},
+        sym('@text.title')          {modern.Normal},
         sym('@variable.builtin')    {sym("@keyword")},
     }
 end)

@@ -1,16 +1,16 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
 local styles = require('falcon.styles')
-local zen = require('falcon.zen')
+local modern = require('falcon.modern')
 
 local p = lush(function()
     return {
-        rstSections {zen.Keyword},
+        rstSections {modern.Keyword},
         rstCodeBlock {fg = colours.mid_gray_alt},
-        rstDirective {zen.Keyword},
+        rstDirective {modern.Keyword},
         rstHyperlinkTarget {fg = colours.blue_gray, gui = styles.underline},
         rstExDirective {fg = colours.blue_gray},
-        rstInterpretedTextOrHyperlinkReference {zen.Comment}
+        rstInterpretedTextOrHyperlinkReference {modern.Comment}
     }
 end)
 

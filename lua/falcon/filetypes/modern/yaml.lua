@@ -1,6 +1,6 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local zen = require('falcon.zen')
+local modern = require('falcon.modern')
 local styles = require('falcon.styles')
 
 local p = lush(function()
@@ -22,7 +22,7 @@ local p = lush(function()
         yamlEscape                   {}, -- SpecialChar
         yamlSingleEscape             {}, -- SpecialChar
         yamlBlockCollectionItemStart {}, -- Label
-        yamlBlockMappingKey          {zen.Keyword}, -- Identifier
+        yamlBlockMappingKey          {modern.Keyword}, -- Identifier
         yamlBlockMappingMerge        {}, -- Special
         yamlFlowMappingKey           {}, -- Identifier
         yamlFlowMappingMerge         {}, -- Special
@@ -32,8 +32,8 @@ local p = lush(function()
         yamlConstant                 {}, -- Constant
         yamlNull                     {}, -- yamlConstant
         yamlBool                     {}, -- yamlConstant
-        yamlAnchor                   {zen.Normal}, -- Type
-        yamlAlias                    {zen.Normal}, -- Type
+        yamlAnchor                   {modern.Normal}, -- Type
+        yamlAlias                    {modern.Normal}, -- Type
         yamlNodeTag                  {}, -- Type
         yamlInteger                  {}, -- Number
         yamlFloat                    {}, -- Float

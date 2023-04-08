@@ -2,15 +2,19 @@
 
 ## Zen todo, to release
 - Rename?
+    * Minimal, functional, workman, simple, clean, elementary, hemingway, breeze
+    * utility
+    * neo, neue
+    * modern `this one`
 - Doc how to use
 - Screenshots
-- Palette stuff
+- Palette stuff pics and values
+- Move classic stuff into its own place
 
-## Todo include statusline
+### Todo include statusline config
 - Set StatusLineNC to take into account inactive bg
 
 ## Todo v3
-- instead of zen, call it hemingway, or similar
 - tweak indigo, more blue
 - colors/falcon_zen.vim version
 - try out using lush, specifically:
