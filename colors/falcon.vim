@@ -2,11 +2,12 @@ highlight Normal guifg=#A2A2A9 guibg=#020222 guisp=NONE gui=NONE cterm=NONE
 highlight! link xmlAttrib Normal
 highlight! link yamlAlias Normal
 highlight! link yamlAnchor Normal
+highlight! link @text.title Normal
 highlight Bold guifg=NONE guibg=NONE guisp=NONE gui=bold cterm=bold
 highlight! link mkdBold Bold
 highlight Boolean guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight Character guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
-highlight CleverFDefaultLabel guifg=#BDD8FF guibg=NONE guisp=NONE gui=underline cterm=underline
+highlight CleverFDefaultLabel guifg=#E0E0E6 guibg=NONE guisp=NONE gui=bold,underline cterm=bold,underline
 highlight ColorColumn guifg=NONE guibg=#161622 guisp=NONE gui=NONE cterm=NONE
 highlight Comment guifg=#6F6F80 guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight! link mkdBlockQuote Comment
@@ -95,7 +96,7 @@ highlight MsgSeparator guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight NonText guifg=#36363A guibg=#020222 guisp=NONE gui=NONE cterm=NONE
 highlight! link EndOfBuffer NonText
 highlight NormalFloat guifg=NONE guibg=#1E1E2F guisp=NONE gui=NONE cterm=NONE
-highlight NormalNC guifg=#A2A2A9 guibg=#020222 guisp=NONE gui=NONE cterm=NONE
+highlight NormalNC guifg=#A2A2A9 guibg=#161622 guisp=NONE gui=NONE cterm=NONE
 highlight Number guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight NvimTreeCIcon guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight NvimTreeEmptyFolderName guifg=#99A4BD guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -272,7 +273,7 @@ highlight TabLineSel guifg=#E0E0E6 guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight Tag guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight TelescopeBorder guifg=#36363A guibg=#18182A guisp=NONE gui=NONE cterm=NONE
 highlight TelescopeMatching guifg=#E0E0E6 guibg=#18182A guisp=NONE gui=bold cterm=bold
-highlight TelescopeMultiIcon guifg=#B5B5BA guibg=NONE guisp=NONE gui=NONE cterm=NONE
+highlight TelescopeMultiIcon guifg=#A2A2A9 guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight TelescopeMultiSelection guifg=#E0E0E6 guibg=#18182A guisp=NONE gui=bold cterm=bold
 highlight TelescopeNormal guifg=#787882 guibg=#18182A guisp=NONE gui=NONE cterm=NONE
 highlight! link TelescopePreviewNormal TelescopeNormal
@@ -280,7 +281,7 @@ highlight! link TelescopePromptNormal TelescopeNormal
 highlight! link TelescopeResultsNormal TelescopeNormal
 highlight TelescopePromptCounter guifg=#99A4BD guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight TelescopePromptPrefix guifg=#A2A2A9 guibg=#18182A guisp=NONE gui=NONE cterm=NONE
-highlight TelescopeSelection guifg=#B5B5BA guibg=#18182A guisp=NONE gui=NONE cterm=NONE
+highlight TelescopeSelection guifg=#A2A2A9 guibg=#18182A guisp=NONE gui=NONE cterm=NONE
 highlight TelescopeSelectionCaret guifg=#847162 guibg=#18182A guisp=NONE gui=NONE cterm=NONE
 highlight TelescopeTitle guifg=#888891 guibg=#18182A guisp=NONE gui=NONE cterm=NONE
 highlight TermCursor guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -429,7 +430,6 @@ highlight @punctuation guifg=#787882 guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight! link @punctuation.bracket @punctuation
 highlight! link @tag.delimiter @punctuation
 highlight @tag.attribute guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
-highlight @text.title guifg=#B5B5BA guibg=NONE guisp=NONE gui=NONE cterm=NONE
 set background=dark
 let g:colors_name="falcon"
 let g:terminal_color_0 = '#000005'
