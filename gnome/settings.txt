@@ -1,0 +1,20 @@
+[legacy/profiles:]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+foreground-color='rgb(180,180,185)'
+visible-name='Falcon'
+palette=['rgb(0,0,4)', 'rgb(255,54,0)', 'rgb(113,142,63)', 'rgb(255,197,82)', 'rgb(99,81,150)', 'rgb(255,118,26)', 'rgb(52,191,164)', 'rgb(180,180,185)', 'rgb(2,2,33)', 'rgb(255,142,120)', 'rgb(177,191,117)', 'rgb(255,211,146)', 'rgb(153,164,188)', 'rgb(255,176,123)', 'rgb(139,204,1
+91)', 'rgb(248,248,255)']
+cursor-background-color='rgb(255,232,192)'
+cursor-colors-set=true
+highlight-colors-set=true
+use-theme-colors=false
+cursor-foreground-color='rgb(2,2,33)'
+use-theme-transparency=false
+highlight-background-color='rgb(221,207,191)'
+background-color='rgb(2,2,33)'
+highlight-foreground-color='rgb(54,54,58)'
+
+[legacy]
+schema-version=uint32 3
