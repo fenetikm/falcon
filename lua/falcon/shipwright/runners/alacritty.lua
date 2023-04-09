@@ -4,6 +4,8 @@ local alacritty = require('shipwright.transform.contrib.alacritty')
 local overwrite = require('shipwright.transform.overwrite')
 local builder = require('shipwright.builder')
 
+print ('Running alacritty build...')
+
 builder.run(
   {
     -- standard
@@ -33,3 +35,5 @@ builder.run(
   alacritty,
   {overwrite, 'alacritty/alacritty.yml'}
 )
+
+print ('Done!')

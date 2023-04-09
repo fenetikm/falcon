@@ -4,6 +4,8 @@ local foot = require('shipwright.transform.contrib.foot')
 local overwrite = require('shipwright.transform.overwrite')
 local builder = require('shipwright.builder')
 
+print ('Running foot build...')
+
 builder.run(
   {
     -- standard
@@ -33,3 +35,5 @@ builder.run(
   foot,
   {overwrite, 'foot/foot.ini'}
 )
+
+print ('Done!')

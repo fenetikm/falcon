@@ -4,6 +4,8 @@ local windows_terminal = require('shipwright.transform.contrib.windows_terminal'
 local overwrite = require('shipwright.transform.overwrite')
 local builder = require('shipwright.builder')
 
+print ('Running alacritty build...')
+
 builder.run(
   {
     -- standard
@@ -32,3 +34,5 @@ builder.run(
   windows_terminal,
   {overwrite, 'windowsterminal/falcon.json'}
 )
+
+print ('Done!')

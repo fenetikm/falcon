@@ -10,7 +10,7 @@ local p = lush(function()
         NvimTreeFolderIcon       {fg = colours.blue_gray},
         NvimTreeEmptyFolderName  {fg = colours.blue_gray},
         NvimTreeOpenedFolderName {fg = colours.blue_gray, gui = styles.bold},
-        NvimTreeOpenedFile       {fg = colours.br_blue, gui = styles.underline},
+        NvimTreeOpenedFile       {fg = colours.light_gray, gui = styles.bold},
         NvimTreeExecFile         {},
         NvimTreeSpecialFile      {},
         NvimTreeImageFile        {},

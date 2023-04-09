@@ -1,4 +1,4 @@
-local settings = require('falcon.settings')
+local settings = require('falcon.settings').get()
 
 local styles = {
   bold             = 'bold',

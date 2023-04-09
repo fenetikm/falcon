@@ -3,7 +3,7 @@
 local lush = require('lush')
 local colours = require('falcon.colours')
 local styles = require('falcon.styles')
-local settings = require('falcon.settings')
+local settings = require('falcon.settings').get()
 
 local windowBg = colours.bg
 local windowBgNC = colours.inactive_bg

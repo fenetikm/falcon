@@ -95,8 +95,12 @@ local function to_iterm(colourscheme)
   return { template }
 end
 
+print ('Running iterm build...')
+
 builder.run(
   {},
   to_iterm,
   {overwrite, 'iterm2/falcon.itermcolors'}
 )
+
+print ('Done!')

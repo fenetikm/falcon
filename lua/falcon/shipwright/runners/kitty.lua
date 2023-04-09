@@ -37,6 +37,8 @@ builder.run(
   {overwrite, 'kitty/kitty.falcon.conf'}
 )
 
+print ('Running alacritty build...')
+
 builder.run(
   {
     -- standard
@@ -69,3 +71,5 @@ builder.run(
   kitty,
   {overwrite, 'kitty/kitty.falcon.modern.conf'}
 )
+
+print ('Done!')

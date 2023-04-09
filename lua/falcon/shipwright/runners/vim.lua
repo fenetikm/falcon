@@ -1,5 +1,5 @@
 -- Thanks to https://github.com/mcchrish/zenbones.nvim/blob/main/lua/zenbones/shipwright/runners/vim.lua for the extras
-local falcon = require('falcon').setup()
+local falcon = require('falcon').setup(true)
 local lushwright = require("shipwright.transform.lush")
 local builder = require('shipwright.builder')
 local append = require('shipwright.transform.append')
@@ -25,6 +25,8 @@ local term_colours = {
     string.format("let g:terminal_color_15 = '%s'", colours.white.hex),
 }
 
+print ('Running vim build...')
+
 builder.run(
   falcon,
   lushwright.to_vimscript,
@@ -39,3 +41,5 @@ builder.run(
   {append, term_colours},
   {overwrite, "colors/falcon.vim"}
 )
+
+print ('Done!')
