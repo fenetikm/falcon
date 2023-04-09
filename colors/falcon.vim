@@ -1,3 +1,11 @@
+hi clear
+if exists("syntax_on")
+  syntax reset
+endif
+
+set background=dark
+let g:colors_name="falcon"
+
 highlight Normal guifg=#B5B5BA guibg=#020222 guisp=NONE gui=NONE cterm=NONE
 highlight ALEErrorSign guifg=#FF3700 guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight ALEInfoSign guifg=#B5B5BA guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -1262,8 +1270,6 @@ highlight yamlYAMLVersion guifg=NONE guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight zshCommands guifg=#FFC552 guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight zshOptStart guifg=#FF751A guibg=NONE guisp=NONE gui=NONE cterm=NONE
 highlight zshVariableDef guifg=#99A4BD guibg=NONE guisp=NONE gui=NONE cterm=NONE
-set background=dark
-let g:colors_name="falcon"
 let g:terminal_color_0 = '#000005'
 let g:terminal_color_1 = '#FF3700'
 let g:terminal_color_2 = '#859933'

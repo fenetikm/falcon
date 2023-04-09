@@ -3,6 +3,7 @@ local falcon = require('falcon').setup(true)
 local lushwright = require("shipwright.transform.lush")
 local builder = require('shipwright.builder')
 local append = require('shipwright.transform.append')
+local prepend = require('shipwright.transform.prepend')
 local overwrite = require('shipwright.transform.overwrite')
 local colours = require('falcon.colours')
 
@@ -37,7 +38,8 @@ builder.run(
     end, lines)
     return filtered_lines
   end,
-  {append, {"set background=dark", "let g:colors_name=\"falcon\""}},
+  {prepend, {"set background=dark", "let g:colors_name=\"falcon\"", ""}},
+  {prepend, {"hi clear", "if exists(\"syntax_on\")", "  syntax reset", "endif", ""}},
   {append, term_colours},
   {overwrite, "colors/falcon.vim"}
 )
