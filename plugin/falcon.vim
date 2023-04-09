@@ -1,3 +1,4 @@
+" nvim handles everything through settings
 if has('nvim')
   finish
 endif
@@ -31,7 +32,6 @@ if !exists('g:fzf_colors')
 endif
 
 function s:HandleInactiveBackground()
-  " NeoVim has support for changing background colour depending on active or not
   if !exists('g:falcon_inactive')
     let g:falcon_inactive=0
   endif

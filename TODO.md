@@ -7,7 +7,7 @@
     * neo, neue
     * modern `this one`
 - Move classic docs stuff into its own place
-- Fix shipwright vim to use default settings
+- Check it on vim, vim code still work with background, inactive?
 
 ## v3 release
 - Doc how to use
