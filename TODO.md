@@ -1,13 +1,7 @@
 # Falcon Todo
 
 ## Zen todo, to release
-- Rename?
-    * Minimal, functional, workman, simple, clean, elementary, hemingway, breeze
-    * utility
-    * neo, neue
-    * modern `this one`
 - Move classic docs stuff into its own place
-- Check it on vim, vim code still work with background, inactive?
 
 ## v3 release
 - Doc how to use
@@ -19,7 +13,6 @@
 
 ## Todo v3
 - tweak indigo, more blue
-- colors/falcon_modern.vim version
 - try out using lush, specifically:
   * having a base and other, merge
   * turning other on and off via command?
@@ -42,8 +35,6 @@
   * overall brightness
   * colour palettes or highlight theme - classic, gibson (cyber), laser, vampire, edgey (gruv), CGA
   * grays - warm, cool, neutral
-  * overlay blend?
-  * warm / cold
   * see https://github.com/mcchrish/zenbones.nvim/blob/main/doc/zenbones.md for an example around percentage colouring
   * triggering of modes
 - more plugins:
@@ -66,9 +57,7 @@
   * make it work with transparent_bg setting
 - submit PR to lush.nvim for inclusion of falcon colour scheme
 - document highlightedyank how to
-- create a vim style docs file
-
-### Todo maybe / later
+- create a vim style docs file, zenbones has an example
 
 ### Update instructions for neovim
 e.g.
