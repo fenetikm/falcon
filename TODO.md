@@ -7,7 +7,7 @@
     * neo, neue
     * modern `this one`
 - Move classic docs stuff into its own place
-- Fix falcon.vim colours like the master ones
+- Fix shipwright vim to use default settings
 
 ## v3 release
 - Doc how to use
@@ -19,7 +19,7 @@
 
 ## Todo v3
 - tweak indigo, more blue
-- colors/falcon_zen.vim version
+- colors/falcon_modern.vim version
 - try out using lush, specifically:
   * having a base and other, merge
   * turning other on and off via command?
