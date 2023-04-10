@@ -4,7 +4,7 @@
 - Move classic docs stuff into its own place
 
 ## v3 release
-- Doc how to use
+- Doc how to use, how to customise components e.g. background colour
 - Screenshots
 - Palette stuff pics and values
 - New logo, simpler
