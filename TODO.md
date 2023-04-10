@@ -7,6 +7,7 @@
 - Doc how to use
 - Screenshots
 - Palette stuff pics and values
+- New logo, simpler
 
 ### Todo include statusline config
 - Set StatusLineNC to take into account inactive bg
@@ -14,14 +15,13 @@
 ## Todo v3
 - tweak indigo, more blue
 - try out using lush, specifically:
-  * having a base and other, merge
   * turning other on and off via command?
   * turn on / off, there is a way to do that with lush, can create a command
 - in colours, define a lot of the variations using the methods such as darken etc.
 - lightline and airline support?
 - Include a lualine which does things depending on lsp settings e.g.
   * could go completely red when there is an error for `errr`
-- Also an even more drastic 'ERRRR' variation, when then is an error, whole screen is red except for the error
+- Also an even more drastic 'ERRRR' variation, when then is an error, whole screen is red except for the error, work well when statusline incorporated
 - mono variation, could be based on zen with saturation turned down?
 - consider different, more interesting cursor colour
 - focus modes:
