@@ -30,6 +30,7 @@
   * whitespace issues, formatting?
   * spelling only
   * in PHP, code vs txt in views
+  * indenting, colourful brackets / braces etc.
 - settings:
   * contrast
   * overall brightness
@@ -37,6 +38,7 @@
   * grays - warm, cool, neutral
   * see https://github.com/mcchrish/zenbones.nvim/blob/main/doc/zenbones.md for an example around percentage colouring
   * triggering of modes
+  * maybe with selection, have reverse and normal
 - more plugins:
   * aerial https://github.com/stevearc/aerial.nvim
   * barbar https://github.com/romgrk/barbar.nvim
