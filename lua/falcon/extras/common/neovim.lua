@@ -8,6 +8,7 @@ local p = lush(function()
         TermCursor       { }, -- Cursor in a focused terminal
         TermCursorNC     { }, -- Cursor in an unfocused terminal
         StatusLineTermNC { }, -- Status line in an unfocused terminal
+        StatusLineNC     { }, -- Status line in an unfocused windows
         --               healthcheck
         healthSuccess    {fg = colours.bg, bg = colours.green},
         healthError      {fg = colours.bg, bg = colours.red},

@@ -1,4 +1,3 @@
-echom 'hey'
 " nvim handles everything through settings
 if has('nvim')
   finish
@@ -6,12 +5,10 @@ endif
 
 " Guard
 if exists('g:colors_name') && g:colors_name != "falcon"
-  echom 'finish'
   finish
 endif
 
 if exists('g:loaded_falcon')
-  echom 'loaded'
   finish
 endif
 let g:loaded_falcon=1
@@ -35,7 +32,6 @@ if !exists('g:fzf_colors')
 endif
 
 function s:HandleInactiveBackground()
-  echom 'handle inactive'
   if !exists('g:falcon_inactive')
     let g:falcon_inactive=0
   endif
@@ -72,10 +68,8 @@ function s:HandleInactiveBackground()
 endfunction
 
 function s:SetColors()
-  echom 'set colors'
   " Guard
   if !exists('g:colors_name') || !exists('g:loaded_falcon')
-    echom 'not exists set colors'
     return
   endif
 

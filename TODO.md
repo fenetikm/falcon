@@ -4,15 +4,18 @@
 - Move classic docs stuff into its own place
 
 ## v3 release
-- Doc how to use, how to customise components e.g. background colour
+- Doc how to use, how to customise components e.g. background colour, settings
 - Screenshots
 - Palette stuff pics and values
 - New logo, simpler
+
+## v3.1
 
 ### Todo include statusline config
 - Set StatusLineNC to take into account inactive bg
 
 ## Todo v3
+- shade / tinting ala https://github.com/levouh/tint.nvim or https://github.com/sunjon/Shade.nvim
 - tweak indigo, more blue
 - try out using lush, specifically:
   * turning other on and off via command?
