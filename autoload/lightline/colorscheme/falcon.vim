@@ -13,7 +13,7 @@ let s:p.normal.left = [[["#000004", 0], ["#B4B4B9", 249]], [["#B4B4B9", 249], ["
 let s:p.normal.middle = [[["#787882", 243], ["#36363A", 237]]]
 let s:p.normal.right = [[["#DFDFE5", 254], ["#787882", 243]], [["#000004", 0], ["#B4B4B9", 249]]]
 let s:p.normal.error = [[["#000004", 0], ["#FF3600", 202]]]
-let s:p.normal.warning = [[["", ], ["", ]]]
+let s:p.normal.warning = [[["#000004", 0], ["#FF761A", 208]]]
 
 let s:p.inactive.left = [[["#787882", 243], ["#36363A", 237]], [["#787882", 243], ["#36363A", 237]]]
 let s:p.inactive.middle = [[["#787882", 243], ["#36363A", 237]]]
