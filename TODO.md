@@ -63,6 +63,7 @@
 - submit PR to lush.nvim for inclusion of falcon colour scheme
 - document highlightedyank how to
 - create a vim style docs file, zenbones has an example
+- wezterm support
 
 ### Update instructions for neovim
 e.g.
