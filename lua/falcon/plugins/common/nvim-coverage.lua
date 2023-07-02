@@ -1,8 +1,6 @@
 local lush = require('lush')
 local colours = require('falcon.colours')
 
-print('coverage loaded')
-
 local p = lush(function()
   return {
     NvimCoverageCovered   {fg = colours.green},
