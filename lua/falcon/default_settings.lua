@@ -12,6 +12,7 @@ local function get()
     inactive_bg = false,
     lsp_underline = 'mixed',
     variation = 'classic',
+    highlights = 'default',
   }
 end
 

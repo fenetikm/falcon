@@ -1,7 +1,6 @@
 --@diagnostic disable: undefined-global
 local lush = require("lush")
 local colours = require('falcon.colours')
-local styles = require('falcon.styles')
 local modern = require('falcon.modern')
 
 local p = lush(function(injected_functions)

@@ -73,6 +73,7 @@ local theme = lush(function(injected_functions)
     FoldColumn     {fg = colours.mid_gray, bg = colours.darkest_gray},
     IncSearch      {fg = colours.light_gray, gui = styles.bold},
     Search         {fg = colours.light_gray, gui = styles.bold .. ',' .. styles.underline},
+    PMenuSel       {fg = colours.light_gray, gui = styles.bold},
   }
 end)
 
