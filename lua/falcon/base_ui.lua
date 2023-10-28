@@ -68,7 +68,7 @@ local theme = lush(function()
     MsgArea      { }, -- Area for messages and cmdline
     MsgSeparator { }, -- Separator for scrolled messages, `msgsep` flag of 'display'
     Substitute   { }, -- |:substitute| replacement text highlighting
-    Whitespace   {NonText}, -- "nbsp", "space", "tab" and "trail" in 'listchars'
+    Whitespace   { }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
     Winseparator { }, -- Separator between window splits. Inherts from |hl-VertSplit| by default, which it will replace eventually.
   }
 end)
