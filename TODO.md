@@ -10,6 +10,7 @@
 - New logo, simpler
 
 ## v3.1
+- fancy inactive handling
 
 ### Todo include statusline config
 - Set StatusLineNC to take into account inactive bg
@@ -64,6 +65,7 @@
 - document highlightedyank how to
 - create a vim style docs file, zenbones has an example
 - wezterm support
+- hype type colour scheme, maybe just for highlighting
 
 ### Update instructions for neovim
 e.g.
