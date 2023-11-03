@@ -71,7 +71,7 @@ local p = lush(function()
         LspReferenceRead            {gui = styles.underdotted, sp = colours.light_gray},
         LspReferenceText            {gui = styles.underdotted, sp = colours.light_gray},
         LspReferenceWrite           {gui = styles.underdotted, sp = colours.light_gray},
-        LspSignatureActiveParameter { } , -- Used to highlight the active parameter in the signature help. See |vim.lsp.handlers.signature_help()|.
+        LspSignatureActiveParameter {gui = styles.underline} , -- Used to highlight the active parameter in the signature help. See |vim.lsp.handlers.signature_help()|.
 
         DiagnosticError             {fg = colours.mid_red}, -- Default error diagnostics
         DiagnosticHint              {fg = colours.darker_tan}, -- Default hint diagnostics

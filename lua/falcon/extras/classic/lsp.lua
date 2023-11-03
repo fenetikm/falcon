@@ -9,7 +9,7 @@ local p = lush(function()
         LspReferenceRead            {gui = styles.underline},
         LspReferenceText            {gui = styles.underline},
         LspReferenceWrite           {gui = styles.underline},
-        LspSignatureActiveParameter { } , -- Used to highlight the active parameter in the signature help. See |vim.lsp.handlers.signature_help()|.
+        LspSignatureActiveParameter {gui = styles.underline} , -- Used to highlight the active parameter in the signature help. See |vim.lsp.handlers.signature_help()|.
 
         DiagnosticError             {fg = colours.mid_red},
         DiagnosticHint              {fg = colours.dark_tan},
