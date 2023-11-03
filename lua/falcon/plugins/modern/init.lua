@@ -4,6 +4,7 @@ local plugins = {
   'telescope',
   'cleverf',
   'nvim-tree',
+  'nvim-cmp',
 }
 
 local loaded_plugins = {}

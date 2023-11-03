@@ -8,7 +8,6 @@ local plugins = {
     'fugitive',
     'fzf',
     'indentguides',
-    'lsp-signature',
     'nerdtree',
     'nvim-cmp',
     'nvim-notify',

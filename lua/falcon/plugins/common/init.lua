@@ -6,6 +6,7 @@ local plugins = {
   'highlightedyank',
   'nvim-coverage',
   'vim-signature',
+  'lsp-signature',
 }
 
 local loaded_plugins = {}

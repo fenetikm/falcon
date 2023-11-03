@@ -4,7 +4,8 @@ local styles = require('falcon.styles')
 
 local p = lush(function()
     return {
-        LspSignatureActiveParameter {fg = colours.blue_gray, gui = styles.italic},
+        LspSignatureActiveParameter {fg = colours.red, gui = styles.italic},
+        LspSignatureSpecial {fg = colours.green, gui = styles.underline},
     }
 end)
 
