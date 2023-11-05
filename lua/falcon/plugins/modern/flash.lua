@@ -6,7 +6,7 @@ local p = lush(function()
     return {
         FlashMatch {fg = colours.white},
         FlashCurrent {fg = colours.white, gui = styles.bold},
-        FlashLabel {fg = colours.white, gui = styles.bold .. ',' .. styles.underline },
+        FlashLabel {bg = colours.white, fg = colours.bg, gui = styles.bold},
     }
 end)
 
