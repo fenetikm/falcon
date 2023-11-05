@@ -5,6 +5,7 @@ local plugins = {
   'cleverf',
   'nvim-tree',
   'nvim-cmp',
+  'flash',
 }
 
 local loaded_plugins = {}
