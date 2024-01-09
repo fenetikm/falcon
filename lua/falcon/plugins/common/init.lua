@@ -2,6 +2,8 @@ local lush = require('lush')
 
 local plugins = {
   'blankline',
+  'dap',
+  'diffview',
   'gitsigns',
   'highlightedyank',
   'nvim-coverage',

@@ -12,6 +12,10 @@
 ## v3.1
 - fancy inactive handling
 
+## v3 other todo
+- DAP highlights
+- Diffview highlights
+
 ### Todo include statusline config
 - Set StatusLineNC to take into account inactive bg
 

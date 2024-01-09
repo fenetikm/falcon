@@ -44,7 +44,7 @@ local p = lush(function(injected_functions)
         htmlH4                    {htmlH2},
         htmlH5                    {htmlH2},
         htmlH6                    {htmlH2},
-        htmlTagName                   {modern.Keyword},
+        htmlTagName               {modern.Keyword},
         mkdLink                   {modern.Underlined},
         mkdURL                    {fg = colours.blue_gray, gui = styles.underline},
         mkdInlineURL              {fg = colours.blue_gray, gui = styles.underline},
