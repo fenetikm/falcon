@@ -1,11 +1,12 @@
 local lush = require('lush')
 
 local plugins = {
-  'telescope',
   'cleverf',
-  'nvim-tree',
-  'nvim-cmp',
   'flash',
+  'neogit',
+  'nvim-cmp',
+  'nvim-tree',
+  'telescope',
 }
 
 local loaded_plugins = {}
