@@ -5,6 +5,7 @@ local gitsigns = require('falcon.plugins.common.gitsigns')
 local styles = require('falcon.styles')
 local diff = require('falcon.extras.common.diff')
 
+-- see https://github.com/NeogitOrg/neogit/blob/master/lua/neogit/lib/hl.lua
 local p = lush(function()
   return {
     NeogitSectionHeader {modern.Keyword},
