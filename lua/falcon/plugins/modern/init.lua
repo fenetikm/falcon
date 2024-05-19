@@ -2,10 +2,12 @@ local lush = require('lush')
 
 local plugins = {
   'cleverf',
+  'dapui',
   'flash',
   'neogit',
   'nvim-cmp',
   'nvim-tree',
+  'oil',
   'telescope',
 }
 
