@@ -92,6 +92,7 @@ local p = lush(function(injected_functions)
         sym('@tag.attribute')       {},
         sym('@tag.delimiter')       {sym("@punctuation")},
         sym('@text.title')          {modern.Normal},
+        sym('@variable')            {modern.Normal},
         sym('@variable.builtin')    {sym("@keyword")},
     }
 end)
