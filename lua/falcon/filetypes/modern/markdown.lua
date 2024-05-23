@@ -56,7 +56,18 @@ local p = lush(function(injected_functions)
         mkdStrike                 {gui = styles.strikethrough},
         mkdCodeStart              {modern.Operator},
         mkdCodeEnd                {modern.Operator},
-        mkdBlockQuote             {modern.Comment}
+        mkdBlockQuote             {modern.Comment},
+        sym('@markup.heading.1')  {htmlH1},
+        sym('@markup.heading.2')  {htmlH1},
+        sym('@markup.heading.3')  {htmlH1},
+        sym('@markup.heading.4')  {htmlH1},
+        sym('@markup.heading.5')  {htmlH1},
+        sym('@markup.heading.6')  {htmlH1},
+        sym('@markup.link')       {mkdURL},
+        sym('@markup.link.label') {mkdURL},
+        sym('@markup.link.URL')   {mkdURL},
+        sym('@markup.quote')      {mkdBlockQuote},
+        sym('@markup.raw.block')  {mkdCodeStart},
     }
 end)
 
