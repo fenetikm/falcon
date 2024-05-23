@@ -16,6 +16,8 @@ if settings.transparent_bg then
   windowBgNC = 'NONE'
 end
 
+-- TODO: fix NonText on inactive is not getting the right colour
+
 local theme = lush(function()
   return {
     -- Base UI
