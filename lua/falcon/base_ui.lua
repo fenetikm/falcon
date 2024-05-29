@@ -11,6 +11,7 @@ if not settings.inactive_bg then
   windowBgNC = colours.bg
 end
 
+-- not sure if this is working any more? needs testing.
 if settings.transparent_bg then
   windowBg = 'NONE'
   windowBgNC = 'NONE'
@@ -21,7 +22,7 @@ end
 local theme = lush(function()
   return {
     -- Base UI
-    NonText      {fg = colours.dark_gray, bg = windowBg},
+    NonText      {fg = colours.dark_gray},
     ColorColumn  {bg = colours.inactive_bg},
     Conceal      { },
     lCursor      { },

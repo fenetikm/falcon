@@ -5,7 +5,7 @@ local p = lush(function()
     return {
         DapBreakpoint          {fg = colours.blue_gray},
         DapBreakpointCondition {fg = colours.blue_gray},
-        DapStopped             {fg = colours.blue_gray},
+        DapStopped             {fg = colours.white},
     }
 end)
 
