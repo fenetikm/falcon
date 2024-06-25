@@ -41,7 +41,9 @@ ZSH_HIGHLIGHT_STYLES[reserved-word]='fg=#a1a1a9'
 ZSH_HIGHLIGHT_STYLES[redirection]='fg=#847161'
 ZSH_HIGHLIGHT_STYLES[precommand]='fg=#a1a1a9,underline' #e.g. exec, builtin
 ZSH_HIGHLIGHT_STYLES[hashed-command]='fg=#a1a1a9,underline' #e.g. exec, builtin
-ZSH_HIGHLIGHT_STYLES[autodirectory]='fg=#99a4bc,standout' #e.g. exec, builtin
+ZSH_HIGHLIGHT_STYLES[autodirectory]='fg=#99a4bc' #e.g. exec, builtin
+ZSH_HIGHLIGHT_STYLES[path]='fg=#99a4bc,underline' #e.g. exec, builtin
+ZSH_HIGHLIGHT_STYLES[back-quoted-argument-delimiter]='fg=#847161' #e.g. exec, builtin
 
 # todo: contrast this with unknown
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#787882'
