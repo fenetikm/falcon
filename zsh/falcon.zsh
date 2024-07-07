@@ -30,7 +30,7 @@ ZSH_HIGHLIGHT_STYLES[bracket-level-4]='fg=#eaffc0,bold'
 # - underline
 # - standout (reverse?)
 # - no italic :(
-ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#4f4f59'
+ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=#57575e'
 ZSH_HIGHLIGHT_STYLES[command]='fg=#a1a1a9'
 ZSH_HIGHLIGHT_STYLES[builtin]='fg=#a1a1a9'
 ZSH_HIGHLIGHT_STYLES[function]='fg=#a1a1a9'
