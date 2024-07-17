@@ -20,6 +20,7 @@ local p = lush(function()
     NeogitTagName             { modern.Normal},
     NeogitTagDistance         { modern.Comment},
     NeogitHunkHeader          { modern.Comment},
+    NeogitHunkHeaderCursor    { modern.Comment},
     NeogitHunkHeaderHighlight { modern.Comment},
     NeogitChangeModified      { gitsigns.GitSignsChange},
     NeogitChangeBothModified  { NeogitChangeModified},
