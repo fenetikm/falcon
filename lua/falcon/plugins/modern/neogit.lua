@@ -9,6 +9,10 @@ local diff = require('falcon.extras.common.diff')
 local p = lush(function()
   return {
     NeogitSectionHeader       { modern.Keyword},
+    NeogitPopupSwitchKey      { fg = colours.light_gray},
+    NeogitPopupOptionKey      { NeogitPopupSwitchKey},
+    NeogitPopupConfigKey      { NeogitPopupSwitchKey},
+    NeogitPopupActionKey      { NeogitPopupSwitchKey},
     NeogitUnmergedInto        { NeogitSectionHeader},
     NeogitBranch              { modern.Normal},
     NeogitBranchHead          { modern.Normal},
@@ -16,6 +20,7 @@ local p = lush(function()
     NeogitTagName             { modern.Normal},
     NeogitTagDistance         { modern.Comment},
     NeogitHunkHeader          { modern.Comment},
+    NeogitHunkHeaderCursor    { modern.Comment},
     NeogitHunkHeaderHighlight { modern.Comment},
     NeogitChangeModified      { gitsigns.GitSignsChange},
     NeogitChangeBothModified  { NeogitChangeModified},
