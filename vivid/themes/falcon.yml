@@ -104,7 +104,7 @@ executable: # Libs and exec binaries (without exec permissions)
   foreground: bright_orange
 
 archives:
-  foreground: bright_green
+  foreground: yellow
   font-style: bold
 
 media:
