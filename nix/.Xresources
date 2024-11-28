@@ -1,9 +1,3 @@
-! Falcon colors for Xresources
-!! Upstream: https://github.com/fenetikm/falcon
-!! In ~/.Xresources.d/falcon-colors
-!! Add '#include ".Xresources.d/falcon-colors"' in ~/.Xresources
-!! Reload with 'xrdb -merge ~/.Xresources'
-
 *background: #020221
 *foreground: #b4b4b9
 
