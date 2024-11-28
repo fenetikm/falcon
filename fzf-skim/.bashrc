@@ -18,7 +18,7 @@ export SKIM_DEFAULT_OPTIONS="$KIM_DEFAULT_OPTIONS \
 ,cursor:#ffe8c8\
 ,selected:#ff3600\
 ,spinner:#bfdaff\
-,border:#635196'\
+,border:#36363a'\
 "
 export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
 --pointer='>' \
@@ -38,5 +38,5 @@ export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \
 ,pointer:#ffe8c8\
 ,marker:#ff3600\
 ,spinner:#bfdaff\
-,border:#635196'\
+,border:#36363a'\
 "
