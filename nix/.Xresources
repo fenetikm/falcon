@@ -1,18 +1,41 @@
-*.foreground: #B4B4B9
-*.background: #020221
-*.color0:     #000004
-*.color8:     #020221
-*.color1:     #FF3600
-*.color9:     #FF8E78
-*.color2:     #859933
-*.color10:    #B2BC55
-*.color3:     #FFC552
-*.color11:    #FFD392
-*.color4:     #635196
-*.color12:    #99A4BC
-*.color5:     #FF761A
-*.color13:    #FFB07B
-*.color6:     #34BFA4
-*.color14:    #85CCBF
-*.color7:     #B4B4B9
-*.color15:    #F8F8FF
+*background: #020221
+*foreground: #b4b4b9
+
+! black
+color0:   #000004
+color8:   #020221
+
+! red
+color1:   #ff3600
+color9:   #ff8e78
+
+! green
+color2:   #859933
+color10:  #b2bc55
+
+! yellow
+color3:   #ffc552
+color11:  #ffd392
+
+! blue
+color4:   #635196
+color12:  #99a4bc
+
+! magenta
+color5:   #ff761a
+color13:  #ffb07b
+
+! cyan
+color6:   #34bfa4
+color14:  #85ccbf
+
+! white
+color7:   #b4b4b9
+color15:  #f8f8ff
+
+! Custom additions:
+*fading:                  40
+*fadeColor:               #020221
+*cursorColor:             #ffe8c0
+*pointerColorBackground:  #ffe8c0
+*pointerColorForeground:  #020221
