@@ -7,11 +7,6 @@
 # Install with:
 #   nb plugin install https://github.com/fenetikm/falcon/blob/master/nb/plugins/falcon.nb-theme
 #
-#   or
-#
-#   cp falcon.nb-theme $NB_DIR/.plugins/falcon.nb-theme
-#   add 'NB_SYNTAX_THEME=falcon' to nbrc
-#
 ###############################################################################
 
 if [[ "${NB_COLOR_THEME}" == "falcon" ]]
