@@ -1,0 +1,3 @@
+- [ ] ACE Editor for nb's GUI: try to convert the sublime/bat theme for ace with the provided script:
+    - https://github.com/xwmx/nb?tab=readme-ov-file#ace-editor
+    - https://github.com/ajaxorg/ace/blob/master/tool/tmtheme.js

@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+###############################################################################
+# falcon.nb-theme
+#
+# A yellow and blue-gray theme for `nb`.
+#
+# Install with:
+#   nb plugin install https://github.com/fenetikm/falcon/blob/master/nb/plugins/falcon.nb-theme
+#
+#   or
+#
+#   cp falcon.nb-theme $NB_DIR/.plugins/falcon.nb-theme
+#   add 'NB_SYNTAX_THEME=falcon' to nbrc
+#
+###############################################################################
+
+if [[ "${NB_COLOR_THEME}" == "falcon" ]]
+then
+  export NB_COLOR_PRIMARY=221
+  export NB_COLOR_SECONDARY=109
+fi
