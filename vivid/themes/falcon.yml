@@ -36,7 +36,7 @@ core: # See `dircolors -p` for explanations
     font-style: bold
 
   executable_file: # Files with exec permissions
-    foreground: bright_red
+    foreground: red
     font-style: bold
 
   file_with_capability:
@@ -94,11 +94,11 @@ core: # See `dircolors -p` for explanations
 
   block_device:
     foreground: bg
-    background: blue_gray
+    background: bright_cyan
 
   character_device:
     foreground: bg
-    background: blue_gray
+    background: bright_cyan
 
 executable: # Libs and exec binaries (without exec permissions)
   foreground: bright_orange
@@ -110,13 +110,10 @@ archives:
 media:
   audio:
     foreground: cyan
-    font-style: bold
   image:
     foreground: bright_cyan
-    font-style: bold
   video:
     foreground: cyan
-    font-style: bold
   fonts:
     foreground: bright_cyan
   3d:
@@ -124,34 +121,30 @@ media:
 
 office:
   foreground: bright_green
-  font-style: bold
 
 text:
-  foreground: white
+  foreground: blue_gray
   configuration:
     foreground: orange
     dockerfile:
       foreground: bright_orange
   licenses:
     foreground: gray
-    font-style: bold
   special:
-    foreground: gray
+    foreground: white
     font-style: bold
   todo:
-    foreground: gray
-    font-style: bold
+    foreground: white
 
 markup:
-  foreground: white
-  font-style: bold
+  foreground: bright_red
+  other:
+    foreground: white
 
 programming:
-  foreground: purple
+  foreground: bright_red
   tooling:
-    foreground: blue_gray
-    continuous-integration:
-      foreground: blue_gray
+    foreground: bright_orange
 
 unimportant:
   foreground: special
