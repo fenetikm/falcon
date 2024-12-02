@@ -1,0 +1,6 @@
+# requires the falcon.nb-theme plugin
+NB_COLOR_THEME=falcon
+# requires the falcon theme for bat
+#NB_SYNTAX_THEME=falcon
+# requires the falcon theme for ace
+#NB_ACE_THEME=falcon
