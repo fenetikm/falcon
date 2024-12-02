@@ -1,0 +1,150 @@
+# Falcon theme for vivid: https://github.com/sharkdp/vivid
+# Based on https://github.com/fenetikm/falcon
+
+colors:
+  black:          '000004'
+  red:            'ff3600'
+  green:          '859933'
+  yellow:         'ffc552'
+  purple:         '635196'
+  orange:         'ff761a'
+  cyan:           '34bfa4'
+  gray:           'b4b4b9'
+  bg:             '020221'
+  bright_red:     'ff8e78'
+  bright_green:   'b2bc55'
+  bright_yellow:  'ffd392'
+  blue_gray:      '99a4bc'
+  bright_orange:  'ffb07b'
+  bright_cyan:    '85ccbf'
+  white:          'f8f8ff'
+
+  link:           'bfdaff'
+  special:        '36363a'
+
+core: # See `dircolors -p` for explanations
+  normal_text:
+    foreground: gray
+
+  regular_file: {}
+
+  reset_to_normal:
+    foreground: gray
+
+  directory:
+    foreground: bright_yellow
+    font-style: bold
+
+  executable_file: # Files with exec permissions
+    foreground: red
+    font-style: bold
+
+  file_with_capability:
+    foreground: bg
+    background: special
+
+  setuid:
+    foreground: bg
+    background: special
+
+  setgid:
+    foreground: bg
+    background: special
+
+  sticky:
+    foreground: bright_orange
+    background: special
+    font-style: bold
+
+  sticky_other_writable: # Usually a directory on Linux
+    foreground: bright_orange
+    background: purple
+    font-style: bold
+
+  other_writable: # Ditto ^
+    foreground: bright_yellow
+    background: purple
+    font-style: bold
+
+  symlink:
+    foreground: link
+    font-style: italic
+
+  broken_symlink:
+    foreground: link
+    background: red
+    font-style: italic
+
+  missing_symlink_target:
+    foreground: link
+
+  multi_hard_link: {}
+
+  socket:
+    foreground: bg
+    background: bright_green
+
+  fifo:
+    foreground: bg
+    background: bright_orange
+
+  door:
+    foreground: bg
+    background: bright_yellow
+
+  block_device:
+    foreground: bg
+    background: bright_cyan
+
+  character_device:
+    foreground: bg
+    background: bright_cyan
+
+executable: # Libs and exec binaries (without exec permissions)
+  foreground: bright_orange
+
+archives:
+  foreground: yellow
+  font-style: bold
+
+media:
+  audio:
+    foreground: cyan
+  image:
+    foreground: bright_cyan
+  video:
+    foreground: cyan
+  fonts:
+    foreground: bright_cyan
+  3d:
+    foreground: bright_cyan
+
+office:
+  foreground: bright_green
+
+text:
+  foreground: blue_gray
+  configuration:
+    foreground: orange
+    dockerfile:
+      foreground: bright_orange
+  licenses:
+    foreground: gray
+  special:
+    foreground: white
+    font-style: bold
+  todo:
+    foreground: white
+
+markup:
+  foreground: bright_red
+  other:
+    foreground: white
+
+programming:
+  foreground: bright_red
+  tooling:
+    foreground: bright_orange
+
+unimportant:
+  foreground: special
