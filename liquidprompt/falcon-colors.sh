@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-# Falcon theme with colors for LiquidPrompt
+# Falcon colors preset for LiquidPrompt
 
 # Recall of lp_terminal_format usage:
 #   fg, bg, bold, underline, fallback_fg, fallback_bg
@@ -58,6 +58,18 @@ LP_COLOR_DISCHARGING_ABOVE="${lp_terminal_format:?}"
 lp_terminal_format 1 -1 1 0 1 -1
 LP_COLOR_DISCHARGING_UNDER="${lp_terminal_format:?}"
 
+# DISK
+lp_terminal_format 7 -1 1 0 7 -1
+LP_COLOR_DISK="${lp_terminal_format:?}"
+lp_terminal_format 59 -1 0 0 7 -1
+LP_COLOR_DISK_UNITS="${lp_terminal_format:?}"
+
+# RAM
+lp_terminal_format 7 -1 1 0 7 -1
+LP_COLOR_RAM="${lp_terminal_format:?}"
+lp_terminal_format 59 -1 0 0 7 -1
+LP_COLOR_RAM_UNITS="${lp_terminal_format:?}"
+
 # JOBS
 lp_terminal_format 3 -1 0 0 3 -1
 LP_COLOR_JOB_D="${lp_terminal_format:?}"
@@ -71,8 +83,10 @@ LP_MARK_JOBS_SEPARATOR="${lp_terminal_format:?}${LP_MARK_JOBS_SEPARATOR}${NO_COL
 # LOCATION
 lp_terminal_format 4 -1 1 0 4 -1
 LP_COLOR_IN_MULTIPLEXER="${lp_terminal_format:?}"
-lp_terminal_format 14 -1 0 0 6 -1
+lp_terminal_format 14 -1 1 0 6 -1
 LP_COLOR_USER_LOGGED="${lp_terminal_format:?}"
+lp_terminal_format 14 -1 0 0 6 -1
+LP_COLOR_USER_ALT="${lp_terminal_format:?}"
 lp_terminal_format 6 -1 1 1 6 -1
 LP_COLOR_USER_ROOT="${lp_terminal_format:?}"
 lp_terminal_format 10 -1 1 0 2 -1
@@ -190,10 +204,12 @@ lp_terminal_format 13 -1 0 0 5 -1
 LP_COLOR_ERR="${lp_terminal_format:?}"
 lp_terminal_format 7 -1 1 0 7 -1
 LP_COLOR_ERR_MEANING="${lp_terminal_format:?}"
-lp_terminal_format 207 -1 1 0 6 -1
+lp_terminal_format 207 -1 0 0 6 -1
 LP_COLOR_MARK="${lp_terminal_format:?}"
 lp_terminal_format 207 -1 1 0 6 -1
 LP_COLOR_MARK_SUDO="${lp_terminal_format:?}"
 lp_terminal_format 207 -1 1 0 6 -1
 LP_COLOR_MARK_ROOT="${lp_terminal_format:?}"
 
+# reactivate LP with the preset
+lp_activate
