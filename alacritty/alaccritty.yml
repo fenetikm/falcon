@@ -1,4 +1,5 @@
 # falcon colorscheme for alacritty
+# applies to alacritty versions before v0.13's TOML transition
 # by fenetikm, https://github.com/fenetikm/falcon
 colors:
   # Default colors
