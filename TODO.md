@@ -17,6 +17,7 @@
 - DAP highlights
 - Diffview highlights
 - Yazi colour scheme
+- Remove estilo
 
 ### Todo include statusline config
 - Set StatusLineNC to take into account inactive bg
