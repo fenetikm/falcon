@@ -16,7 +16,8 @@
 ## v3 other todo
 - DAP highlights
 - Diffview highlights
-- Yazi colour scheme
+- Yazi colour scheme: https://yazi-rs.github.io/docs/flavors/overview/
+- Remove estilo
 
 ### Todo include statusline config
 - Set StatusLineNC to take into account inactive bg
