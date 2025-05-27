@@ -8,6 +8,7 @@
 - Screenshots
 - Palette stuff pics and values
 - New logo, simpler
+- option to make virtual errors stand out more with background colours
 
 ## v3.1
 - fancy inactive handling
@@ -15,6 +16,7 @@
 ## v3 other todo
 - DAP highlights
 - Diffview highlights
+- Yazi colour scheme
 
 ### Todo include statusline config
 - Set StatusLineNC to take into account inactive bg
