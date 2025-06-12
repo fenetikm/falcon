@@ -1,15 +1,15 @@
 local lush = require('lush')
 
 local filetypes = {
-    'markdown',
-    'rst',
-    'yaml',
-    'xml'
+  'markdown',
+  'rst',
+  'yaml',
+  'xml'
 }
 
 local loaded_filetypes = {}
 for index, filetype in pairs(filetypes) do
-    loaded_filetypes[index] = require('falcon.filetypes.modern.' .. filetype)
+  loaded_filetypes[index] = require('falcon.filetypes.modern.' .. filetype)
 end
 
 return lush.merge(loaded_filetypes)
