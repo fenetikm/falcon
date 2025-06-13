@@ -18,6 +18,8 @@ local statusBgNC = colours.inactive_status
 if settings.transparent_bg then
   statusBg = 'NONE'
   statusBgNC = 'NONE'
+  windowBg = 'NONE'
+  windowBgNC = 'NONE'
 end
 
 local theme = lush(function(injected_functions)
