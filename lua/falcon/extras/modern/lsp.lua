@@ -74,13 +74,16 @@ local p = lush(function()
         LspSignatureActiveParameter {gui = styles.underline} , -- Used to highlight the active parameter in the signature help. See |vim.lsp.handlers.signature_help()|.
 
         DiagnosticError             {fg = colours.mid_red}, -- Default error diagnostics
+        DiagnosticOk                {fg = colours.mid_green}, -- Default ok diagnostics
         DiagnosticHint              {fg = colours.darker_tan}, -- Default hint diagnostics
         DiagnosticInfo              {fg = colours.mid_gray}, -- Default info diagnostic
         DiagnosticWarn              {fg = colours.mid_yellow}, -- Default warn diagnostic
         DiagnosticFloatingError     { } , -- Used to colour "Error" diagnostic messages in diagnostics float. See |vim.diagnostic.open_float()|
+        DiagnosticFloatingOk        { } , -- Used to colour "Ok" diagnostic messages in diagnostics float. See |vim.diagnostic.open_float()|
         DiagnosticFloatingHint      { } , -- Used to colour "Hint" diagnostic messages in diagnostics float.
         DiagnosticFloatingInfo      { } , -- Used to colour "Info" diagnostic messages in diagnostics float.
         DiagnosticFloatingWarn      { } , -- Used to colour "Warn" diagnostic messages in diagnostics float.
+        DiagnosticSignOk            {fg = colours.mid_green},
         DiagnosticSignError         {fg = colours.mid_red},
         DiagnosticSignHint          {fg = colours.darker_tan},
         DiagnosticSignInfo          {fg = colours.mid_gray},
@@ -89,6 +92,7 @@ local p = lush(function()
         DiagnosticVirtualTextHint   {fg = colours.darker_tan, gui = styles.italic},
         DiagnosticVirtualTextInfo   {fg = colours.mid_gray, gui = styles.italic},
         DiagnosticVirtualTextWarn   {fg = colours.mid_yellow, gui = styles.italic},
+        DiagnosticVirtualTextOk     {fg = colours.mid_green, gui = styles.italic},
         ReferenceRead               {gui = styles.underline},
         ReferenceText               {gui = styles.underline},
         ReferenceWrite              {gui = styles.underline},
