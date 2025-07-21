@@ -2,6 +2,8 @@
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi
+
+ifi
 #
 # aliases
 alias grpe=grep

@@ -2,6 +2,7 @@ local lush = require('lush')
 
 local plugins = {
   'cleverf',
+  'context',
   'dapui',
   'flash',
   'neogit',
