@@ -79,6 +79,8 @@ local p = lush(function(injected_functions)
         sym('@constant.builtin')    {modern.Boolean},
         sym('@keyword')             {modern.Keyword},
         sym('@keyword.function')    {modern.Keyword},
+        sym('@keyword.conditional') {modern.Conditional},
+        sym('@keyword.repeat')      {modern.Keyword},
         sym('@function')            {},
         sym('@function.call')       {},
         sym('@function.builtin')    {sym("@keyword")},
