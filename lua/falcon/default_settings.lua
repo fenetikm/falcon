@@ -13,7 +13,8 @@ local function get()
     lsp_underline = 'mixed',
     variation = 'classic',
     highlights = 'default',
+    multi_transparency = false,
   }
 end
 
-return {get = get}
+return { get = get }

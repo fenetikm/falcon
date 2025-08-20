@@ -1,5 +1,18 @@
 # Falcon Todo
 
+## Multi transparency!
+What to make transparent, we get 8 all up! Plentiful! Much excite!
+- selection
+- error when that setting is on
+- status line
+- quickfix / trouble windows / "other" windows?
+- popups? progressively less transparent, so maybe a couple there?
+
+Syntax in kitty config:
+`transparent_background_colors red@0.5 #00ff00@0.3`
+but I think we can do:
+`transparent_background_colors #00ff00@0.3`
+
 ## Zen todo, to release
 - Move classic docs stuff into its own place
 
