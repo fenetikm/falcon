@@ -59,5 +59,12 @@ class CcspUserService implements CcspUserServiceInterface {
     }, $arr);
   }
 
+  /**
+   * A function
+   */
+  public function doThing() {
+    // Content of function
+  }
+
 }
 
