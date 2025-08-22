@@ -48,6 +48,11 @@ function quicksort(t)
   return a
 end
 
+function long_function_name(arg_one, arg_two, arg_three, arg_fasdfg, a)
+  -- content goes here
+  local comp = arg_one .. arg_two .. arg_three .. arg_fasdfg .. a
+end
+
 -- on purpose errors to check LSP
 function
 
