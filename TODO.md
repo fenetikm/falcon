@@ -36,6 +36,10 @@ but I think we can do:
 ### Todo include statusline config
 - Set StatusLineNC to take into account inactive bg
 
+### New themes
+- glow
+- yazi
+
 ## Todo v3
 - shade / tinting ala https://github.com/levouh/tint.nvim or https://github.com/sunjon/Shade.nvim
 - tweak indigo, more blue
