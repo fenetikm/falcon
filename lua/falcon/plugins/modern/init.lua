@@ -10,6 +10,7 @@ local plugins = {
   'nvim-tree',
   'oil',
   'telescope',
+  'snacks',
 }
 
 local loaded_plugins = {}
