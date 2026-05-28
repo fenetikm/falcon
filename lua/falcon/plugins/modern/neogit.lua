@@ -42,6 +42,9 @@ local p = lush(function()
     NeogitDiffHeaderHighlight { modern.MatchParen, gui = styles.bold },
     NeogitDiffAddCursor { fg = colours.light_gray },
     NeogitDiffDeleteCursor { fg = colours.light_gray },
+    NeogitDiffContext { bg = colours.darker_gray },
+    NeogitDiffContextHighlight { bg = colours.darkest_gray },
+    NeogitDiffContextCursor { bg = colours.darker_gray },
   }
 end)
 
