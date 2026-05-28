@@ -36,6 +36,7 @@ local theme = lush(function()
     DiffChange { bg = colours.off_blue },
     DiffDelete { bg = colours.off_red },
     DiffText { bg = colours.off_green },
+    DiffTextAdd { bg = colours.off_green },
     ErrorMsg { fg = colours.red },
     VertSplit { fg = colours.mid_gray },
     Folded { fg = colours.mid_gray, bg = colours.darker_gray },
