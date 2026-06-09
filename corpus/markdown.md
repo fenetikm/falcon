@@ -7,6 +7,9 @@
 
 A Paragraph with some _italics_ and something **bold** and now a [link](http://example.com).
 
+_**bolditalic?**_
+**_bolditalic?_**
+
 > This is a block
 >
 >

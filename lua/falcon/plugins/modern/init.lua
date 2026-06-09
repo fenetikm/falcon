@@ -5,6 +5,7 @@ local plugins = {
   'context',
   'dapui',
   'flash',
+  'markview',
   'neogit',
   'nvim-cmp',
   'nvim-tree',
