@@ -8,6 +8,7 @@ What to make transparent, we get 8 all up! Plentiful! Much excite!
 - quickfix / trouble windows / "other" windows?
 - popups? progressively less transparent, so maybe a couple there?
 ... remember we can export into the kitty conf with lush.
+- fix the Claude styling, esp. the diff stuff
 
 Syntax in kitty config:
 `transparent_background_colors red@0.5 #00ff00@0.3`
