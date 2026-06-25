@@ -3,19 +3,6 @@
 local lush = require('lush')
 local colours = require('falcon.colours')
 local styles = require('falcon.styles')
-local settings = require('falcon.settings').get()
-
-local windowBg = colours.bg
-local windowBgNC = colours.inactive_bg
-if not settings.inactive_bg then
-  windowBgNC = colours.bg
-end
-
--- not sure if this is working any more? needs testing.
-if settings.transparent_bg then
-  windowBg = 'NONE'
-  windowBgNC = 'NONE'
-end
 
 -- TODO: fix NonText on inactive is not getting the right colour
 

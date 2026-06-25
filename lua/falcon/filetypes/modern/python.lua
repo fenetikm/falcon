@@ -1,6 +1,6 @@
 local lush = require("lush")
 local colours = require('falcon.colours')
-local classic = require('falcon.classic')
+local modern = require('falcon.modern')
 
 --   - @string.documentation.python links to String   priority: 100   language: python
 
@@ -32,8 +32,8 @@ local p = lush(function(injected_functions)
     pythonBuiltinObj { fg = colours.yellow },
     pythonDot { fg = colours.orange },
     pythonBuiltinFunc { fg = colours.tan },
-    pythonNone { classic.Boolean },
-    sym('@string.documentation.python') { classic.Comment }
+    pythonNone { modern.Boolean },
+    sym('@string.documentation.python') { modern.Comment }
   }
 end)
 

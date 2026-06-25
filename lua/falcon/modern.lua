@@ -3,33 +3,17 @@
 local lush = require('lush')
 local colours = require('falcon.colours')
 local styles = require('falcon.styles')
-local settings = require('falcon.settings').get()
 local base_ui = require('falcon.base_ui')
-
-local windowBg = colours.bg
-local windowBgNC = colours.inactive_bg
-if not settings.inactive_bg then
-  windowBgNC = colours.bg
-end
-
-local statusBg = colours.status
-local statusBgNC = colours.inactive_status
-
-if settings.transparent_bg then
-  statusBg = 'NONE'
-  statusBgNC = 'NONE'
-  windowBg = 'NONE'
-  windowBgNC = 'NONE'
-end
+local bgs = require('falcon.bgs')
 
 local theme = lush(function(injected_functions)
   local sym = injected_functions.sym
   return {
     -- Base syntax
-    Normal { fg = colours.mid_gray_alt2, bg = windowBg },
-    NormalNC { fg = colours.mid_gray_alt2, bg = windowBgNC },
-    StatusLine { bg = statusBg },
-    StatusLineNC { bg = statusBgNC },
+    Normal { fg = colours.mid_gray_alt2, bg = bgs.windowBg },
+    NormalNC { fg = colours.mid_gray_alt2, bg = bgs.windowBgNC },
+    StatusLine { bg = bgs.statusBg },
+    StatusLineNC { bg = bgs.statusBgNC },
     Comment { fg = colours.darker_bluer_gray, gui = styles.italic_comments },
     Constant {},
     String { fg = colours.light_bluer_gray },

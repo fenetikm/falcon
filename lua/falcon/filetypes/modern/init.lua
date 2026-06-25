@@ -2,6 +2,7 @@ local lush = require('lush')
 
 local filetypes = {
   'markdown',
+  'python',
   'rst',
   'yaml',
   'xml'

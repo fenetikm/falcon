@@ -10,8 +10,9 @@ local plugins = {
   'nvim-cmp',
   'nvim-tree',
   'oil',
-  'telescope',
   'snacks',
+  'telescope',
+  'trouble',
 }
 
 local loaded_plugins = {}
