@@ -1,0 +1,238 @@
+#:schema https://yazi-rs.github.io/schemas/theme.json
+# Falcon Modern flavor for Yazi.
+# Colour names in comments refer to lua/falcon/palette.lua.
+# vim:fileencoding=utf-8:foldmethod=marker
+
+# : Manager {{{
+
+[mgr]
+cwd = { fg = "#CFC1B2" } # tan
+
+# Find
+find_keyword  = { fg = "#BFDAFF", bold = true, underline = true } # br_blue
+find_position = { fg = "#99A4BC", bg = "reset", italic = true }   # blue_gray
+
+# Symlink
+symlink_target = { fg = "#707082", italic = true } # darker_bluer_gray
+
+# Marker
+marker_copied   = { fg = "#859933", bg = "#859933" } # green
+marker_cut      = { fg = "#FF3600", bg = "#FF3600" } # red
+marker_marked   = { fg = "#9F97CC", bg = "#9F97CC" } # lavender
+marker_selected = { fg = "#FFC552", bg = "#FFC552" } # yellow
+
+# Count
+count_copied   = { fg = "#020221", bg = "#859933" } # bg on green
+count_cut      = { fg = "#020221", bg = "#FF3600" } # bg on red
+count_selected = { fg = "#000004", bg = "#FFC552" } # black on yellow
+
+# Border
+border_style = { fg = "#4F4F59" } # blue_mid_gray
+
+# : }}}
+
+
+# : Indicator of hovered file {{{
+
+[indicator]
+parent  = { bg = "#171729" } # blue_darkest_gray
+current = { bg = "#2F2F3A" } # blue_dark_gray
+preview = { underline = true }
+
+# : }}}
+
+
+# : Tabs {{{
+
+[tabs]
+active   = { fg = "#DFDFE5", bg = "#28282D", bold = true } # light_gray on status
+inactive = { fg = "#787882", bg = "#212127" }              # mid_gray on darker_gray
+
+# : }}}
+
+
+# : Mode {{{
+
+[mode]
+normal_main = { fg = "#020221", bg = "#99A4BC", bold = true } # bg on blue_gray
+normal_alt  = { fg = "#99A4BC", bg = "#28282D" }              # blue_gray on status
+
+# Select mode
+select_main = { fg = "#DFDFE5", bg = "#5521D9", bold = true } # light_gray on indigo
+select_alt  = { fg = "#8859FF", bg = "#28282D" }              # br_indigo on status
+
+# Unset mode
+unset_main = { fg = "#020221", bg = "#FF761A", bold = true } # bg on orange
+unset_alt  = { fg = "#FF761A", bg = "#28282D" }              # orange on status
+
+# : }}}
+
+
+# : Status bar {{{
+
+[status]
+overall = { fg = "#787882", bg = "#28282D" } # mid_gray on status
+
+# Permissions
+perm_sep   = { fg = "#57575E" } # mid_dark_gray
+perm_type  = { fg = "#99A4BC" } # blue_gray
+perm_read  = { fg = "#A1A1A9" } # mid_gray_alt2
+perm_write = { fg = "#FF761A" } # orange
+perm_exec  = { fg = "#859933" } # green
+
+# Progress
+progress_label  = { fg = "#DFDFE5", bold = true } # light_gray
+progress_normal = { fg = "#99A4BC", bg = "#36363A" } # blue_gray on dark_gray
+progress_error  = { fg = "#FF3600", bg = "#210802" } # red on off_red
+
+# : }}}
+
+
+# : Which {{{
+
+[which]
+border          = { fg = "#36363A" } # dark_gray
+mask            = { bg = "#1E1E2F" } # blue_dark_float2
+cand            = { fg = "#FFC552" } # yellow
+rest            = { fg = "#57575E" } # mid_dark_gray
+desc            = { fg = "#A1A1A9" } # mid_gray_alt2
+separator_style = { fg = "#57575E" } # mid_dark_gray
+
+# : }}}
+
+
+# : Confirmation {{{
+
+[confirm]
+border  = { fg = "#36363A" }                 # dark_gray
+title   = { fg = "#CFC1B2" }                 # tan
+btn_yes = { fg = "#000004", bg = "#FFC552" } # black on yellow
+
+# : }}}
+
+
+# : Spotter {{{
+
+[spot]
+border = { fg = "#36363A" } # dark_gray
+title  = { fg = "#CFC1B2" } # tan
+
+# Table
+tbl_col  = { fg = "#99A4BC" }                 # blue_gray
+tbl_cell = { fg = "#000004", bg = "#FFC552" } # black on yellow
+
+# : }}}
+
+
+# : Notification {{{
+
+[notify]
+title_info  = { fg = "#B2BC55" } # bright_green
+title_warn  = { fg = "#FF761A" } # orange
+title_error = { fg = "#FF3600" } # red
+
+# : }}}
+
+
+# : Picker {{{
+
+[pick]
+border   = { fg = "#36363A" }                 # dark_gray
+active   = { fg = "#000004", bg = "#FFC552" } # black on yellow
+inactive = { fg = "#878791" }                 # mid_gray_alt
+
+# : }}}
+
+
+# : Input {{{
+
+[input]
+border   = { fg = "#36363A" } # dark_gray
+title    = { fg = "#CFC1B2" } # tan
+value    = { fg = "#DFDFE5" } # light_gray
+selected = { bg = "#311282" } # dark_indigo
+
+# : }}}
+
+
+# : Completion {{{
+
+[cmp]
+border   = { fg = "#36363A" }                 # dark_gray
+active   = { fg = "#000004", bg = "#FFC552" } # black on yellow
+inactive = { fg = "#878791" }                 # mid_gray_alt
+
+# : }}}
+
+
+# : Task manager {{{
+
+[tasks]
+border  = { fg = "#36363A" }              # dark_gray
+title   = { fg = "#CFC1B2" }              # tan
+hovered = { fg = "#FFC552", bold = true } # yellow
+
+# : }}}
+
+
+# : Help menu {{{
+
+[help]
+border  = { fg = "#36363A" }                              # dark_gray
+chord   = { fg = "#FFC552" }                              # yellow
+action  = { fg = "#A1A1A9" }                              # mid_gray_alt2
+hovered = { fg = "#DFDFE5", bg = "#311282", bold = true } # light_gray on dark_indigo
+
+# : }}}
+
+
+# : File-specific styles {{{
+
+# Plain names: only facts about the file itself get a colour, never its format.
+# Rules assume first match wins.
+[filetype]
+rules = [
+	# Virtual file system
+	{ mime = "vfs/{absent,stale}", fg = "#57575E" }, # mid_dark_gray
+	# Special file
+	{ url = "*", is = "orphan", fg = "#FF3600" }, # red
+	# Dummy file
+	{ url = "*", is = "dummy", bg = "#210802" },  # off_red
+	{ url = "*/", is = "dummy", bg = "#210802" },
+	# Executable and symlink
+	{ url = "*", is = "exec", fg = "#859933" },   # green
+	{ url = "*", is = "link", fg = "#8BCCBF" },   # bright_cyan
+	# Hidden (url globs match the full path, hence the **/)
+	{ url = "**/.*/", fg = "#707082" },           # darker_bluer_gray
+	{ url = "**/.*", fg = "#787882" },            # mid_gray
+	# Fallback
+	{ url = "*/", fg = "#99A4BC" },               # blue_gray
+	{ url = "*", fg = "#A1A1A9" },                # mid_gray_alt2
+]
+
+# : }}}
+
+
+# : Icons {{{
+
+# Only the fallback conditions are recoloured, per-filetype icons keep the preset colours.
+[icon]
+conds = [
+	# Special files
+	{ if = "orphan", text = "", fg = "#FF3600" },
+	{ if = "link", text = "", fg = "#8BCCBF" },
+	{ if = "block", text = "", fg = "#CFC1B2" },
+	{ if = "char", text = "", fg = "#CFC1B2" },
+	{ if = "fifo", text = "", fg = "#CFC1B2" },
+	{ if = "sock", text = "", fg = "#CFC1B2" },
+	{ if = "sticky", text = "", fg = "#CFC1B2" },
+	{ if = "dummy", text = "", fg = "#FF3600" },
+
+	# Fallback
+	{ if = "dir & hovered", text = "", fg = "#99A4BC" },
+	{ if = "dir", text = "", fg = "#99A4BC" },
+	{ if = "exec", text = "", fg = "#859933" },
+	{ if = "!dir", text = "", fg = "#A1A1A9" },
+]
+
+# : }}}
