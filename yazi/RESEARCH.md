@@ -7,7 +7,7 @@ Status: research done, decisions made (see [Decisions](#decisions)), nothing bui
 - Yazi themes are shipped as **flavors**: a directory `falcon-modern.yazi/` holding exactly six files, `flavor.toml`, `tmtheme.xml`, `README.md`, `preview.png`, `LICENSE` and `LICENSE-tmtheme`.
 - `flavor.toml` uses the same schema as `theme.toml`. You only list what you want to change. Anything left out falls back to Yazi's preset `theme-dark.toml`.
 - `tmtheme.xml` drives code highlighting in the preview pane (syntect). Flavors **always** use their own `tmtheme.xml`, and `mgr.syntect_theme` is ignored once a flavor is active.
-- There's already a half-finished Falcon Modern tmTheme in this folder, but it's in `tmtheme.xml.bak`. The live `tmtheme.xml` is currently a stock sample theme ("Ofer 1").
+- `tmtheme.xml` is done (task 3). It was rebuilt from the old half-finished draft and checked against `corpus/` with bat, which uses the same syntax sources as Yazi.
 - About 18 TOML sections need deciding. Most are simple border, title and highlight choices that can copy what the Neovim modern variant does for pickers and floats.
 - Decided: build it in `yazi/falcon-modern.yazi/` and symlink it in. Hand-write first, then move to a shipwright runner. Grey hovered row, plain filenames with a few exceptions, Falcon colours on fallback icons only, and no transparent or classic variant for now.
 
@@ -219,27 +219,28 @@ Yazi ships the full nvim-web-devicons set with its own (rainbow) colours. You tu
 
 ## Syntax highlighting (`tmtheme.xml`)
 
-Current state of `yazi/modern/`:
+**Done (task 3):** `falcon-modern.yazi/tmtheme.xml` was built from the old `yazi/modern/tmtheme.xml.bak` draft (`yazi/modern/` is now removed; its `tmtheme.xml` was the stock "Ofer 1" sample).
 
-| File | Content |
-| --- | --- |
-| `tmtheme.xml` | **The stock "Ofer 1" sample**, identical to `sample_dark.tmtheme.xml`. Not Falcon. |
-| `tmtheme.xml.bak` | The actual "Falcon Modern" draft, with 37 entries. It parses as a valid plist. |
-| `sample_dark.tmtheme.xml` | Reference sample |
+How Yazi uses it, from `yazi-core/src/highlighter.rs` at v26.9.1:
 
-Fixes needed in the `.bak` draft:
+- Only **foreground, bold, italic and underline** are used. The background line is commented out. So the global `background`, `lineHighlight`, `selection` and similar keys have no effect, and diff entries that only set a background show nothing.
+- Syntax definitions come from [yazi-rs/prebuilt](https://github.com/yazi-rs/prebuilt), which reuses bat's syntax sources (Babel for JS, sublimehq Packages, …). So `bat --theme` with the tmTheme is a faithful preview. Remember to pass `--italic-text=always`, because bat hides italics by default.
 
-- The `Variable` entry has `fontStyle = #a1a1a9`. That should be `foreground`.
-- `JSON String` is defined twice.
-- Missing scopes, mapped from `modern.lua` and `extras/modern/treesitter.lua`:
-  - `keyword.operator` → `darker_tanner #847161` (Operator)
-  - `markup.heading` → `tan`
-  - `markup.bold` / `markup.italic` → `fontStyle` only
-  - `markup.raw` and `markup.underline.link` → `light_bluer_gray`
-  - `punctuation`, `meta.tag`, `entity.name.tag`, `support.type.property-name`
-  - `constant.other.symbol`, `variable.parameter`
-  - shell `variable.other`, and YAML/TOML keys
-- `gutterForeground`, `lineHighlight`, `selectionBorder` and similar keys are editor-only. syntect doesn't use them, so they're harmless but pointless. It's **not verified** whether Yazi uses the global `background`. Check this live, because a mismatch shows up as a band behind the preview text.
+Changes from the draft, all checked by rendering `corpus/` through bat:
+
+- Fixed: `Variable` had `fontStyle = #a1a1a9`, now `foreground`. Dropped the first of two `JSON String` entries (it was overridden anyway).
+- Aligned with `modern.lua`:
+  - `constant.language` → `blue_gray` (like `@boolean`)
+  - storage, types and classes → bold (`Type`, `@keyword.function`)
+  - tag attributes → plain (`@tag.attribute`)
+- Added:
+  - conditionals italic (`Conditional`)
+  - `keyword.operator` → `darker_tanner`
+  - `punctuation` → `mid_gray`, but string quotes stay string-coloured and comment markers stay comment-coloured
+  - property and object keys → plain. This includes bat's older Babel scope `constant.other.object.key string.unquoted.label`.
+  - markdown heading (`tan`, bold), bold, italic, raw and link
+- JSON: key quotes grey and value quotes string-coloured, for both the old (`meta.structure.dictionary`) and new (`meta.mapping`) JSON syntaxes.
+- Diffs: since Yazi drops backgrounds, `markup.inserted` / `deleted` / `changed` also get `green` / `red` / `orange` foregrounds.
 
 Markdown previews: your `yazi.toml` sends `*.md` through `piper` and `glow -s=dark`, so the tmTheme doesn't affect markdown. Pointing that at `glow/falcon_modern.json` (`glow -s ~/…/falcon/glow/falcon_modern.json`) is a one-line change that makes the previews match. It isn't part of the flavor, but worth noting in its README.
 
