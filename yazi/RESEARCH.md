@@ -266,7 +266,7 @@ Runner design: pass the role→colour mapping in as a table instead of hardcodin
 1. `mkdir yazi/falcon-modern.yazi`, then `ln -s "$PWD/yazi/falcon-modern.yazi" ~/.config/yazi/flavors/falcon-modern.yazi`.
 2. Add `[flavor] dark = "falcon-modern"` at the top of `~/.config/yazi/theme.toml` and keep your existing overrides below it.
 3. Live reload: 26.x added an `app:theme` action that hot-reloads themes and flavors. Bind it in `keymap.toml` while iterating.
-4. Check the schema: `brew install taplo`, then `taplo check --schema https://yazi-rs.github.io/schemas/theme.json flavor.toml`. taplo isn't installed yet. Add `#:schema https://yazi-rs.github.io/schemas/theme.json` at the top of `flavor.toml` for LSP completion in Neovim.
+4. Check the schema: `brew install taplo`, then `taplo check --schema https://yazi-rs.github.io/schemas/theme.json flavor.toml`. taplo 0.10.0 is installed, and `flavor.toml` passes (2026-10-27). Add `#:schema https://yazi-rs.github.io/schemas/theme.json` at the top of `flavor.toml` for LSP completion in Neovim.
 5. Syntax check: browse `corpus/` in Yazi. It has samples in about 25 languages, so it's an instant tmTheme test bed.
 6. Things to exercise for each component:
    - yank/cut/select (markers and counts)

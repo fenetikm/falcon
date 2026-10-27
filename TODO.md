@@ -24,6 +24,7 @@ but I think we can do:
 - Palette stuff pics and values
 - New logo, simpler
 - option to make virtual errors stand out more with background colours
+- Publish yazi flavor for `ya pkg` (separate `falcon-modern.yazi` repo or repo root), see `yazi/RESEARCH.md`
 
 ## v3.1
 - fancy inactive handling
@@ -31,7 +32,8 @@ but I think we can do:
 ## v3 other todo
 - DAP highlights
 - Diffview highlights
-- Yazi colour scheme
+- Yazi flavor `preview.png`
+- Yazi flavor shipwright runner (table-driven) and monochrome icons
 - Remove estilo
 
 ### Todo include statusline config
@@ -39,7 +41,6 @@ but I think we can do:
 
 ### New themes
 - glow
-- yazi
 
 ## Todo v3
 - shade / tinting ala https://github.com/levouh/tint.nvim or https://github.com/sunjon/Shade.nvim
